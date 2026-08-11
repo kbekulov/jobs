@@ -51,14 +51,14 @@ button { cursor: pointer; }
 .card-ghost { position: absolute; left: 27px; right: 27px; top: 9px; bottom: 2px; border: 1px solid #dfe2e6; border-radius: 25px; background: #fff; }
 .card-ghost-one { transform: translateY(-5px) scale(.975); opacity: .72; }
 .card-ghost-two { transform: translateY(-10px) scale(.945); opacity: .42; }
-.job-card { position: relative; z-index: 2; isolation: isolate; height: 100%; min-height: 0; overflow: hidden; display: flex; flex-direction: column; padding: 17px; background: var(--surface); border: 1px solid #dfe2e6; border-radius: 25px; box-shadow: 0 13px 32px rgba(24,29,38,.1); animation: card-ambient-lift 5.8s ease-in-out infinite; }
-.job-card::before { content: ""; position: absolute; z-index: 9; inset: -1px; padding: 2px; pointer-events: none; border-radius: inherit; background: conic-gradient(from var(--card-border-angle), rgba(83,109,254,.08) 0deg, transparent 48deg 224deg, rgba(255,92,114,.16) 244deg, #ff6674 270deg, #7c8cff 298deg, #18c985 326deg, rgba(24,201,133,.12) 346deg, transparent 360deg); opacity: .88; filter: saturate(.94); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); mask-composite: exclude; animation: card-border-orbit 7.5s linear infinite; }
+.job-card { position: relative; z-index: 2; isolation: isolate; height: 100%; min-height: 0; overflow: hidden; display: flex; flex-direction: column; padding: 17px; background: var(--surface); border: 1px solid rgba(124,140,255,.34); border-radius: 25px; box-shadow: 0 13px 32px rgba(24,29,38,.1); animation: card-ambient-lift 4.8s ease-in-out infinite; }
+.job-card::before { content: ""; position: absolute; z-index: 9; inset: -1px; padding: 3px; pointer-events: none; border-radius: inherit; background: conic-gradient(from var(--card-border-angle), rgba(124,140,255,.28) 0deg 34deg, rgba(124,140,255,.05) 62deg 205deg, rgba(255,92,114,.3) 230deg, #ff4f68 258deg, #7c8cff 292deg, #18d69a 326deg, rgba(24,214,154,.3) 350deg, rgba(124,140,255,.28) 360deg); opacity: 1; filter: saturate(1.22) drop-shadow(0 0 7px rgba(83,109,254,.38)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); mask-composite: exclude; animation: card-border-orbit 5.4s linear infinite; }
 @keyframes card-border-orbit {
   to { --card-border-angle: 305deg; }
 }
 @keyframes card-ambient-lift {
   0%, 100% { box-shadow: 0 13px 32px rgba(24,29,38,.1); }
-  50% { box-shadow: 0 16px 38px rgba(58,68,115,.14); }
+  50% { box-shadow: 0 17px 42px rgba(83,109,254,.2), 0 0 0 3px rgba(124,140,255,.06); }
 }
 .card-progress { position: absolute; top: 0; left: 22px; right: 22px; height: 3px; overflow: hidden; background: #eef0f3; border-radius: 0 0 999px 999px; }
 .card-progress span { display: block; height: 100%; background: linear-gradient(90deg, #ff5c72, #ff8a74); border-radius: inherit; transition: width .25s ease; }
@@ -139,7 +139,7 @@ button { cursor: pointer; }
 
 @media (prefers-reduced-motion: reduce) {
   .job-card { animation: none; }
-  .job-card::before { animation: none; opacity: .42; }
+  .job-card::before { animation: none; opacity: .72; }
 }
 
 @media (max-width: 520px) {
