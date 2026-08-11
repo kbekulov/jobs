@@ -124,8 +124,7 @@ const jobs: Job[] = vacancyData
     accent: "#c8ff19",
   }));
 
-const tabs = ["Discover", "Apply", "Trash"] as const;
-type Tab = (typeof tabs)[number];
+type Tab = "Discover" | "Apply" | "Trash";
 
 export default function Home() {
   const [tab, setTab] = useState<Tab>("Discover");
@@ -177,61 +176,73 @@ export default function Home() {
 
   const current = visible[0];
 
+  const discoverCount = jobs.filter((job) => !decisions[job.id]).length;
+  const applyCount = jobs.filter((job) => decisions[job.id] === "apply").length;
+  const trashCount = jobs.filter((job) => decisions[job.id] === "trash").length;
+
   return (
-    <main>
-      <header className="topbar">
-        <button className="brand" onClick={() => setTab("Discover")} aria-label="Go to discover">
-          <span>JOB/FLOW</span><sup>LT</sup>
-        </button>
-        <div className="top-meta"><span>VILNIUS</span><span className="live-dot" />11 AUG 2026</div>
-      </header>
+    <main className="app-canvas">
+      <div className="phone-app">
+        <header className="appbar">
+          <button className="brand" onClick={() => setTab("Discover")} aria-label="Open job deck">
+            <span className="brand-icon">J</span><span>jobflow</span>
+          </button>
+          <nav className="folder-nav" aria-label="Job folders">
+            <button className={tab === "Trash" ? "active" : ""} onClick={() => setTab("Trash")} aria-label={`Trash, ${trashCount} jobs`}><span>×</span><b>{trashCount}</b></button>
+            <button className={tab === "Apply" ? "active" : ""} onClick={() => setTab("Apply")} aria-label={`Apply, ${applyCount} jobs`}><span>♥</span><b>{applyCount}</b></button>
+          </nav>
+        </header>
 
-      <section className="shell">
-        <div className="intro">
-          <div><p className="eyebrow">AUTOMATION ROLES / DAILY EDIT</p><h1>{tab === "Discover" ? "Make the call." : tab === "Apply" ? "The shortlist." : "Not this time."}</h1></div>
-          <p className="counter">{tab === "Discover" ? `${visible.length} new role${visible.length === 1 ? "" : "s"}` : `${visible.length} saved`}</p>
-        </div>
+        <section className="app-content">
+          {!ready ? <div className="empty"><div className="spinner" /><p>Finding your matches…</p></div> : !current ? (
+            <div className="empty">
+              <span className="empty-icon">✓</span>
+              <h2>{tab === "Discover" ? "You’re all caught up" : `No jobs in ${tab.toLowerCase()}`}</h2>
+              <p>{tab === "Discover" ? "New automation roles will land here in the next search." : "Your choices will appear here as you review jobs."}</p>
+              {tab !== "Discover" && <button className="secondary" onClick={() => setTab("Discover")}>Return to deck</button>}
+            </div>
+          ) : tab === "Discover" ? (
+            <div className="deck-screen">
+              <div className="deck-meta"><span><i /> {discoverCount} jobs near you</span><b>Vilnius</b></div>
+              <div className="deck">
+                <div className="card-ghost card-ghost-two" aria-hidden="true" />
+                <div className="card-ghost card-ghost-one" aria-hidden="true" />
+                <article className="job-card">
+                  <div className="card-top"><span>1 / {discoverCount}</span><span>{current.posted}</span></div>
+                  <div className="identity">
+                    <div className="company-avatar">{current.company.charAt(0)}</div>
+                    <div><p>{current.company}</p><span>{current.location} · {current.mode}</span></div>
+                  </div>
+                  <h1>{current.title}</h1>
+                  <div className="salary"><strong>{current.salary}</strong><small>MONTHLY GROSS</small></div>
 
-        <nav className="tabs" aria-label="Job folders">
-          {tabs.map((item) => <button key={item} className={tab === item ? "active" : ""} onClick={() => setTab(item)}>{item}<span>{item === "Discover" ? jobs.filter(j => !decisions[j.id]).length : jobs.filter(j => decisions[j.id] === (item === "Apply" ? "apply" : "trash")).length}</span></button>)}
-        </nav>
+                  <div className="job-visual">
+                    <div className="visual-top"><span>THEY&apos;RE LOOKING FOR</span><span>{current.tags[0]}</span></div>
+                    <p>{current.requirements.join(". ")}.</p>
+                    <div className="skill-row">{current.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+                  </div>
 
-        {!ready ? <div className="empty"><div className="spinner" />Loading your shortlist…</div> : !current ? (
-          <div className="empty">
-            <span className="empty-icon">✓</span>
-            <h2>{tab === "Discover" ? "You’re all caught up" : `Nothing in ${tab.toLowerCase()} yet`}</h2>
-            <p>{tab === "Discover" ? "Fresh automation roles will appear in your next update." : "Review the daily deck and your choices will stay here."}</p>
-            {tab !== "Discover" && <button className="secondary" onClick={() => setTab("Discover")}>Back to discover</button>}
-          </div>
-        ) : tab === "Discover" ? (
-          <div className="deck">
-            <div className="card-ghost card-ghost-two" aria-hidden="true" />
-            <div className="card-ghost card-ghost-one" aria-hidden="true" />
-            <article className="job-card" style={{ "--accent": current.accent } as React.CSSProperties}>
-              <div className="card-top"><span className="fresh">TODAY&apos;S MATCH</span><span>1 OF {visible.length}</span></div>
-              <div className="company-row"><p>{current.company}</p><span>{current.location} · {current.mode}</span></div>
-              <h2>{current.title}</h2>
-              <div className="salary"><small>MONTHLY / GROSS</small><strong>{current.salary}</strong></div>
-              <div className="job-visual">
-                <div className="visual-top"><span>WHAT THEY NEED</span><span>{current.tags.slice(0, 2).join(" / ")}</span></div>
-                <p>{current.requirements.join(". ")}.</p>
+                  <button className="details" onClick={() => setExpanded(expanded === current.id ? null : current.id)}>
+                    <span>{expanded === current.id ? "Close" : "Why this matches"}</span><b>{expanded === current.id ? "−" : "+"}</b>
+                  </button>
+                  {expanded === current.id && <div className="expanded"><p>{current.summary}</p><a href={current.url} target="_blank" rel="noreferrer">Open vacancy and apply ↗</a></div>}
+                </article>
               </div>
-              <p className="summary"><strong>Why it fits</strong>{current.summary}</p>
-              <button className="details" onClick={() => setExpanded(expanded === current.id ? null : current.id)}>
-                {expanded === current.id ? "Close vacancy" : "View full vacancy"}<span>{expanded === current.id ? "↑" : "↗"}</span>
-              </button>
-              {expanded === current.id && <div className="expanded"><a href={current.url} target="_blank" rel="noreferrer">Open application page ↗</a></div>}
-              <div className="actions" aria-label="Choose this job">
-                <button className="no" onClick={() => decide(current.id, "trash")} aria-label="No, move to trash"><span>×</span><b>No</b></button>
-                <button className="yes" onClick={() => decide(current.id, "apply")} aria-label="Yes, save to apply"><span>♥</span><b>Yes</b></button>
+
+              <div className="decision-dock" aria-label="Choose this job">
+                <button className="decision no" onClick={() => decide(current.id, "trash")} aria-label="No, move to trash"><span>×</span><b>No</b></button>
+                <a className="open-job" href={current.url} target="_blank" rel="noreferrer" aria-label="Open full vacancy"><span>↗</span><b>View</b></a>
+                <button className="decision yes" onClick={() => decide(current.id, "apply")} aria-label="Yes, save to apply"><span>♥</span><b>Yes</b></button>
               </div>
-            </article>
-          </div>
-        ) : (
-          <div className="saved-list">{visible.map((job, index) => <article className="saved-card" key={job.id}><span className="saved-index">{String(index + 1).padStart(2, "0")}</span><div className="saved-copy"><p>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} — {job.mode}</span></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">{tab === "Apply" ? "APPLY ↗" : "VIEW ↗"}</a><button onClick={() => reset(job.id)}>UNDO</button></div></article>)}</div>
-        )}
-        <p className="research-note">Curated for RPA & automation roles in Lithuania · Researched 11 Aug 2026</p>
-      </section>
+            </div>
+          ) : (
+            <div className="folder-screen">
+              <div className="folder-heading"><button onClick={() => setTab("Discover")} aria-label="Back to deck">‹</button><div><span>{tab === "Apply" ? "YOUR PICKS" : "PASSED JOBS"}</span><h1>{tab}</h1></div><b>{visible.length}</b></div>
+              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="company-avatar">{job.company.charAt(0)}</div><div className="saved-copy"><p>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} · {job.mode}</span></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
+            </div>
+          )}
+        </section>
+      </div>
     </main>
   );
 }

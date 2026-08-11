@@ -19,10 +19,9 @@ test("server-renders the Jobflow review shell", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /JOB\/FLOW/);
-  assert.match(html, /Make the call\./);
-  assert.match(html, /Discover/);
+  assert.match(html, /jobflow/);
+  assert.match(html, /Open job deck/);
   assert.match(html, /Apply/);
   assert.match(html, /Trash/);
-  assert.match(html, /12 new roles/);
+  assert.match(html, /Finding your matches/);
 });
