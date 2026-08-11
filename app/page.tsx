@@ -260,14 +260,13 @@ export default function Home() {
                     <div className="visual-top"><span>THEY&apos;RE LOOKING FOR</span><span>{current.tags[0]}</span></div>
                     <p>{current.requirements.join(". ")}.</p>
                     <div className="skill-row">{current.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+                    <div className="decision-dock" aria-label="Choose this job">
+                      <button className="decision no" onClick={() => decide(current.id, "trash")} aria-label="No, move to trash"><span>×</span><b>No</b></button>
+                      <a className="open-job" href={current.url} target="_blank" rel="noreferrer" aria-label="Open full vacancy"><span>↗</span><b>View</b></a>
+                      <button className="decision yes" onClick={() => decide(current.id, "apply")} aria-label="Yes, save to apply"><span>♥</span><b>Yes</b></button>
+                    </div>
                   </div>
                 </article>
-              </div>
-
-              <div className="decision-dock" aria-label="Choose this job">
-                <button className="decision no" onClick={() => decide(current.id, "trash")} aria-label="No, move to trash"><span>×</span><b>No</b></button>
-                <a className="open-job" href={current.url} target="_blank" rel="noreferrer" aria-label="Open full vacancy"><span>↗</span><b>View</b></a>
-                <button className="decision yes" onClick={() => decide(current.id, "apply")} aria-label="Yes, save to apply"><span>♥</span><b>Yes</b></button>
               </div>
             </div>
           ) : (

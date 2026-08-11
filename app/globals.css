@@ -66,10 +66,10 @@ button { cursor: pointer; }
 .visual-top { display: flex; justify-content: space-between; gap: 12px; color: #b9c0cc; font-size: 8px; font-weight: 750; letter-spacing: .09em; }
 .visual-top span:last-child { color: #aebaff; }
 .job-visual p { display: -webkit-box; margin: clamp(18px, 3vh, 28px) 0 16px; overflow: hidden; font-size: clamp(19px, 4.6vw, 25px); line-height: 1.16; font-weight: 650; letter-spacing: -.035em; -webkit-box-orient: vertical; -webkit-line-clamp: 5; }
-.skill-row { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-bottom: 48px; }
+.skill-row { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-bottom: 98px; }
 .skill-row span { padding: 6px 8px; color: #dce1e9; background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.12); border-radius: 999px; font-size: 8px; font-weight: 650; }
 
-.decision-dock { position: absolute; z-index: 6; left: 14px; right: 14px; bottom: 38px; display: flex; align-items: flex-end; justify-content: center; gap: 30px; padding: 0 18px; pointer-events: none; }
+.decision-dock { position: absolute; z-index: 6; left: 16px; right: 16px; bottom: 16px; display: flex; align-items: flex-end; justify-content: center; gap: 30px; padding: 0; pointer-events: none; }
 .decision-dock button, .decision-dock a { -webkit-tap-highlight-color: transparent; transition: transform .15s ease, box-shadow .15s ease; }
 .decision-dock button, .decision-dock a { pointer-events: auto; }
 .decision-dock button:active, .decision-dock a:active { transform: scale(.94); }
@@ -110,7 +110,6 @@ button { cursor: pointer; }
   .phone-app { width: 100%; height: 100svh; min-height: 600px; max-height: none; border: 0; border-radius: 0; box-shadow: none; }
   .appbar { padding-top: env(safe-area-inset-top); height: calc(66px + env(safe-area-inset-top)); flex-basis: calc(66px + env(safe-area-inset-top)); }
   .deck-screen { grid-template-rows: 38px minmax(0,1fr); }
-  .decision-dock { bottom: calc(38px + env(safe-area-inset-bottom)); }
   .job-card h1 { font-size: clamp(29px, 9vw, 39px); }
   .job-card h1.job-title-medium { font-size: clamp(27px, 7.8vw, 35px); }
   .job-card h1.job-title-long { font-size: clamp(24px, 6.8vw, 31px); }
@@ -119,8 +118,9 @@ button { cursor: pointer; }
 @media (max-height: 720px) {
   .phone-app { min-height: 600px; }
   .deck-screen { grid-template-rows: 34px minmax(0,1fr); }
-  .decision-dock { bottom: 30px; }
+  .decision-dock { bottom: 14px; }
   .decision { width: 62px; height: 62px; }
+  .skill-row { padding-bottom: 82px; }
   .job-card h1 { margin-block: 11px 9px; font-size: 30px; }
   .job-card h1.job-title-medium { font-size: 27px; }
   .job-card h1.job-title-long { font-size: 24px; }
