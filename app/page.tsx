@@ -166,6 +166,7 @@ export default function Home() {
   const [tab, setTab] = useState<Tab>("Discover");
   const [decisions, setDecisions] = useState<Record<string, Decision>>({});
   const [ready, setReady] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
 
   useEffect(() => {
     fetch("/api/decisions")
@@ -208,6 +209,11 @@ export default function Home() {
     await fetch(`/api/decisions?jobId=${encodeURIComponent(jobId)}`, { method: "DELETE" });
   };
 
+  const refreshJobs = () => {
+    setRefreshing(true);
+    window.setTimeout(() => window.location.reload(), 120);
+  };
+
   const current = visible[0];
 
   const discoverCount = jobs.filter((job) => !decisions[job.id]).length;
@@ -234,9 +240,14 @@ export default function Home() {
         <section className="app-content">
           {!ready ? <div className="empty"><div className="spinner" /><p>Finding your matches…</p></div> : !current ? (
             <div className="empty">
-              <span className="empty-icon">✓</span>
+              {tab === "Discover" ? (
+                <button className="refresh-jobs" onClick={refreshJobs} disabled={refreshing} aria-label="Refresh and check for new jobs">
+                  <span className={refreshing ? "refresh-glyph spinning" : "refresh-glyph"}>↻</span>
+                  <b>{refreshing ? "Checking…" : "Refresh"}</b>
+                </button>
+              ) : <span className="empty-icon">✓</span>}
               <h2>{tab === "Discover" ? "You’re all caught up" : `No jobs in ${tab.toLowerCase()}`}</h2>
-              <p>{tab === "Discover" ? "New automation roles will land here in the next search." : "Your choices will appear here as you review jobs."}</p>
+              <p>{tab === "Discover" ? "Tap refresh to check for newly added automation roles." : "Your choices will appear here as you review jobs."}</p>
               {tab !== "Discover" && <button className="secondary" onClick={() => setTab("Discover")}>Return to deck</button>}
             </div>
           ) : tab === "Discover" ? (

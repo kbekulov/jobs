@@ -99,6 +99,12 @@ button { cursor: pointer; }
 
 .empty { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; text-align: center; }
 .empty-icon { width: 58px; height: 58px; display: grid; place-items: center; color: white; background: var(--yes); border-radius: 50%; font-size: 25px; }
+.refresh-jobs { width: 88px; height: 88px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; border: 1px solid rgba(23,25,29,.07); border-radius: 50%; color: white; background: linear-gradient(145deg, #20242a, #111317); box-shadow: 0 16px 34px rgba(23,25,29,.2), inset 0 1px rgba(255,255,255,.12); -webkit-tap-highlight-color: transparent; transition: transform .15s ease, box-shadow .15s ease; }
+.refresh-jobs:active { transform: scale(.95); box-shadow: 0 9px 22px rgba(23,25,29,.18), inset 0 1px rgba(255,255,255,.12); }
+.refresh-jobs:disabled { cursor: wait; opacity: .78; }
+.refresh-glyph { font-size: 30px; line-height: .9; font-weight: 400; }
+.refresh-jobs b { font-size: 9px; letter-spacing: .03em; }
+.refresh-glyph.spinning { animation: spin .7s linear infinite; }
 .empty h2 { margin: 18px 0 7px; font-size: 28px; letter-spacing: -.05em; }
 .empty p { max-width: 280px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .secondary { margin-top: 20px; padding: 11px 16px; border: 0; border-radius: 999px; color: white; background: var(--ink); font-size: 11px; font-weight: 700; }
