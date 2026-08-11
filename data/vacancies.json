@@ -1,6 +1,6 @@
 [
   {
-    "runStartedAt": "2026-08-11T14:19:14.160Z",
+    "runStartedAt": "2026-08-11T15:01:14.829Z",
     "title": "Microsoft Copilot Studio developer",
     "normalizedTitle": "Microsoft Copilot Studio Developer",
     "company": "Cognizant",
@@ -44,11 +44,11 @@
       "Experience supporting citizen developers and platform governance"
     ],
     "requisitionId": "4444603419",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786451287923-0",
     "firstSeenAt": "2026-08-11T12:28:07.923Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:55:59.825Z",
     "statusHistory": [
@@ -111,11 +111,11 @@
       "Expert Copilot Studio and Power Platform architecture"
     ],
     "requisitionId": "4433822478",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786451287923-1",
     "firstSeenAt": "2026-08-11T12:28:07.923Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:55:59.825Z",
     "statusHistory": [
@@ -129,7 +129,411 @@
         "at": "2026-08-11T12:55:59.825Z",
         "reason": "The direct vacancy page still displays Apply."
       }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
+  },
+  {
+    "runStartedAt": "2026-08-11T15:01:14.829Z",
+    "title": "Senior Business Process Architect, Marketing & Automation",
+    "normalizedTitle": "Senior Business Process Architect Marketing Automation",
+    "company": "Vinted",
+    "normalizedCompany": "Vinted",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Process Architecture",
+      "AI / Agentic Automation",
+      "Automation Architecture",
+      "Workflow / BPM"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-business-process-architect-marketing-automation-at-vinted-4449663334",
+    "salaryText": "€4,358–5,892 gross/month",
+    "postingAgeText": "5 days ago",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance.",
+    "relevanceScore": 100,
+    "matchSummary": "Owns marketing-automation and Agentic AI process discovery, roadmap prioritisation, n8n workflow design and robust API-based delivery.",
+    "technologies": [
+      "n8n",
+      "APIs",
+      "JSON",
+      "SQL",
+      "BPMN",
+      "AI agents"
+    ],
+    "keywordsMatched": [
+      "marketing automation",
+      "agentic AI",
+      "process discovery",
+      "workflow automation"
+    ],
+    "requirements": [
+      "Deep process-discovery and future-state design",
+      "n8n workflow implementation",
+      "API, JSON, SQL and BPMN capability"
+    ],
+    "requisitionId": "4449663334",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786452959825-0",
+    "firstSeenAt": "2026-08-11T12:55:59.825Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T13:22:43.169Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T12:55:59.825Z",
+        "reason": "The exact current vacancy page displays Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-11T13:22:43.169Z",
+        "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
+      }
     ]
+  },
+  {
+    "runStartedAt": "2026-08-11T15:01:14.829Z",
+    "title": "Vyriausiasis automatizavimo sprendimų vystytojas (-a)",
+    "normalizedTitle": "Senior Automation Solutions Developer",
+    "company": "LTG Link",
+    "normalizedCompany": "LTG Link",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Automation Engineering",
+      "Power Platform",
+      "AI / Agentic Automation",
+      "Automation Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/vyriausiasis-automatizavimo-sprendim%C5%B3-vystytojas-a-at-ltg-link-4449461518",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "6 days ago",
+    "salaryText": "€2,980–4,470 gross/month",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy or stronger official listing remains live on this recheck.",
+    "relevanceScore": 100,
+    "matchSummary": "Senior Power Platform role designing end-to-end automations, Copilot integrations, APIs and engineering standards for LTG Link.",
+    "technologies": [
+      "Power Apps",
+      "Power Automate",
+      "Power BI",
+      "Power Fx",
+      "Microsoft Copilot",
+      "APIs"
+    ],
+    "keywordsMatched": [
+      "process automation",
+      "Power Platform",
+      "generative AI",
+      "automation architecture"
+    ],
+    "requirements": [
+      "Power Platform automation delivery experience",
+      "Power Fx and API integration capability",
+      "Experience applying generative AI to business automation"
+    ],
+    "requisitionId": "4449461518",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786446406276-0",
+    "firstSeenAt": "2026-08-11T11:06:46.276Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T12:28:07.923Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T11:06:46.276Z",
+        "reason": "The direct vacancy page is fresh and currently displays Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-11T12:28:07.923Z",
+        "reason": "The direct vacancy page still displays Apply."
+      }
+    ]
+  },
+  {
+    "title": "AI Product & Automation Consultant",
+    "normalizedTitle": "AI Product Automation Consultant",
+    "company": "Exadel",
+    "normalizedCompany": "Exadel",
+    "location": "Lithuania",
+    "workMode": "remote",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Product Ownership",
+      "Automation Architecture",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/ai-product-automation-consultant-at-exadel-4446742310",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "1 week ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page is live and displays Apply.",
+    "relevanceScore": 100,
+    "matchSummary": "Owns discovery and delivery of AI agents, automated workflows, integrations, monitoring and measurable business outcomes across enterprise functions.",
+    "technologies": [
+      "AI agents",
+      "LLMs",
+      "APIs",
+      "RAG",
+      "MCP",
+      "Multi-agent systems"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "agentic workflows",
+      "product ownership",
+      "workflow automation"
+    ],
+    "requirements": [
+      "AI-focused product management experience",
+      "Agent architecture, prompts and integration design",
+      "Ability to translate business needs into measurable AI products"
+    ],
+    "requisitionId": "4446742310",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786454563171-0",
+    "firstSeenAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "previousStatus": "Unknown",
+    "statusChangedAt": "2026-08-11T15:04:59.426Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T13:22:43.169Z",
+        "reason": "The exact Lithuania vacancy page currently displays Apply."
+      },
+      {
+        "status": "Unknown",
+        "at": "2026-08-11T14:22:53.532Z",
+        "reason": "The previously verified role page could not be retrieved during this run, and no source explicitly states that the vacancy is closed."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-11T15:04:59.426Z",
+        "reason": "The role-specific vacancy page is live and displays Apply."
+      }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
+  },
+  {
+    "title": "Microsoft Power Platform & Copilot Service Owner",
+    "normalizedTitle": "Microsoft Power Platform Copilot Service Owner",
+    "company": "NKT",
+    "normalizedCompany": "NKT",
+    "location": "Kaunas, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Power Platform",
+      "Product Ownership",
+      "Automation Leadership",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/microsoft-power-platform-copilot-service-owner-at-nkt-4446072822",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "1 week ago",
+    "salaryText": "€4,300–5,300 gross/month",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains live on this recheck.",
+    "relevanceScore": 100,
+    "matchSummary": "Owns Power Platform and Copilot governance, environments, DLP, connectors, Dataverse, ALM and responsible enterprise low-code adoption.",
+    "technologies": [
+      "Microsoft Power Platform",
+      "Microsoft Copilot",
+      "Dataverse",
+      "Power Automate",
+      "Entra ID",
+      "Azure",
+      "ALM"
+    ],
+    "keywordsMatched": [
+      "Power Platform",
+      "Copilot",
+      "platform ownership",
+      "automation governance"
+    ],
+    "requirements": [
+      "3+ years administering Microsoft Power Platform",
+      "Copilot configuration and adoption knowledge",
+      "Enterprise identity, DLP and solution-lifecycle governance"
+    ],
+    "requisitionId": "4446072822",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786454563171-1",
+    "firstSeenAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T14:22:53.532Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T13:22:43.169Z",
+        "reason": "The exact Kaunas vacancy page currently displays Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-11T14:22:53.532Z",
+        "reason": "The role-specific vacancy page remains live on this recheck."
+      }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
+  },
+  {
+    "title": "Procesų valdymo ir automatizavimo architektas (-ė)",
+    "normalizedTitle": "Procesu valdymo ir automatizavimo architektas",
+    "company": "LTG Link",
+    "normalizedCompany": "LTG Link",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Process Architecture",
+      "Workflow / BPM",
+      "Automation Analysis",
+      "Business Analysis"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/proces%C5%B3-valdymo-ir-automatizavimo-architektas-%C4%97-at-ltg-4420918678",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "3 weeks ago",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "LinkedIn explicitly states that this vacancy is no longer accepting applications.",
+    "relevanceScore": 100,
+    "matchSummary": "Process-architecture role covering process modelling, automation opportunity analysis, functional requirements, governance and Power Platform.",
+    "technologies": [
+      "Power Platform",
+      "ARIS",
+      "BPMN"
+    ],
+    "keywordsMatched": [
+      "process architecture",
+      "automation",
+      "process improvement",
+      "functional requirements"
+    ],
+    "requirements": [
+      "Business-process modelling and improvement",
+      "Automation opportunity assessment",
+      "Translate business needs into functional requirements"
+    ],
+    "requisitionId": "4420918678",
+    "salaryText": "€3,200–4,800 gross/month",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786458173534-0",
+    "firstSeenAt": "2026-08-11T14:22:53.532Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T15:04:59.426Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T14:22:53.532Z",
+        "reason": "The role-specific LinkedIn page is live and displays Apply."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-11T15:04:59.426Z",
+        "reason": "LinkedIn explicitly states that this vacancy is no longer accepting applications."
+      }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
+  },
+  {
+    "title": "Senior Business Process Architect, AI Automation",
+    "normalizedTitle": "Senior Business Process Architect AI Automation",
+    "company": "Vinted",
+    "normalizedCompany": "Vinted",
+    "location": "Kaunas, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Process Architecture",
+      "AI / Agentic Automation",
+      "Workflow / BPM",
+      "Business Analysis"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-business-process-architect-ai-automation-at-vinted-4431743057",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "2 days ago",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "LinkedIn explicitly states that this vacancy is no longer accepting applications.",
+    "relevanceScore": 100,
+    "matchSummary": "Agentic-automation architecture role designing decision logic, data contracts, error controls and hands-on n8n workflows for autonomous AI agents.",
+    "technologies": [
+      "n8n",
+      "AI agents",
+      "APIs",
+      "Webhooks",
+      "JSON",
+      "BPMN"
+    ],
+    "keywordsMatched": [
+      "agentic AI",
+      "AI automation",
+      "business process architect",
+      "workflow automation"
+    ],
+    "requirements": [
+      "3+ years in process, systems or technical business analysis",
+      "Process mapping with exceptions and fallback paths",
+      "APIs, webhooks, JSON and n8n workflows"
+    ],
+    "requisitionId": "4431743057",
+    "salaryText": "€4,358–5,892 gross/month",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786458173534-3",
+    "firstSeenAt": "2026-08-11T14:22:53.532Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T15:04:59.426Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T14:22:53.532Z",
+        "reason": "A new requisition is live on LinkedIn and displays Apply, so it is treated as a reposted vacancy."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-11T15:04:59.426Z",
+        "reason": "LinkedIn explicitly states that this vacancy is no longer accepting applications."
+      }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "vinted-process-architect-ai-4889109101",
@@ -175,7 +579,7 @@
     ],
     "requisitionId": "4889109101",
     "salaryText": "Salary not disclosed",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "firstSeenAt": "2026-08-11T10:07:17.846Z",
     "lastSeenAt": "2026-08-11T14:19:14.160Z",
     "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
@@ -197,71 +601,8 @@
         "at": "2026-08-11T12:55:59.825Z",
         "reason": "Vinted's current official Marketing vacancy list still contains the role, although its exact vacancy page is unavailable."
       }
-    ]
-  },
-  {
-    "runStartedAt": "2026-08-11T12:51:44.7019357Z",
-    "title": "Senior Business Process Architect, Marketing & Automation",
-    "normalizedTitle": "Senior Business Process Architect Marketing Automation",
-    "company": "Vinted",
-    "normalizedCompany": "Vinted",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Process Architecture",
-      "AI / Agentic Automation",
-      "Automation Architecture",
-      "Workflow / BPM"
     ],
-    "seniority": "Senior",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/senior-business-process-architect-marketing-automation-at-vinted-4449663334",
-    "salaryText": "€4,358–5,892 gross/month",
-    "postingAgeText": "5 days ago",
-    "status": "Still open",
-    "statusReason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance.",
-    "relevanceScore": 100,
-    "matchSummary": "Owns marketing-automation and Agentic AI process discovery, roadmap prioritisation, n8n workflow design and robust API-based delivery.",
-    "technologies": [
-      "n8n",
-      "APIs",
-      "JSON",
-      "SQL",
-      "BPMN",
-      "AI agents"
-    ],
-    "keywordsMatched": [
-      "marketing automation",
-      "agentic AI",
-      "process discovery",
-      "workflow automation"
-    ],
-    "requirements": [
-      "Deep process-discovery and future-state design",
-      "n8n workflow implementation",
-      "API, JSON, SQL and BPMN capability"
-    ],
-    "requisitionId": "4449663334",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "id": "job-1786452959825-0",
-    "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-11T13:22:43.169Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-11T12:55:59.825Z",
-        "reason": "The exact current vacancy page displays Apply."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-11T13:22:43.169Z",
-        "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
-      }
-    ]
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Process Excellence & Automation Manager",
@@ -321,207 +662,6 @@
         "status": "Closed/Expired/No longer accepting applications",
         "at": "2026-08-11T14:22:53.532Z",
         "reason": "The current role-specific LinkedIn page explicitly says no longer accepting applications."
-      }
-    ]
-  },
-  {
-    "runStartedAt": "2026-08-11T10:20:00.000Z",
-    "title": "Vyriausiasis automatizavimo sprendimų vystytojas (-a)",
-    "normalizedTitle": "Senior Automation Solutions Developer",
-    "company": "LTG Link",
-    "normalizedCompany": "LTG Link",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Automation Engineering",
-      "Power Platform",
-      "AI / Agentic Automation",
-      "Automation Architecture"
-    ],
-    "seniority": "Senior",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/vyriausiasis-automatizavimo-sprendim%C5%B3-vystytojas-a-at-ltg-link-4449461518",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "6 days ago",
-    "salaryText": "€2,980–4,470 gross/month",
-    "status": "Still open",
-    "statusReason": "The role-specific vacancy or stronger official listing remains live on this recheck.",
-    "relevanceScore": 100,
-    "matchSummary": "Senior Power Platform role designing end-to-end automations, Copilot integrations, APIs and engineering standards for LTG Link.",
-    "technologies": [
-      "Power Apps",
-      "Power Automate",
-      "Power BI",
-      "Power Fx",
-      "Microsoft Copilot",
-      "APIs"
-    ],
-    "keywordsMatched": [
-      "process automation",
-      "Power Platform",
-      "generative AI",
-      "automation architecture"
-    ],
-    "requirements": [
-      "Power Platform automation delivery experience",
-      "Power Fx and API integration capability",
-      "Experience applying generative AI to business automation"
-    ],
-    "requisitionId": "4449461518",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "id": "job-1786446406276-0",
-    "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-11T12:28:07.923Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-11T11:06:46.276Z",
-        "reason": "The direct vacancy page is fresh and currently displays Apply."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-11T12:28:07.923Z",
-        "reason": "The direct vacancy page still displays Apply."
-      }
-    ]
-  },
-  {
-    "title": "AI Product & Automation Consultant",
-    "normalizedTitle": "AI Product Automation Consultant",
-    "company": "Exadel",
-    "normalizedCompany": "Exadel",
-    "location": "Lithuania",
-    "workMode": "remote",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "AI / Agentic Automation",
-      "Product Ownership",
-      "Automation Architecture",
-      "Digital Transformation"
-    ],
-    "seniority": "Mid-Senior",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/ai-product-automation-consultant-at-exadel-4446742310",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "1 week ago",
-    "salaryText": "Salary not disclosed",
-    "status": "Unknown",
-    "statusReason": "The previously verified role page could not be retrieved during this run, and no source explicitly states that the vacancy is closed.",
-    "relevanceScore": 100,
-    "matchSummary": "Owns discovery and delivery of AI agents, automated workflows, integrations, monitoring and measurable business outcomes across enterprise functions.",
-    "technologies": [
-      "AI agents",
-      "LLMs",
-      "APIs",
-      "RAG",
-      "MCP",
-      "Multi-agent systems"
-    ],
-    "keywordsMatched": [
-      "AI automation",
-      "agentic workflows",
-      "product ownership",
-      "workflow automation"
-    ],
-    "requirements": [
-      "AI-focused product management experience",
-      "Agent architecture, prompts and integration design",
-      "Ability to translate business needs into measurable AI products"
-    ],
-    "requisitionId": "4446742310",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "id": "job-1786454563171-0",
-    "firstSeenAt": "2026-08-11T13:22:43.169Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-11T14:22:53.532Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-11T13:22:43.169Z",
-        "reason": "The exact Lithuania vacancy page currently displays Apply."
-      },
-      {
-        "status": "Unknown",
-        "at": "2026-08-11T14:22:53.532Z",
-        "reason": "The previously verified role page could not be retrieved during this run, and no source explicitly states that the vacancy is closed."
-      }
-    ]
-  },
-  {
-    "title": "Microsoft Power Platform & Copilot Service Owner",
-    "normalizedTitle": "Microsoft Power Platform Copilot Service Owner",
-    "company": "NKT",
-    "normalizedCompany": "NKT",
-    "location": "Kaunas, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Power Platform",
-      "Product Ownership",
-      "Automation Leadership",
-      "AI / Agentic Automation",
-      "Technical Platform / Architecture"
-    ],
-    "seniority": "Mid-Senior",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/microsoft-power-platform-copilot-service-owner-at-nkt-4446072822",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "1 week ago",
-    "salaryText": "€4,300–5,300 gross/month",
-    "status": "Still open",
-    "statusReason": "The role-specific vacancy page remains live on this recheck.",
-    "relevanceScore": 100,
-    "matchSummary": "Owns Power Platform and Copilot governance, environments, DLP, connectors, Dataverse, ALM and responsible enterprise low-code adoption.",
-    "technologies": [
-      "Microsoft Power Platform",
-      "Microsoft Copilot",
-      "Dataverse",
-      "Power Automate",
-      "Entra ID",
-      "Azure",
-      "ALM"
-    ],
-    "keywordsMatched": [
-      "Power Platform",
-      "Copilot",
-      "platform ownership",
-      "automation governance"
-    ],
-    "requirements": [
-      "3+ years administering Microsoft Power Platform",
-      "Copilot configuration and adoption knowledge",
-      "Enterprise identity, DLP and solution-lifecycle governance"
-    ],
-    "requisitionId": "4446072822",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "id": "job-1786454563171-1",
-    "firstSeenAt": "2026-08-11T13:22:43.169Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-11T14:22:53.532Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-11T13:22:43.169Z",
-        "reason": "The exact Kaunas vacancy page currently displays Apply."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-11T14:22:53.532Z",
-        "reason": "The role-specific vacancy page remains live on this recheck."
       }
     ]
   },
@@ -590,125 +730,6 @@
         "status": "Closed/Expired/No longer accepting applications",
         "at": "2026-08-11T14:22:53.532Z",
         "reason": "The current role-specific LinkedIn page explicitly says no longer accepting applications."
-      }
-    ]
-  },
-  {
-    "title": "Procesų valdymo ir automatizavimo architektas (-ė)",
-    "normalizedTitle": "Procesu valdymo ir automatizavimo architektas",
-    "company": "LTG Link",
-    "normalizedCompany": "LTG Link",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Process Architecture",
-      "Workflow / BPM",
-      "Automation Analysis",
-      "Business Analysis"
-    ],
-    "seniority": "Mid-Senior",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/proces%C5%B3-valdymo-ir-automatizavimo-architektas-%C4%97-at-ltg-4420918678",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "3 weeks ago",
-    "status": "Newly found",
-    "statusReason": "The role-specific LinkedIn page is live and displays Apply.",
-    "relevanceScore": 100,
-    "matchSummary": "Process-architecture role covering process modelling, automation opportunity analysis, functional requirements, governance and Power Platform.",
-    "technologies": [
-      "Power Platform",
-      "ARIS",
-      "BPMN"
-    ],
-    "keywordsMatched": [
-      "process architecture",
-      "automation",
-      "process improvement",
-      "functional requirements"
-    ],
-    "requirements": [
-      "Business-process modelling and improvement",
-      "Automation opportunity assessment",
-      "Translate business needs into functional requirements"
-    ],
-    "requisitionId": "4420918678",
-    "salaryText": "€3,200–4,800 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "id": "job-1786458173534-0",
-    "firstSeenAt": "2026-08-11T14:22:53.532Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-11T14:22:53.532Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-11T14:22:53.532Z",
-        "reason": "The role-specific LinkedIn page is live and displays Apply."
-      }
-    ]
-  },
-  {
-    "title": "Senior Business Process Architect, AI Automation",
-    "normalizedTitle": "Senior Business Process Architect AI Automation",
-    "company": "Vinted",
-    "normalizedCompany": "Vinted",
-    "location": "Kaunas, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Process Architecture",
-      "AI / Agentic Automation",
-      "Workflow / BPM",
-      "Business Analysis"
-    ],
-    "seniority": "Senior",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/senior-business-process-architect-ai-automation-at-vinted-4431743057",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "2 days ago",
-    "status": "Newly found",
-    "statusReason": "A new requisition is live on LinkedIn and displays Apply, so it is treated as a reposted vacancy.",
-    "relevanceScore": 100,
-    "matchSummary": "Agentic-automation architecture role designing decision logic, data contracts, error controls and hands-on n8n workflows for autonomous AI agents.",
-    "technologies": [
-      "n8n",
-      "AI agents",
-      "APIs",
-      "Webhooks",
-      "JSON",
-      "BPMN"
-    ],
-    "keywordsMatched": [
-      "agentic AI",
-      "AI automation",
-      "business process architect",
-      "workflow automation"
-    ],
-    "requirements": [
-      "3+ years in process, systems or technical business analysis",
-      "Process mapping with exceptions and fallback paths",
-      "APIs, webhooks, JSON and n8n workflows"
-    ],
-    "requisitionId": "4431743057",
-    "salaryText": "€4,358–5,892 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "id": "job-1786458173534-3",
-    "firstSeenAt": "2026-08-11T14:22:53.532Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-11T14:22:53.532Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-11T14:22:53.532Z",
-        "reason": "A new requisition is live on LinkedIn and displays Apply, so it is treated as a reposted vacancy."
       }
     ]
   },
@@ -815,11 +836,11 @@
       "API, integration and governance experience"
     ],
     "requisitionId": "4435563102",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786452959825-2",
     "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -833,7 +854,140 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
+  },
+  {
+    "title": "Automatizavimo platformos inžinierius (-ė) (Platform DevOps Engineer)",
+    "normalizedTitle": "Automation Platform DevOps Engineer",
+    "company": "Lietuvos bankas",
+    "normalizedCompany": "Lietuvos bankas",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Power Platform",
+      "Automation Engineering",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "Official Lietuvos bankas careers",
+    "directUrl": "https://karjera.lb.lt/jobs/7712092-automatizavimo-platformos-inzinierius-e-platform-devops-engineer",
+    "supportingSourceUrl": "https://karjera.lb.lt/jobs",
+    "postingDate": null,
+    "applicationDeadline": "2026-08-19",
+    "postingAgeText": "Current official vacancy",
+    "salaryText": "€3,160–4,740 gross/month",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy or stronger official listing remains live on this recheck.",
+    "relevanceScore": 99,
+    "matchSummary": "Owns the enterprise Power Platform and builds automation with Power Automate, Logic Apps, Functions and governed CI/CD.",
+    "technologies": [
+      "Power Platform",
+      "Power Automate",
+      "Azure Logic Apps",
+      "Azure Functions",
+      "Azure DevOps",
+      "PowerShell"
+    ],
+    "keywordsMatched": [
+      "automation platform",
+      "Power Platform",
+      "CI/CD",
+      "platform governance"
+    ],
+    "requirements": [
+      "4+ years in comparable platform engineering",
+      "Strong CI/CD and Azure operations experience",
+      "Power Platform administration and CoE tooling"
+    ],
+    "requisitionId": "7712092",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786446406276-1",
+    "firstSeenAt": "2026-08-11T11:06:46.276Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T12:28:07.923Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T11:06:46.276Z",
+        "reason": "The official vacancy is in the current job list, has an August 19 deadline and displays an application action."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-11T12:28:07.923Z",
+        "reason": "The official vacancy remains live and displays an application action ahead of its August 19 deadline."
+      }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
+  },
+  {
+    "title": "Automation Analyst",
+    "normalizedTitle": "Automation Analyst",
+    "company": "Metso",
+    "normalizedCompany": "Metso",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Automation Analysis",
+      "RPA Development",
+      "Process Analysis",
+      "Project / Program Management"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/automation-analyst-at-metso-4427727629",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-07-10",
+    "postingAgeText": "1 week ago",
+    "salaryText": "€3,000–4,000 gross/month",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains live on this recheck.",
+    "relevanceScore": 99,
+    "matchSummary": "Bridges finance operations and the RPA Factory, identifies automation opportunities, coordinates changes, supports UAT and leads local RPA initiatives.",
+    "technologies": [
+      "UiPath",
+      "Power Apps",
+      "ServiceNow",
+      "SAP",
+      "RPA"
+    ],
+    "keywordsMatched": [
+      "Automation Analyst",
+      "RPA Factory",
+      "automation opportunities",
+      "UAT"
+    ],
+    "requirements": [
+      "RPA development track record",
+      "Business-facing automation analysis",
+      "UiPath or Power Apps experience preferred"
+    ],
+    "requisitionId": "4427727629",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786454563171-2",
+    "firstSeenAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T14:22:53.532Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T13:22:43.169Z",
+        "reason": "The exact vacancy currently displays Apply; the visible page remains active despite an ambiguous/past-formatted posting-end date."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-11T14:22:53.532Z",
+        "reason": "The role-specific vacancy page remains live on this recheck."
+      }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "AI Business Analyst",
@@ -893,136 +1047,6 @@
         "status": "Closed/Expired/No longer accepting applications",
         "at": "2026-08-11T14:22:53.532Z",
         "reason": "The current role-specific LinkedIn page explicitly says no longer accepting applications."
-      }
-    ]
-  },
-  {
-    "title": "Automatizavimo platformos inžinierius (-ė) (Platform DevOps Engineer)",
-    "normalizedTitle": "Automation Platform DevOps Engineer",
-    "company": "Lietuvos bankas",
-    "normalizedCompany": "Lietuvos bankas",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Power Platform",
-      "Automation Engineering",
-      "Technical Platform / Architecture"
-    ],
-    "seniority": "Mid-Senior",
-    "source": "Official Lietuvos bankas careers",
-    "directUrl": "https://karjera.lb.lt/jobs/7712092-automatizavimo-platformos-inzinierius-e-platform-devops-engineer",
-    "supportingSourceUrl": "https://karjera.lb.lt/jobs",
-    "postingDate": null,
-    "applicationDeadline": "2026-08-19",
-    "postingAgeText": "Current official vacancy",
-    "salaryText": "€3,160–4,740 gross/month",
-    "status": "Still open",
-    "statusReason": "The role-specific vacancy or stronger official listing remains live on this recheck.",
-    "relevanceScore": 99,
-    "matchSummary": "Owns the enterprise Power Platform and builds automation with Power Automate, Logic Apps, Functions and governed CI/CD.",
-    "technologies": [
-      "Power Platform",
-      "Power Automate",
-      "Azure Logic Apps",
-      "Azure Functions",
-      "Azure DevOps",
-      "PowerShell"
-    ],
-    "keywordsMatched": [
-      "automation platform",
-      "Power Platform",
-      "CI/CD",
-      "platform governance"
-    ],
-    "requirements": [
-      "4+ years in comparable platform engineering",
-      "Strong CI/CD and Azure operations experience",
-      "Power Platform administration and CoE tooling"
-    ],
-    "requisitionId": "7712092",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "id": "job-1786446406276-1",
-    "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-11T12:28:07.923Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-11T11:06:46.276Z",
-        "reason": "The official vacancy is in the current job list, has an August 19 deadline and displays an application action."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-11T12:28:07.923Z",
-        "reason": "The official vacancy remains live and displays an application action ahead of its August 19 deadline."
-      }
-    ]
-  },
-  {
-    "title": "Automation Analyst",
-    "normalizedTitle": "Automation Analyst",
-    "company": "Metso",
-    "normalizedCompany": "Metso",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Automation Analysis",
-      "RPA Development",
-      "Process Analysis",
-      "Project / Program Management"
-    ],
-    "seniority": "Mid-Senior",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/automation-analyst-at-metso-4427727629",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": "2026-07-10",
-    "postingAgeText": "1 week ago",
-    "salaryText": "€3,000–4,000 gross/month",
-    "status": "Still open",
-    "statusReason": "The role-specific vacancy page remains live on this recheck.",
-    "relevanceScore": 99,
-    "matchSummary": "Bridges finance operations and the RPA Factory, identifies automation opportunities, coordinates changes, supports UAT and leads local RPA initiatives.",
-    "technologies": [
-      "UiPath",
-      "Power Apps",
-      "ServiceNow",
-      "SAP",
-      "RPA"
-    ],
-    "keywordsMatched": [
-      "Automation Analyst",
-      "RPA Factory",
-      "automation opportunities",
-      "UAT"
-    ],
-    "requirements": [
-      "RPA development track record",
-      "Business-facing automation analysis",
-      "UiPath or Power Apps experience preferred"
-    ],
-    "requisitionId": "4427727629",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "id": "job-1786454563171-2",
-    "firstSeenAt": "2026-08-11T13:22:43.169Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-11T14:22:53.532Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-11T13:22:43.169Z",
-        "reason": "The exact vacancy currently displays Apply; the visible page remains active despite an ambiguous/past-formatted posting-end date."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-11T14:22:53.532Z",
-        "reason": "The role-specific vacancy page remains live on this recheck."
       }
     ]
   },
@@ -1136,10 +1160,10 @@
     ],
     "requisitionId": "44030",
     "salaryText": "€2,540–4,450 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "firstSeenAt": "2026-08-11T10:07:17.846Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T11:06:46.276Z",
     "statusHistory": [
@@ -1153,7 +1177,8 @@
         "at": "2026-08-11T11:06:46.276Z",
         "reason": "The official vacancy page remains live and displays Apply now."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "RPA Software Engineer",
@@ -1195,11 +1220,11 @@
       "Stakeholder collaboration across the automation lifecycle"
     ],
     "requisitionId": "4438066760",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786446406276-2",
     "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:28:07.923Z",
     "statusHistory": [
@@ -1213,7 +1238,8 @@
         "at": "2026-08-11T12:28:07.923Z",
         "reason": "The direct vacancy page still displays Apply."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Camunda and Java Engineer",
@@ -1262,11 +1288,11 @@
       "Java job workers, connectors and integration experience"
     ],
     "requisitionId": "4442205684",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786454563171-3",
     "firstSeenAt": "2026-08-11T13:22:43.169Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T14:22:53.532Z",
     "statusHistory": [
@@ -1280,7 +1306,8 @@
         "at": "2026-08-11T14:22:53.532Z",
         "reason": "The role-specific vacancy page remains live on this recheck."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "RPA analitikas (-ė)",
@@ -1324,11 +1351,11 @@
       "Lithuanian and English communication"
     ],
     "requisitionId": "4422020381",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786446406276-3",
     "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:55:59.825Z",
     "statusHistory": [
@@ -1342,7 +1369,8 @@
         "at": "2026-08-11T12:55:59.825Z",
         "reason": "The direct vacancy page still displays Apply."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Business Process Automation & Technology Adoption Manager",
@@ -1389,11 +1417,11 @@
       "Power BI or Power Platform capability"
     ],
     "requisitionId": "21061",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786451287923-2",
     "firstSeenAt": "2026-08-11T12:28:07.923Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:55:59.825Z",
     "statusHistory": [
@@ -1407,7 +1435,8 @@
         "at": "2026-08-11T12:55:59.825Z",
         "reason": "The official employer vacancy remains live and supports application."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "western-union-rpa-jr0126759",
@@ -1452,10 +1481,10 @@
     ],
     "requisitionId": "JR0126759",
     "salaryText": "Salary not disclosed",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "firstSeenAt": "2026-08-11T10:07:17.846Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": null,
     "statusChangedAt": "2026-08-11T10:07:17.846Z",
     "statusHistory": [
@@ -1464,7 +1493,8 @@
         "at": "2026-08-11T10:07:17.846Z",
         "reason": "The official vacancy page still exists, but its estimated application date passed without explicit closure wording."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "RPA programuotojas (-a)",
@@ -1506,11 +1536,11 @@
       "Technical documentation and collaboration"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786446406276-4",
     "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": null,
     "statusChangedAt": "2026-08-11T11:06:46.276Z",
     "statusHistory": [
@@ -1519,7 +1549,8 @@
         "at": "2026-08-11T11:06:46.276Z",
         "reason": "The role-specific page remains indexed, but its listed deadline passed and the current employer sitemap no longer shows the vacancy."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "AI & Automation Engineer",
@@ -1542,8 +1573,8 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "1 month ago",
-    "status": "Newly found",
-    "statusReason": "The role-specific LinkedIn page is live and displays Apply.",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains live and displays Apply.",
     "relevanceScore": 96,
     "matchSummary": "AI-first automation ownership role covering n8n workflows, APIs, employee-built automation governance, adoption and regulated operations.",
     "technologies": [
@@ -1566,18 +1597,88 @@
     ],
     "requisitionId": "4425889089",
     "salaryText": "€3,000–5,000 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786458173534-4",
     "firstSeenAt": "2026-08-11T14:22:53.532Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-11T14:22:53.532Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T15:04:59.426Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-11T14:22:53.532Z",
         "reason": "The role-specific LinkedIn page is live and displays Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-11T15:04:59.426Z",
+        "reason": "The role-specific vacancy page remains live and displays Apply."
+      }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
+  },
+  {
+    "runStartedAt": "2026-08-11T15:01:14.829Z",
+    "title": "Full Stack Engineer (Automation & AI Agents) | Delivery Automation Team",
+    "normalizedTitle": "Senior Full Stack Automation Engineer",
+    "company": "Hostinger",
+    "normalizedCompany": "Hostinger",
+    "location": "Vilnius / Kaunas, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Automation Engineering",
+      "AI / Agentic Automation",
+      "Workflow / BPM",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/full-stack-engineer-automation-ai-agents-delivery-automation-team-at-hostinger-4408794801",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "2 months ago",
+    "salaryText": "€5,600–7,600 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific vacancy page is live and displays Apply.",
+    "relevanceScore": 96,
+    "matchSummary": "Senior engineering role building internal automation platforms, AI agents, and LLM workflows across developer delivery systems.",
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "AI agents",
+      "LLM APIs",
+      "MCP",
+      "n8n",
+      "CI/CD"
+    ],
+    "keywordsMatched": [
+      "automation",
+      "AI agents",
+      "LLM workflows",
+      "n8n",
+      "MCP"
+    ],
+    "requirements": [
+      "3+ years of full-stack development",
+      "Backend API and data-pipeline engineering",
+      "AI-agent or LLM workflow integration"
+    ],
+    "requisitionId": "4408794801",
+    "firstSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786460699429-1",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-11T15:04:59.426Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T15:04:59.426Z",
+        "reason": "The role-specific vacancy page is live and displays Apply."
       }
     ]
   },
@@ -1626,11 +1727,11 @@
       "Programming and enterprise-integration fundamentals"
     ],
     "requisitionId": "4430898338",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786446406276-5",
     "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:28:07.923Z",
     "statusHistory": [
@@ -1644,7 +1745,8 @@
         "at": "2026-08-11T12:28:07.923Z",
         "reason": "The direct vacancy page still displays Apply."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "cognizant-uipath-2026-08",
@@ -1686,9 +1788,9 @@
     ],
     "requisitionId": "4441106174",
     "firstSeenAt": "2026-08-11T07:35:00.000Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T10:07:17.846Z",
     "statusHistory": [
@@ -1703,7 +1805,8 @@
         "reason": "The direct vacancy page currently displays Apply and a fresh posting age."
       }
     ],
-    "salaryText": "€3,370–4,450 gross/month"
+    "salaryText": "€3,370–4,450 gross/month",
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Dynamics 365 and Power Platform Solution Developer | SEB, Vilnius",
@@ -1748,11 +1851,11 @@
       "Ability to translate client needs into technical solutions"
     ],
     "requisitionId": "4443902702",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786446406276-6",
     "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:28:07.923Z",
     "statusHistory": [
@@ -1765,6 +1868,70 @@
         "status": "Still open",
         "at": "2026-08-11T12:28:07.923Z",
         "reason": "The direct vacancy page still displays Apply ahead of its September 1 deadline."
+      }
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
+  },
+  {
+    "runStartedAt": "2026-08-11T15:01:14.829Z",
+    "title": "Junior AI Automation Specialist",
+    "normalizedTitle": "Junior AI Automation Specialist",
+    "company": "Mediatech",
+    "normalizedCompany": "Mediatech",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Automation Engineering",
+      "Workflow / BPM",
+      "Automation Analysis"
+    ],
+    "seniority": "Junior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/junior-ai-automation-specialist-at-mediatech-4440046230",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "4 weeks ago",
+    "salaryText": "€1,500–2,250 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific vacancy page is live and displays Apply.",
+    "relevanceScore": 94,
+    "matchSummary": "Hands-on AI automation role building reliable n8n workflows, API and webhook integrations, and MCP-enabled solutions for internal teams.",
+    "technologies": [
+      "n8n",
+      "APIs",
+      "Webhooks",
+      "JSON",
+      "YAML",
+      "MCP"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "n8n",
+      "workflow automation",
+      "MCP",
+      "APIs"
+    ],
+    "requirements": [
+      "Hands-on n8n or similar automation tooling",
+      "APIs, webhooks and structured data",
+      "Translate business needs into reliable workflows"
+    ],
+    "requisitionId": "4440046230",
+    "firstSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "id": "job-1786460699429-0",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-11T15:04:59.426Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-11T15:04:59.426Z",
+        "reason": "The role-specific vacancy page is live and displays Apply."
       }
     ]
   },
@@ -1811,7 +1978,7 @@
     ],
     "requisitionId": "4928045101",
     "salaryText": "€6,658–9,008 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "firstSeenAt": "2026-08-11T10:07:17.846Z",
     "lastSeenAt": "2026-08-11T14:19:14.160Z",
     "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
@@ -1828,7 +1995,8 @@
         "at": "2026-08-11T11:06:46.276Z",
         "reason": "The official role remains indexed with a live submission form."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "mediq-rpa-2026-08",
@@ -1873,9 +2041,9 @@
     ],
     "requisitionId": "4424395775",
     "firstSeenAt": "2026-08-11T07:40:00.000Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T10:07:17.846Z",
     "statusHistory": [
@@ -1890,7 +2058,8 @@
         "reason": "The direct vacancy page was rechecked and currently displays Apply."
       }
     ],
-    "salaryText": "€3,100–4,000 gross/month"
+    "salaryText": "€3,100–4,000 gross/month",
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Productivity Solutions Consultant (Microsoft Power Platform and Microsoft 365)",
@@ -1938,11 +2107,11 @@
       "Data integration, modelling and stakeholder-management skills"
     ],
     "requisitionId": "4440060872",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786446406276-7",
     "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:55:59.825Z",
     "statusHistory": [
@@ -1956,7 +2125,8 @@
         "at": "2026-08-11T12:55:59.825Z",
         "reason": "The direct vacancy page still displays Apply."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "ignitis-rpa-analyst-1616994",
@@ -2000,10 +2170,10 @@
     ],
     "requisitionId": null,
     "salaryText": "€3,050–4,570 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "firstSeenAt": "2026-08-11T10:07:17.846Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Unknown",
     "statusChangedAt": "2026-08-11T11:06:46.276Z",
     "statusHistory": [
@@ -2017,7 +2187,8 @@
         "at": "2026-08-11T11:06:46.276Z",
         "reason": "A newer role-specific direct page was verified and currently displays Apply."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "citco-automation-developer-2026-08",
@@ -2062,9 +2233,9 @@
     ],
     "requisitionId": "4428692880",
     "firstSeenAt": "2026-08-11T07:55:00.000Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T10:07:17.846Z",
     "statusHistory": [
@@ -2079,7 +2250,8 @@
         "reason": "The direct vacancy page was rechecked and currently displays Apply."
       }
     ],
-    "salaryText": "€2,830–4,000 gross/month"
+    "salaryText": "€2,830–4,000 gross/month",
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "cpva-automation-specialist-13699883",
@@ -2125,10 +2297,10 @@
     ],
     "requisitionId": null,
     "salaryText": "Salary not disclosed",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "firstSeenAt": "2026-08-11T10:07:17.846Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": null,
     "statusChangedAt": "2026-08-11T10:07:17.846Z",
     "statusHistory": [
@@ -2137,7 +2309,8 @@
         "at": "2026-08-11T10:07:17.846Z",
         "reason": "A role-specific page was discovered, but current application acceptance could not be reverified."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Senior Business Analyst – AI Solutions",
@@ -2179,11 +2352,11 @@
       "Risk, compliance and product-governance experience"
     ],
     "requisitionId": "4436371632",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786452959825-4",
     "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -2197,7 +2370,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "telia-automation-lead-2026-08",
@@ -2242,9 +2416,9 @@
     ],
     "requisitionId": "4439072999",
     "firstSeenAt": "2026-08-11T07:45:00.000Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Unknown",
     "statusChangedAt": "2026-08-11T12:28:07.923Z",
     "statusHistory": [
@@ -2264,7 +2438,8 @@
         "reason": "The direct vacancy page displays Apply and gives a future September 1 deadline."
       }
     ],
-    "salaryText": "€6,160–8,500 gross/month"
+    "salaryText": "€6,160–8,500 gross/month",
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Process Design Specialist",
@@ -2310,11 +2485,11 @@
       "Data-informed stakeholder collaboration"
     ],
     "requisitionId": "4842428101",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786451287923-3",
     "firstSeenAt": "2026-08-11T12:28:07.923Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:55:59.825Z",
     "statusHistory": [
@@ -2328,7 +2503,8 @@
         "at": "2026-08-11T12:55:59.825Z",
         "reason": "The official employer vacancy remains live with an application form."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Process Design Specialist (Escalation Processes)",
@@ -2374,11 +2550,11 @@
       "Cross-functional implementation planning"
     ],
     "requisitionId": "4913450101",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786451287923-4",
     "firstSeenAt": "2026-08-11T12:28:07.923Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:55:59.825Z",
     "statusHistory": [
@@ -2392,7 +2568,8 @@
         "at": "2026-08-11T12:55:59.825Z",
         "reason": "The official employer vacancy remains live with an application form."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Business Process Manager",
@@ -2437,11 +2614,11 @@
       "International stakeholder and end-to-end process experience"
     ],
     "requisitionId": "4421786849",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786446406277-8",
     "firstSeenAt": "2026-08-11T11:06:46.276Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:28:07.923Z",
     "statusHistory": [
@@ -2455,7 +2632,8 @@
         "at": "2026-08-11T12:28:07.923Z",
         "reason": "The direct listing continues to direct applicants to the employer careers page."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Marketing Automation Engineer",
@@ -2500,11 +2678,11 @@
       "SQL, cloud and workflow-orchestration capability"
     ],
     "requisitionId": "4901078101",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786452959825-1",
     "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -2518,7 +2696,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Sr. Business Analyst, GBS Service & Digital Enablement",
@@ -2560,11 +2739,11 @@
       "Integration analysis and UAT leadership"
     ],
     "requisitionId": "4417376610",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786452959825-8",
     "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -2578,7 +2757,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Senior Process Consultant for Danica",
@@ -2621,11 +2801,11 @@
       "Stakeholder facilitation across business and technology"
     ],
     "requisitionId": "4442761288",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786452959825-3",
     "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -2639,7 +2819,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Process Manager",
@@ -2682,11 +2863,11 @@
       "Process governance and change leadership"
     ],
     "requisitionId": "4441500424",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786452959825-5",
     "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -2700,7 +2881,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Process Improvement Specialist",
@@ -2746,11 +2928,11 @@
       "Process mapping and Lean Six Sigma familiarity"
     ],
     "requisitionId": "4932144101",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786451287923-5",
     "firstSeenAt": "2026-08-11T12:28:07.923Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T12:55:59.825Z",
     "statusHistory": [
@@ -2764,7 +2946,8 @@
         "at": "2026-08-11T12:55:59.825Z",
         "reason": "The official employer vacancy remains live with an application form."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Senior Business Analyst, Engagement & Service Management",
@@ -2806,11 +2989,11 @@
       "Senior stakeholder and programme collaboration"
     ],
     "requisitionId": "4417388046",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786452959825-7",
     "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -2824,7 +3007,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Senior Integration & Automation Engineer",
@@ -2866,11 +3050,11 @@
       "Requirements, testing and go-live delivery"
     ],
     "requisitionId": "4448884067",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786452959825-10",
     "firstSeenAt": "2026-08-11T12:55:59.825Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -2884,7 +3068,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role-specific vacancy remains live on this subsequent run and current application evidence supports acceptance."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "vinted-pay-automation-backend-4847434101",
@@ -2928,10 +3113,10 @@
     ],
     "requisitionId": "4847434101",
     "salaryText": "€4,975–6,725 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "firstSeenAt": "2026-08-11T10:07:17.846Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T11:06:46.276Z",
     "statusHistory": [
@@ -2945,7 +3130,8 @@
         "at": "2026-08-11T11:06:46.276Z",
         "reason": "The official role remains indexed as part of Vinted's Automation Team."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Process Excellence Specialist",
@@ -2990,11 +3176,11 @@
       "Performance reporting and continuous-improvement capability"
     ],
     "requisitionId": "4441619271",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786454563171-6",
     "firstSeenAt": "2026-08-11T13:22:43.169Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": null,
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -3003,7 +3189,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The role page exists, but the listed application deadline has passed and the source does not explicitly state closure."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "paymentology-automation-2026-08",
@@ -3086,8 +3273,8 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "1 week ago",
-    "status": "Newly found",
-    "statusReason": "The role-specific LinkedIn page is live and displays Apply.",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains live; an application action was verified on the preceding recheck.",
     "relevanceScore": 79,
     "matchSummary": "Senior process-analysis role owning EMEA service-process governance, workflow optimisation, scalable frameworks and technology-enabled change.",
     "technologies": [
@@ -3107,20 +3294,26 @@
     ],
     "requisitionId": "4429538306",
     "salaryText": "€3,591.25–4,436.25 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786458173534-1",
     "firstSeenAt": "2026-08-11T14:22:53.532Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-11T14:22:53.532Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T15:04:59.426Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-11T14:22:53.532Z",
         "reason": "The role-specific LinkedIn page is live and displays Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-11T15:04:59.426Z",
+        "reason": "The role-specific vacancy page remains live; an application action was verified on the preceding recheck."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "id": "western-union-ops-improvement-jr0129675",
@@ -3166,10 +3359,10 @@
     ],
     "requisitionId": "JR0129675",
     "salaryText": "€2,083–2,916 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "firstSeenAt": "2026-08-11T10:07:17.846Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T13:22:43.169Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-11T11:06:46.276Z",
     "statusHistory": [
@@ -3183,7 +3376,8 @@
         "at": "2026-08-11T11:06:46.276Z",
         "reason": "The official vacancy displays Apply Today and a future August 21 estimated closing date."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Aplikacijų automatizacijos inžinierius (-ė) | Software Automation Engineer",
@@ -3233,11 +3427,11 @@
       "DevSecOps, scripting and observability capability"
     ],
     "requisitionId": "4430004709",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786454563171-7",
     "firstSeenAt": "2026-08-11T13:22:43.169Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "previousStatus": null,
     "statusChangedAt": "2026-08-11T13:22:43.169Z",
     "statusHistory": [
@@ -3246,7 +3440,8 @@
         "at": "2026-08-11T13:22:43.169Z",
         "reason": "The exact vacancy page is available, but current application acceptance is not explicit."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   },
   {
     "title": "Senior Process Excellence Specialist | Telematics",
@@ -3269,8 +3464,8 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "3 weeks ago",
-    "status": "Newly found",
-    "statusReason": "The role-specific LinkedIn page is live and displays Apply.",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "LinkedIn explicitly states that this vacancy is no longer accepting applications.",
     "relevanceScore": 76,
     "matchSummary": "Process-excellence role leading cross-functional improvement projects, BPMN modelling, bottleneck removal and data-backed operating change.",
     "technologies": [
@@ -3292,19 +3487,25 @@
     ],
     "requisitionId": "4433868072",
     "salaryText": "€3,813–5,709 gross/month",
-    "sourceLastCheckedAt": "2026-08-11T14:19:14.160Z",
-    "lastSeenAt": "2026-08-11T14:19:14.160Z",
-    "lastVerifiedAt": "2026-08-11T14:19:14.160Z",
+    "sourceLastCheckedAt": "2026-08-11T15:01:14.829Z",
+    "lastSeenAt": "2026-08-11T15:01:14.829Z",
+    "lastVerifiedAt": "2026-08-11T15:01:14.829Z",
     "id": "job-1786458173534-2",
     "firstSeenAt": "2026-08-11T14:22:53.532Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-11T14:22:53.532Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-11T15:04:59.426Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-11T14:22:53.532Z",
         "reason": "The role-specific LinkedIn page is live and displays Apply."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-11T15:04:59.426Z",
+        "reason": "LinkedIn explicitly states that this vacancy is no longer accepting applications."
       }
-    ]
+    ],
+    "runStartedAt": "2026-08-11T15:01:14.829Z"
   }
 ]
