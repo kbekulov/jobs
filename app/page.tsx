@@ -20,7 +20,7 @@ type Job = {
   addedAt: string;
 };
 
-type ArchiveSort = "date-desc" | "date-asc" | "salary-desc" | "salary-asc";
+type ArchiveSort = "date-desc" | "date-asc" | "salary-desc" | "salary-asc" | "company-asc" | "company-desc";
 
 const companyPalettes = [
   ["#d8ff72", "#253500"],
@@ -221,6 +221,10 @@ export default function Home() {
           const difference = new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime();
           return archiveSort === "date-desc" ? difference : -difference;
         }
+        if (archiveSort.startsWith("company")) {
+          const difference = a.company.localeCompare(b.company, "en", { sensitivity: "base" });
+          return archiveSort === "company-asc" ? difference : -difference;
+        }
         const aSalary = salaryValue(a.salary);
         const bSalary = salaryValue(b.salary);
         if (aSalary === null && bSalary === null) return 0;
@@ -336,6 +340,8 @@ export default function Home() {
                   <option value="date-asc">Oldest added</option>
                   <option value="salary-desc">Highest salary</option>
                   <option value="salary-asc">Lowest salary</option>
+                  <option value="company-asc">Company A–Z</option>
+                  <option value="company-desc">Company Z–A</option>
                 </select>
               </div>
               <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} · {job.mode}</span><time dateTime={job.addedAt}>Added {addedLabel(job.addedAt)}</time></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
