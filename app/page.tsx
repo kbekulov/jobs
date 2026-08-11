@@ -162,14 +162,14 @@ export default function Home() {
     <main>
       <header className="topbar">
         <button className="brand" onClick={() => setTab("Discover")} aria-label="Go to discover">
-          <span className="brand-mark">J</span><span>Jobflow</span>
+          <span>JOB/FLOW</span><sup>LT</sup>
         </button>
-        <div className="top-meta"><span className="live-dot" />Updated today<span className="location-pill">Vilnius, LT</span></div>
+        <div className="top-meta"><span>VILNIUS</span><span className="live-dot" />11 AUG 2026</div>
       </header>
 
       <section className="shell">
         <div className="intro">
-          <div><p className="eyebrow">YOUR DAILY SHORTLIST</p><h1>{tab === "Discover" ? "Worth a look?" : tab === "Apply" ? "Ready to apply" : "Passed for now"}</h1></div>
+          <div><p className="eyebrow">AUTOMATION ROLES / DAILY EDIT</p><h1>{tab === "Discover" ? "Make the call." : tab === "Apply" ? "The shortlist." : "Not this time."}</h1></div>
           <p className="counter">{tab === "Discover" ? `${visible.length} new role${visible.length === 1 ? "" : "s"}` : `${visible.length} saved`}</p>
         </div>
 
@@ -186,19 +186,18 @@ export default function Home() {
           </div>
         ) : tab === "Discover" ? (
           <article className="job-card" style={{ "--accent": current.accent } as React.CSSProperties}>
-            <div className="card-glow" />
-            <div className="card-top"><span className="fresh">NEW</span><span>{current.posted}</span></div>
-            <div className="company-row"><div className="company-logo">{current.company.charAt(0)}</div><div><p>{current.company}</p><span>{current.location} · {current.mode}</span></div></div>
+            <div className="card-top"><span className="fresh">NEW LISTING</span><span>01 / {String(visible.length).padStart(2, "0")}</span></div>
+            <div className="company-row"><p>{current.company}</p><span>{current.location} — {current.mode} — {current.posted}</span></div>
             <h2>{current.title}</h2>
-            <div className="salary"><small>MONTHLY GROSS</small><strong>{current.salary}</strong><span>{current.salary.includes("€") ? "EUR" : ""}</span></div>
+            <div className="salary"><small>MONTHLY / GROSS</small><strong>{current.salary}</strong><span>{current.salary.includes("€") ? "EUR" : ""}</span></div>
             <p className="summary">{current.summary}</p>
-            <div className="tags">{current.tags.map(tag => <span key={tag}>{tag}</span>)}</div>
+            <div className="tags">{current.tags.map((tag, index) => <span key={tag}>{index > 0 && "/ "}{tag}</span>)}</div>
             <button className="details" onClick={() => setExpanded(expanded === current.id ? null : current.id)}>{expanded === current.id ? "Hide details" : "View requirements"}<span>{expanded === current.id ? "↑" : "↓"}</span></button>
             {expanded === current.id && <div className="expanded"><ul>{current.requirements.map(item => <li key={item}>{item}</li>)}</ul><a href={current.url} target="_blank" rel="noreferrer">Open full vacancy ↗</a></div>}
-            <div className="actions"><button className="no" onClick={() => decide(current.id, "trash")}><span>×</span><div><small>PASS</small>No, thanks</div></button><button className="yes" onClick={() => decide(current.id, "apply")}><span>✓</span><div><small>SAVE</small>Yes, apply</div></button></div>
+            <div className="actions"><button className="no" onClick={() => decide(current.id, "trash")}><span>×</span><div><small>PASS</small>No</div></button><button className="yes" onClick={() => decide(current.id, "apply")}><span>↗</span><div><small>SHORTLIST</small>Yes</div></button></div>
           </article>
         ) : (
-          <div className="saved-list">{visible.map(job => <article className="saved-card" key={job.id}><div className="company-logo" style={{ background: job.accent }}>{job.company.charAt(0)}</div><div className="saved-copy"><p>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} · {job.mode}</span></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">{tab === "Apply" ? "Apply ↗" : "View ↗"}</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
+          <div className="saved-list">{visible.map((job, index) => <article className="saved-card" key={job.id}><span className="saved-index">{String(index + 1).padStart(2, "0")}</span><div className="saved-copy"><p>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} — {job.mode}</span></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">{tab === "Apply" ? "APPLY ↗" : "VIEW ↗"}</a><button onClick={() => reset(job.id)}>UNDO</button></div></article>)}</div>
         )}
         <p className="research-note">Curated for RPA & automation roles in Lithuania · Researched 11 Aug 2026</p>
       </section>
