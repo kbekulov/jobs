@@ -7,5 +7,14 @@
     "newlyFoundCount": 6,
     "updatedCount": 0,
     "notes": "Initial researched Vilnius automation vacancy set"
+  },
+  {
+    "id": "run-2026-08-11T10:07:17.846Z",
+    "startedAt": "2026-08-11T10:07:17.846Z",
+    "completedAt": "2026-08-11T10:07:17.846Z",
+    "candidateCount": 14,
+    "newlyFoundCount": 8,
+    "updatedCount": 6,
+    "notes": "Merged through canonical recurring search protocol"
   }
 ]

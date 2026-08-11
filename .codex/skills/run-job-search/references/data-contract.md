@@ -20,6 +20,7 @@ Store vacancies in `data/vacancies.json` as one JSON array. Required fields:
   "postingDate": null,
   "applicationDeadline": null,
   "postingAgeText": null,
+  "salaryText": "€3,000–4,000 gross/month | Salary not disclosed",
   "status": "Newly found",
   "statusReason": "Evidence supporting the status",
   "relevanceScore": 0,
@@ -41,3 +42,5 @@ Store vacancies in `data/vacancies.json` as one JSON array. Required fields:
 Allowed statuses are exactly `Newly found`, `Still open`, `Unknown`, and `Closed/Expired/No longer accepting applications`.
 
 Deduplicate first by canonical company plus requisition ID. Without an ID, use canonical company plus normalized title plus location. Keep the source-visible title. Do not use a generic search page, employer home page, guessed URL, or tracking redirect as `directUrl`.
+
+`salaryText` is required because compensation is a primary review signal. Copy only a source-verified range; otherwise use `Salary not disclosed`.

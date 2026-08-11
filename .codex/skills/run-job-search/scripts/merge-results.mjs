@@ -17,7 +17,7 @@ function key(job) { return job.requisitionId ? `${canonicalCompany(job.normalize
 function stripTracking(url) { if (!url) return null; const parsed = new URL(url); for (const name of [...parsed.searchParams.keys()]) if (/^(utm_|gh_src$|ref$|tracking)/i.test(name)) parsed.searchParams.delete(name); return parsed.toString(); }
 function validate(job, index) {
   const errors = [];
-  for (const field of ["title","normalizedTitle","company","normalizedCompany","location","status","statusReason","matchSummary","firstSeenAt","lastSeenAt","lastVerifiedAt"]) if (!job[field]) errors.push(`record ${index}: missing ${field}`);
+  for (const field of ["title","normalizedTitle","company","normalizedCompany","location","salaryText","status","statusReason","matchSummary","firstSeenAt","lastSeenAt","lastVerifiedAt"]) if (!job[field]) errors.push(`record ${index}: missing ${field}`);
   if (!job.lithuaniaEligible) errors.push(`record ${index}: Lithuania eligibility not established`);
   if (!allowedStatuses.has(job.status)) errors.push(`record ${index}: invalid status`);
   if (!allowedModes.has(job.workMode)) errors.push(`record ${index}: invalid workMode`);

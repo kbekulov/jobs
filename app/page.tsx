@@ -113,7 +113,7 @@ const jobs: Job[] = vacancyData
     id: job.id,
     title: job.title,
     company: job.company,
-    salary: legacyById.get(job.id)?.salary ?? "Salary not disclosed",
+    salary: job.salaryText ?? legacyById.get(job.id)?.salary ?? "Salary not disclosed",
     location: job.location.replace(", Lithuania", ""),
     mode: job.workMode === "unknown" ? "Mode unknown" : job.workMode.charAt(0).toUpperCase() + job.workMode.slice(1),
     posted: job.postingAgeText ?? "Recently verified",
@@ -204,17 +204,29 @@ export default function Home() {
             {tab !== "Discover" && <button className="secondary" onClick={() => setTab("Discover")}>Back to discover</button>}
           </div>
         ) : tab === "Discover" ? (
-          <article className="job-card" style={{ "--accent": current.accent } as React.CSSProperties}>
-            <div className="card-top"><span className="fresh">NEW LISTING</span><span>01 / {String(visible.length).padStart(2, "0")}</span></div>
-            <div className="company-row"><p>{current.company}</p><span>{current.location} — {current.mode} — {current.posted}</span></div>
-            <h2>{current.title}</h2>
-            <div className="salary"><small>MONTHLY / GROSS</small><strong>{current.salary}</strong><span>{current.salary.includes("€") ? "EUR" : ""}</span></div>
-            <p className="summary">{current.summary}</p>
-            <div className="tags">{current.tags.map((tag, index) => <span key={tag}>{index > 0 && "/ "}{tag}</span>)}</div>
-            <button className="details" onClick={() => setExpanded(expanded === current.id ? null : current.id)}>{expanded === current.id ? "Hide details" : "View requirements"}<span>{expanded === current.id ? "↑" : "↓"}</span></button>
-            {expanded === current.id && <div className="expanded"><ul>{current.requirements.map(item => <li key={item}>{item}</li>)}</ul><a href={current.url} target="_blank" rel="noreferrer">Open full vacancy ↗</a></div>}
-            <div className="actions"><button className="no" onClick={() => decide(current.id, "trash")}><span>×</span><div><small>PASS</small>No</div></button><button className="yes" onClick={() => decide(current.id, "apply")}><span>↗</span><div><small>SHORTLIST</small>Yes</div></button></div>
-          </article>
+          <div className="deck">
+            <div className="card-ghost card-ghost-two" aria-hidden="true" />
+            <div className="card-ghost card-ghost-one" aria-hidden="true" />
+            <article className="job-card" style={{ "--accent": current.accent } as React.CSSProperties}>
+              <div className="card-top"><span className="fresh">TODAY&apos;S MATCH</span><span>1 OF {visible.length}</span></div>
+              <div className="company-row"><p>{current.company}</p><span>{current.location} · {current.mode}</span></div>
+              <h2>{current.title}</h2>
+              <div className="salary"><small>MONTHLY / GROSS</small><strong>{current.salary}</strong></div>
+              <div className="job-visual">
+                <div className="visual-top"><span>WHAT THEY NEED</span><span>{current.tags.slice(0, 2).join(" / ")}</span></div>
+                <p>{current.requirements.join(". ")}.</p>
+              </div>
+              <p className="summary"><strong>Why it fits</strong>{current.summary}</p>
+              <button className="details" onClick={() => setExpanded(expanded === current.id ? null : current.id)}>
+                {expanded === current.id ? "Close vacancy" : "View full vacancy"}<span>{expanded === current.id ? "↑" : "↗"}</span>
+              </button>
+              {expanded === current.id && <div className="expanded"><a href={current.url} target="_blank" rel="noreferrer">Open application page ↗</a></div>}
+              <div className="actions" aria-label="Choose this job">
+                <button className="no" onClick={() => decide(current.id, "trash")} aria-label="No, move to trash"><span>×</span><b>No</b></button>
+                <button className="yes" onClick={() => decide(current.id, "apply")} aria-label="Yes, save to apply"><span>♥</span><b>Yes</b></button>
+              </div>
+            </article>
+          </div>
         ) : (
           <div className="saved-list">{visible.map((job, index) => <article className="saved-card" key={job.id}><span className="saved-index">{String(index + 1).padStart(2, "0")}</span><div className="saved-copy"><p>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} — {job.mode}</span></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">{tab === "Apply" ? "APPLY ↗" : "VIEW ↗"}</a><button onClick={() => reset(job.id)}>UNDO</button></div></article>)}</div>
         )}

@@ -24,5 +24,5 @@ test("server-renders the Jobflow review shell", async () => {
   assert.match(html, /Discover/);
   assert.match(html, /Apply/);
   assert.match(html, /Trash/);
-  assert.match(html, /6 new roles/);
+  assert.match(html, /12 new roles/);
 });
