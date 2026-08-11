@@ -33,6 +33,23 @@ function companyStyle(company: string) {
   return { "--company-bg": companyPalettes[index][0], "--company-ink": companyPalettes[index][1] } as React.CSSProperties;
 }
 
+function salaryParts(salary: string) {
+  const suffix = " gross/month";
+  return salary.endsWith(suffix)
+    ? { amount: salary.slice(0, -suffix.length), cadence: "gross / month" }
+    : { amount: salary, cadence: null };
+}
+
+function freshnessLabel(posted: string) {
+  return /current official vacancy|recently verified/i.test(posted) ? "Verified" : posted;
+}
+
+function titleClass(title: string) {
+  if (title.length > 72) return "job-title job-title-long";
+  if (title.length > 48) return "job-title job-title-medium";
+  return "job-title";
+}
+
 const legacyJobs: Job[] = [
   {
     id: "ignitis-rpa-2026-08",
@@ -143,7 +160,6 @@ type Tab = "Discover" | "Apply" | "Trash";
 export default function Home() {
   const [tab, setTab] = useState<Tab>("Discover");
   const [decisions, setDecisions] = useState<Record<string, Decision>>({});
-  const [expanded, setExpanded] = useState<string | null>(null);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -165,7 +181,6 @@ export default function Home() {
   const decide = async (jobId: string, decision: Decision) => {
     const previous = decisions[jobId];
     setDecisions((current) => ({ ...current, [jobId]: decision }));
-    setExpanded(null);
     try {
       const response = await fetch("/api/decisions", {
         method: "POST",
@@ -193,6 +208,9 @@ export default function Home() {
   const discoverCount = jobs.filter((job) => !decisions[job.id]).length;
   const applyCount = jobs.filter((job) => decisions[job.id] === "apply").length;
   const trashCount = jobs.filter((job) => decisions[job.id] === "trash").length;
+  const reviewedCount = jobs.length - discoverCount;
+  const currentNumber = Math.min(reviewedCount + 1, jobs.length);
+  const salary = current ? salaryParts(current.salary) : null;
 
   return (
     <main className="app-canvas">
@@ -222,25 +240,21 @@ export default function Home() {
                 <div className="card-ghost card-ghost-two" aria-hidden="true" />
                 <div className="card-ghost card-ghost-one" aria-hidden="true" />
                 <article className="job-card">
-                  <div className="card-top"><span>1 / {discoverCount}</span><span>{current.posted}</span></div>
+                  <div className="card-progress" aria-hidden="true"><span style={{ width: `${(currentNumber / jobs.length) * 100}%` }} /></div>
+                  <div className="card-top"><span>{currentNumber} / {jobs.length}</span><span className="freshness"><i />{freshnessLabel(current.posted)}</span></div>
                   <div className="company-banner" style={companyStyle(current.company)}>
                     <span>COMPANY</span>
                     <strong>{current.company}</strong>
                     <small>{current.location} · {current.mode}</small>
                   </div>
-                  <h1>{current.title}</h1>
-                  <div className="salary"><small>SALARY · MONTHLY GROSS</small><strong>{current.salary}</strong></div>
+                  <h1 className={titleClass(current.title)}>{current.title}</h1>
+                  <div className="salary"><small>SALARY</small><div><strong>{salary?.amount}</strong>{salary?.cadence && <span>{salary.cadence}</span>}</div></div>
 
                   <div className="job-visual">
                     <div className="visual-top"><span>THEY&apos;RE LOOKING FOR</span><span>{current.tags[0]}</span></div>
                     <p>{current.requirements.join(". ")}.</p>
                     <div className="skill-row">{current.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
                   </div>
-
-                  <button className="details" onClick={() => setExpanded(expanded === current.id ? null : current.id)}>
-                    <span>{expanded === current.id ? "Close" : "Why this matches"}</span><b>{expanded === current.id ? "−" : "+"}</b>
-                  </button>
-                  {expanded === current.id && <div className="expanded"><p>{current.summary}</p><a href={current.url} target="_blank" rel="noreferrer">Open vacancy and apply ↗</a></div>}
                 </article>
               </div>
 

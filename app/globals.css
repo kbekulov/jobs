@@ -40,32 +40,36 @@ button { cursor: pointer; }
 .card-ghost { position: absolute; left: 27px; right: 27px; top: 9px; bottom: 2px; border: 1px solid #dfe2e6; border-radius: 25px; background: #fff; }
 .card-ghost-one { transform: translateY(-5px) scale(.975); opacity: .72; }
 .card-ghost-two { transform: translateY(-10px) scale(.945); opacity: .42; }
-.job-card { position: relative; z-index: 2; height: 100%; min-height: 0; overflow: hidden; padding: 17px 17px 8px; background: var(--surface); border: 1px solid #dfe2e6; border-radius: 25px; box-shadow: 0 13px 32px rgba(24,29,38,.1); }
-.card-top { display: flex; justify-content: space-between; color: #a1a5ad; font-size: 9px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
-.company-banner { margin-top: 14px; padding: 13px 14px 12px; color: var(--company-ink); background: var(--company-bg); border-radius: 16px; }
+.job-card { position: relative; z-index: 2; height: 100%; min-height: 0; overflow: hidden; display: flex; flex-direction: column; padding: 17px; background: var(--surface); border: 1px solid #dfe2e6; border-radius: 25px; box-shadow: 0 13px 32px rgba(24,29,38,.1); }
+.card-progress { position: absolute; top: 0; left: 22px; right: 22px; height: 3px; overflow: hidden; background: #eef0f3; border-radius: 0 0 999px 999px; }
+.card-progress span { display: block; height: 100%; background: linear-gradient(90deg, #ff5c72, #ff8a74); border-radius: inherit; transition: width .25s ease; }
+.card-top { flex: 0 0 auto; display: flex; justify-content: space-between; color: #a1a5ad; font-size: 9px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+.freshness { display: flex; align-items: center; gap: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.freshness i { width: 5px; height: 5px; flex: 0 0 auto; background: var(--yes); border-radius: 50%; box-shadow: 0 0 0 3px rgba(24,201,133,.1); }
+.company-banner { flex: 0 0 auto; margin-top: 14px; padding: 13px 14px 12px; color: var(--company-ink); background: var(--company-bg); border-radius: 16px; }
 .company-banner>span { display: block; margin-bottom: 5px; font-size: 7px; font-weight: 850; letter-spacing: .13em; opacity: .62; }
 .company-banner>strong { display: block; overflow: hidden; font-size: clamp(19px, 5vw, 25px); line-height: 1.02; font-weight: 850; letter-spacing: -.045em; text-overflow: ellipsis; white-space: nowrap; }
 .company-banner>small { display: block; margin-top: 7px; font-size: 9px; font-weight: 650; opacity: .72; }
 .saved-copy p { margin: 0 0 3px; font-size: 13px; font-weight: 750; }
 .saved-copy span { color: var(--muted); font-size: 10px; }
-.job-card h1 { display: -webkit-box; margin: 15px 0 12px; overflow: hidden; font-size: clamp(31px, 7vw, 42px); line-height: .98; font-weight: 790; letter-spacing: -.06em; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
-.salary { margin-bottom: 14px; padding: 11px 13px 12px; background: #f0f2ff; border: 1px solid #e3e6ff; border-radius: 14px; }
-.salary small { display: block; margin-bottom: 4px; color: #6e75a1; font-size: 7px; font-weight: 800; letter-spacing: .1em; }
-.salary strong { display: block; color: #303b88; font-size: clamp(20px, 5.5vw, 27px); line-height: 1; letter-spacing: -.045em; }
+.job-card h1 { flex: 0 0 auto; display: -webkit-box; margin: 15px 0 12px; overflow: hidden; font-size: clamp(31px, 7vw, 42px); line-height: .98; font-weight: 790; letter-spacing: -.06em; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.job-card h1.job-title-medium { font-size: clamp(29px, 6.5vw, 38px); }
+.job-card h1.job-title-long { font-size: clamp(26px, 5.8vw, 34px); line-height: 1; -webkit-line-clamp: 4; }
+.salary { flex: 0 0 auto; margin-bottom: 14px; padding: 11px 13px 12px; background: #f0f2ff; border: 1px solid #e3e6ff; border-radius: 14px; }
+.salary small { display: block; margin-bottom: 5px; color: #6e75a1; font-size: 7px; font-weight: 800; letter-spacing: .12em; }
+.salary>div { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
+.salary strong { min-width: 0; color: #303b88; font-size: clamp(22px, 5.5vw, 28px); line-height: 1; letter-spacing: -.045em; white-space: nowrap; }
+.salary span { color: #747ba8; font-size: 9px; font-weight: 750; white-space: nowrap; }
 
-.job-visual { min-height: 215px; display: flex; flex-direction: column; justify-content: space-between; padding: 16px; overflow: hidden; color: white; background: radial-gradient(circle at 88% 10%, rgba(83,109,254,.8), transparent 33%), linear-gradient(145deg, #17202b, #293548); border-radius: 18px; box-shadow: inset 0 1px rgba(255,255,255,.08); }
+.job-visual { position: relative; min-height: 0; flex: 1 1 auto; display: flex; flex-direction: column; padding: 16px; overflow: hidden; color: white; background: radial-gradient(circle at 88% 10%, rgba(83,109,254,.8), transparent 33%), linear-gradient(145deg, #17202b, #293548); border-radius: 18px; box-shadow: inset 0 1px rgba(255,255,255,.08); }
+.job-visual::after { content: ""; position: absolute; inset: auto 0 0; height: 104px; pointer-events: none; background: linear-gradient(to bottom, transparent, rgba(10,15,23,.42)); }
 .visual-top { display: flex; justify-content: space-between; gap: 12px; color: #b9c0cc; font-size: 8px; font-weight: 750; letter-spacing: .09em; }
 .visual-top span:last-child { color: #aebaff; }
-.job-visual p { margin: 28px 0 20px; font-size: clamp(19px, 4.6vw, 25px); line-height: 1.16; font-weight: 650; letter-spacing: -.035em; }
-.skill-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.job-visual p { display: -webkit-box; margin: clamp(18px, 3vh, 28px) 0 16px; overflow: hidden; font-size: clamp(19px, 4.6vw, 25px); line-height: 1.16; font-weight: 650; letter-spacing: -.035em; -webkit-box-orient: vertical; -webkit-line-clamp: 5; }
+.skill-row { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-bottom: 48px; }
 .skill-row span { padding: 6px 8px; color: #dce1e9; background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.12); border-radius: 999px; font-size: 8px; font-weight: 650; }
-.details { width: 100%; min-height: 43px; display: flex; align-items: center; justify-content: space-between; padding: 0 2px; border: 0; background: transparent; color: #454a53; font-size: 11px; font-weight: 700; }
-.details b { font-size: 18px; font-weight: 400; }
-.expanded { padding: 2px 2px 14px; border-top: 1px solid var(--line); }
-.expanded p { margin: 12px 0; color: #60656e; font-size: 12px; line-height: 1.45; }
-.expanded a { color: var(--blue); font-size: 11px; font-weight: 750; text-decoration: none; }
 
-.decision-dock { position: absolute; z-index: 6; left: 14px; right: 14px; bottom: 22px; display: flex; align-items: flex-end; justify-content: center; gap: 30px; padding: 0 18px; pointer-events: none; }
+.decision-dock { position: absolute; z-index: 6; left: 14px; right: 14px; bottom: 30px; display: flex; align-items: flex-end; justify-content: center; gap: 30px; padding: 0 18px; pointer-events: none; }
 .decision-dock button, .decision-dock a { -webkit-tap-highlight-color: transparent; transition: transform .15s ease, box-shadow .15s ease; }
 .decision-dock button, .decision-dock a { pointer-events: auto; }
 .decision-dock button:active, .decision-dock a:active { transform: scale(.94); }
@@ -106,16 +110,20 @@ button { cursor: pointer; }
   .phone-app { width: 100%; height: 100svh; min-height: 600px; max-height: none; border: 0; border-radius: 0; box-shadow: none; }
   .appbar { padding-top: env(safe-area-inset-top); height: calc(66px + env(safe-area-inset-top)); flex-basis: calc(66px + env(safe-area-inset-top)); }
   .deck-screen { grid-template-rows: 38px minmax(0,1fr); }
-  .decision-dock { bottom: calc(22px + env(safe-area-inset-bottom)); }
+  .decision-dock { bottom: calc(30px + env(safe-area-inset-bottom)); }
   .job-card h1 { font-size: clamp(29px, 9vw, 39px); }
-  .job-visual { min-height: 205px; }
+  .job-card h1.job-title-medium { font-size: clamp(27px, 7.8vw, 35px); }
+  .job-card h1.job-title-long { font-size: clamp(24px, 6.8vw, 31px); }
 }
 
 @media (max-height: 720px) {
   .phone-app { min-height: 600px; }
   .deck-screen { grid-template-rows: 34px minmax(0,1fr); }
-  .decision-dock { bottom: 18px; }
+  .decision-dock { bottom: 24px; }
   .decision { width: 62px; height: 62px; }
-  .job-visual { min-height: 180px; }
   .job-card h1 { margin-block: 11px 9px; font-size: 30px; }
+  .job-card h1.job-title-medium { font-size: 27px; }
+  .job-card h1.job-title-long { font-size: 24px; }
+  .salary { margin-bottom: 10px; }
+  .company-banner { margin-top: 10px; }
 }
