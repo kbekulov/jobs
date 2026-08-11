@@ -19,6 +19,20 @@ type Job = {
   accent: string;
 };
 
+const companyPalettes = [
+  ["#d8ff72", "#253500"],
+  ["#dcd5ff", "#342768"],
+  ["#bdeedc", "#123e31"],
+  ["#ffd5c9", "#672a1b"],
+  ["#cbe6ff", "#173f68"],
+  ["#ffe3a7", "#543800"],
+];
+
+function companyStyle(company: string) {
+  const index = [...company].reduce((total, character) => total + character.charCodeAt(0), 0) % companyPalettes.length;
+  return { "--company-bg": companyPalettes[index][0], "--company-ink": companyPalettes[index][1] } as React.CSSProperties;
+}
+
 const legacyJobs: Job[] = [
   {
     id: "ignitis-rpa-2026-08",
@@ -209,12 +223,13 @@ export default function Home() {
                 <div className="card-ghost card-ghost-one" aria-hidden="true" />
                 <article className="job-card">
                   <div className="card-top"><span>1 / {discoverCount}</span><span>{current.posted}</span></div>
-                  <div className="identity">
-                    <div className="company-avatar">{current.company.charAt(0)}</div>
-                    <div><p>{current.company}</p><span>{current.location} · {current.mode}</span></div>
+                  <div className="company-banner" style={companyStyle(current.company)}>
+                    <span>COMPANY</span>
+                    <strong>{current.company}</strong>
+                    <small>{current.location} · {current.mode}</small>
                   </div>
                   <h1>{current.title}</h1>
-                  <div className="salary"><strong>{current.salary}</strong><small>MONTHLY GROSS</small></div>
+                  <div className="salary"><small>SALARY · MONTHLY GROSS</small><strong>{current.salary}</strong></div>
 
                   <div className="job-visual">
                     <div className="visual-top"><span>THEY&apos;RE LOOKING FOR</span><span>{current.tags[0]}</span></div>
@@ -238,7 +253,7 @@ export default function Home() {
           ) : (
             <div className="folder-screen">
               <div className="folder-heading"><button onClick={() => setTab("Discover")} aria-label="Back to deck">‹</button><div><span>{tab === "Apply" ? "YOUR PICKS" : "PASSED JOBS"}</span><h1>{tab}</h1></div><b>{visible.length}</b></div>
-              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="company-avatar">{job.company.charAt(0)}</div><div className="saved-copy"><p>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} · {job.mode}</span></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
+              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} · {job.mode}</span></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
             </div>
           )}
         </section>
