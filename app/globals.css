@@ -52,9 +52,9 @@ button { cursor: pointer; }
 .company-banner>small { display: block; margin-top: 7px; font-size: 9px; font-weight: 650; opacity: .72; }
 .saved-copy p { margin: 0 0 3px; font-size: 13px; font-weight: 750; }
 .saved-copy span { color: var(--muted); font-size: 10px; }
-.job-card h1 { flex: 0 0 auto; display: -webkit-box; margin: 15px 0 12px; overflow: hidden; font-size: clamp(31px, 7vw, 42px); line-height: .98; font-weight: 790; letter-spacing: -.06em; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.job-card h1 { flex: 0 0 auto; margin: 15px 0 12px; font-size: clamp(31px, 7vw, 42px); line-height: .98; font-weight: 790; letter-spacing: -.06em; text-wrap: balance; }
 .job-card h1.job-title-medium { font-size: clamp(29px, 6.5vw, 38px); }
-.job-card h1.job-title-long { font-size: clamp(26px, 5.8vw, 34px); line-height: 1; -webkit-line-clamp: 4; }
+.job-card h1.job-title-long { font-size: clamp(26px, 5.8vw, 34px); line-height: 1; }
 .salary { flex: 0 0 auto; margin-bottom: 14px; padding: 11px 13px 12px; background: #f0f2ff; border: 1px solid #e3e6ff; border-radius: 14px; }
 .salary small { display: block; margin-bottom: 5px; color: #6e75a1; font-size: 7px; font-weight: 800; letter-spacing: .12em; }
 .salary>div { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
@@ -69,7 +69,7 @@ button { cursor: pointer; }
 .skill-row { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-bottom: 48px; }
 .skill-row span { padding: 6px 8px; color: #dce1e9; background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.12); border-radius: 999px; font-size: 8px; font-weight: 650; }
 
-.decision-dock { position: absolute; z-index: 6; left: 14px; right: 14px; bottom: 30px; display: flex; align-items: flex-end; justify-content: center; gap: 30px; padding: 0 18px; pointer-events: none; }
+.decision-dock { position: absolute; z-index: 6; left: 14px; right: 14px; bottom: 38px; display: flex; align-items: flex-end; justify-content: center; gap: 30px; padding: 0 18px; pointer-events: none; }
 .decision-dock button, .decision-dock a { -webkit-tap-highlight-color: transparent; transition: transform .15s ease, box-shadow .15s ease; }
 .decision-dock button, .decision-dock a { pointer-events: auto; }
 .decision-dock button:active, .decision-dock a:active { transform: scale(.94); }
@@ -110,7 +110,7 @@ button { cursor: pointer; }
   .phone-app { width: 100%; height: 100svh; min-height: 600px; max-height: none; border: 0; border-radius: 0; box-shadow: none; }
   .appbar { padding-top: env(safe-area-inset-top); height: calc(66px + env(safe-area-inset-top)); flex-basis: calc(66px + env(safe-area-inset-top)); }
   .deck-screen { grid-template-rows: 38px minmax(0,1fr); }
-  .decision-dock { bottom: calc(30px + env(safe-area-inset-bottom)); }
+  .decision-dock { bottom: calc(38px + env(safe-area-inset-bottom)); }
   .job-card h1 { font-size: clamp(29px, 9vw, 39px); }
   .job-card h1.job-title-medium { font-size: clamp(27px, 7.8vw, 35px); }
   .job-card h1.job-title-long { font-size: clamp(24px, 6.8vw, 31px); }
@@ -119,7 +119,7 @@ button { cursor: pointer; }
 @media (max-height: 720px) {
   .phone-app { min-height: 600px; }
   .deck-screen { grid-template-rows: 34px minmax(0,1fr); }
-  .decision-dock { bottom: 24px; }
+  .decision-dock { bottom: 30px; }
   .decision { width: 62px; height: 62px; }
   .job-card h1 { margin-block: 11px 9px; font-size: 30px; }
   .job-card h1.job-title-medium { font-size: 27px; }

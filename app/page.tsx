@@ -44,6 +44,11 @@ function freshnessLabel(posted: string) {
   return /current official vacancy|recently verified/i.test(posted) ? "Verified" : posted;
 }
 
+function displayTitle(title: string) {
+  const translatedSuffix = title.match(/^(.*)\s+\(([A-Za-z][A-Za-z0-9 /&+.-]{8,})\)$/);
+  return (translatedSuffix?.[1] ?? title).replace(/\(-/g, "(‑");
+}
+
 function titleClass(title: string) {
   if (title.length > 72) return "job-title job-title-long";
   if (title.length > 48) return "job-title job-title-medium";
@@ -211,6 +216,7 @@ export default function Home() {
   const reviewedCount = jobs.length - discoverCount;
   const currentNumber = Math.min(reviewedCount + 1, jobs.length);
   const salary = current ? salaryParts(current.salary) : null;
+  const cardTitle = current ? displayTitle(current.title) : "";
 
   return (
     <main className="app-canvas">
@@ -247,7 +253,7 @@ export default function Home() {
                     <strong>{current.company}</strong>
                     <small>{current.location} · {current.mode}</small>
                   </div>
-                  <h1 className={titleClass(current.title)}>{current.title}</h1>
+                  <h1 className={titleClass(cardTitle)} title={current.title}>{cardTitle}</h1>
                   <div className="salary"><small>SALARY</small><div><strong>{salary?.amount}</strong>{salary?.cadence && <span>{salary.cadence}</span>}</div></div>
 
                   <div className="job-visual">
