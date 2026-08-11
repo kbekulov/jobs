@@ -306,7 +306,7 @@ export default function Home() {
               <div className="deck">
                 <div className="card-ghost card-ghost-two" aria-hidden="true" />
                 <div className="card-ghost card-ghost-one" aria-hidden="true" />
-                <article className="job-card">
+                <article className="job-card" key={current.id}>
                   <div className="card-progress" aria-hidden="true"><span style={{ width: `${(currentNumber / jobs.length) * 100}%` }} /></div>
                   <div className="card-top"><span>{currentNumber} / {jobs.length}</span><span className="freshness"><i />{freshnessLabel(current.posted)}</span></div>
                   <div className="company-banner" style={companyStyle(current.company)}>

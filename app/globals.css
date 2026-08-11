@@ -11,6 +11,12 @@
   --blue: #536dfe;
 }
 
+@property --card-border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: -55deg;
+}
+
 * { box-sizing: border-box; }
 html, body { width: 100%; height: 100%; overflow: hidden; }
 body { margin: 0; color: var(--ink); background: #e7e9ed; font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
@@ -40,7 +46,14 @@ button { cursor: pointer; }
 .card-ghost { position: absolute; left: 27px; right: 27px; top: 9px; bottom: 2px; border: 1px solid #dfe2e6; border-radius: 25px; background: #fff; }
 .card-ghost-one { transform: translateY(-5px) scale(.975); opacity: .72; }
 .card-ghost-two { transform: translateY(-10px) scale(.945); opacity: .42; }
-.job-card { position: relative; z-index: 2; height: 100%; min-height: 0; overflow: hidden; display: flex; flex-direction: column; padding: 17px; background: var(--surface); border: 1px solid #dfe2e6; border-radius: 25px; box-shadow: 0 13px 32px rgba(24,29,38,.1); }
+.job-card { position: relative; z-index: 2; isolation: isolate; height: 100%; min-height: 0; overflow: hidden; display: flex; flex-direction: column; padding: 17px; background: var(--surface); border: 1px solid #dfe2e6; border-radius: 25px; box-shadow: 0 13px 32px rgba(24,29,38,.1); }
+.job-card::before { content: ""; position: absolute; z-index: 9; inset: -1px; padding: 2px; pointer-events: none; border-radius: inherit; background: conic-gradient(from var(--card-border-angle), transparent 0deg 225deg, rgba(255,92,114,.12) 247deg, #ff6674 277deg, #7c8cff 310deg, rgba(24,201,133,.72) 338deg, transparent 360deg); opacity: 0; -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); mask-composite: exclude; animation: card-border-arrival 1.65s cubic-bezier(.2,.72,.22,1) both; }
+@keyframes card-border-arrival {
+  0% { --card-border-angle: -55deg; opacity: 0; }
+  12% { opacity: .95; }
+  72% { opacity: .78; }
+  100% { --card-border-angle: 305deg; opacity: 0; }
+}
 .card-progress { position: absolute; top: 0; left: 22px; right: 22px; height: 3px; overflow: hidden; background: #eef0f3; border-radius: 0 0 999px 999px; }
 .card-progress span { display: block; height: 100%; background: linear-gradient(90deg, #ff5c72, #ff8a74); border-radius: inherit; transition: width .25s ease; }
 .card-top { flex: 0 0 auto; display: flex; justify-content: space-between; color: #a1a5ad; font-size: 9px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
@@ -117,6 +130,10 @@ button { cursor: pointer; }
 .secondary { margin-top: 20px; padding: 11px 16px; border: 0; border-radius: 999px; color: white; background: var(--ink); font-size: 11px; font-weight: 700; }
 .spinner { width: 24px; height: 24px; margin-bottom: 14px; border: 2px solid #d7dae0; border-top-color: var(--blue); border-radius: 50%; animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .job-card::before { animation: none; opacity: 0; }
+}
 
 @media (max-width: 520px) {
   .app-canvas { display: block; padding: 0; }
