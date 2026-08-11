@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import vacancyData from "../data/vacancies.json";
 
 type Decision = "apply" | "trash";
 type Job = {
@@ -18,7 +19,7 @@ type Job = {
   accent: string;
 };
 
-const jobs: Job[] = [
+const legacyJobs: Job[] = [
   {
     id: "ignitis-rpa-2026-08",
     title: "RPA Developer",
@@ -104,6 +105,24 @@ const jobs: Job[] = [
     accent: "#c69231",
   },
 ];
+
+const legacyById = new Map(legacyJobs.map((job) => [job.id, job]));
+const jobs: Job[] = vacancyData
+  .filter((job) => job.status !== "Closed/Expired/No longer accepting applications")
+  .map((job) => ({
+    id: job.id,
+    title: job.title,
+    company: job.company,
+    salary: legacyById.get(job.id)?.salary ?? "Salary not disclosed",
+    location: job.location.replace(", Lithuania", ""),
+    mode: job.workMode === "unknown" ? "Mode unknown" : job.workMode.charAt(0).toUpperCase() + job.workMode.slice(1),
+    posted: job.postingAgeText ?? "Recently verified",
+    summary: job.matchSummary,
+    requirements: job.requirements,
+    tags: job.technologies.slice(0, 3),
+    url: job.directUrl ?? job.supportingSourceUrl ?? "#",
+    accent: "#c8ff19",
+  }));
 
 const tabs = ["Discover", "Apply", "Trash"] as const;
 type Tab = (typeof tabs)[number];

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run Job Search"
+  short_description: "Research and refresh Lithuania automation jobs"
+  default_prompt: "Use $run-job-search to research, verify, merge, and publish the latest Lithuania-relevant automation vacancies."
