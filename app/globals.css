@@ -52,11 +52,14 @@ button { cursor: pointer; }
 .company-banner>small { display: block; margin-top: 7px; font-size: 9px; font-weight: 650; opacity: .72; }
 .saved-copy p { margin: 0 0 3px; font-size: 13px; font-weight: 750; }
 .saved-copy span { color: var(--muted); font-size: 10px; }
+.saved-copy time { display: block; margin-top: 6px; color: #9a9ea7; font-size: 9px; font-weight: 600; }
 .job-card h1 { flex: 0 0 auto; margin: 15px 0 12px; font-size: clamp(31px, 7vw, 42px); line-height: .98; font-weight: 790; letter-spacing: -.06em; text-wrap: balance; }
 .job-card h1.job-title-medium { font-size: clamp(29px, 6.5vw, 38px); }
 .job-card h1.job-title-long { font-size: clamp(26px, 5.8vw, 34px); line-height: 1; }
 .salary { flex: 0 0 auto; margin-bottom: 14px; padding: 11px 13px 12px; background: #f0f2ff; border: 1px solid #e3e6ff; border-radius: 14px; }
-.salary small { display: block; margin-bottom: 5px; color: #6e75a1; font-size: 7px; font-weight: 800; letter-spacing: .12em; }
+.salary-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 5px; color: #6e75a1; }
+.salary-meta small, .salary-meta time { font-size: 7px; font-weight: 800; letter-spacing: .1em; }
+.salary-meta time { opacity: .72; white-space: nowrap; }
 .salary>div { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
 .salary strong { min-width: 0; color: #303b88; font-size: clamp(22px, 5.5vw, 28px); line-height: 1; letter-spacing: -.045em; white-space: nowrap; }
 .salary span { color: #747ba8; font-size: 9px; font-weight: 750; white-space: nowrap; }
@@ -87,6 +90,10 @@ button { cursor: pointer; }
 .folder-heading span { color: var(--muted); font-size: 8px; font-weight: 750; letter-spacing: .1em; }
 .folder-heading h1 { margin: 2px 0 0; font-size: 29px; line-height: 1; letter-spacing: -.055em; }
 .folder-heading>b { min-width: 30px; height: 30px; display: grid; place-items: center; background: white; border-radius: 50%; font-size: 11px; }
+.archive-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 14px 11px; padding: 8px 8px 8px 12px; background: rgba(255,255,255,.72); border: 1px solid var(--line); border-radius: 14px; }
+.archive-toolbar label { color: var(--muted); font-size: 9px; font-weight: 750; letter-spacing: .04em; text-transform: uppercase; }
+.archive-toolbar select { max-width: 165px; padding: 8px 28px 8px 11px; border: 0; border-radius: 10px; outline: none; color: var(--ink); background: #eef0f3; font-size: 10px; font-weight: 750; }
+.archive-toolbar select:focus-visible { box-shadow: 0 0 0 2px var(--blue); }
 .saved-list { min-height: 0; overflow-y: auto; padding: 0 14px 18px; }
 .saved-card { display: grid; grid-template-columns: 1fr auto; gap: 11px; align-items: start; margin-bottom: 9px; padding: 14px; background: white; border: 1px solid var(--line); border-radius: 18px; }
 .saved-copy { min-width: 0; }

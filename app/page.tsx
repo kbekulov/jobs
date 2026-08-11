@@ -17,7 +17,10 @@ type Job = {
   tags: string[];
   url: string;
   accent: string;
+  addedAt: string;
 };
+
+type ArchiveSort = "date-desc" | "date-asc" | "salary-desc" | "salary-asc";
 
 const companyPalettes = [
   ["#d8ff72", "#253500"],
@@ -40,6 +43,34 @@ function salaryParts(salary: string) {
     : { amount: salary, cadence: null };
 }
 
+function salaryValue(salary: string) {
+  if (/not disclosed/i.test(salary)) return null;
+  const values = [...salary.matchAll(/[\d][\d,.]*/g)]
+    .map(([value]) => Number(value.replace(/,/g, "")))
+    .filter(Number.isFinite);
+  if (!values.length) return null;
+  const amount = Math.max(...values);
+  return /year/i.test(salary) ? amount / 12 : amount;
+}
+
+function addedLabel(addedAt: string) {
+  return new Intl.DateTimeFormat("en-GB", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    timeZone: "Europe/Vilnius",
+  }).format(new Date(addedAt));
+}
+
+function addedCompactLabel(addedAt: string) {
+  return new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZone: "Europe/Vilnius",
+  }).format(new Date(addedAt));
+}
+
 function freshnessLabel(posted: string) {
   return /current official vacancy|recently verified/i.test(posted) ? "Verified" : posted;
 }
@@ -55,7 +86,7 @@ function titleClass(title: string) {
   return "job-title";
 }
 
-const legacyJobs: Job[] = [
+const legacyJobs: Omit<Job, "addedAt">[] = [
   {
     id: "ignitis-rpa-2026-08",
     title: "RPA Developer",
@@ -158,6 +189,7 @@ const jobs: Job[] = vacancyData
     tags: job.technologies.slice(0, 3),
     url: job.directUrl ?? job.supportingSourceUrl ?? "#",
     accent: "#c8ff19",
+    addedAt: job.firstSeenAt,
   }));
 
 type Tab = "Discover" | "Apply" | "Trash";
@@ -167,6 +199,7 @@ export default function Home() {
   const [decisions, setDecisions] = useState<Record<string, Decision>>({});
   const [ready, setReady] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
+  const [archiveSort, setArchiveSort] = useState<ArchiveSort>("date-desc");
 
   useEffect(() => {
     fetch("/api/decisions")
@@ -181,8 +214,21 @@ export default function Home() {
   const visible = useMemo(() => {
     if (tab === "Discover") return jobs.filter((job) => !decisions[job.id]);
     const wanted: Decision = tab === "Apply" ? "apply" : "trash";
-    return jobs.filter((job) => decisions[job.id] === wanted);
-  }, [tab, decisions]);
+    return jobs
+      .filter((job) => decisions[job.id] === wanted)
+      .sort((a, b) => {
+        if (archiveSort.startsWith("date")) {
+          const difference = new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime();
+          return archiveSort === "date-desc" ? difference : -difference;
+        }
+        const aSalary = salaryValue(a.salary);
+        const bSalary = salaryValue(b.salary);
+        if (aSalary === null && bSalary === null) return 0;
+        if (aSalary === null) return 1;
+        if (bSalary === null) return -1;
+        return archiveSort === "salary-desc" ? bSalary - aSalary : aSalary - bSalary;
+      });
+  }, [tab, decisions, archiveSort]);
 
   const decide = async (jobId: string, decision: Decision) => {
     const previous = decisions[jobId];
@@ -265,7 +311,7 @@ export default function Home() {
                     <small>{current.location} · {current.mode}</small>
                   </div>
                   <h1 className={titleClass(cardTitle)} title={current.title}>{cardTitle}</h1>
-                  <div className="salary"><small>SALARY</small><div><strong>{salary?.amount}</strong>{salary?.cadence && <span>{salary.cadence}</span>}</div></div>
+                  <div className="salary"><div className="salary-meta"><small>SALARY</small><time dateTime={current.addedAt}>ADDED {addedCompactLabel(current.addedAt)}</time></div><div><strong>{salary?.amount}</strong>{salary?.cadence && <span>{salary.cadence}</span>}</div></div>
 
                   <div className="job-visual">
                     <div className="visual-top"><span>THEY&apos;RE LOOKING FOR</span><span>{current.tags[0]}</span></div>
@@ -283,7 +329,16 @@ export default function Home() {
           ) : (
             <div className="folder-screen">
               <div className="folder-heading"><button onClick={() => setTab("Discover")} aria-label="Back to deck">‹</button><div><span>{tab === "Apply" ? "YOUR PICKS" : "PASSED JOBS"}</span><h1>{tab}</h1></div><b>{visible.length}</b></div>
-              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} · {job.mode}</span></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
+              <div className="archive-toolbar">
+                <label htmlFor="archive-sort">Sort archive</label>
+                <select id="archive-sort" value={archiveSort} onChange={(event) => setArchiveSort(event.target.value as ArchiveSort)}>
+                  <option value="date-desc">Newest added</option>
+                  <option value="date-asc">Oldest added</option>
+                  <option value="salary-desc">Highest salary</option>
+                  <option value="salary-asc">Lowest salary</option>
+                </select>
+              </div>
+              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} · {job.mode}</span><time dateTime={job.addedAt}>Added {addedLabel(job.addedAt)}</time></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
             </div>
           )}
         </section>
