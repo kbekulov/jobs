@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import vacancyData from "../data/vacancies.json";
 
 type Decision = "apply" | "trash";
+type UserId = "kiril" | "wren";
 type Job = {
   id: string;
   title: string;
@@ -194,22 +195,39 @@ const jobs: Job[] = vacancyData
 
 type Tab = "Discover" | "Apply" | "Trash";
 
+const users: { id: UserId; name: string; color: string }[] = [
+  { id: "kiril", name: "Kiril", color: "#ff5c72" },
+  { id: "wren", name: "Wren", color: "#7a6cf6" },
+];
+
 export default function Home() {
   const [tab, setTab] = useState<Tab>("Discover");
+  const [userId, setUserId] = useState<UserId>("kiril");
   const [decisions, setDecisions] = useState<Record<string, Decision>>({});
   const [ready, setReady] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [archiveSort, setArchiveSort] = useState<ArchiveSort>("date-desc");
+  const activeUserRef = useRef<UserId>("kiril");
 
   useEffect(() => {
-    fetch("/api/decisions")
+    const controller = new AbortController();
+    fetch(`/api/decisions?userId=${userId}`, { signal: controller.signal })
       .then((response) => response.ok ? response.json() : Promise.reject())
       .then((data: { decisions: { jobId: string; decision: Decision }[] }) => {
         setDecisions(Object.fromEntries(data.decisions.map((item) => [item.jobId, item.decision])));
       })
       .catch(() => undefined)
-      .finally(() => setReady(true));
-  }, []);
+      .finally(() => { if (!controller.signal.aborted) setReady(true); });
+    return () => controller.abort();
+  }, [userId]);
+
+  const switchUser = (nextUser: UserId) => {
+    activeUserRef.current = nextUser;
+    setReady(false);
+    setDecisions({});
+    setTab("Discover");
+    setUserId(nextUser);
+  };
 
   const visible = useMemo(() => {
     if (tab === "Discover") return jobs.filter((job) => !decisions[job.id]);
@@ -235,16 +253,18 @@ export default function Home() {
   }, [tab, decisions, archiveSort]);
 
   const decide = async (jobId: string, decision: Decision) => {
+    const actingUser = userId;
     const previous = decisions[jobId];
     setDecisions((current) => ({ ...current, [jobId]: decision }));
     try {
       const response = await fetch("/api/decisions", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ jobId, decision }),
+        body: JSON.stringify({ userId: actingUser, jobId, decision }),
       });
       if (!response.ok) throw new Error("Could not save");
     } catch {
+      if (activeUserRef.current !== actingUser) return;
       setDecisions((current) => {
         const next = { ...current };
         if (previous) next[jobId] = previous;
@@ -256,7 +276,7 @@ export default function Home() {
 
   const reset = async (jobId: string) => {
     setDecisions((current) => { const next = { ...current }; delete next[jobId]; return next; });
-    await fetch(`/api/decisions?jobId=${encodeURIComponent(jobId)}`, { method: "DELETE" });
+    await fetch(`/api/decisions?userId=${userId}&jobId=${encodeURIComponent(jobId)}`, { method: "DELETE" });
   };
 
   const refreshJobs = () => {
@@ -281,6 +301,12 @@ export default function Home() {
           <button className="brand" onClick={() => setTab("Discover")} aria-label="Open job deck">
             <span className="brand-icon">J</span><span>jobflow</span>
           </button>
+          <label className="user-switcher" style={{ "--user-color": users.find((user) => user.id === userId)?.color } as React.CSSProperties}>
+            <span aria-hidden="true">{userId === "kiril" ? "K" : "W"}</span>
+            <select value={userId} onChange={(event) => switchUser(event.target.value as UserId)} aria-label="Switch user">
+              {users.map((user) => <option value={user.id} key={user.id}>{user.name}</option>)}
+            </select>
+          </label>
           <nav className="folder-nav" aria-label="Job folders">
             <button className={tab === "Trash" ? "active" : ""} onClick={() => setTab("Trash")} aria-label={`Trash, ${trashCount} jobs`}><span>×</span><b>{trashCount}</b></button>
             <button className={tab === "Apply" ? "active" : ""} onClick={() => setTab("Apply")} aria-label={`Apply, ${applyCount} jobs`}><span>♥</span><b>{applyCount}</b></button>

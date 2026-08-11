@@ -29,6 +29,11 @@ button { cursor: pointer; }
 .appbar { height: 72px; flex: 0 0 72px; display: flex; align-items: center; justify-content: space-between; padding: 0 18px; background: rgba(255,255,255,.92); border-bottom: 1px solid var(--line); }
 .brand { display: flex; align-items: center; gap: 9px; padding: 0; border: 0; background: transparent; color: var(--ink); font-size: 20px; font-weight: 800; letter-spacing: -.045em; }
 .brand-icon { width: 32px; height: 32px; display: grid; place-items: center; color: white; background: linear-gradient(145deg, #ff6a72, #ff3d62); border-radius: 10px; font-size: 16px; font-weight: 900; box-shadow: 0 7px 15px rgba(255,79,104,.25); }
+.user-switcher { --user-color: #ff5c72; position: relative; display: flex; align-items: center; gap: 6px; min-width: 92px; height: 36px; padding: 4px 9px 4px 5px; background: #f1f2f4; border: 1px solid rgba(23,25,29,.05); border-radius: 999px; }
+.user-switcher>span { width: 26px; height: 26px; flex: 0 0 auto; display: grid; place-items: center; color: white; background: var(--user-color); border-radius: 50%; font-size: 10px; font-weight: 850; box-shadow: 0 3px 8px color-mix(in srgb, var(--user-color) 30%, transparent); }
+.user-switcher select { width: 50px; padding: 0 11px 0 0; appearance: none; border: 0; outline: 0; color: var(--ink); background: transparent; font-size: 10px; font-weight: 750; cursor: pointer; }
+.user-switcher::after { content: "⌄"; position: absolute; right: 8px; top: 8px; color: #8d929b; font-size: 10px; pointer-events: none; }
+.user-switcher:focus-within { box-shadow: 0 0 0 2px color-mix(in srgb, var(--user-color) 40%, transparent); }
 .folder-nav { display: flex; align-items: center; gap: 6px; }
 .folder-nav button { min-width: 46px; height: 38px; display: flex; align-items: center; justify-content: center; gap: 5px; padding: 0 9px; border: 0; border-radius: 13px; background: transparent; color: #a1a5ad; }
 .folder-nav button span { font-size: 20px; line-height: 1; }
@@ -139,6 +144,8 @@ button { cursor: pointer; }
   .app-canvas { display: block; padding: 0; }
   .phone-app { width: 100%; height: 100svh; min-height: 600px; max-height: none; border: 0; border-radius: 0; box-shadow: none; }
   .appbar { padding-top: env(safe-area-inset-top); height: calc(66px + env(safe-area-inset-top)); flex-basis: calc(66px + env(safe-area-inset-top)); }
+  .user-switcher { min-width: 84px; padding-right: 6px; }
+  .user-switcher select { width: 45px; font-size: 9px; }
   .deck-screen { grid-template-rows: 38px minmax(0,1fr); }
   .job-card h1 { font-size: clamp(29px, 9vw, 39px); }
   .job-card h1.job-title-medium { font-size: clamp(27px, 7.8vw, 35px); }
