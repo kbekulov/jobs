@@ -5,6 +5,7 @@ import vacancyData from "../data/vacancies.json";
 
 type Decision = "apply" | "trash";
 type UserId = "kiril" | "wren";
+type RoleFocus = "developer" | "manager" | "analyst";
 type Job = {
   id: string;
   title: string;
@@ -22,6 +23,19 @@ type Job = {
 };
 
 type ArchiveSort = "date-desc" | "date-asc" | "salary-desc" | "salary-asc" | "company-asc" | "company-desc";
+
+const roleFocuses: { id: RoleFocus; label: string }[] = [
+  { id: "developer", label: "Developer / Engineer" },
+  { id: "manager", label: "Manager / Lead" },
+  { id: "analyst", label: "Analyst" },
+];
+
+function roleFocus(job: Job): RoleFocus {
+  const title = job.title.toLowerCase();
+  if (/manager|lead|head|owner|director/.test(title)) return "manager";
+  if (/analyst|consultant|specialist|process expert/.test(title)) return "analyst";
+  return "developer";
+}
 
 const companyPalettes = [
   ["#d8ff72", "#253500"],
@@ -207,6 +221,7 @@ export default function Home() {
   const [ready, setReady] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [archiveSort, setArchiveSort] = useState<ArchiveSort>("date-desc");
+  const [focus, setFocus] = useState<RoleFocus>("developer");
   const activeUserRef = useRef<UserId>("kiril");
 
   useEffect(() => {
@@ -221,6 +236,16 @@ export default function Home() {
     return () => controller.abort();
   }, [userId]);
 
+  useEffect(() => {
+    const savedFocus = window.localStorage.getItem("jobflow-role-focus") as RoleFocus | null;
+    if (savedFocus && roleFocuses.some((item) => item.id === savedFocus)) setFocus(savedFocus);
+  }, []);
+
+  const switchFocus = (nextFocus: RoleFocus) => {
+    setFocus(nextFocus);
+    window.localStorage.setItem("jobflow-role-focus", nextFocus);
+  };
+
   const switchUser = (nextUser: UserId) => {
     activeUserRef.current = nextUser;
     setReady(false);
@@ -230,7 +255,7 @@ export default function Home() {
   };
 
   const visible = useMemo(() => {
-    if (tab === "Discover") return jobs.filter((job) => !decisions[job.id]);
+    if (tab === "Discover") return jobs.filter((job) => roleFocus(job) === focus && !decisions[job.id]);
     const wanted: Decision = tab === "Apply" ? "apply" : "trash";
     return jobs
       .filter((job) => decisions[job.id] === wanted)
@@ -250,7 +275,7 @@ export default function Home() {
         if (bSalary === null) return -1;
         return archiveSort === "salary-desc" ? bSalary - aSalary : aSalary - bSalary;
       });
-  }, [tab, decisions, archiveSort]);
+  }, [tab, decisions, archiveSort, focus]);
 
   const decide = async (jobId: string, decision: Decision) => {
     const actingUser = userId;
@@ -286,11 +311,12 @@ export default function Home() {
 
   const current = visible[0];
 
-  const discoverCount = jobs.filter((job) => !decisions[job.id]).length;
+  const focusedJobs = jobs.filter((job) => roleFocus(job) === focus);
+  const discoverCount = focusedJobs.filter((job) => !decisions[job.id]).length;
   const applyCount = jobs.filter((job) => decisions[job.id] === "apply").length;
   const trashCount = jobs.filter((job) => decisions[job.id] === "trash").length;
-  const reviewedCount = jobs.length - discoverCount;
-  const currentNumber = Math.min(reviewedCount + 1, jobs.length);
+  const reviewedCount = focusedJobs.length - discoverCount;
+  const currentNumber = Math.min(reviewedCount + 1, focusedJobs.length);
   const salary = current ? salaryParts(current.salary) : null;
   const cardTitle = current ? displayTitle(current.title) : "";
 
@@ -316,6 +342,9 @@ export default function Home() {
         <section className="app-content">
           {!ready ? <div className="empty"><div className="spinner" /><p>Finding your matches…</p></div> : !current ? (
             <div className="empty">
+              {tab === "Discover" && <div className="focus-switch focus-switch-empty" role="tablist" aria-label="Role focus">
+                {roleFocuses.map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
+              </div>}
               {tab === "Discover" ? (
                 <button className="refresh-jobs" onClick={refreshJobs} disabled={refreshing} aria-label="Refresh and check for new jobs">
                   <span className={refreshing ? "refresh-glyph spinning" : "refresh-glyph"}>↻</span>
@@ -328,15 +357,19 @@ export default function Home() {
             </div>
           ) : tab === "Discover" ? (
             <div className="deck-screen">
-              <div className="deck-meta"><span><i /> {discoverCount} jobs near you</span><b>Vilnius</b></div>
+              <div className="deck-controls">
+                <div className="focus-switch" role="tablist" aria-label="Role focus">
+                  {roleFocuses.map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
+                </div>
+                <div className="deck-meta"><span><i /> {discoverCount} matches</span><b>Vilnius</b></div>
+              </div>
               <div className="deck">
                 <div className="card-ghost card-ghost-two" aria-hidden="true" />
                 <div className="card-ghost card-ghost-one" aria-hidden="true" />
                 <article className="job-card" key={current.id}>
-                  <div className="card-progress" aria-hidden="true"><span style={{ width: `${(currentNumber / jobs.length) * 100}%` }} /></div>
-                  <div className="card-top"><span>{currentNumber} / {jobs.length}</span><span className="freshness"><i />{freshnessLabel(current.posted)}</span></div>
+                  <div className="card-progress" aria-hidden="true"><span style={{ width: `${(currentNumber / focusedJobs.length) * 100}%` }} /></div>
+                  <div className="card-top"><span>{currentNumber} / {focusedJobs.length}</span><span className="freshness"><i />{freshnessLabel(current.posted)}</span></div>
                   <div className="company-banner" style={companyStyle(current.company)}>
-                    <span>COMPANY</span>
                     <strong>{current.company}</strong>
                     <small>{current.location} · {current.mode}</small>
                   </div>

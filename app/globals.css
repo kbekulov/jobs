@@ -41,8 +41,15 @@ button { cursor: pointer; }
 .folder-nav button.active { color: var(--ink); background: #eef0f3; }
 
 .app-content { min-height: 0; flex: 1; }
-.deck-screen { position: relative; height: 100%; min-height: 0; display: grid; grid-template-rows: 42px minmax(0,1fr); }
+.deck-screen { position: relative; height: 100%; min-height: 0; display: grid; grid-template-rows: 70px minmax(0,1fr); }
+.deck-controls { min-height: 0; padding: 7px 14px 3px; }
+.focus-switch { display: grid; grid-template-columns: 1.35fr 1.15fr .7fr; gap: 3px; padding: 3px; background: #e9ebef; border-radius: 12px; }
+.focus-switch button { min-width: 0; height: 26px; overflow: hidden; padding: 0 5px; border: 0; border-radius: 9px; color: #7d828c; background: transparent; font-size: 8px; font-weight: 750; letter-spacing: -.01em; text-overflow: ellipsis; white-space: nowrap; transition: color .16s ease, background .16s ease, box-shadow .16s ease; }
+.focus-switch button.active { color: var(--ink); background: white; box-shadow: 0 2px 7px rgba(23,25,29,.08); }
+.focus-switch button:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+.focus-switch-empty { position: absolute; top: 14px; left: 14px; right: 14px; }
 .deck-meta { display: flex; align-items: center; justify-content: space-between; padding: 0 20px; color: var(--muted); font-size: 11px; font-weight: 650; }
+.deck-controls .deck-meta { height: 28px; padding: 0 6px; font-size: 9px; }
 .deck-meta span { display: flex; align-items: center; gap: 7px; }
 .deck-meta i { width: 7px; height: 7px; background: var(--yes); border-radius: 50%; box-shadow: 0 0 0 4px rgba(24,201,133,.1); }
 .deck-meta b { color: var(--ink); font-size: 11px; }
@@ -66,7 +73,6 @@ button { cursor: pointer; }
 .freshness { display: flex; align-items: center; gap: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .freshness i { width: 5px; height: 5px; flex: 0 0 auto; background: var(--yes); border-radius: 50%; box-shadow: 0 0 0 3px rgba(24,201,133,.1); }
 .company-banner { flex: 0 0 auto; margin-top: 14px; padding: 13px 14px 12px; color: var(--company-ink); background: var(--company-bg); border-radius: 16px; }
-.company-banner>span { display: block; margin-bottom: 5px; font-size: 7px; font-weight: 850; letter-spacing: .13em; opacity: .62; }
 .company-banner>strong { display: block; overflow: hidden; font-size: clamp(19px, 5vw, 25px); line-height: 1.02; font-weight: 850; letter-spacing: -.045em; text-overflow: ellipsis; white-space: nowrap; }
 .company-banner>small { display: block; margin-top: 7px; font-size: 9px; font-weight: 650; opacity: .72; }
 .saved-copy p { margin: 0 0 3px; font-size: 13px; font-weight: 750; }
@@ -123,7 +129,7 @@ button { cursor: pointer; }
 .saved-actions a { width: 30px; height: 30px; display: grid; place-items: center; color: var(--blue); background: #f1f3ff; border-radius: 50%; text-decoration: none; }
 .saved-actions button { padding: 0; border: 0; background: transparent; color: var(--muted); font-size: 9px; }
 
-.empty { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; text-align: center; }
+.empty { position: relative; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; text-align: center; }
 .empty-icon { width: 58px; height: 58px; display: grid; place-items: center; color: white; background: var(--yes); border-radius: 50%; font-size: 25px; }
 .refresh-jobs { width: 88px; height: 88px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; border: 1px solid rgba(23,25,29,.07); border-radius: 50%; color: white; background: linear-gradient(145deg, #20242a, #111317); box-shadow: 0 16px 34px rgba(23,25,29,.2), inset 0 1px rgba(255,255,255,.12); -webkit-tap-highlight-color: transparent; transition: transform .15s ease, box-shadow .15s ease; }
 .refresh-jobs:active { transform: scale(.95); box-shadow: 0 9px 22px rgba(23,25,29,.18), inset 0 1px rgba(255,255,255,.12); }
@@ -148,7 +154,7 @@ button { cursor: pointer; }
   .appbar { padding-top: env(safe-area-inset-top); height: calc(66px + env(safe-area-inset-top)); flex-basis: calc(66px + env(safe-area-inset-top)); }
   .user-switcher { min-width: 84px; padding-right: 6px; }
   .user-switcher select { width: 45px; font-size: 9px; }
-  .deck-screen { grid-template-rows: 38px minmax(0,1fr); }
+  .deck-screen { grid-template-rows: 66px minmax(0,1fr); }
   .job-card h1 { font-size: clamp(29px, 9vw, 39px); }
   .job-card h1.job-title-medium { font-size: clamp(27px, 7.8vw, 35px); }
   .job-card h1.job-title-long { font-size: clamp(24px, 6.8vw, 31px); }
@@ -156,7 +162,8 @@ button { cursor: pointer; }
 
 @media (max-height: 720px) {
   .phone-app { min-height: 600px; }
-  .deck-screen { grid-template-rows: 34px minmax(0,1fr); }
+  .deck-screen { grid-template-rows: 62px minmax(0,1fr); }
+  .focus-switch button { height: 23px; font-size: 7.5px; }
   .decision-dock { bottom: 14px; }
   .decision { width: 62px; height: 62px; }
   .skill-row { padding-bottom: 82px; }
