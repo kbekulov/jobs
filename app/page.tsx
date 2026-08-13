@@ -279,7 +279,16 @@ export default function Home() {
   const decide = async (jobId: string, decision: Decision) => {
     const actingUser = userId;
     const previous = decisions[jobId];
-    setDecisions((current) => ({ ...current, [jobId]: decision }));
+    const nextDecisions = { ...decisions, [jobId]: decision };
+    const currentFocusIndex = roleFocuses.findIndex((item) => item.id === focus);
+    const nextFocus = tab === "Discover"
+      ? Array.from({ length: roleFocuses.length - 1 }, (_, offset) => roleFocuses[(currentFocusIndex + offset + 1) % roleFocuses.length].id)
+          .find((candidateFocus) => jobs.some((job) => roleFocus(job) === candidateFocus && !nextDecisions[job.id]))
+      : undefined;
+    const currentFocusExhausted = tab === "Discover" && !jobs.some((job) => roleFocus(job) === focus && !nextDecisions[job.id]);
+
+    setDecisions(nextDecisions);
+    if (currentFocusExhausted && nextFocus) switchFocus(nextFocus);
     try {
       const response = await fetch("/api/decisions", {
         method: "POST",
@@ -289,6 +298,13 @@ export default function Home() {
       if (!response.ok) throw new Error("Could not save");
     } catch {
       if (activeUserRef.current !== actingUser) return;
+      if (currentFocusExhausted && nextFocus) {
+        setFocus((currentFocus) => {
+          if (currentFocus !== nextFocus) return currentFocus;
+          window.localStorage.setItem("jobflow-role-focus", focus);
+          return focus;
+        });
+      }
       setDecisions((current) => {
         const next = { ...current };
         if (previous) next[jobId] = previous;
