@@ -29,6 +29,16 @@ Combine exact-title, technology, employer-specific, career-page, and historical-
 
 Search technologies inside descriptions even when the title lacks “automation.” Deprioritize generic engineering, data, QA automation, marketing automation, and generic project management without strong process/workflow relevance.
 
+## Primary review focus
+
+Assign each vacancy exactly one `roleFocus`. Use the dominant day-to-day responsibility, not a keyword-only title match. Keep `roleFamilies` multi-valued for secondary overlap.
+
+- `developer`: hands-on implementation, engineering, solution/platform architecture, integrations, RPA development, Power Platform/Camunda/n8n delivery, or technical AI/workflow building.
+- `manager`: people, practice, portfolio, delivery, product/platform/process ownership, governance, or transformation leadership. Include lead, head, manager, and owner roles when ownership is substantive.
+- `analyst`: discovery, requirements, process mapping, opportunity assessment, functional/business analysis, process expertise, consulting, and future-state design.
+
+Run dedicated title, technology, employer, and career-page searches for every focus. A full run must attempt all three, but accuracy outranks numerical balance. Do not duplicate one vacancy across focuses; choose the best primary focus and preserve overlaps in `roleFamilies`.
+
 ## Direct URLs
 
 Use a verified role-specific URL. Prefer official company, official ATS, local role page, direct LinkedIn job, then stable recruiter page. Never reconstruct job IDs, guess URLs, use search-result pages, employer home pages as role URLs, malformed links, or tracking-only redirects. Remove `utm_*`, `gh_src`, `ref`, and tracking parameters unless required to identify the vacancy. If no verified direct page exists, set `directUrl` to `null`, retain a supporting URL if useful, and use `Unknown` status.
@@ -73,4 +83,4 @@ Recheck the same requisition, repost, renamed equivalent, or successor role for:
 
 ## Quality gate
 
-Before persistence verify employer identity, specific vacancy, Lithuania eligibility, discovered direct URL, evidence-based status, deduplication, genuine relevance, source conflicts, and availability of a stronger source. Use `null` or `Unknown` instead of guessing. Accuracy outranks quantity.
+Before persistence verify employer identity, specific vacancy, Lithuania eligibility, discovered direct URL, evidence-based status, primary focus, deduplication, genuine relevance, source conflicts, and availability of a stronger source. Use `null` or `Unknown` instead of guessing. Accuracy outranks quantity.

@@ -20,6 +20,7 @@ type Job = {
   url: string;
   accent: string;
   addedAt: string;
+  roleFocus: RoleFocus;
 };
 
 type ArchiveSort = "date-desc" | "date-asc" | "salary-desc" | "salary-asc" | "company-asc" | "company-desc";
@@ -31,10 +32,7 @@ const roleFocuses: { id: RoleFocus; label: string }[] = [
 ];
 
 function roleFocus(job: Job): RoleFocus {
-  const title = job.title.toLowerCase();
-  if (/manager|lead|head|owner|director/.test(title)) return "manager";
-  if (/analyst|consultant|specialist|process expert/.test(title)) return "analyst";
-  return "developer";
+  return job.roleFocus;
 }
 
 const companyPalettes = [
@@ -205,6 +203,7 @@ const jobs: Job[] = vacancyData
     url: job.directUrl ?? job.supportingSourceUrl ?? "#",
     accent: "#c8ff19",
     addedAt: job.firstSeenAt,
+    roleFocus: job.roleFocus as RoleFocus,
   }));
 
 type Tab = "Discover" | "Apply" | "Trash";

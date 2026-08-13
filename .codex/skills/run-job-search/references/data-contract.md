@@ -12,6 +12,7 @@ Store vacancies in `data/vacancies.json` as one JSON array. Required fields:
   "location": "Vilnius, Lithuania",
   "workMode": "onsite | hybrid | remote | unknown",
   "lithuaniaEligible": true,
+  "roleFocus": "developer | manager | analyst",
   "roleFamilies": ["RPA Development"],
   "seniority": "",
   "source": "Official company careers",
@@ -40,6 +41,8 @@ Store vacancies in `data/vacancies.json` as one JSON array. Required fields:
 ```
 
 Allowed statuses are exactly `Newly found`, `Still open`, `Unknown`, and `Closed/Expired/No longer accepting applications`.
+
+`roleFocus` is required and must be exactly `developer`, `manager`, or `analyst`. Assign one primary focus from the dominant responsibilities. Do not create duplicate vacancy records for secondary focus matches; represent those with `roleFamilies`.
 
 Deduplicate first by canonical company plus requisition ID. Without an ID, use canonical company plus normalized title plus location. Keep the source-visible title. Do not use a generic search page, employer home page, guessed URL, or tracking redirect as `directUrl`.
 

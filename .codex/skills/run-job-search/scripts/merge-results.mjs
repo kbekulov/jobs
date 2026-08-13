@@ -6,6 +6,7 @@ const dataPath = path.join(root, "data", "vacancies.json");
 const runsPath = path.join(root, "data", "search-runs.json");
 const allowedStatuses = new Set(["Newly found", "Still open", "Unknown", "Closed/Expired/No longer accepting applications"]);
 const allowedModes = new Set(["onsite", "hybrid", "remote", "unknown"]);
+const allowedRoleFocuses = new Set(["developer", "manager", "analyst"]);
 const args = process.argv.slice(2);
 const inputIndex = args.indexOf("--input");
 const validateOnly = args.includes("--validate");
@@ -21,6 +22,7 @@ function validate(job, index) {
   if (!job.lithuaniaEligible) errors.push(`record ${index}: Lithuania eligibility not established`);
   if (!allowedStatuses.has(job.status)) errors.push(`record ${index}: invalid status`);
   if (!allowedModes.has(job.workMode)) errors.push(`record ${index}: invalid workMode`);
+  if (!allowedRoleFocuses.has(job.roleFocus)) errors.push(`record ${index}: invalid roleFocus`);
   if (!Array.isArray(job.roleFamilies) || !job.roleFamilies.length) errors.push(`record ${index}: missing roleFamilies`);
   if (!(Number.isInteger(job.relevanceScore) && job.relevanceScore >= 0 && job.relevanceScore <= 100)) errors.push(`record ${index}: invalid relevanceScore`);
   if (job.directUrl) { try { const u = new URL(job.directUrl); if (!/^https?:$/.test(u.protocol)) throw new Error(); if (/linkedin\.com\/jobs\/(search|collections)/.test(u.href)) errors.push(`record ${index}: directUrl is a search page`); } catch { errors.push(`record ${index}: invalid directUrl`); } }
@@ -39,11 +41,13 @@ const inputFile = path.resolve(root, args[inputIndex + 1]);
 const candidates = readJson(inputFile);
 if (!Array.isArray(candidates)) throw new Error("Candidate file must contain an array");
 const now = new Date().toISOString();
+const runStartedAt = candidates[0]?.runStartedAt || now;
 const byKey = new Map(existing.map(job => [key(job), job]));
 let created = 0, updated = 0;
 
 for (const raw of candidates) {
-  const candidate = { ...raw, directUrl: stripTracking(raw.directUrl), sourceLastCheckedAt: raw.sourceLastCheckedAt || now };
+  const { runStartedAt: _runStartedAt, ...candidateFields } = raw;
+  const candidate = { ...candidateFields, directUrl: stripTracking(raw.directUrl), sourceLastCheckedAt: raw.sourceLastCheckedAt || now };
   const candidateErrors = validate({ firstSeenAt: now, lastSeenAt: now, lastVerifiedAt: now, ...candidate }, `candidate ${created + updated + 1}`);
   if (candidateErrors.length) throw new Error(candidateErrors.join("\n"));
   const dedupeKey = key(candidate);
@@ -65,6 +69,6 @@ allErrors = merged.flatMap(validate);
 if (allErrors.length) throw new Error(allErrors.join("\n"));
 fs.writeFileSync(dataPath, JSON.stringify(merged, null, 2) + "\n");
 const runs = readJson(runsPath);
-runs.push({ id: `run-${now}`, startedAt: candidates[0]?.runStartedAt || now, completedAt: now, candidateCount: candidates.length, newlyFoundCount: created, updatedCount: updated, notes: "Merged through canonical recurring search protocol" });
+runs.push({ id: `run-${now}`, startedAt: runStartedAt, completedAt: now, candidateCount: candidates.length, newlyFoundCount: created, updatedCount: updated, notes: "Merged through canonical recurring search protocol" });
 fs.writeFileSync(runsPath, JSON.stringify(runs, null, 2) + "\n");
 console.log(`Merged ${candidates.length} candidates: ${created} new, ${updated} updated`);
