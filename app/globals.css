@@ -17,6 +17,12 @@
   initial-value: -55deg;
 }
 
+@property --focus-border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: -45deg;
+}
+
 * { box-sizing: border-box; }
 html, body { width: 100%; height: 100%; overflow: hidden; }
 body { margin: 0; color: var(--ink); background: #e7e9ed; font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
@@ -45,9 +51,16 @@ button { cursor: pointer; }
 .deck-controls { min-height: 0; padding: 7px 14px 3px; }
 .focus-switch { display: grid; grid-template-columns: 1.35fr 1.15fr .7fr; gap: 3px; padding: 3px; background: #e9ebef; border-radius: 12px; }
 .focus-switch button { min-width: 0; height: 26px; overflow: hidden; padding: 0 5px; border: 0; border-radius: 9px; color: #7d828c; background: transparent; font-size: 8px; font-weight: 750; letter-spacing: -.01em; text-overflow: ellipsis; white-space: nowrap; transition: color .16s ease, background .16s ease, box-shadow .16s ease; }
-.focus-switch button.active { color: var(--ink); background: white; box-shadow: 0 2px 7px rgba(23,25,29,.08); }
+.focus-switch button.active { border: 2px solid transparent; color: var(--ink); background: linear-gradient(#fff,#fff) padding-box, conic-gradient(from var(--focus-border-angle), #ff4f68 0deg, #ff8b72 72deg, #18d69a 150deg, #536dfe 235deg, #a56cff 300deg, #ff4f68 360deg) border-box; box-shadow: 0 3px 10px rgba(83,109,254,.2), 0 0 0 1px rgba(255,255,255,.72); animation: focus-border-orbit 3.2s linear infinite, focus-border-glow 2.4s ease-in-out infinite; }
 .focus-switch button:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
 .focus-switch-empty { position: absolute; top: 14px; left: 14px; right: 14px; }
+@keyframes focus-border-orbit {
+  to { --focus-border-angle: 315deg; }
+}
+@keyframes focus-border-glow {
+  0%, 100% { box-shadow: 0 3px 10px rgba(83,109,254,.17), 0 0 0 1px rgba(255,255,255,.72); }
+  50% { box-shadow: 0 4px 14px rgba(83,109,254,.32), 0 0 0 2px rgba(255,79,104,.08); }
+}
 .deck-meta { display: flex; align-items: center; justify-content: space-between; padding: 0 20px; color: var(--muted); font-size: 11px; font-weight: 650; }
 .deck-controls .deck-meta { height: 28px; padding: 0 6px; font-size: 9px; }
 .deck-meta span { display: flex; align-items: center; gap: 7px; }
@@ -146,6 +159,7 @@ button { cursor: pointer; }
 @media (prefers-reduced-motion: reduce) {
   .job-card { animation: none; }
   .job-card::before { animation: none; opacity: .72; }
+  .focus-switch button.active { animation: none; }
 }
 
 @media (max-width: 520px) {
