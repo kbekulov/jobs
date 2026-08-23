@@ -1807,12 +1807,12 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "5 hours ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
-    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
     "title": "Camunda and Java Engineer",
     "normalizedTitle": "Camunda and Java Engineer",
     "company": "Baltic Assist",
@@ -1826,7 +1826,7 @@
     ],
     "directUrl": "https://lt.linkedin.com/jobs/view/camunda-and-java-engineer-at-baltic-assist-4442205684",
     "salaryText": "Salary not disclosed",
-    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action and explicitly lists Vilnius/Lithuania eligibility.",
+    "statusReason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck.",
     "relevanceScore": 95,
     "matchSummary": "Hands-on Camunda 8 and Java workflow engineering role covering BPMN, DMN, APIs, integrations and AI agents.",
     "technologies": [
@@ -1852,13 +1852,18 @@
     ],
     "requisitionId": "4442205684",
     "id": "job-1787465119152-0",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific LinkedIn vacancy shows an active Apply action and explicitly lists Vilnius/Lithuania eligibility."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
     ]
   },
@@ -2060,12 +2065,12 @@
     "postingDate": null,
     "applicationDeadline": "2026-09-02",
     "postingAgeText": null,
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
-    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
     "title": "AI Transformation & Automation Engineer",
     "normalizedTitle": "AI Transformation and Automation Engineer",
     "company": "Indigroup Recruitment",
@@ -2079,7 +2084,7 @@
     ],
     "directUrl": "https://www.cvonline.lt/lt/vacancy/1630817/indigroup-recruitment/ai-transformation-i-automation-engineer",
     "salaryText": "€4,000–7,000 gross/month",
-    "statusReason": "CV-Online shows a current role-specific vacancy with an application deadline of 2026-09-02.",
+    "statusReason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck.",
     "relevanceScore": 94,
     "matchSummary": "Direct AI-transformation and automation engineering role focused on implementing business-facing intelligent workflows in Kaunas.",
     "technologies": [
@@ -2098,13 +2103,78 @@
     ],
     "requisitionId": "1630817",
     "id": "job-1787465119152-5",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "CV-Online shows a current role-specific vacancy with an application deadline of 2026-09-02."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "source": "LinkedIn direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "6 hours ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
+    "title": "Business Process Engineer",
+    "normalizedTitle": "Business Process Engineer",
+    "company": "Cognizant",
+    "normalizedCompany": "Cognizant",
+    "location": "Kaunas, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Workflow / BPM",
+      "Process Architecture"
+    ],
+    "directUrl": "https://lt.linkedin.com/jobs/view/business-process-engineer-at-cognizant-4453727715",
+    "salaryText": "€3,800–5,042 gross/month",
+    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action for a Lithuania-based position.",
+    "relevanceScore": 94,
+    "matchSummary": "Hands-on intelligent process-automation engineering role building business-rule engines, event-processing workflows and hybrid-cloud integrations.",
+    "technologies": [
+      "BPM",
+      "Business rules engines",
+      "Event processing",
+      "Hybrid cloud"
+    ],
+    "keywordsMatched": [
+      "intelligent process automation",
+      "automated workflows",
+      "BPM",
+      "event-driven"
+    ],
+    "requirements": [
+      "Business process management",
+      "Rules-engine experience",
+      "Event-driven architectures",
+      "Workflow scripting and development"
+    ],
+    "requisitionId": "4453727715",
+    "id": "job-1787497312071-2",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific LinkedIn vacancy shows an active Apply action for a Lithuania-based position."
       }
     ]
   },
@@ -2180,12 +2250,12 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "3 hours ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
-    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
     "title": "Python Developer - Intelligent Automation",
     "normalizedTitle": "Python Developer - Intelligent Automation",
     "company": "The Citco Group Limited",
@@ -2198,7 +2268,7 @@
     ],
     "directUrl": "https://lt.linkedin.com/jobs/view/python-developer-intelligent-automation-at-the-citco-group-limited-4450161721",
     "salaryText": "€2,830–4,000 gross/month",
-    "statusReason": "A new role-specific LinkedIn requisition shows an active Apply action; it is treated as a repost distinct from the explicitly inactive CVbankas requisition.",
+    "statusReason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck.",
     "relevanceScore": 93,
     "matchSummary": "Current intelligent-automation developer repost focused on Python-based automation and enterprise delivery.",
     "technologies": [
@@ -2218,13 +2288,18 @@
     ],
     "requisitionId": "4450161721",
     "id": "job-1787465119152-3",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "A new role-specific LinkedIn requisition shows an active Apply action; it is treated as a repost distinct from the explicitly inactive CVbankas requisition."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
     ]
   },
@@ -2484,6 +2559,64 @@
         "status": "Still open",
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "source": "LinkedIn direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "7 hours ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
+    "title": "PROCESŲ GRUPĖS VADOVĖ (-AS)",
+    "normalizedTitle": "Procesų grupės vadovas",
+    "company": "AB „Energijos skirstymo operatorius“ (ESO)",
+    "normalizedCompany": "ESO",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Process Excellence",
+      "Digital Transformation",
+      "Automation Leadership"
+    ],
+    "directUrl": "https://lt.linkedin.com/jobs/view/proces%C5%B3-grup%C4%97s-vadov%C4%97-as-at-ab-%E2%80%9Eenergijos-skirstymo-operatorius%E2%80%9C-eso-4455718372",
+    "salaryText": "Salary not disclosed",
+    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius.",
+    "relevanceScore": 91,
+    "matchSummary": "Strategic process-group leadership role driving transformation, automation changes, KPI governance and IT-system improvements.",
+    "technologies": [
+      "Process modelling"
+    ],
+    "keywordsMatched": [
+      "automation leadership",
+      "process transformation",
+      "process governance",
+      "IT change"
+    ],
+    "requirements": [
+      "Process-group leadership",
+      "Transformation and automation change",
+      "KPI ownership",
+      "Cross-functional governance"
+    ],
+    "requisitionId": "4455718372",
+    "id": "job-1787497312071-1",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius."
       }
     ]
   },
@@ -2755,12 +2888,12 @@
     "postingDate": null,
     "applicationDeadline": "2026-08-27",
     "postingAgeText": "7 days ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
-    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
     "title": "Junior Integration & Automation Engineer",
     "normalizedTitle": "Junior Integration and Automation Engineer",
     "company": "Manpower Lit, UAB",
@@ -2774,7 +2907,7 @@
     ],
     "directUrl": "https://www.cvonline.lt/en/vacancy/1628512/manpower-lit-uab/junior-integration-ir-automation-engineer",
     "salaryText": "€2,000–2,800 gross/month",
-    "statusReason": "CV-Online shows a role-specific vacancy with a future application deadline of 2026-08-27.",
+    "statusReason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck.",
     "relevanceScore": 88,
     "matchSummary": "Junior integration and automation role in a new ERP service centre supporting workflows, integrations and automation across the group.",
     "technologies": [
@@ -2794,13 +2927,18 @@
     ],
     "requisitionId": "1628512",
     "id": "job-1787465119152-4",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "CV-Online shows a role-specific vacancy with a future application deadline of 2026-08-27."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
     ]
   },
@@ -3068,12 +3206,12 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "5 days ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
-    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
     "title": "Backend / IT sistemų inžinierius (-ė)",
     "normalizedTitle": "Backend and IT Systems Engineer",
     "company": "COUNTLINE",
@@ -3087,7 +3225,7 @@
     ],
     "directUrl": "https://lt.linkedin.com/jobs/view/backend-it-sistem%C5%B3-in%C5%BEinierius-%C4%97-at-countline-4451212718",
     "salaryText": "€3,500–4,500 gross/month",
-    "statusReason": "The role-specific LinkedIn vacancy has an active Apply action and a current Vilnius listing.",
+    "statusReason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck.",
     "relevanceScore": 87,
     "matchSummary": "Backend and automation engineering role spanning Power Automate, n8n, APIs, workflow architecture and an expanding AI-automation portfolio.",
     "technologies": [
@@ -3112,13 +3250,18 @@
     ],
     "requisitionId": "4451212718",
     "id": "job-1787465119152-1",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific LinkedIn vacancy has an active Apply action and a current Vilnius listing."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
     ]
   },
@@ -3130,12 +3273,12 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "17 hours ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastSeenAt": "2026-08-23T06:05:19.103Z",
-    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
-    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
     "title": "People Analytics & HR Tech Specialist",
     "normalizedTitle": "People Analytics and HR Tech Specialist",
     "company": "Nayax",
@@ -3149,7 +3292,7 @@
     ],
     "directUrl": "https://lt.linkedin.com/jobs/view/people-analytics-hr-tech-specialist-at-nayax-4416013088",
     "salaryText": "€4,000–4,300 gross/month",
-    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius.",
+    "statusReason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck.",
     "relevanceScore": 84,
     "matchSummary": "HR technology ownership role focused on Power Automate workflows, bots, AI adoption and automated reporting pipelines.",
     "technologies": [
@@ -3172,13 +3315,18 @@
     ],
     "requisitionId": "4416013088",
     "id": "job-1787465119152-2",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
     ]
   },
@@ -3363,6 +3511,63 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "source": "LinkedIn direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "25 minutes ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
+    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
+    "title": "PROCESŲ VADOVĖ (-AS)",
+    "normalizedTitle": "Procesų vadovas",
+    "company": "AB „Energijos skirstymo operatorius“ (ESO)",
+    "normalizedCompany": "ESO",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Process Analysis",
+      "Process Excellence"
+    ],
+    "directUrl": "https://lt.linkedin.com/jobs/view/proces%C5%B3-vadov%C4%97-as-at-ab-%E2%80%9Eenergijos-skirstymo-operatorius%E2%80%9C-eso-4456176776",
+    "salaryText": "€2,520–3,780 gross/month",
+    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius.",
+    "relevanceScore": 83,
+    "matchSummary": "Process ownership role covering analysis, modelling, governance, measurable improvement and end-to-end change delivery.",
+    "technologies": [
+      "Process modelling"
+    ],
+    "keywordsMatched": [
+      "process management",
+      "process analysis",
+      "process improvement",
+      "change management"
+    ],
+    "requirements": [
+      "Process analysis and improvement",
+      "Process-management methods",
+      "Change coordination",
+      "Stakeholder alignment"
+    ],
+    "requisitionId": "4456176776",
+    "id": "job-1787497312071-0",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T15:01:52.070Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius."
       }
     ]
   },
