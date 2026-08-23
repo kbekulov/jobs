@@ -21,8 +21,8 @@
     "applicationDeadline": null,
     "postingAgeText": "1 day ago",
     "salaryText": "€1,500–2,250 gross/month",
-    "status": "Newly found",
-    "statusReason": "The official Ashby vacancy is present on Mediatech's current career list and the exact LinkedIn role exposes Apply.",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run.",
     "relevanceScore": 100,
     "matchSummary": "Hands-on n8n role building AI-enabled workflows, APIs, webhooks and integrations for internal business teams.",
     "technologies": [
@@ -45,18 +45,23 @@
       "Ability to translate business needs into practical workflows"
     ],
     "requisitionId": "2829dae4-d2aa-45c9-97aa-7ac317b72562",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-0",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The official Ashby vacancy is present on Mediatech's current career list and the exact LinkedIn role exposes Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
     ]
   },
@@ -83,8 +88,8 @@
     "applicationDeadline": null,
     "postingAgeText": "1 day ago",
     "salaryText": "€3,000–4,000 gross/month",
-    "status": "Newly found",
-    "statusReason": "The exact LinkedIn vacancy was refreshed and exposes Apply; the same requisition appears reposted despite an older deadline embedded in the description.",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "LinkedIn explicitly states that Metso is no longer accepting applications.",
     "relevanceScore": 100,
     "matchSummary": "Direct RPA analyst role bridging finance operations and an RPA factory while leading automation discovery, UAT and local bot delivery.",
     "technologies": [
@@ -105,18 +110,23 @@
       "Process and stakeholder coordination skills"
     ],
     "requisitionId": "4427727629",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-6",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The exact LinkedIn vacancy was refreshed and exposes Apply; the same requisition appears reposted despite an older deadline embedded in the description."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "LinkedIn explicitly states that Metso is no longer accepting applications."
       }
     ]
   },
@@ -142,8 +152,8 @@
     "applicationDeadline": null,
     "postingAgeText": "3 weeks ago",
     "salaryText": "€4,800–7,200 gross/month",
-    "status": "Newly found",
-    "statusReason": "The exact role-specific LinkedIn vacancy is current and explicitly supports Lithuania as a location.",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "LinkedIn explicitly states that Danske Bank is no longer accepting applications.",
     "relevanceScore": 100,
     "matchSummary": "Hands-on Camunda platform architecture role for cloud-native workflow orchestration, BPMN, event-driven integrations and developer self-service.",
     "technologies": [
@@ -167,18 +177,23 @@
       "AWS, Kubernetes and CI/CD experience"
     ],
     "requisitionId": "4423220637",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-8",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The exact role-specific LinkedIn vacancy is current and explicitly supports Lithuania as a location."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "LinkedIn explicitly states that Danske Bank is no longer accepting applications."
       }
     ]
   },
@@ -204,8 +219,8 @@
     "applicationDeadline": null,
     "postingAgeText": "1 week ago",
     "salaryText": "€4,800–7,200 gross/month",
-    "status": "Newly found",
-    "statusReason": "The exact current requisition exposes Apply; an older, different requisition is explicitly closed and was not merged with this repost.",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "LinkedIn explicitly states that Danske Bank is no longer accepting applications.",
     "relevanceScore": 100,
     "matchSummary": "Camunda 8 solution-architecture role defining case-management patterns, BPMN guardrails and reusable enterprise workflows.",
     "technologies": [
@@ -228,18 +243,23 @@
       "Structured architecture modelling skills"
     ],
     "requisitionId": "4423219604",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-9",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The exact current requisition exposes Apply; an older, different requisition is explicitly closed and was not merged with this repost."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "LinkedIn explicitly states that Danske Bank is no longer accepting applications."
       }
     ]
   },
@@ -266,8 +286,8 @@
     "applicationDeadline": "2026-08-30",
     "postingAgeText": "Current employer listing",
     "salaryText": "€2,830–4,000 gross/month",
-    "status": "Newly found",
-    "statusReason": "The role-specific CVbankas vacancy is live and Citco's current CV-Online employer list shows an August 30 application deadline.",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "CVbankas explicitly marks this requisition inactive and says CVs can no longer be submitted; a new LinkedIn requisition is tracked separately.",
     "relevanceScore": 100,
     "matchSummary": "Intelligent-automation development role combining Python, AWS, APIs, event-driven workflows, LLM solutions and RPA platforms.",
     "technologies": [
@@ -291,18 +311,23 @@
       "Ability to assess processes for automation"
     ],
     "requisitionId": "13722841",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-10",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The role-specific CVbankas vacancy is live and Citco's current CV-Online employer list shows an August 30 application deadline."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "CVbankas explicitly marks this requisition inactive and says CVs can no longer be submitted; a new LinkedIn requisition is tracked separately."
       }
     ]
   },
@@ -351,11 +376,11 @@
     ],
     "requisitionId": "4444603419",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-0",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -419,11 +444,11 @@
     ],
     "requisitionId": "4433822478",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-1",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -483,11 +508,11 @@
     ],
     "requisitionId": "4449663334",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-2",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-21T15:04:43.792Z",
     "statusHistory": [
@@ -563,11 +588,11 @@
     ],
     "requisitionId": "4446742310",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-3",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -632,11 +657,11 @@
     ],
     "requisitionId": "4446072822",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-4",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -699,11 +724,11 @@
     ],
     "requisitionId": "4422430789",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-5",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -766,11 +791,11 @@
     ],
     "requisitionId": "4422445701",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-6",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -836,11 +861,11 @@
       "Understanding of APIs, webhooks, JSON and agentic-AI validation boundaries"
     ],
     "requisitionId": "4431739100",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787238241302-0",
     "firstSeenAt": "2026-08-20T15:04:01.300Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-21T06:05:09.039Z",
     "statusHistory": [
@@ -901,11 +926,11 @@
     ],
     "requisitionId": "4450739202",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787292309042-0",
     "firstSeenAt": "2026-08-21T06:05:09.039Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-21T15:04:43.792Z",
     "statusHistory": [
@@ -972,11 +997,11 @@
     ],
     "requisitionId": "4454500280",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787292309042-3",
     "firstSeenAt": "2026-08-21T06:05:09.039Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-21T15:04:43.792Z",
     "statusHistory": [
@@ -1038,11 +1063,11 @@
     ],
     "requisitionId": "4455337036",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787324683794-0",
     "firstSeenAt": "2026-08-21T15:04:43.792Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-22T06:05:40.011Z",
     "statusHistory": [
@@ -1106,11 +1131,11 @@
     ],
     "requisitionId": "1368646257",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787324683794-1",
     "firstSeenAt": "2026-08-21T15:04:43.792Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-22T06:05:40.011Z",
     "statusHistory": [
@@ -1170,11 +1195,11 @@
     ],
     "requisitionId": "7799900",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787324683794-3",
     "firstSeenAt": "2026-08-21T15:04:43.792Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-22T06:05:40.011Z",
     "statusHistory": [
@@ -1232,11 +1257,11 @@
     ],
     "requisitionId": "4435563102",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-7",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1295,11 +1320,11 @@
     "requisitionId": "44030",
     "salaryText": "€2,540–4,450 gross/month",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-8",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1356,11 +1381,11 @@
     ],
     "requisitionId": "4438066760",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-9",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1423,11 +1448,11 @@
     ],
     "requisitionId": "4443921341",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-10",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1465,8 +1490,8 @@
     "applicationDeadline": null,
     "postingAgeText": null,
     "salaryText": "€1,800–2,800 gross/month",
-    "status": "Newly found",
-    "statusReason": "The role-specific CVbankas vacancy is live and contains the current workplace, requirements and salary.",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run.",
     "relevanceScore": 96,
     "matchSummary": "Junior agentic-automation role using LLM APIs, webhooks and JSON to build production AI workflows.",
     "technologies": [
@@ -1487,18 +1512,23 @@
       "Understanding of APIs, webhooks and JSON"
     ],
     "requisitionId": "13858596",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-3",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The role-specific CVbankas vacancy is live and contains the current workplace, requirements and salary."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
     ]
   },
@@ -1548,11 +1578,11 @@
     ],
     "requisitionId": "21061",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-11",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1614,11 +1644,11 @@
     "requisitionId": "4425889089",
     "salaryText": "€3,000–5,000 gross/month",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-12",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1683,11 +1713,11 @@
     ],
     "requisitionId": "4408794801",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-13",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1749,11 +1779,11 @@
     ],
     "requisitionId": "4435542995",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-14",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1766,6 +1796,69 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ]
+  },
+  {
+    "workMode": "remote",
+    "lithuaniaEligible": true,
+    "source": "LinkedIn direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "5 hours ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "title": "Camunda and Java Engineer",
+    "normalizedTitle": "Camunda and Java Engineer",
+    "company": "Baltic Assist",
+    "normalizedCompany": "Baltic Assist",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Workflow / BPM",
+      "Automation Engineering",
+      "AI / Agentic Automation"
+    ],
+    "directUrl": "https://lt.linkedin.com/jobs/view/camunda-and-java-engineer-at-baltic-assist-4442205684",
+    "salaryText": "Salary not disclosed",
+    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action and explicitly lists Vilnius/Lithuania eligibility.",
+    "relevanceScore": 95,
+    "matchSummary": "Hands-on Camunda 8 and Java workflow engineering role covering BPMN, DMN, APIs, integrations and AI agents.",
+    "technologies": [
+      "Camunda 8",
+      "Java",
+      "Spring Boot",
+      "BPMN",
+      "DMN",
+      "Kafka",
+      "AWS"
+    ],
+    "keywordsMatched": [
+      "Camunda",
+      "workflow orchestration",
+      "BPMN",
+      "AI agents"
+    ],
+    "requirements": [
+      "Camunda BPM or Camunda 8 experience",
+      "Java and Spring Boot",
+      "BPMN and DMN workflow design",
+      "API and microservice integration"
+    ],
+    "requisitionId": "4442205684",
+    "id": "job-1787465119152-0",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific LinkedIn vacancy shows an active Apply action and explicitly lists Vilnius/Lithuania eligibility."
       }
     ]
   },
@@ -1815,11 +1908,11 @@
     ],
     "requisitionId": "4430898338",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-15",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1875,11 +1968,11 @@
     "requisitionId": "4441106174",
     "salaryText": "€3,370–4,450 gross/month",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-16",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1939,11 +2032,11 @@
       "Interest in AI automation and technology-led process transformation"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513434-31",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1956,6 +2049,62 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ]
+  },
+  {
+    "workMode": "unknown",
+    "lithuaniaEligible": true,
+    "source": "CV-Online direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-02",
+    "postingAgeText": null,
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "title": "AI Transformation & Automation Engineer",
+    "normalizedTitle": "AI Transformation and Automation Engineer",
+    "company": "Indigroup Recruitment",
+    "normalizedCompany": "Indigroup Recruitment",
+    "location": "Kaunas, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Automation Engineering",
+      "Digital Transformation"
+    ],
+    "directUrl": "https://www.cvonline.lt/lt/vacancy/1630817/indigroup-recruitment/ai-transformation-i-automation-engineer",
+    "salaryText": "€4,000–7,000 gross/month",
+    "statusReason": "CV-Online shows a current role-specific vacancy with an application deadline of 2026-09-02.",
+    "relevanceScore": 94,
+    "matchSummary": "Direct AI-transformation and automation engineering role focused on implementing business-facing intelligent workflows in Kaunas.",
+    "technologies": [
+      "AI automation",
+      "Workflow automation"
+    ],
+    "keywordsMatched": [
+      "AI transformation",
+      "automation engineer",
+      "intelligent workflows"
+    ],
+    "requirements": [
+      "Automation solution engineering",
+      "AI transformation delivery",
+      "Business-process understanding"
+    ],
+    "requisitionId": "1630817",
+    "id": "job-1787465119152-5",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "CV-Online shows a current role-specific vacancy with an application deadline of 2026-09-02."
       }
     ]
   },
@@ -2003,11 +2152,11 @@
     ],
     "requisitionId": "4443902702",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-17",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2020,6 +2169,62 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "source": "LinkedIn direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "3 hours ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "title": "Python Developer - Intelligent Automation",
+    "normalizedTitle": "Python Developer - Intelligent Automation",
+    "company": "The Citco Group Limited",
+    "normalizedCompany": "Citco",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "AI / Agentic Automation"
+    ],
+    "directUrl": "https://lt.linkedin.com/jobs/view/python-developer-intelligent-automation-at-the-citco-group-limited-4450161721",
+    "salaryText": "€2,830–4,000 gross/month",
+    "statusReason": "A new role-specific LinkedIn requisition shows an active Apply action; it is treated as a repost distinct from the explicitly inactive CVbankas requisition.",
+    "relevanceScore": 93,
+    "matchSummary": "Current intelligent-automation developer repost focused on Python-based automation and enterprise delivery.",
+    "technologies": [
+      "Python",
+      "APIs",
+      "Intelligent Automation"
+    ],
+    "keywordsMatched": [
+      "intelligent automation",
+      "Python",
+      "automation developer"
+    ],
+    "requirements": [
+      "Python development",
+      "Automation solution delivery",
+      "API and integration capability"
+    ],
+    "requisitionId": "4450161721",
+    "id": "job-1787465119152-3",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "A new role-specific LinkedIn requisition shows an active Apply action; it is treated as a repost distinct from the explicitly inactive CVbankas requisition."
       }
     ]
   },
@@ -2066,11 +2271,11 @@
     "requisitionId": "4424395775",
     "salaryText": "€3,100–4,000 gross/month",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-18",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2130,11 +2335,11 @@
     ],
     "requisitionId": "6d5ce91a-7dd0-4709-8202-b0740b4dec6b",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-19",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-21T15:04:43.792Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2197,11 +2402,11 @@
     ],
     "requisitionId": "4440060872",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-20",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2262,11 +2467,11 @@
     ],
     "requisitionId": "4449494429",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787292309042-1",
     "firstSeenAt": "2026-08-21T06:05:09.039Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-21T15:04:43.792Z",
     "statusHistory": [
@@ -2330,11 +2535,11 @@
     ],
     "requisitionId": "4440962387",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-21",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2396,11 +2601,11 @@
     ],
     "requisitionId": "14094069",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-22",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-21T15:04:43.792Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2438,8 +2643,8 @@
     "applicationDeadline": null,
     "postingAgeText": "3 weeks ago",
     "salaryText": "€4,000–5,500 gross/month",
-    "status": "Newly found",
-    "statusReason": "The exact LinkedIn role exposes Apply and explicitly lists Vilnius, compensation and workflow-orchestration requirements.",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run.",
     "relevanceScore": 90,
     "matchSummary": "AI engineering role applying n8n or Power Automate orchestration to business processes and production use cases.",
     "technologies": [
@@ -2459,18 +2664,23 @@
       "Interest in applied AI and machine learning"
     ],
     "requisitionId": "4374711332",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-4",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The exact LinkedIn role exposes Apply and explicitly lists Vilnius, compensation and workflow-orchestration requirements."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
     ]
   },
@@ -2517,11 +2727,11 @@
     "requisitionId": "4439072999",
     "salaryText": "€6,160–8,500 gross/month",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-23",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2534,6 +2744,63 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ]
+  },
+  {
+    "workMode": "unknown",
+    "lithuaniaEligible": true,
+    "source": "CV-Online direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-08-27",
+    "postingAgeText": "7 days ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "title": "Junior Integration & Automation Engineer",
+    "normalizedTitle": "Junior Integration and Automation Engineer",
+    "company": "Manpower Lit, UAB",
+    "normalizedCompany": "Manpower Lithuania",
+    "location": "Kaunas, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Workflow / BPM",
+      "Technical Platform / Architecture"
+    ],
+    "directUrl": "https://www.cvonline.lt/en/vacancy/1628512/manpower-lit-uab/junior-integration-ir-automation-engineer",
+    "salaryText": "€2,000–2,800 gross/month",
+    "statusReason": "CV-Online shows a role-specific vacancy with a future application deadline of 2026-08-27.",
+    "relevanceScore": 88,
+    "matchSummary": "Junior integration and automation role in a new ERP service centre supporting workflows, integrations and automation across the group.",
+    "technologies": [
+      "ERP",
+      "APIs",
+      "Integrations"
+    ],
+    "keywordsMatched": [
+      "integration",
+      "automation",
+      "workflow"
+    ],
+    "requirements": [
+      "Interest in ERP integrations and automation",
+      "Technical problem solving",
+      "English communication"
+    ],
+    "requisitionId": "1628512",
+    "id": "job-1787465119152-4",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "CV-Online shows a role-specific vacancy with a future application deadline of 2026-08-27."
       }
     ]
   },
@@ -2560,8 +2827,8 @@
     "applicationDeadline": null,
     "postingAgeText": "4 days ago on LinkedIn",
     "salaryText": "€4,100–4,800 gross/month",
-    "status": "Newly found",
-    "statusReason": "The official role-specific careers page is live and directs candidates to apply; the current LinkedIn vacancy also exposes Apply.",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run.",
     "relevanceScore": 88,
     "matchSummary": "End-to-end process ownership role leading optimization portfolios, KPIs, continuous improvement and digital solution delivery.",
     "technologies": [
@@ -2580,18 +2847,23 @@
       "End-to-end process knowledge"
     ],
     "requisitionId": "4421786849",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-7",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The official role-specific careers page is live and directs candidates to apply; the current LinkedIn vacancy also exposes Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
     ]
   },
@@ -2636,11 +2908,11 @@
     ],
     "requisitionId": "4417376610",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-24",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2701,11 +2973,11 @@
     ],
     "requisitionId": "4455757183",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787292309042-2",
     "firstSeenAt": "2026-08-21T06:05:09.039Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-21T15:04:43.792Z",
     "statusHistory": [
@@ -2768,11 +3040,11 @@
     ],
     "requisitionId": "4443744640",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787324683794-2",
     "firstSeenAt": "2026-08-21T15:04:43.792Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-22T06:05:40.011Z",
     "statusHistory": [
@@ -2785,6 +3057,128 @@
         "status": "Still open",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "Direct role page was rechecked during the 2026-08-22 run and remains live without explicit closure; Apply is available where exposed by LinkedIn."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "source": "LinkedIn direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "5 days ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "title": "Backend / IT sistemų inžinierius (-ė)",
+    "normalizedTitle": "Backend and IT Systems Engineer",
+    "company": "COUNTLINE",
+    "normalizedCompany": "COUNTLINE",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Workflow / BPM",
+      "Technical Platform / Architecture"
+    ],
+    "directUrl": "https://lt.linkedin.com/jobs/view/backend-it-sistem%C5%B3-in%C5%BEinierius-%C4%97-at-countline-4451212718",
+    "salaryText": "€3,500–4,500 gross/month",
+    "statusReason": "The role-specific LinkedIn vacancy has an active Apply action and a current Vilnius listing.",
+    "relevanceScore": 87,
+    "matchSummary": "Backend and automation engineering role spanning Power Automate, n8n, APIs, workflow architecture and an expanding AI-automation portfolio.",
+    "technologies": [
+      "Power Automate",
+      "n8n",
+      "PHP",
+      "Python",
+      "JavaScript",
+      "APIs"
+    ],
+    "keywordsMatched": [
+      "workflow automation",
+      "Power Automate",
+      "n8n",
+      "AI automation"
+    ],
+    "requirements": [
+      "Three years of backend development",
+      "Database and API integration experience",
+      "Workflow automation tools",
+      "Business-process understanding"
+    ],
+    "requisitionId": "4451212718",
+    "id": "job-1787465119152-1",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific LinkedIn vacancy has an active Apply action and a current Vilnius listing."
+      }
+    ]
+  },
+  {
+    "workMode": "unknown",
+    "lithuaniaEligible": true,
+    "source": "LinkedIn direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "17 hours ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastSeenAt": "2026-08-23T06:05:19.103Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
+    "title": "People Analytics & HR Tech Specialist",
+    "normalizedTitle": "People Analytics and HR Tech Specialist",
+    "company": "Nayax",
+    "normalizedCompany": "Nayax",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Automation Analysis",
+      "AI / Agentic Automation",
+      "Process Analysis"
+    ],
+    "directUrl": "https://lt.linkedin.com/jobs/view/people-analytics-hr-tech-specialist-at-nayax-4416013088",
+    "salaryText": "€4,000–4,300 gross/month",
+    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius.",
+    "relevanceScore": 84,
+    "matchSummary": "HR technology ownership role focused on Power Automate workflows, bots, AI adoption and automated reporting pipelines.",
+    "technologies": [
+      "Power Automate",
+      "Power BI",
+      "Oracle HCM",
+      "AI tools"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "bots",
+      "Power Automate",
+      "workflow"
+    ],
+    "requirements": [
+      "Three to five years in People Analytics or HRIS",
+      "Hands-on AI tools",
+      "Automation and bot building",
+      "HR systems ownership"
+    ],
+    "requisitionId": "4416013088",
+    "id": "job-1787465119152-2",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius."
       }
     ]
   },
@@ -2829,11 +3223,11 @@
     ],
     "requisitionId": "4417388046",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-25",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2890,11 +3284,11 @@
     ],
     "requisitionId": "4448884067",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-26",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2952,11 +3346,11 @@
     ],
     "requisitionId": "4422411906",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-27",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -2995,8 +3389,8 @@
     "applicationDeadline": null,
     "postingAgeText": "4 days ago",
     "salaryText": "€4,325–5,858 gross/month",
-    "status": "Newly found",
-    "statusReason": "The exact vacancy is current on LinkedIn with no closure notice and was crawled on the run date.",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run.",
     "relevanceScore": 82,
     "matchSummary": "Process-management role owning GRC workflows, integrations and automation to reduce manual reporting overhead.",
     "technologies": [
@@ -3017,18 +3411,23 @@
       "Workflow and integration ownership"
     ],
     "requisitionId": "4431746012",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-2",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The exact vacancy is current on LinkedIn with no closure notice and was crawled on the run date."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
     ]
   },
@@ -3076,11 +3475,11 @@
       "Fluent English and Lithuanian"
     ],
     "requisitionId": "uSurTd93iv27xrwFVfGvP3",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513434-32",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -3144,11 +3543,11 @@
     ],
     "requisitionId": "4437771260",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-28",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -3207,11 +3606,11 @@
     "requisitionId": "4429538306",
     "salaryText": "€3,591.25–4,436.25 gross/month",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-29",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -3250,8 +3649,8 @@
     "applicationDeadline": null,
     "postingAgeText": "12 hours ago",
     "salaryText": "Salary not disclosed",
-    "status": "Newly found",
-    "statusReason": "The exact LinkedIn vacancy is current and exposes Apply.",
+    "status": "Still open",
+    "statusReason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run.",
     "relevanceScore": 78,
     "matchSummary": "Process-owner role driving finance process standardisation, automation, AI adoption and cross-functional implementation.",
     "technologies": [
@@ -3270,18 +3669,23 @@
       "Strong coordination and stakeholder skills"
     ],
     "requisitionId": "4442702288",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-1",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-22T06:05:40.011Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "The exact LinkedIn vacancy is current and exposes Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
     ]
   },
@@ -3330,11 +3734,11 @@
     ],
     "requisitionId": "4453094330",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787324683794-4",
     "firstSeenAt": "2026-08-21T15:04:43.792Z",
     "lastSeenAt": "2026-08-22T06:05:39.955Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-22T06:05:40.011Z",
     "statusHistory": [
@@ -3394,11 +3798,11 @@
     "requisitionId": "JR0129675",
     "salaryText": "€2,083–2,916 gross/month",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787221513433-30",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-08-21T15:04:43.792Z",
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
     "previousStatus": "Still open",
     "statusChangedAt": "2026-08-21T15:04:43.792Z",
     "statusHistory": [
@@ -3460,8 +3864,8 @@
       "Cross-functional manufacturing and quality collaboration"
     ],
     "requisitionId": null,
-    "lastVerifiedAt": "2026-08-22T06:05:39.955Z",
-    "sourceLastCheckedAt": "2026-08-22T06:05:39.955Z",
+    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
+    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
     "id": "job-1787378740013-5",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
     "lastSeenAt": "2026-08-22T06:05:40.011Z",
