@@ -5,7 +5,7 @@ description: Research, verify, deduplicate, merge, and publish Lithuania-relevan
 
 # Run Job Search
 
-Maintain one ranked vacancy pool across all role families and three primary review focuses: `developer`, `manager`, and `analyst`. Optimize for accuracy, current evidence, direct URLs, historical continuity, and Lithuania eligibility.
+Maintain one ranked vacancy pool across all role families and three primary review focuses: `developer`, `manager`, and `analyst`. Optimize for accuracy, current evidence, direct URLs, historical continuity, Lithuania eligibility, and broad option discovery. The user values having many credible options, so every run must search substantially beyond the obvious RPA titles without weakening the evidence gate.
 
 ## Required workflow
 
@@ -24,7 +24,9 @@ Maintain one ranked vacancy pool across all role families and three primary revi
 
 ## Research rules
 
-- Search deeply enough to cover exact titles, technologies, employers, official career systems, and historical rechecks.
+- Search deeply and widely across exact titles, adjacent titles, technologies, employers, official career systems, local boards, recent postings, multilingual variants, and historical rechecks. Do not stop after the first page or first few good matches; continue across independent search lanes until additional lanes stop producing credible new vacancies.
+- Expand queries from the user's professional profile: hands-on RPA and workflow delivery, automation analysis, process discovery and redesign, solution/platform architecture, integrations and APIs, automation leadership, product/platform ownership, transformation delivery, and business-facing technical consulting. Search for work that uses these capabilities even when the title omits RPA or automation.
+- Maximize verified options, not raw noise. Include adjacent roles when their responsibilities materially overlap the profile, and keep excluding generic engineering, QA automation, marketing automation, data-only, and project-management roles without a strong workflow/process/transformation connection.
 - Treat all roles as one result pool, but assign exactly one primary `roleFocus` from `developer`, `manager`, or `analyst`. Classify by dominant responsibilities, not title alone.
 - Search all three focuses on every full run. Do not force equal counts or retain weak roles merely to balance the sections.
 - Prefer a verified role-specific official/ATS URL. Strip tracking parameters. Store `directUrl: null` when no role-specific URL can be verified.

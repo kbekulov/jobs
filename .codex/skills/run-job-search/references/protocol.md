@@ -27,6 +27,34 @@ Combine exact-title, technology, employer-specific, career-page, and historical-
 - Product and delivery: Product/Technical Product Owner, IT/Automation Project Manager, Program/Delivery/Platform/Systems Manager.
 - AI: AI/Agentic/LLM automation, AI agents, AI workflows, Generative AI, Copilot, intelligent workflows, AI transformation/operations/platform.
 
+### Professionally adjacent expansion
+
+The user's professional profile spans hands-on automation delivery, analysis, architecture, integrations, leadership, and business transformation. Search these adjacent titles and concepts on every full run, including Lithuanian and English variants, while requiring meaningful overlap in the vacancy description:
+
+- Solution/Platform/Enterprise/Application Architect; Integration Engineer/Architect; API or Middleware Engineer; Enterprise Applications Engineer; Systems Engineer where workflow automation is substantive.
+- Business Systems Analyst; Systems Analyst/Modeler; Requirements Analyst; Functional Consultant; Solution Consultant; Technology Consultant; Digital Transformation Consultant; Process Consultant.
+- ServiceNow, Dynamics 365, Salesforce platform, Microsoft 365/Digital Workplace, SharePoint, Azure Logic Apps, Copilot adoption, and enterprise workflow roles when they include automation, orchestration, process ownership, or low-code delivery.
+- Process Mining, Task Mining, Process Intelligence, Operational Intelligence, Decision Automation, Business Rules, Event Processing, Case Management, and orchestration platforms.
+- Continuous Improvement, Lean, Operational Excellence, Service Excellence, Process Governance, Process Controls, Target Operating Model, Shared Services/GBS transformation, and technology adoption roles.
+- Automation Portfolio/Program/Delivery Manager; Product or Platform Manager/Owner; Practice/Capability/Chapter Lead; CoE Lead; Transformation Office roles; AI Enablement/Adoption Lead.
+- Intelligent document processing, OCR/document automation, conversational automation, virtual agents, AI operations, agent platforms, prompt/agent workflow engineering, and AI solution delivery.
+
+Do not require an exact keyword in the title. Read responsibilities and technologies to decide whether the role uses the user's transferable automation/process capabilities.
+
+## Search depth and breadth
+
+Each recurring run is a deep search, not a quick sampling. Cover all of these independent lanes before concluding:
+
+1. Dedicated developer/engineer, manager/lead, and analyst/consultant searches.
+2. Exact RPA and automation titles plus the professionally adjacent expansion above.
+3. Technology searches for each major platform and concept, including combinations with Lithuania, Vilnius, Kaunas, and remote-Lithuania eligibility.
+4. Every named priority employer, plus newly discovered employers and recruiter postings.
+5. Local boards, LinkedIn direct jobs, official employer lists, and major ATS platforms.
+6. English and Lithuanian title/keyword variants and recent-posting searches.
+7. Every non-closed tracked vacancy and every historical role family.
+
+Continue beyond the first result page or first few matches where the source permits it. Vary synonyms and search combinations to uncover roles whose titles mask relevant work. Prefer many verified options, but never trade away the direct-link, Lithuania-eligibility, deduplication, and status-evidence rules merely to increase the count.
+
 Search technologies inside descriptions even when the title lacks “automation.” Deprioritize generic engineering, data, QA automation, marketing automation, and generic project management without strong process/workflow relevance.
 
 ## Primary review focus
