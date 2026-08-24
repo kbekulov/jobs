@@ -1469,6 +1469,65 @@
     ]
   },
   {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "source": "Official employer ATS",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted 4 days ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-24T06:02:03.237Z",
+    "lastSeenAt": "2026-08-24T06:02:03.237Z",
+    "lastVerifiedAt": "2026-08-24T06:02:03.237Z",
+    "sourceLastCheckedAt": "2026-08-24T06:02:03.237Z",
+    "title": "Senior Lead, Process Excellence & Business Transformation",
+    "normalizedTitle": "Senior Lead, Process Excellence and Business Transformation",
+    "company": "Dexcom",
+    "normalizedCompany": "Dexcom Lithuania",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Excellence",
+      "Digital Transformation",
+      "Automation Leadership",
+      "Process Management"
+    ],
+    "directUrl": "https://dexcom.wd1.myworkdayjobs.com/en-US/Dexcom/job/Sr-Lead-Business-Process-Analyst_JR118359-1",
+    "salaryText": "Salary not disclosed",
+    "statusReason": "Dexcom's official Workday vacancy shows an active Apply action for Vilnius and requisition JR118359.",
+    "relevanceScore": 96,
+    "matchSummary": "Senior transformation lead role owning multi-domain process excellence programs, enterprise integration and automation from strategy through value realization.",
+    "technologies": [
+      "Enterprise systems",
+      "Process automation"
+    ],
+    "keywordsMatched": [
+      "process excellence",
+      "business transformation",
+      "automation",
+      "process integration"
+    ],
+    "requirements": [
+      "End-to-end transformation leadership",
+      "Enterprise systems and process integration",
+      "Process excellence expertise",
+      "Value-realization ownership"
+    ],
+    "requisitionId": "JR118359",
+    "id": "job-1787551323287-0",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-24T06:02:03.286Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-24T06:02:03.286Z",
+        "reason": "Dexcom's official Workday vacancy shows an active Apply action for Vilnius and requisition JR118359."
+      }
+    ]
+  },
+  {
     "title": "Junior AI & Automation Specialist",
     "normalizedTitle": "Junior AI Automation Specialist",
     "company": "Eany",
@@ -2058,6 +2117,71 @@
     ]
   },
   {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "source": "LinkedIn direct vacancy",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "6 hours ago",
+    "status": "Still open",
+    "seniority": "",
+    "firstSeenAt": "2026-08-23T15:01:52.024Z",
+    "lastSeenAt": "2026-08-24T06:02:03.237Z",
+    "lastVerifiedAt": "2026-08-24T06:02:03.237Z",
+    "sourceLastCheckedAt": "2026-08-24T06:02:03.237Z",
+    "title": "Business Process Engineer",
+    "normalizedTitle": "Business Process Engineer",
+    "company": "Cognizant",
+    "normalizedCompany": "Cognizant",
+    "location": "Kaunas, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Workflow / BPM",
+      "Process Architecture"
+    ],
+    "directUrl": "https://lt.linkedin.com/jobs/view/business-process-engineer-at-cognizant-4453727715",
+    "salaryText": "€3,800–5,042 gross/month",
+    "statusReason": "The role-specific vacancy still shows an active Apply action during this daily recheck.",
+    "relevanceScore": 94,
+    "matchSummary": "Hands-on intelligent process-automation engineering role building business-rule engines, event-processing workflows and hybrid-cloud integrations.",
+    "technologies": [
+      "BPM",
+      "Business rules engines",
+      "Event processing",
+      "Hybrid cloud"
+    ],
+    "keywordsMatched": [
+      "intelligent process automation",
+      "automated workflows",
+      "BPM",
+      "event-driven"
+    ],
+    "requirements": [
+      "Business process management",
+      "Rules-engine experience",
+      "Event-driven architectures",
+      "Workflow scripting and development"
+    ],
+    "requisitionId": "4453727715",
+    "id": "job-1787497312071-2",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-24T06:02:03.286Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-23T15:01:52.070Z",
+        "reason": "The role-specific LinkedIn vacancy shows an active Apply action for a Lithuania-based position."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-24T06:02:03.286Z",
+        "reason": "The role-specific vacancy still shows an active Apply action during this daily recheck."
+      }
+    ]
+  },
+  {
     "workMode": "unknown",
     "lithuaniaEligible": true,
     "source": "CV-Online direct vacancy",
@@ -2115,66 +2239,6 @@
         "status": "Still open",
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
-      }
-    ]
-  },
-  {
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "source": "LinkedIn direct vacancy",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "6 hours ago",
-    "status": "Newly found",
-    "seniority": "",
-    "firstSeenAt": "2026-08-23T15:01:52.024Z",
-    "lastSeenAt": "2026-08-23T15:01:52.024Z",
-    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
-    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
-    "title": "Business Process Engineer",
-    "normalizedTitle": "Business Process Engineer",
-    "company": "Cognizant",
-    "normalizedCompany": "Cognizant",
-    "location": "Kaunas, Lithuania",
-    "roleFocus": "developer",
-    "roleFamilies": [
-      "Automation Engineering",
-      "Workflow / BPM",
-      "Process Architecture"
-    ],
-    "directUrl": "https://lt.linkedin.com/jobs/view/business-process-engineer-at-cognizant-4453727715",
-    "salaryText": "€3,800–5,042 gross/month",
-    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action for a Lithuania-based position.",
-    "relevanceScore": 94,
-    "matchSummary": "Hands-on intelligent process-automation engineering role building business-rule engines, event-processing workflows and hybrid-cloud integrations.",
-    "technologies": [
-      "BPM",
-      "Business rules engines",
-      "Event processing",
-      "Hybrid cloud"
-    ],
-    "keywordsMatched": [
-      "intelligent process automation",
-      "automated workflows",
-      "BPM",
-      "event-driven"
-    ],
-    "requirements": [
-      "Business process management",
-      "Rules-engine experience",
-      "Event-driven architectures",
-      "Workflow scripting and development"
-    ],
-    "requisitionId": "4453727715",
-    "id": "job-1787497312071-2",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T15:01:52.070Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-23T15:01:52.070Z",
-        "reason": "The role-specific LinkedIn vacancy shows an active Apply action for a Lithuania-based position."
       }
     ]
   },
@@ -2570,12 +2634,12 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "7 hours ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-23T15:01:52.024Z",
-    "lastSeenAt": "2026-08-23T15:01:52.024Z",
-    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
-    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
+    "lastSeenAt": "2026-08-24T06:02:03.237Z",
+    "lastVerifiedAt": "2026-08-24T06:02:03.237Z",
+    "sourceLastCheckedAt": "2026-08-24T06:02:03.237Z",
     "title": "PROCESŲ GRUPĖS VADOVĖ (-AS)",
     "normalizedTitle": "Procesų grupės vadovas",
     "company": "AB „Energijos skirstymo operatorius“ (ESO)",
@@ -2590,7 +2654,7 @@
     ],
     "directUrl": "https://lt.linkedin.com/jobs/view/proces%C5%B3-grup%C4%97s-vadov%C4%97-as-at-ab-%E2%80%9Eenergijos-skirstymo-operatorius%E2%80%9C-eso-4455718372",
     "salaryText": "Salary not disclosed",
-    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius.",
+    "statusReason": "The role-specific vacancy still shows an active Apply action during this daily recheck.",
     "relevanceScore": 91,
     "matchSummary": "Strategic process-group leadership role driving transformation, automation changes, KPI governance and IT-system improvements.",
     "technologies": [
@@ -2610,13 +2674,18 @@
     ],
     "requisitionId": "4455718372",
     "id": "job-1787497312071-1",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T15:01:52.070Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-24T06:02:03.286Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-24T06:02:03.286Z",
+        "reason": "The role-specific vacancy still shows an active Apply action during this daily recheck."
       }
     ]
   },
@@ -3522,12 +3591,12 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "25 minutes ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-23T15:01:52.024Z",
-    "lastSeenAt": "2026-08-23T15:01:52.024Z",
-    "lastVerifiedAt": "2026-08-23T15:01:52.024Z",
-    "sourceLastCheckedAt": "2026-08-23T15:01:52.024Z",
+    "lastSeenAt": "2026-08-24T06:02:03.237Z",
+    "lastVerifiedAt": "2026-08-24T06:02:03.237Z",
+    "sourceLastCheckedAt": "2026-08-24T06:02:03.237Z",
     "title": "PROCESŲ VADOVĖ (-AS)",
     "normalizedTitle": "Procesų vadovas",
     "company": "AB „Energijos skirstymo operatorius“ (ESO)",
@@ -3541,7 +3610,7 @@
     ],
     "directUrl": "https://lt.linkedin.com/jobs/view/proces%C5%B3-vadov%C4%97-as-at-ab-%E2%80%9Eenergijos-skirstymo-operatorius%E2%80%9C-eso-4456176776",
     "salaryText": "€2,520–3,780 gross/month",
-    "statusReason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius.",
+    "statusReason": "The role-specific vacancy still shows an active Apply action during this daily recheck.",
     "relevanceScore": 83,
     "matchSummary": "Process ownership role covering analysis, modelling, governance, measurable improvement and end-to-end change delivery.",
     "technologies": [
@@ -3561,13 +3630,18 @@
     ],
     "requisitionId": "4456176776",
     "id": "job-1787497312071-0",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-23T15:01:52.070Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-24T06:02:03.286Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific LinkedIn vacancy shows an active Apply action for Vilnius."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-24T06:02:03.286Z",
+        "reason": "The role-specific vacancy still shows an active Apply action during this daily recheck."
       }
     ]
   },
@@ -3891,6 +3965,64 @@
         "status": "Still open",
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "source": "Official employer ATS",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted 8 days ago",
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-24T06:02:03.237Z",
+    "lastSeenAt": "2026-08-24T06:02:03.237Z",
+    "lastVerifiedAt": "2026-08-24T06:02:03.237Z",
+    "sourceLastCheckedAt": "2026-08-24T06:02:03.237Z",
+    "title": "Business Operations Analyst",
+    "normalizedTitle": "Business Operations Analyst",
+    "company": "Guidehouse",
+    "normalizedCompany": "Guidehouse",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Automation Analysis"
+    ],
+    "directUrl": "https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/LT---Vilnius/Business-Operations-Analyst_41541",
+    "salaryText": "Salary not disclosed",
+    "statusReason": "Guidehouse's official Workday vacancy shows an active Apply action for Vilnius and requisition 41541.",
+    "relevanceScore": 76,
+    "matchSummary": "Operations-analysis role supporting business-process managers, data quality and automation solutions across recurring operational workflows.",
+    "technologies": [
+      "Dashboards",
+      "Automation solutions"
+    ],
+    "keywordsMatched": [
+      "business operations",
+      "process support",
+      "automation solutions",
+      "workflow"
+    ],
+    "requirements": [
+      "Operational data analysis",
+      "Dashboard preparation",
+      "Stakeholder coordination",
+      "Automation support"
+    ],
+    "requisitionId": "41541",
+    "id": "job-1787551323287-1",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-24T06:02:03.286Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-24T06:02:03.286Z",
+        "reason": "Guidehouse's official Workday vacancy shows an active Apply action for Vilnius and requisition 41541."
       }
     ]
   },
