@@ -1,5 +1,69 @@
 [
   {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-08-26",
+    "postingAgeText": null,
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
+    "title": "Process Excellence & Automation Manager",
+    "normalizedTitle": "Process Excellence and Automation Manager",
+    "company": "PHOENIX Business Services UAB",
+    "normalizedCompany": "PHOENIX Business Services",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Automation Leadership",
+      "Process Excellence",
+      "Process Management",
+      "AI / Agentic Automation",
+      "Digital Transformation"
+    ],
+    "source": "CVbankas direct vacancy",
+    "directUrl": "https://en.cvbankas.lt/process-excellence-automation-manager-vilniuje/1-13910684",
+    "salaryText": "€5,800–6,960 gross/month",
+    "statusReason": "The role-specific CVbankas vacancy remains active with a 2026-08-26 deadline.",
+    "relevanceScore": 100,
+    "matchSummary": "Exceptional automation-leadership match owning RPA, process mining, agentic AI, BPM, Lean and the finance automation portfolio for a Vilnius SSC.",
+    "technologies": [
+      "RPA",
+      "Process Mining",
+      "Agentic AI",
+      "BPM",
+      "Lean"
+    ],
+    "keywordsMatched": [
+      "automation portfolio",
+      "process excellence",
+      "process mining",
+      "agentic AI",
+      "transformation"
+    ],
+    "requirements": [
+      "Five years in transformation or operational excellence",
+      "Automation and process-mining delivery",
+      "Team leadership",
+      "Value realization and governance"
+    ],
+    "requisitionId": "13910684",
+    "id": "job-1787637777056-0",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "The role-specific CVbankas vacancy remains active with a 2026-08-26 deadline."
+      }
+    ]
+  },
+  {
     "title": "Junior AI Automation Specialist",
     "normalizedTitle": "Junior AI Automation Specialist",
     "company": "Mediatech",
@@ -1471,17 +1535,79 @@
   {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-19",
+    "postingAgeText": null,
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
+    "title": "Business Systems & Automation Specialist",
+    "normalizedTitle": "Business Systems and Automation Specialist",
+    "company": "Leinonen, UAB",
+    "normalizedCompany": "Leinonen",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Power Platform",
+      "AI / Agentic Automation",
+      "Business Analysis"
+    ],
+    "source": "CV-Online direct vacancy",
+    "directUrl": "https://www.cvonline.lt/lt/vacancy/1643198/leinonen-uab/business-systems-i-automation-specialist",
+    "salaryText": "€3,000–3,700 gross/month",
+    "statusReason": "CV-Online shows a current role-specific vacancy with a future 2026-09-19 deadline.",
+    "relevanceScore": 97,
+    "matchSummary": "Hands-on Power Automate, Power BI, systems-integration and Copilot-agent role translating business requirements into automation solutions.",
+    "technologies": [
+      "Power Automate",
+      "Power BI",
+      "Microsoft Copilot",
+      "Power Platform",
+      "System integrations"
+    ],
+    "keywordsMatched": [
+      "business process automation",
+      "Copilot agents",
+      "data flows",
+      "requirements"
+    ],
+    "requirements": [
+      "Power Platform experience",
+      "Business-process automation",
+      "Integration and data-flow understanding",
+      "Requirements gathering"
+    ],
+    "requisitionId": "1643198",
+    "id": "job-1787637777056-1",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "CV-Online shows a current role-specific vacancy with a future 2026-09-19 deadline."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
     "source": "Official employer ATS",
     "supportingSourceUrl": null,
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "Posted 4 days ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-24T06:02:03.237Z",
-    "lastSeenAt": "2026-08-24T06:02:03.237Z",
-    "lastVerifiedAt": "2026-08-24T06:02:03.237Z",
-    "sourceLastCheckedAt": "2026-08-24T06:02:03.237Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
     "title": "Senior Lead, Process Excellence & Business Transformation",
     "normalizedTitle": "Senior Lead, Process Excellence and Business Transformation",
     "company": "Dexcom",
@@ -1495,8 +1621,8 @@
       "Process Management"
     ],
     "directUrl": "https://dexcom.wd1.myworkdayjobs.com/en-US/Dexcom/job/Sr-Lead-Business-Process-Analyst_JR118359-1",
-    "salaryText": "Salary not disclosed",
-    "statusReason": "Dexcom's official Workday vacancy shows an active Apply action for Vilnius and requisition JR118359.",
+    "salaryText": "€5,305.42–6,553.75 gross/month",
+    "statusReason": "The role-specific official employer vacancy remains live and current during this deep recheck.",
     "relevanceScore": 96,
     "matchSummary": "Senior transformation lead role owning multi-domain process excellence programs, enterprise integration and automation from strategy through value realization.",
     "technologies": [
@@ -1517,13 +1643,18 @@
     ],
     "requisitionId": "JR118359",
     "id": "job-1787551323287-0",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-24T06:02:03.286Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-24T06:02:03.286Z",
         "reason": "Dexcom's official Workday vacancy shows an active Apply action for Vilnius and requisition JR118359."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "The role-specific official employer vacancy remains live and current during this deep recheck."
       }
     ]
   },
@@ -2309,6 +2440,66 @@
   {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
+    "title": "Procesų automatizavimo specialistas (-ė)",
+    "normalizedTitle": "Process Automation Specialist",
+    "company": "UAB Site.pro",
+    "normalizedCompany": "Site.pro",
+    "location": "Klaipėda, Lithuania",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Automation Analysis",
+      "Process Analysis",
+      "Project / Program Management",
+      "Digital Transformation"
+    ],
+    "source": "CVbankas direct vacancy",
+    "directUrl": "https://www.cvbankas.lt/procesu-automatizavimo-specialistas-e-klaipedoje/1-14056854",
+    "salaryText": "€2,002–3,003 gross/month",
+    "statusReason": "The role-specific CVbankas vacancy remains active, with recent employer activity on candidate profiles.",
+    "relevanceScore": 93,
+    "matchSummary": "Direct process-automation specialist role analyzing opportunities, defining requirements, coordinating delivery and improving implemented automations.",
+    "technologies": [
+      "ERP",
+      "CRM",
+      "Business management systems"
+    ],
+    "keywordsMatched": [
+      "process automation",
+      "requirements",
+      "automation delivery",
+      "process optimization"
+    ],
+    "requirements": [
+      "Business-system experience",
+      "Project coordination",
+      "Analytical problem solving",
+      "Stakeholder communication"
+    ],
+    "requisitionId": "14056854",
+    "id": "job-1787637777056-6",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "The role-specific CVbankas vacancy remains active, with recent employer activity on candidate profiles."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
     "source": "LinkedIn direct vacancy",
     "supportingSourceUrl": null,
     "postingDate": null,
@@ -2495,6 +2686,65 @@
     ]
   },
   {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
+    "title": "ServiceNow Platform Architect",
+    "normalizedTitle": "ServiceNow Platform Architect",
+    "company": "Accenture",
+    "normalizedCompany": "Accenture",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Technical Platform / Architecture",
+      "Workflow / BPM",
+      "Automation Architecture",
+      "Digital Transformation"
+    ],
+    "source": "Official company careers",
+    "directUrl": "https://www.accenture.com/lv-en/careers/jobdetails?id=R00331910_en",
+    "salaryText": "Salary not disclosed",
+    "statusReason": "Accenture's official role-specific vacancy shows an active Apply action and Vilnius as the location.",
+    "relevanceScore": 92,
+    "matchSummary": "Enterprise ServiceNow workflow-platform architecture role designing scalable transformation solutions and guiding delivery teams through implementation.",
+    "technologies": [
+      "ServiceNow",
+      "Enterprise workflows"
+    ],
+    "keywordsMatched": [
+      "platform architect",
+      "workflow",
+      "digital transformation",
+      "solution delivery"
+    ],
+    "requirements": [
+      "ServiceNow architecture",
+      "Enterprise solution design",
+      "Implementation roadmaps",
+      "Technical leadership"
+    ],
+    "requisitionId": "R00331910",
+    "id": "job-1787637777056-3",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "Accenture's official role-specific vacancy shows an active Apply action and Vilnius as the location."
+      }
+    ]
+  },
+  {
     "title": "Productivity Solutions Consultant (Microsoft Power Platform and Microsoft 365)",
     "normalizedTitle": "Productivity Solutions Consultant Microsoft Power Platform Microsoft 365",
     "company": "Danske Bank",
@@ -2623,6 +2873,68 @@
         "status": "Still open",
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
+    "title": "Sistemų ir verslo procesų analitikas-konsultantas (-ė)",
+    "normalizedTitle": "Systems and Business Process Analyst-Consultant",
+    "company": "Mantinga Group",
+    "normalizedCompany": "Mantinga",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Technical Platform / Architecture",
+      "Digital Transformation"
+    ],
+    "source": "CVbankas direct vacancy",
+    "directUrl": "https://www.cvbankas.lt/sistemu-ir-verslo-procesu-analitikas-konsultantas-e-vilniuje/1-14094067",
+    "salaryText": "€1,920–2,879 net/month",
+    "statusReason": "The role-specific CVbankas vacancy is active and tied to a current Vilnius opening.",
+    "relevanceScore": 91,
+    "matchSummary": "Business-facing systems-analysis and consulting role covering requirements, process and API diagrams, change delivery, and AI/low-code experimentation.",
+    "technologies": [
+      "APIs",
+      "AI tools",
+      "Low-code",
+      "No-code",
+      "ITIL"
+    ],
+    "keywordsMatched": [
+      "systems analysis",
+      "business process consulting",
+      "integrations",
+      "AI low-code"
+    ],
+    "requirements": [
+      "Systems or IT consulting experience",
+      "Requirements and specifications",
+      "API and data-flow understanding",
+      "Change management"
+    ],
+    "requisitionId": "14094067",
+    "id": "job-1787637777056-5",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "The role-specific CVbankas vacancy is active and tied to a current Vilnius opening."
       }
     ]
   },
@@ -2946,6 +3258,125 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
+    "title": "Process Manager",
+    "normalizedTitle": "Process Manager",
+    "company": "StormGeo",
+    "normalizedCompany": "StormGeo",
+    "location": "Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Process Excellence",
+      "Digital Transformation",
+      "Process Architecture"
+    ],
+    "source": "Official employer ATS",
+    "directUrl": "https://web103.reachmee.com/ext/I021/1646/job?ihelper=https%3A%2F%2Fweb103.reachmee.com%2Fext%2FI021%2F1646%2Fmain%3Fsite%3D9&job_id=702&lang=UK&site=9&validator=b5001a5f2245de99cc09ae5e627c5749",
+    "salaryText": "From €5,000 gross/month",
+    "statusReason": "StormGeo's role-specific official vacancy is live, Lithuania-based, and provides application instructions.",
+    "relevanceScore": 89,
+    "matchSummary": "Process-management role leading end-to-end mapping, redesign, governance and finance-transformation improvements across a global technology business.",
+    "technologies": [
+      "Process mapping",
+      "KPI management"
+    ],
+    "keywordsMatched": [
+      "process excellence",
+      "business transformation",
+      "process redesign",
+      "governance"
+    ],
+    "requirements": [
+      "Process improvement experience",
+      "Business transformation",
+      "Workshop facilitation",
+      "Process governance"
+    ],
+    "requisitionId": "702",
+    "id": "job-1787637777056-2",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "StormGeo's role-specific official vacancy is live, Lithuania-based, and provides application instructions."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "status": "Newly found",
+    "seniority": "",
+    "firstSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
+    "title": "Solution Architect (D365 Migration)",
+    "normalizedTitle": "Solution Architect - D365 Migration",
+    "company": "EPAM Systems",
+    "normalizedCompany": "EPAM",
+    "location": "Lithuania",
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Technical Platform / Architecture",
+      "Automation Architecture",
+      "Workflow / BPM"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/solution-architect-d365-migration-at-epam-systems-4450162667",
+    "salaryText": "€5,000–6,800 gross/month",
+    "statusReason": "The role-specific LinkedIn vacancy establishes Lithuania-wide hybrid eligibility and current application availability.",
+    "relevanceScore": 88,
+    "matchSummary": "Dynamics 365 integration-architecture role translating finance and supply-chain processes into APIs, data flows and migration solutions.",
+    "technologies": [
+      "Dynamics 365",
+      "SAP",
+      "APIs",
+      "Integration architecture"
+    ],
+    "keywordsMatched": [
+      "solution architecture",
+      "business processes",
+      "integration requirements",
+      "ERP transformation"
+    ],
+    "requirements": [
+      "D365 architecture",
+      "ERP migration",
+      "Integration design",
+      "Business-process translation"
+    ],
+    "requisitionId": "4450162667",
+    "id": "job-1787637777056-4",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "The role-specific LinkedIn vacancy establishes Lithuania-wide hybrid eligibility and current application availability."
       }
     ]
   },
@@ -3976,12 +4407,12 @@
     "postingDate": null,
     "applicationDeadline": null,
     "postingAgeText": "Posted 8 days ago",
-    "status": "Newly found",
+    "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-24T06:02:03.237Z",
-    "lastSeenAt": "2026-08-24T06:02:03.237Z",
-    "lastVerifiedAt": "2026-08-24T06:02:03.237Z",
-    "sourceLastCheckedAt": "2026-08-24T06:02:03.237Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
     "title": "Business Operations Analyst",
     "normalizedTitle": "Business Operations Analyst",
     "company": "Guidehouse",
@@ -3995,7 +4426,7 @@
     ],
     "directUrl": "https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/LT---Vilnius/Business-Operations-Analyst_41541",
     "salaryText": "Salary not disclosed",
-    "statusReason": "Guidehouse's official Workday vacancy shows an active Apply action for Vilnius and requisition 41541.",
+    "statusReason": "The role-specific official employer vacancy remains live and current during this deep recheck.",
     "relevanceScore": 76,
     "matchSummary": "Operations-analysis role supporting business-process managers, data quality and automation solutions across recurring operational workflows.",
     "technologies": [
@@ -4016,13 +4447,92 @@
     ],
     "requisitionId": "41541",
     "id": "job-1787551323287-1",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-24T06:02:03.286Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-24T06:02:03.286Z",
         "reason": "Guidehouse's official Workday vacancy shows an active Apply action for Vilnius and requisition 41541."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "The role-specific official employer vacancy remains live and current during this deep recheck."
+      }
+    ]
+  },
+  {
+    "title": "Analyst, Operational Intelligence & Continuous Improvement",
+    "normalizedTitle": "Operational Intelligence and Continuous Improvement Analyst",
+    "company": "Western Union",
+    "normalizedCompany": "Western Union",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Process Excellence",
+      "Process Analysis",
+      "Digital Transformation",
+      "Business Analysis"
+    ],
+    "seniority": "Mid-level",
+    "source": "Official Western Union careers",
+    "directUrl": "https://careers.westernunion.com/job-details/23617291/analyst-operational-intelligence-continuous-improvement-maternity-cover-vilnius-lt/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-19",
+    "applicationDeadline": "2026-08-21",
+    "postingAgeText": "Posted August 19, 2026",
+    "status": "Still open",
+    "statusReason": "The role-specific official employer vacancy remains live and current during this deep recheck.",
+    "relevanceScore": 76,
+    "matchSummary": "Continuous-improvement role covering process mapping, Lean Six Sigma, requirements, reporting automation and transformation delivery.",
+    "technologies": [
+      "Power BI",
+      "SQL",
+      "Tableau",
+      "Snowflake"
+    ],
+    "keywordsMatched": [
+      "Continuous Improvement",
+      "process mapping",
+      "reporting automation"
+    ],
+    "requirements": [
+      "3–5 years in analytics or operational excellence",
+      "Lean Six Sigma Black Belt",
+      "Process mapping, stakeholder and reporting skills"
+    ],
+    "requisitionId": "JR0129675",
+    "salaryText": "€2,083–2,916 gross/month",
+    "roleFocus": "analyst",
+    "sourceLastCheckedAt": "2026-08-25T06:02:57.007Z",
+    "id": "job-1787221513433-30",
+    "firstSeenAt": "2026-08-20T10:25:13.432Z",
+    "lastSeenAt": "2026-08-25T06:02:57.007Z",
+    "lastVerifiedAt": "2026-08-25T06:02:57.007Z",
+    "previousStatus": "Unknown",
+    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-20T10:25:13.432Z",
+        "reason": "The exact role page was independently re-opened during the clean 2026-08-20 search and continued to expose current role-specific application content without closure wording."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-20T15:04:01.300Z",
+        "reason": "Western Union's official role page is live, includes an Apply Today section, and lists an estimated posting end date of August 21, 2026."
+      },
+      {
+        "status": "Unknown",
+        "at": "2026-08-21T15:04:43.792Z",
+        "reason": "The official vacancy page timed out and the role was absent from Western Union's current results on 2026-08-21; no source explicitly confirmed closure."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-25T06:02:57.054Z",
+        "reason": "The role-specific official employer vacancy remains live and current during this deep recheck."
       }
     ]
   },
@@ -4088,75 +4598,6 @@
         "status": "Still open",
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "Direct role page was rechecked during the 2026-08-22 run and remains live without explicit closure; Apply is available where exposed by LinkedIn."
-      }
-    ]
-  },
-  {
-    "title": "Analyst, Operational Intelligence & Continuous Improvement",
-    "normalizedTitle": "Operational Intelligence and Continuous Improvement Analyst",
-    "company": "Western Union",
-    "normalizedCompany": "Western Union",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Process Excellence",
-      "Process Analysis",
-      "Digital Transformation",
-      "Business Analysis"
-    ],
-    "seniority": "Mid-level",
-    "source": "Official Western Union careers",
-    "directUrl": "https://careers.westernunion.com/job-details/23617291/analyst-operational-intelligence-continuous-improvement-maternity-cover-vilnius-lt/",
-    "supportingSourceUrl": null,
-    "postingDate": "2026-08-19",
-    "applicationDeadline": "2026-08-21",
-    "postingAgeText": "Posted August 19, 2026",
-    "status": "Unknown",
-    "statusReason": "The official role page remains unavailable after the listed deadline, but no source explicitly states that applications are closed; status remains Unknown.",
-    "relevanceScore": 76,
-    "matchSummary": "Continuous-improvement role covering process mapping, Lean Six Sigma, requirements, reporting automation and transformation delivery.",
-    "technologies": [
-      "Power BI",
-      "SQL",
-      "Tableau",
-      "Snowflake"
-    ],
-    "keywordsMatched": [
-      "Continuous Improvement",
-      "process mapping",
-      "reporting automation"
-    ],
-    "requirements": [
-      "3–5 years in analytics or operational excellence",
-      "Lean Six Sigma Black Belt",
-      "Process mapping, stakeholder and reporting skills"
-    ],
-    "requisitionId": "JR0129675",
-    "salaryText": "€2,083–2,916 gross/month",
-    "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-23T06:05:19.103Z",
-    "id": "job-1787221513433-30",
-    "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-08-21T15:04:43.792Z",
-    "lastVerifiedAt": "2026-08-23T06:05:19.103Z",
-    "previousStatus": "Still open",
-    "statusChangedAt": "2026-08-21T15:04:43.792Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-20T10:25:13.432Z",
-        "reason": "The exact role page was independently re-opened during the clean 2026-08-20 search and continued to expose current role-specific application content without closure wording."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-20T15:04:01.300Z",
-        "reason": "Western Union's official role page is live, includes an Apply Today section, and lists an estimated posting end date of August 21, 2026."
-      },
-      {
-        "status": "Unknown",
-        "at": "2026-08-21T15:04:43.792Z",
-        "reason": "The official vacancy page timed out and the role was absent from Western Union's current results on 2026-08-21; no source explicitly confirmed closure."
       }
     ]
   },
