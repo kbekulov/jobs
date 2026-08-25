@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import vacancyData from "../data/vacancies.json";
 
 type Decision = "apply" | "trash";
-type UserId = "kiril" | "wren";
+type UserId = "kiril" | "wren" | "rene";
 type RoleFocus = "developer" | "manager" | "analyst";
 type Job = {
   id: string;
@@ -211,6 +211,7 @@ type Tab = "Discover" | "Apply" | "Trash";
 const users: { id: UserId; name: string; color: string }[] = [
   { id: "kiril", name: "Kiril", color: "#ff5c72" },
   { id: "wren", name: "Wren", color: "#7a6cf6" },
+  { id: "rene", name: "Rene", color: "#2878ff" },
 ];
 
 export default function Home() {
@@ -343,7 +344,7 @@ export default function Home() {
             <span className="brand-icon">J</span><span>jobflow</span>
           </button>
           <label className="user-switcher" style={{ "--user-color": users.find((user) => user.id === userId)?.color } as React.CSSProperties}>
-            <span aria-hidden="true">{userId === "kiril" ? "K" : "W"}</span>
+            <span aria-hidden="true">{users.find((user) => user.id === userId)?.name.charAt(0)}</span>
             <select value={userId} onChange={(event) => switchUser(event.target.value as UserId)} aria-label="Switch user">
               {users.map((user) => <option value={user.id} key={user.id}>{user.name}</option>)}
             </select>
