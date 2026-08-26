@@ -19,7 +19,7 @@ function stripTracking(url) { if (!url) return null; const parsed = new URL(url)
 function validate(job, index) {
   const errors = [];
   for (const field of ["title","normalizedTitle","company","normalizedCompany","location","salaryText","status","statusReason","matchSummary","firstSeenAt","lastSeenAt","lastVerifiedAt"]) if (!job[field]) errors.push(`record ${index}: missing ${field}`);
-  if (!job.lithuaniaEligible) errors.push(`record ${index}: Lithuania eligibility not established`);
+  if (!job.lithuaniaEligible && !job.market) errors.push(`record ${index}: market eligibility not established`);
   if (!allowedStatuses.has(job.status)) errors.push(`record ${index}: invalid status`);
   if (!allowedModes.has(job.workMode)) errors.push(`record ${index}: invalid workMode`);
   if (!allowedRoleFocuses.has(job.roleFocus)) errors.push(`record ${index}: invalid roleFocus`);

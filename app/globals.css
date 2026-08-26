@@ -90,6 +90,7 @@ button { cursor: pointer; }
 .company-banner>small { display: block; margin-top: 7px; font-size: 9px; font-weight: 650; opacity: .72; }
 .saved-copy p { margin: 0 0 3px; font-size: 13px; font-weight: 750; }
 .saved-copy span { color: var(--muted); font-size: 10px; }
+.saved-copy .saved-market { color: #5b63a0; font-weight: 750; }
 .saved-copy time { display: block; margin-top: 6px; color: #9a9ea7; font-size: 9px; font-weight: 600; }
 .job-card h1 { flex: 0 0 auto; margin: 15px 0 12px; font-size: clamp(31px, 7vw, 42px); line-height: .98; font-weight: 790; letter-spacing: -.06em; text-wrap: balance; }
 .job-card h1.job-title-medium { font-size: clamp(29px, 6.5vw, 38px); }

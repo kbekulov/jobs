@@ -12,6 +12,7 @@ type Job = {
   company: string;
   salary: string;
   location: string;
+  market: string;
   mode: string;
   posted: string;
   summary: string;
@@ -88,6 +89,13 @@ function freshnessLabel(posted: string) {
   return /current official vacancy|recently verified/i.test(posted) ? "Verified" : posted;
 }
 
+function marketForLocation(location: string) {
+  if (/switzerland|schweiz|suisse|svizzera/i.test(location)) return "Switzerland";
+  if (/lithuania|lietuva|vilnius|kaunas|klaip/i.test(location)) return "Lithuania";
+  const country = location.split(",").at(-1)?.trim();
+  return country || "Unknown market";
+}
+
 function displayTitle(title: string) {
   const translatedSuffix = title.match(/^(.*)\s+\(([A-Za-z][A-Za-z0-9 /&+.-]{8,})\)$/);
   return (translatedSuffix?.[1] ?? title).replace(/\(-/g, "(‑");
@@ -99,7 +107,7 @@ function titleClass(title: string) {
   return "job-title";
 }
 
-const legacyJobs: Omit<Job, "addedAt">[] = [
+const legacyJobs: Omit<Job, "addedAt" | "market">[] = [
   {
     id: "ignitis-rpa-2026-08",
     title: "RPA Developer",
@@ -195,6 +203,7 @@ const jobs: Job[] = vacancyData
     company: job.company,
     salary: job.salaryText ?? legacyById.get(job.id)?.salary ?? "Salary not disclosed",
     location: job.location.replace(", Lithuania", ""),
+    market: job.market ?? marketForLocation(job.location),
     mode: job.workMode === "unknown" ? "Mode unknown" : job.workMode.charAt(0).toUpperCase() + job.workMode.slice(1),
     posted: job.postingAgeText ?? "Recently verified",
     summary: job.matchSummary,
@@ -213,6 +222,12 @@ const users: { id: UserId; name: string; color: string }[] = [
   { id: "wren", name: "Wren", color: "#7a6cf6" },
   { id: "rene", name: "Rene", color: "#2878ff" },
 ];
+
+const accountCriteria: Record<UserId, { markets: string[]; label: string }> = {
+  kiril: { markets: ["Lithuania", "Switzerland"], label: "Lithuania + Switzerland" },
+  wren: { markets: ["Lithuania"], label: "Lithuania" },
+  rene: { markets: ["Lithuania"], label: "Lithuania" },
+};
 
 export default function Home() {
   const [tab, setTab] = useState<Tab>("Discover");
@@ -254,10 +269,12 @@ export default function Home() {
     setUserId(nextUser);
   };
 
+  const eligibleJobs = useMemo(() => jobs.filter((job) => accountCriteria[userId].markets.includes(job.market)), [userId]);
+
   const visible = useMemo(() => {
-    if (tab === "Discover") return jobs.filter((job) => roleFocus(job) === focus && !decisions[job.id]);
+    if (tab === "Discover") return eligibleJobs.filter((job) => roleFocus(job) === focus && !decisions[job.id]);
     const wanted: Decision = tab === "Apply" ? "apply" : "trash";
-    return jobs
+    return eligibleJobs
       .filter((job) => decisions[job.id] === wanted)
       .sort((a, b) => {
         if (archiveSort.startsWith("date")) {
@@ -275,7 +292,7 @@ export default function Home() {
         if (bSalary === null) return -1;
         return archiveSort === "salary-desc" ? bSalary - aSalary : aSalary - bSalary;
       });
-  }, [tab, decisions, archiveSort, focus]);
+  }, [tab, decisions, archiveSort, focus, eligibleJobs]);
 
   const decide = async (jobId: string, decision: Decision) => {
     const actingUser = userId;
@@ -284,9 +301,9 @@ export default function Home() {
     const currentFocusIndex = roleFocuses.findIndex((item) => item.id === focus);
     const nextFocus = tab === "Discover"
       ? Array.from({ length: roleFocuses.length - 1 }, (_, offset) => roleFocuses[(currentFocusIndex + offset + 1) % roleFocuses.length].id)
-          .find((candidateFocus) => jobs.some((job) => roleFocus(job) === candidateFocus && !nextDecisions[job.id]))
+          .find((candidateFocus) => eligibleJobs.some((job) => roleFocus(job) === candidateFocus && !nextDecisions[job.id]))
       : undefined;
-    const currentFocusExhausted = tab === "Discover" && !jobs.some((job) => roleFocus(job) === focus && !nextDecisions[job.id]);
+    const currentFocusExhausted = tab === "Discover" && !eligibleJobs.some((job) => roleFocus(job) === focus && !nextDecisions[job.id]);
 
     setDecisions(nextDecisions);
     if (currentFocusExhausted && nextFocus) switchFocus(nextFocus);
@@ -327,10 +344,10 @@ export default function Home() {
 
   const current = visible[0];
 
-  const focusedJobs = jobs.filter((job) => roleFocus(job) === focus);
+  const focusedJobs = eligibleJobs.filter((job) => roleFocus(job) === focus);
   const discoverCount = focusedJobs.filter((job) => !decisions[job.id]).length;
-  const applyCount = jobs.filter((job) => decisions[job.id] === "apply").length;
-  const trashCount = jobs.filter((job) => decisions[job.id] === "trash").length;
+  const applyCount = eligibleJobs.filter((job) => decisions[job.id] === "apply").length;
+  const trashCount = eligibleJobs.filter((job) => decisions[job.id] === "trash").length;
   const reviewedCount = focusedJobs.length - discoverCount;
   const currentNumber = Math.min(reviewedCount + 1, focusedJobs.length);
   const salary = current ? salaryParts(current.salary) : null;
@@ -377,7 +394,7 @@ export default function Home() {
                 <div className="focus-switch" role="tablist" aria-label="Role focus">
                   {roleFocuses.map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
                 </div>
-                <div className="deck-meta"><span><i /> {discoverCount} matches</span><b>Vilnius</b></div>
+                <div className="deck-meta"><span><i /> {discoverCount} matches</span><b>{accountCriteria[userId].label}</b></div>
               </div>
               <div className="deck">
                 <div className="card-ghost card-ghost-two" aria-hidden="true" />
@@ -387,7 +404,7 @@ export default function Home() {
                   <div className="card-top"><span>{currentNumber} / {focusedJobs.length}</span><span className="freshness"><i />{freshnessLabel(current.posted)}</span></div>
                   <div className="company-banner" style={companyStyle(current.company)}>
                     <strong>{current.company}</strong>
-                    <small>{current.location} · {current.mode}</small>
+                    <small>{current.market} · {current.location} · {current.mode}</small>
                   </div>
                   <h1 className={titleClass(cardTitle)} title={current.title}>{cardTitle}</h1>
                   <div className="salary"><div className="salary-meta"><small>SALARY</small><time dateTime={current.addedAt}>ADDED {addedCompactLabel(current.addedAt)}</time></div><div><strong>{salary?.amount}</strong>{salary?.cadence && <span>{salary.cadence}</span>}</div></div>
@@ -419,7 +436,7 @@ export default function Home() {
                   <option value="company-desc">Company Z–A</option>
                 </select>
               </div>
-              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span>{job.location} · {job.mode}</span><time dateTime={job.addedAt}>Added {addedLabel(job.addedAt)}</time></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
+              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span className="saved-market">{job.market} · {job.location} · {job.mode}</span><time dateTime={job.addedAt}>Added {addedLabel(job.addedAt)}</time></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
             </div>
           )}
         </section>

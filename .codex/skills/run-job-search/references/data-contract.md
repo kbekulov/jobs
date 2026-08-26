@@ -10,6 +10,7 @@ Store vacancies in `data/vacancies.json` as one JSON array. Required fields:
   "company": "Visible employer name",
   "normalizedCompany": "Canonical employer name",
   "location": "Vilnius, Lithuania",
+  "market": "Lithuania",
   "workMode": "onsite | hybrid | remote | unknown",
   "lithuaniaEligible": true,
   "roleFocus": "developer | manager | analyst",
@@ -47,3 +48,5 @@ Allowed statuses are exactly `Newly found`, `Still open`, `Unknown`, and `Closed
 Deduplicate first by canonical company plus requisition ID. Without an ID, use canonical company plus normalized title plus location. Keep the source-visible title. Do not use a generic search page, employer home page, guessed URL, or tracking redirect as `directUrl`.
 
 `salaryText` is required because compensation is a primary review signal. Copy only a source-verified range; otherwise use `Salary not disclosed`.
+
+`market` is the normalized country for the vacancy (for example, `Lithuania` or `Switzerland`). Lithuania roles must set `lithuaniaEligible: true`; non-Lithuania roles may set it to `false` when their `market` is explicitly verified and they are included by an account-specific criterion.

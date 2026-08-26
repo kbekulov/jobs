@@ -2246,6 +2246,67 @@
     ]
   },
   {
+    "title": "Senior Manager – Director | Digitalization, AI and Controls Automation",
+    "normalizedTitle": "Senior Manager Director Digitalization AI and Controls Automation",
+    "company": "Deloitte",
+    "normalizedCompany": "Deloitte",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Automation Leadership",
+      "AI / Agentic Automation",
+      "Digital Transformation",
+      "Process Excellence"
+    ],
+    "seniority": "Senior Manager / Director",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://ch.linkedin.com/jobs/view/senior-manager-%E2%80%93-director-digitalization-ai-and-controls-automation-at-deloitte-4456359191",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "1 week ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Still open",
+    "statusReason": "The role-specific LinkedIn page shows Apply and the current description lists Zurich, 80–100%, and requisition 24710.",
+    "relevanceScore": 96,
+    "matchSummary": "Senior leadership role building an AI-enabled controls-automation capability through opportunity assessment, transformation delivery and team development.",
+    "technologies": [
+      "AI",
+      "Intelligent automation",
+      "Technology controls",
+      "Finance transformation"
+    ],
+    "keywordsMatched": [
+      "AI-enabled controls automation",
+      "automation opportunities",
+      "controls transformation",
+      "practice leadership"
+    ],
+    "requirements": [
+      "Lead AI-enabled controls and compliance transformation",
+      "Identify automation opportunities and shape client solutions",
+      "Build and coach multidisciplinary teams"
+    ],
+    "requisitionId": "24710",
+    "sourceLastCheckedAt": "2026-08-26T08:00:00.000Z",
+    "id": "job-1787773997843-3",
+    "firstSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastVerifiedAt": "2026-08-26T19:53:17.842Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-26T19:53:17.842Z",
+    "statusHistory": [
+      {
+        "status": "Still open",
+        "at": "2026-08-26T19:53:17.842Z",
+        "reason": "The role-specific LinkedIn page shows Apply and the current description lists Zurich, 80–100%, and requisition 24710."
+      }
+    ]
+  },
+  {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
     "supportingSourceUrl": null,
@@ -2966,6 +3027,67 @@
     ]
   },
   {
+    "title": "SC Automation Lead",
+    "normalizedTitle": "Supply Chain Automation Lead",
+    "company": "Johnson & Johnson MedTech",
+    "normalizedCompany": "Johnson Johnson MedTech",
+    "location": "Zug, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Automation Leadership",
+      "AI / Agentic Automation",
+      "Process Management",
+      "Digital Transformation"
+    ],
+    "seniority": "Lead",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://ch.linkedin.com/jobs/view/sc-automation-lead-at-johnson-johnson-medtech-4287984114",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Still open",
+    "statusReason": "The role-specific LinkedIn page shows Apply and identifies the Switzerland requisition R-028892; responsibilities include intelligent automation adoption and cross-functional delivery.",
+    "relevanceScore": 94,
+    "matchSummary": "Automation leadership role shaping intelligent-automation adoption, process-owner alignment, workflow design and cross-functional delivery across supply chain.",
+    "technologies": [
+      "Intelligent automation",
+      "Low-code/no-code",
+      "Workflow design",
+      "Scripting"
+    ],
+    "keywordsMatched": [
+      "intelligent automation",
+      "process owners",
+      "workflow design",
+      "continuous improvement"
+    ],
+    "requirements": [
+      "Evaluate and select automation technologies",
+      "Translate business needs into automation solutions",
+      "Lead cross-functional automation initiatives"
+    ],
+    "requisitionId": "R-028892",
+    "sourceLastCheckedAt": "2026-08-26T08:00:00.000Z",
+    "id": "job-1787773997843-2",
+    "firstSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastVerifiedAt": "2026-08-26T19:53:17.842Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-26T19:53:17.842Z",
+    "statusHistory": [
+      {
+        "status": "Still open",
+        "at": "2026-08-26T19:53:17.842Z",
+        "reason": "The role-specific LinkedIn page shows Apply and identifies the Switzerland requisition R-028892; responsibilities include intelligent automation adoption and cross-functional delivery."
+      }
+    ]
+  },
+  {
     "workMode": "unknown",
     "lithuaniaEligible": true,
     "supportingSourceUrl": null,
@@ -3464,6 +3586,68 @@
         "status": "Unknown",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The previously verified Lever vacancy now returns 404 and no stronger current source was found; disappearance alone is not sufficient evidence of closure."
+      }
+    ]
+  },
+  {
+    "title": "Power Platform Engineer 80 - 100 %",
+    "normalizedTitle": "Power Platform Engineer",
+    "company": "University of Zurich",
+    "normalizedCompany": "University of Zurich",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Power Platform",
+      "Workflow / BPM",
+      "Process Analysis",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "",
+    "source": "Official employer vacancy page",
+    "directUrl": "https://jobs.uzh.ch/offene-stellen/power-platform-engineer/a461f5c9-9b6e-4097-a98b-cac6b1a95677",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Unknown",
+    "statusReason": "Official role page remains available and describes Power Platform process automation, but current application acceptance is not explicit.",
+    "relevanceScore": 92,
+    "matchSummary": "Power Platform engineering role covering business-process automation, Dataverse, BPMN, requirements engineering and solution deployment.",
+    "technologies": [
+      "Power Platform",
+      "Power Automate",
+      "Dataverse",
+      "BPMN",
+      "Power BI"
+    ],
+    "keywordsMatched": [
+      "business process automation",
+      "BPMN 2.0",
+      "Requirements Engineering",
+      "Power Pipelines"
+    ],
+    "requirements": [
+      "Several years automating business or administrative processes",
+      "Power Platform and Dataverse experience",
+      "Process analysis, BPMN and requirements engineering"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-26T08:00:00.000Z",
+    "id": "job-1787773997843-0",
+    "firstSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastVerifiedAt": "2026-08-26T19:53:17.842Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-26T19:53:17.842Z",
+    "statusHistory": [
+      {
+        "status": "Unknown",
+        "at": "2026-08-26T19:53:17.842Z",
+        "reason": "Official role page remains available and describes Power Platform process automation, but current application acceptance is not explicit."
       }
     ]
   },
@@ -4108,6 +4292,66 @@
     ]
   },
   {
+    "title": "M365 & Power Plattform Engineer 80–100 %",
+    "normalizedTitle": "M365 and Power Platform Engineer",
+    "company": "ZHAW Zurich University of Applied Sciences",
+    "normalizedCompany": "ZHAW Zurich University of Applied Sciences",
+    "location": "Winterthur, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Power Platform",
+      "Workflow / BPM",
+      "Technical Platform / Architecture",
+      "Process Management"
+    ],
+    "seniority": "",
+    "source": "Official employer vacancy page",
+    "directUrl": "https://www.zhaw.ch/en/jobs/vacant-positions/job-details/job/detail/3827336",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Still open",
+    "statusReason": "Official ZHAW page provides an Apply online now link and describes operation and development of its Business Process Automation service on Microsoft Power Platform.",
+    "relevanceScore": 90,
+    "matchSummary": "M365 and Power Platform engineering role owning business-process automation services, solution advice and continuous improvement.",
+    "technologies": [
+      "Microsoft 365",
+      "Power Platform",
+      "Power Automate",
+      "SharePoint Online"
+    ],
+    "keywordsMatched": [
+      "Business Process Automation",
+      "Power Platform",
+      "digitalise business processes"
+    ],
+    "requirements": [
+      "Operate and evolve Business Process Automation on Power Platform",
+      "Advise on implementation and optimisation",
+      "Develop modern M365 workplace services"
+    ],
+    "requisitionId": "3827336",
+    "sourceLastCheckedAt": "2026-08-26T08:00:00.000Z",
+    "id": "job-1787773997843-1",
+    "firstSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastVerifiedAt": "2026-08-26T19:53:17.842Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-26T19:53:17.842Z",
+    "statusHistory": [
+      {
+        "status": "Still open",
+        "at": "2026-08-26T19:53:17.842Z",
+        "reason": "Official ZHAW page provides an Apply online now link and describes operation and development of its Business Process Automation service on Microsoft Power Platform."
+      }
+    ]
+  },
+  {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
     "supportingSourceUrl": null,
@@ -4418,6 +4662,68 @@
         "status": "Still open",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
+      }
+    ]
+  },
+  {
+    "title": "Workload Automation Specialist & Scheduler",
+    "normalizedTitle": "Workload Automation Specialist Scheduler",
+    "company": "ALTEN Switzerland",
+    "normalizedCompany": "ALTEN Switzerland",
+    "location": "Lugano, Switzerland",
+    "market": "Switzerland",
+    "workMode": "onsite",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Workflow / BPM",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://ch.linkedin.com/jobs/view/workload-automation-specialist-scheduler-at-alten-4386663962",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Still open",
+    "statusReason": "The role-specific LinkedIn page shows Apply and details current workload automation, job scheduling and workflow orchestration responsibilities in Lugano.",
+    "relevanceScore": 88,
+    "matchSummary": "Workload-automation specialist role orchestrating batch jobs and end-to-end workflows with scripting, monitoring and compliance controls.",
+    "technologies": [
+      "UC4",
+      "Control-M",
+      "Python",
+      "PowerShell",
+      "Jenkins",
+      "Ansible"
+    ],
+    "keywordsMatched": [
+      "workflow orchestration",
+      "job scheduling",
+      "process automation",
+      "scripting"
+    ],
+    "requirements": [
+      "Manage automated job chains and scheduling",
+      "Troubleshoot and optimise end-to-end workflows",
+      "Use scripting and monitoring in regulated environments"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-26T08:00:00.000Z",
+    "id": "job-1787773997843-4",
+    "firstSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastSeenAt": "2026-08-26T19:53:17.842Z",
+    "lastVerifiedAt": "2026-08-26T19:53:17.842Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-26T19:53:17.842Z",
+    "statusHistory": [
+      {
+        "status": "Still open",
+        "at": "2026-08-26T19:53:17.842Z",
+        "reason": "The role-specific LinkedIn page shows Apply and details current workload automation, job scheduling and workflow orchestration responsibilities in Lugano."
       }
     ]
   },

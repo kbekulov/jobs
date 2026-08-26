@@ -6,6 +6,8 @@ Maintain one unified pool for RPA, automation, workflow orchestration, process i
 
 Prioritize: Vilnius; Kaunas; Klaipėda; other Lithuania locations; Lithuania-based hybrid; remote roles explicitly open to Lithuanian residents; Baltic roles explicitly listing Lithuania. Exclude generic remote-Europe roles without evidence of Lithuania eligibility.
 
+Account-specific market criteria: Kiril receives the full Lithuania pool plus verified Switzerland vacancies; Wren and Rene receive Lithuania vacancies only. Store a normalized `market` country on every vacancy and apply the account filter consistently in Discover, Apply, and Trash.
+
 ## Sources and source priority
 
 Search LinkedIn Jobs, CVbankas, CV-Online/CV.lt, CVMarket, Work in Lithuania, Indeed, Glassdoor, recruiter postings, official careers pages, and employer ATS systems including Workday, Greenhouse, SmartRecruiters, Oracle, SuccessFactors, and Lever.
