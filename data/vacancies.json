@@ -1,5 +1,67 @@
 [
   {
+    "title": "Vyriausias RPA programuotojas (-a)",
+    "normalizedTitle": "Senior RPA Developer",
+    "company": "Registrų centras",
+    "normalizedCompany": "Registrų centras",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "RPA Development",
+      "Power Platform",
+      "Automation Engineering",
+      "Process Analysis"
+    ],
+    "seniority": "Senior",
+    "source": "Official employer vacancy page",
+    "directUrl": "https://karjera.registrucentras.lt/jobs/8267881-vyriausias-rpa-programuotojas-a",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-25",
+    "applicationDeadline": null,
+    "postingAgeText": "2 days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The official employer vacancy is live with a candidate action and was published two days ago.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct senior RPA role building UiPath and Power Platform automations, assessing process potential and integrating AI solutions.",
+    "technologies": [
+      "UiPath",
+      "Power Platform",
+      "Power Apps",
+      "Microsoft Copilot",
+      "AI"
+    ],
+    "keywordsMatched": [
+      "RPA",
+      "process automation",
+      "process assessment",
+      "Power Platform"
+    ],
+    "requirements": [
+      "UiPath or Microsoft Power Platform foundations",
+      "Process analysis and optimisation experience",
+      "Ability to integrate RPA, Power Platform and AI solutions"
+    ],
+    "requisitionId": "8267881",
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-0",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The official employer vacancy is live with a candidate action and was published two days ago."
+      }
+    ]
+  },
+  {
     "title": "Automation Analyst",
     "normalizedTitle": "Automation Analyst",
     "company": "Metso",
@@ -2246,6 +2308,68 @@
     ]
   },
   {
+    "title": "Solution Architect-D365&Power Platform (a) 80-100%",
+    "normalizedTitle": "Solution Architect D365 and Power Platform",
+    "company": "Zur Rose Suisse AG",
+    "normalizedCompany": "Zur Rose Suisse",
+    "location": "Frauenfeld, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Power Platform",
+      "Automation Architecture",
+      "Workflow / BPM",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/c3bebb09-1467-4e66-8248-8c58b2fd11a0/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-07",
+    "applicationDeadline": null,
+    "postingAgeText": "20 days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific jobs.ch page shows Bewerben and was published on 2026-08-07.",
+    "relevanceScore": 96,
+    "matchSummary": "Hands-on D365 and Power Platform solution-architecture role designing process logic, integrations, low-code workflows and Azure extensions.",
+    "technologies": [
+      "Dynamics 365",
+      "Power Platform",
+      "Azure Functions",
+      "Low-code",
+      "Integrations"
+    ],
+    "keywordsMatched": [
+      "solution architecture",
+      "workflows",
+      "automations",
+      "process logic"
+    ],
+    "requirements": [
+      "D365 and Power Platform architecture experience",
+      "Translate requirements into scalable solutions",
+      "Build workflows, automations and integrations"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-6",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The role-specific jobs.ch page shows Bewerben and was published on 2026-08-07."
+      }
+    ]
+  },
+  {
     "title": "Senior Manager – Director | Digitalization, AI and Controls Automation",
     "normalizedTitle": "Senior Manager Director Digitalization AI and Controls Automation",
     "company": "Deloitte",
@@ -2764,6 +2888,68 @@
     ]
   },
   {
+    "title": "AI Platform Engineer 100%",
+    "normalizedTitle": "AI Platform Engineer",
+    "company": "Emmi Group",
+    "normalizedCompany": "Emmi",
+    "location": "Ostermundigen, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Power Platform",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture",
+      "Automation Architecture"
+    ],
+    "seniority": "",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/en/vacancies/detail/b66d8dd3-51ae-410e-a937-7ae318810846/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-07-16",
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific jobs.ch page shows Apply and remains live with the full Emmi vacancy description.",
+    "relevanceScore": 95,
+    "matchSummary": "AI platform-engineering role building Power Platform, Power Automate and Copilot Studio foundations with enterprise governance and integrations.",
+    "technologies": [
+      "Power Platform",
+      "Power Automate",
+      "Power Apps",
+      "Copilot Studio",
+      "Microsoft 365"
+    ],
+    "keywordsMatched": [
+      "AI platform",
+      "automation solutions",
+      "platform governance",
+      "enterprise integration"
+    ],
+    "requirements": [
+      "Microsoft Power Platform and AI experience",
+      "Platform architecture and governance knowledge",
+      "Build secure integrations with M365 and enterprise applications"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-8",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The role-specific jobs.ch page shows Apply and remains live with the full Emmi vacancy description."
+      }
+    ]
+  },
+  {
     "workMode": "remote",
     "lithuaniaEligible": true,
     "source": "LinkedIn direct vacancy",
@@ -3023,6 +3209,67 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ]
+  },
+  {
+    "title": "Software Engineer Platform Automation",
+    "normalizedTitle": "Software Engineer Platform Automation",
+    "company": "Festo",
+    "normalizedCompany": "Festo",
+    "location": "Kaunas, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Technical Platform / Architecture",
+      "Automation Architecture"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "Official employer vacancy page",
+    "directUrl": "https://jobs.festo.com/job/Kaunas-IT-Automation-Developer/1369876233/",
+    "supportingSourceUrl": "https://www.cvonline.lt/lt/search/employer/festo-uab?employerId=41579&employerName=Festo%2C+UAB",
+    "postingDate": null,
+    "applicationDeadline": "2026-09-12",
+    "postingAgeText": "Recently verified",
+    "salaryText": "€3,500–4,500 gross/month",
+    "status": "Newly found",
+    "statusReason": "The official Festo vacancy offers Apply now, while CV-Online shows a future 2026-09-12 deadline.",
+    "relevanceScore": 94,
+    "matchSummary": "Platform-automation engineering role building reusable APIs, infrastructure automations, CI/CD tooling and an automation community of practice.",
+    "technologies": [
+      "Python",
+      "PowerShell",
+      "Ansible",
+      "Terraform",
+      "REST APIs"
+    ],
+    "keywordsMatched": [
+      "platform automation",
+      "automation framework",
+      "reusable APIs",
+      "community of practice"
+    ],
+    "requirements": [
+      "3+ years in IT automation or software development",
+      "Strong scripting and maintainable software skills",
+      "REST API and automation-framework experience"
+    ],
+    "requisitionId": "14342",
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-1",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The official Festo vacancy offers Apply now, while CV-Online shows a future 2026-09-12 deadline."
       }
     ]
   },
@@ -3969,6 +4216,67 @@
     ]
   },
   {
+    "title": "Product Owner - S2P Platform & Procurement Digitalization (w/m/d)",
+    "normalizedTitle": "Product Owner S2P Platform Procurement Digitalization",
+    "company": "Migros-Genossenschafts-Bund",
+    "normalizedCompany": "Migros",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Process Management",
+      "AI / Agentic Automation",
+      "Digital Transformation"
+    ],
+    "seniority": "",
+    "source": "Official employer vacancy page",
+    "directUrl": "https://jobs.migros.ch/en/our-companies/job/migros-genossenschafts-bund/product-owner-s2p-platform-procurement-digitalization-wmd/2abe2748-f98f-4a36-9f66-f82bfe786bfe",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-20",
+    "applicationDeadline": null,
+    "postingAgeText": "7 days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The official Migros vacancy page is current, role-specific and presents the application position published on 2026-08-20.",
+    "relevanceScore": 91,
+    "matchSummary": "Product-owner role shaping an end-to-end procurement platform while integrating AI, automation and process-mining into business workflows.",
+    "technologies": [
+      "AI",
+      "Process Mining",
+      "S2P platform",
+      "Prompt engineering"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "process automation",
+      "procurement digitalization",
+      "process mining"
+    ],
+    "requirements": [
+      "Own platform backlog and feature delivery",
+      "Bridge business, IT and external partners",
+      "Drive AI and automation in procurement processes"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-7",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The official Migros vacancy page is current, role-specific and presents the application position published on 2026-08-20."
+      }
+    ]
+  },
+  {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
     "supportingSourceUrl": null,
@@ -4288,6 +4596,66 @@
         "status": "Still open",
         "at": "2026-08-24T06:02:03.286Z",
         "reason": "The role-specific vacancy still shows an active Apply action during this daily recheck."
+      }
+    ]
+  },
+  {
+    "title": "Junior AI Automation Engineer",
+    "normalizedTitle": "Junior AI Automation Engineer",
+    "company": "Head Aero",
+    "normalizedCompany": "Head Aero",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Automation Engineering",
+      "Workflow / BPM"
+    ],
+    "seniority": "Junior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/junior-ai-automation-engineer-at-head-aero-4456584658",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-26",
+    "applicationDeadline": null,
+    "postingAgeText": "1 day ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific LinkedIn vacancy shows Apply and was posted one day ago for the Vilnius office.",
+    "relevanceScore": 90,
+    "matchSummary": "Hands-on junior AI automation role building internal workflows, validating model outputs and aligning automations with business logic.",
+    "technologies": [
+      "AI",
+      "LLM prompts",
+      "Workflow automation",
+      "Data validation"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "internal workflows",
+      "business logic",
+      "automation validation"
+    ],
+    "requirements": [
+      "Basic understanding of AI tools and model limitations",
+      "Ability to validate automation results",
+      "Clear documentation and business-logic reasoning"
+    ],
+    "requisitionId": "4456584658",
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-2",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The role-specific LinkedIn vacancy shows Apply and was posted one day ago for the Vilnius office."
       }
     ]
   },
@@ -4662,6 +5030,68 @@
         "status": "Still open",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
+      }
+    ]
+  },
+  {
+    "title": "Digital Business Platforms/ Microsoft Consultant",
+    "normalizedTitle": "Digital Business Platforms Microsoft Consultant",
+    "company": "EY",
+    "normalizedCompany": "EY",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Power Platform",
+      "Digital Transformation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Junior-Mid",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/digital-business-platforms-microsoft-consultant-at-ey-4447138211",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "6 days ago",
+    "salaryText": "€2,100–3,000 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific LinkedIn page shows Apply and a current EY Lithuania description.",
+    "relevanceScore": 88,
+    "matchSummary": "Microsoft consulting role combining business-process analysis, solution architecture and transformation delivery across Dynamics 365, Power Platform and Copilot.",
+    "technologies": [
+      "Power Platform",
+      "Dynamics 365",
+      "Microsoft 365",
+      "Azure",
+      "Copilot"
+    ],
+    "keywordsMatched": [
+      "business transformation",
+      "business process design",
+      "Power Platform",
+      "AI solutions"
+    ],
+    "requirements": [
+      "Analytical and critical-thinking skills",
+      "Interest or experience in Microsoft technologies",
+      "Business requirements analysis exposure"
+    ],
+    "requisitionId": "4447138211",
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-3",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The role-specific LinkedIn page shows Apply and a current EY Lithuania description."
       }
     ]
   },
@@ -5290,6 +5720,129 @@
         "status": "Still open",
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
+      }
+    ]
+  },
+  {
+    "title": "Business Analyst in Service Delivery",
+    "normalizedTitle": "Business Analyst Service Delivery",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Excellence",
+      "Workflow / BPM",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/business-analyst-in-service-delivery-at-danske-bank-4442121600",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "3 days ago",
+    "salaryText": "€3,200–4,800 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific LinkedIn page shows Apply and describes a current Vilnius hybrid vacancy.",
+    "relevanceScore": 86,
+    "matchSummary": "Business-analysis role focused on service workflows, requirements, governance, operational excellence and AI-assisted reporting automation.",
+    "technologies": [
+      "AI",
+      "Workflow design",
+      "Reporting automation",
+      "Governance frameworks"
+    ],
+    "keywordsMatched": [
+      "process improvement",
+      "requirements analysis",
+      "workflows",
+      "automation of tracking"
+    ],
+    "requirements": [
+      "Business-analysis experience",
+      "Requirements and solution-design capability",
+      "Change management and stakeholder guidance"
+    ],
+    "requisitionId": "4442121600",
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-4",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The role-specific LinkedIn page shows Apply and describes a current Vilnius hybrid vacancy."
+      }
+    ]
+  },
+  {
+    "title": "Process Improvement Specialist",
+    "normalizedTitle": "Process Improvement Specialist",
+    "company": "Vinted",
+    "normalizedCompany": "Vinted",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Process Excellence",
+      "Process Analysis",
+      "Process Management",
+      "Business Analysis"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/process-improvement-specialist-at-vinted-4443781587",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "€2,483–3,358 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific LinkedIn page shows Apply and a current Vinted Vilnius vacancy.",
+    "relevanceScore": 84,
+    "matchSummary": "Process-improvement role using KPIs, root-cause analysis, process mapping and Lean methods to identify and prioritize operational improvements.",
+    "technologies": [
+      "Process mapping",
+      "Lean Six Sigma",
+      "Looker",
+      "EasyBI",
+      "SQL"
+    ],
+    "keywordsMatched": [
+      "process improvement",
+      "root cause analysis",
+      "continuous improvement",
+      "process performance"
+    ],
+    "requirements": [
+      "Process-improvement or performance-analysis experience",
+      "Process mapping and root-cause methods",
+      "Ability to translate process data into recommendations"
+    ],
+    "requisitionId": "4443781587",
+    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
+    "id": "job-1787810706512-5",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The role-specific LinkedIn page shows Apply and a current Vinted Vilnius vacancy."
       }
     ]
   },
