@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import vacancyData from "../data/vacancies.json";
 
 type Decision = "apply" | "trash";
-type UserId = "kiril" | "wren" | "rene";
+type UserId = "kiril" | "wren" | "rene" | "gabriele";
 type RoleFocus = "developer" | "manager" | "analyst";
 type Job = {
   id: string;
@@ -221,12 +221,14 @@ const users: { id: UserId; name: string; color: string }[] = [
   { id: "kiril", name: "Kiril", color: "#ff5c72" },
   { id: "wren", name: "Wren", color: "#7a6cf6" },
   { id: "rene", name: "Rene", color: "#2878ff" },
+  { id: "gabriele", name: "Gabriele", color: "#f0a35b" },
 ];
 
-const accountCriteria: Record<UserId, { markets: string[]; label: string }> = {
-  kiril: { markets: ["Lithuania", "Switzerland"], label: "Lithuania + Switzerland" },
-  wren: { markets: ["Lithuania"], label: "Lithuania" },
-  rene: { markets: ["Lithuania"], label: "Lithuania" },
+const accountCriteria: Record<UserId, { markets: string[]; focuses: RoleFocus[]; label: string }> = {
+  kiril: { markets: ["Lithuania", "Switzerland"], focuses: ["developer", "manager", "analyst"], label: "Lithuania + Switzerland" },
+  wren: { markets: ["Lithuania"], focuses: ["developer", "manager", "analyst"], label: "Lithuania" },
+  rene: { markets: ["Lithuania"], focuses: ["developer", "manager", "analyst"], label: "Lithuania" },
+  gabriele: { markets: ["Lithuania", "Switzerland"], focuses: ["manager", "analyst"], label: "Lithuania + Switzerland · BA + PO" },
 };
 
 export default function Home() {
@@ -238,6 +240,7 @@ export default function Home() {
   const [archiveSort, setArchiveSort] = useState<ArchiveSort>("date-desc");
   const [focus, setFocus] = useState<RoleFocus>("developer");
   const activeUserRef = useRef<UserId>("kiril");
+  const availableFocuses = accountCriteria[userId].focuses;
 
   useEffect(() => {
     const controller = new AbortController();
@@ -252,13 +255,13 @@ export default function Home() {
   }, [userId]);
 
   useEffect(() => {
-    const savedFocus = window.localStorage.getItem("jobflow-role-focus") as RoleFocus | null;
-    if (savedFocus && roleFocuses.some((item) => item.id === savedFocus)) setFocus(savedFocus);
-  }, []);
+    const savedFocus = window.localStorage.getItem(`jobflow-role-focus:${userId}`) as RoleFocus | null;
+    setFocus(savedFocus && availableFocuses.includes(savedFocus) ? savedFocus : availableFocuses[0]);
+  }, [userId, availableFocuses]);
 
   const switchFocus = (nextFocus: RoleFocus) => {
     setFocus(nextFocus);
-    window.localStorage.setItem("jobflow-role-focus", nextFocus);
+    window.localStorage.setItem(`jobflow-role-focus:${userId}`, nextFocus);
   };
 
   const switchUser = (nextUser: UserId) => {
@@ -266,6 +269,9 @@ export default function Home() {
     setReady(false);
     setDecisions({});
     setTab("Discover");
+    const nextCriteria = accountCriteria[nextUser];
+    const savedFocus = window.localStorage.getItem(`jobflow-role-focus:${nextUser}`) as RoleFocus | null;
+    setFocus(savedFocus && nextCriteria.focuses.includes(savedFocus) ? savedFocus : nextCriteria.focuses[0]);
     setUserId(nextUser);
   };
 
@@ -298,9 +304,9 @@ export default function Home() {
     const actingUser = userId;
     const previous = decisions[jobId];
     const nextDecisions = { ...decisions, [jobId]: decision };
-    const currentFocusIndex = roleFocuses.findIndex((item) => item.id === focus);
+    const currentFocusIndex = availableFocuses.findIndex((item) => item === focus);
     const nextFocus = tab === "Discover"
-      ? Array.from({ length: roleFocuses.length - 1 }, (_, offset) => roleFocuses[(currentFocusIndex + offset + 1) % roleFocuses.length].id)
+      ? Array.from({ length: availableFocuses.length - 1 }, (_, offset) => availableFocuses[(currentFocusIndex + offset + 1) % availableFocuses.length])
           .find((candidateFocus) => eligibleJobs.some((job) => roleFocus(job) === candidateFocus && !nextDecisions[job.id]))
       : undefined;
     const currentFocusExhausted = tab === "Discover" && !eligibleJobs.some((job) => roleFocus(job) === focus && !nextDecisions[job.id]);
@@ -319,7 +325,7 @@ export default function Home() {
       if (currentFocusExhausted && nextFocus) {
         setFocus((currentFocus) => {
           if (currentFocus !== nextFocus) return currentFocus;
-          window.localStorage.setItem("jobflow-role-focus", focus);
+          window.localStorage.setItem(`jobflow-role-focus:${actingUser}`, focus);
           return focus;
         });
       }
@@ -376,7 +382,7 @@ export default function Home() {
           {!ready ? <div className="empty"><div className="spinner" /><p>Finding your matches…</p></div> : !current ? (
             <div className="empty">
               {tab === "Discover" && <div className="focus-switch focus-switch-empty" role="tablist" aria-label="Role focus">
-                {roleFocuses.map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
+                {roleFocuses.filter((item) => availableFocuses.includes(item.id)).map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
               </div>}
               {tab === "Discover" ? (
                 <button className="refresh-jobs" onClick={refreshJobs} disabled={refreshing} aria-label="Refresh and check for new jobs">
@@ -392,7 +398,7 @@ export default function Home() {
             <div className="deck-screen">
               <div className="deck-controls">
                 <div className="focus-switch" role="tablist" aria-label="Role focus">
-                  {roleFocuses.map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
+                  {roleFocuses.filter((item) => availableFocuses.includes(item.id)).map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
                 </div>
                 <div className="deck-meta"><span><i /> {discoverCount} matches</span><b>{accountCriteria[userId].label}</b></div>
               </div>

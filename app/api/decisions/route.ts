@@ -2,7 +2,7 @@ import { and, desc, eq } from "drizzle-orm";
 import { getDb } from "../../../db";
 import { decisions } from "../../../db/schema";
 
-const users = ["kiril", "wren", "rene"] as const;
+const users = ["kiril", "wren", "rene", "gabriele"] as const;
 type UserId = typeof users[number];
 
 function validUser(value: string | null | undefined): value is UserId {
