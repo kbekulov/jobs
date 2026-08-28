@@ -1,5 +1,186 @@
 [
   {
+    "title": "Business Analyst Senior AI- und Process Automation",
+    "normalizedTitle": "Senior Business Analyst AI and Process Automation",
+    "company": "Kanton Basel-Stadt Finanzdepartement",
+    "normalizedCompany": "Kanton Basel-Stadt",
+    "location": "Basel, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "AI / Agentic Automation",
+      "Process Analysis",
+      "Workflow / BPM"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/73ac6751-e27a-45ce-b039-3638fc6311be/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-22",
+    "applicationDeadline": null,
+    "postingAgeText": "6 days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and was published six days ago.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct senior AI and process-automation business-analysis role covering requirements, change, governance, low-code platforms and chatbots.",
+    "technologies": [
+      "AI",
+      "Low-code",
+      "Chatbots"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "process automation",
+      "business analysis",
+      "requirements engineering",
+      "governance"
+    ],
+    "requirements": [
+      "End-to-end business analysis for AI initiatives",
+      "Requirements engineering and stakeholder facilitation",
+      "AI platform, data quality and governance knowledge"
+    ],
+    "requisitionId": "1528",
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-4",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and was published six days ago."
+      }
+    ]
+  },
+  {
+    "title": "Automation Consultant (w/m/d) 80%-100%",
+    "normalizedTitle": "Senior Automation Consultant",
+    "company": "BE-terna AG",
+    "normalizedCompany": "BE-terna",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "RPA Development",
+      "Power Platform",
+      "Automation Engineering",
+      "Process Analysis"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/0e7038a2-a5d8-4727-9d9b-22889e7562a3/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-07-06",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 6 July 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific jobs.ch vacancy currently displays Bewerben.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct automation consultancy role analysing workflows and delivering UiPath, Power Platform or Automation Anywhere solutions end to end.",
+    "technologies": [
+      "UiPath",
+      "Microsoft Power Platform",
+      "Automation Anywhere"
+    ],
+    "keywordsMatched": [
+      "automation consultant",
+      "workflow analysis",
+      "RPA",
+      "Power Platform"
+    ],
+    "requirements": [
+      "At least two years delivering automation projects",
+      "UiPath, Power Platform or comparable platform experience",
+      "Object-oriented programming knowledge"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-5",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The role-specific jobs.ch vacancy currently displays Bewerben."
+      }
+    ]
+  },
+  {
+    "title": "BPM & Automation Engineer (all genders)",
+    "normalizedTitle": "BPM and Automation Engineer",
+    "company": "adesso Schweiz AG",
+    "normalizedCompany": "adesso Switzerland",
+    "location": "Lausanne, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Workflow / BPM",
+      "Automation Engineering",
+      "Process Analysis",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/74bca180-b52b-4b9e-a263-a854ac8c661a/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-22",
+    "applicationDeadline": null,
+    "postingAgeText": "6 days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and was published six days ago.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct BPM and automation engineering role analysing processes and delivering workflow optimisation with Camunda or Flowable platforms.",
+    "technologies": [
+      "Camunda",
+      "Flowable",
+      "BPM"
+    ],
+    "keywordsMatched": [
+      "BPM",
+      "workflow automation",
+      "process optimisation",
+      "Camunda"
+    ],
+    "requirements": [
+      "Business-process analysis capability",
+      "BPM automation platform experience",
+      "Camunda, Flowable or equivalent certification knowledge"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-8",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and was published six days ago."
+      }
+    ]
+  },
+  {
     "title": "Vyriausias RPA programuotojas (-a)",
     "normalizedTitle": "Senior RPA Developer",
     "company": "Registrų centras",
@@ -1809,6 +1990,136 @@
     ]
   },
   {
+    "title": "Applikationsverantwortliche/r 80-100% Fokus Business Applications & Automation",
+    "normalizedTitle": "Business Applications and Automation Owner",
+    "company": "Zurzach Care AG",
+    "normalizedCompany": "Zurzach Care",
+    "location": "Bad Zurzach, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Power Platform",
+      "Automation Leadership",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/59aead2f-af9f-400c-845a-00c144431290/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-09",
+    "applicationDeadline": null,
+    "postingAgeText": "19 days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch vacancy displays Bewerben.",
+    "relevanceScore": 98,
+    "matchSummary": "Business-applications ownership role advancing Power Apps, Copilot Studio, integrations and AI-enabled automation with operational responsibility.",
+    "technologies": [
+      "Power Apps",
+      "Copilot Studio",
+      "Power Platform",
+      "DevOps",
+      "CI/CD",
+      "Infrastructure as Code"
+    ],
+    "keywordsMatched": [
+      "business applications",
+      "automation",
+      "low-code",
+      "Copilot Studio",
+      "platform ownership"
+    ],
+    "requirements": [
+      "Business application ownership experience",
+      "Power Platform and Copilot Studio knowledge",
+      "Automation and integration technology expertise"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-7",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The current role-specific jobs.ch vacancy displays Bewerben."
+      }
+    ]
+  },
+  {
+    "title": "Solution Architect Microsoft Dynamics (w/m/d)",
+    "normalizedTitle": "Solution Architect Microsoft Dynamics and Power Platform",
+    "company": "CKW",
+    "normalizedCompany": "CKW",
+    "location": "Emmen, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Technical Platform / Architecture",
+      "Power Platform",
+      "Automation Engineering",
+      "Workflow / BPM"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/be27bdf4-f351-4013-ae25-8e5fdb3b145f/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-05",
+    "applicationDeadline": null,
+    "postingAgeText": "23 days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben.",
+    "relevanceScore": 98,
+    "matchSummary": "Power Platform solution-architecture role delivering Power Apps and Power Automate solutions plus API and Azure Function integrations.",
+    "technologies": [
+      "Microsoft Dynamics",
+      "Power Platform",
+      "Power Apps",
+      "Power Automate",
+      "Dataverse",
+      "C#",
+      "APIs",
+      "Azure Functions"
+    ],
+    "keywordsMatched": [
+      "solution architecture",
+      "Power Platform",
+      "workflow automation",
+      "APIs",
+      "integrations"
+    ],
+    "requirements": [
+      "Microsoft Dynamics and Power Platform architecture experience",
+      "Pro-code Power Platform development",
+      "API and Azure integration capability"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-9",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben."
+      }
+    ]
+  },
+  {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
     "supportingSourceUrl": null,
@@ -2304,6 +2615,69 @@
         "status": "Still open",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
+      }
+    ]
+  },
+  {
+    "title": "Junior Business Analyst / Requirements Consultant",
+    "normalizedTitle": "Junior Business Analyst Requirements Consultant",
+    "company": "Aon Schweiz AG",
+    "normalizedCompany": "Aon Switzerland",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Power Platform",
+      "Digital Transformation"
+    ],
+    "seniority": "Junior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/e38a010f-8686-47da-b41f-9c35481092c1/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-19",
+    "applicationDeadline": null,
+    "postingAgeText": "9 days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben.",
+    "relevanceScore": 96,
+    "matchSummary": "Requirements role analysing processes for automation and translating needs into workflows, functional specifications and Power Platform-enabled solutions.",
+    "technologies": [
+      "Microsoft Dynamics",
+      "Power Automate",
+      "Power Apps",
+      "Power BI",
+      "AI"
+    ],
+    "keywordsMatched": [
+      "requirements engineering",
+      "process automation",
+      "workflow",
+      "Power Platform",
+      "business applications"
+    ],
+    "requirements": [
+      "Business analysis or process-improvement experience",
+      "Requirements and workshop facilitation skills",
+      "Understanding of workflows, integrations and automation"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-6",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben."
       }
     ]
   },
@@ -3584,6 +3958,72 @@
     ]
   },
   {
+    "title": "Senior Platform Engineer (DevOps) for Cloud Automation",
+    "normalizedTitle": "Senior Platform Engineer Cloud Automation",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Technical Platform / Architecture",
+      "Workflow / BPM",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-platform-engineer-devops-for-cloud-automation-at-danske-bank-4451568742",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-27",
+    "applicationDeadline": null,
+    "postingAgeText": "17 hours ago",
+    "salaryText": "€4,960–7,440 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific LinkedIn vacancy displays Apply and a Lithuania salary range.",
+    "relevanceScore": 93,
+    "matchSummary": "Cloud-automation engineering role building APIs, controllers, integrations and orchestration for a self-service provisioning platform.",
+    "technologies": [
+      "Python",
+      "Go",
+      "Terraform",
+      "ArgoCD",
+      "Kubernetes",
+      "OpenShift",
+      "AWS",
+      "MCP"
+    ],
+    "keywordsMatched": [
+      "cloud automation",
+      "workflow orchestration",
+      "APIs",
+      "integrations",
+      "platform engineering"
+    ],
+    "requirements": [
+      "Production platform or software engineering experience",
+      "Infrastructure automation and GitOps expertise",
+      "Ability to translate operational requirements into automation"
+    ],
+    "requisitionId": "4451568742",
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-3",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The current role-specific LinkedIn vacancy displays Apply and a Lithuania salary range."
+      }
+    ]
+  },
+  {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
     "supportingSourceUrl": null,
@@ -3833,6 +4273,66 @@
         "status": "Unknown",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The previously verified Lever vacancy now returns 404 and no stronger current source was found; disappearance alone is not sufficient evidence of closure."
+      }
+    ]
+  },
+  {
+    "title": "Chief Business Consultant – Print & Post Digital Transformation",
+    "normalizedTitle": "Chief Business Consultant Digital Transformation",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Digital Transformation",
+      "Process Analysis",
+      "Product Ownership"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/chief-business-consultant-%E2%80%93-print-post-digital-transformation-at-danske-bank-4457375651",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-28",
+    "applicationDeadline": null,
+    "postingAgeText": "8 hours ago",
+    "salaryText": "€3,760–5,640 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific LinkedIn vacancy displays Apply and a newly posted Lithuania salary range.",
+    "relevanceScore": 92,
+    "matchSummary": "Senior transformation role combining process and data analysis, requirements engineering, systems insight and business-technology translation.",
+    "technologies": [
+      "Jira",
+      "Confluence"
+    ],
+    "keywordsMatched": [
+      "digital transformation",
+      "process flows",
+      "requirements",
+      "systems",
+      "integrations"
+    ],
+    "requirements": [
+      "Substantial business analysis or transformation experience",
+      "Ability to translate business needs into requirements",
+      "Strong stakeholder management across business and technology"
+    ],
+    "requisitionId": "4457375651",
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-1",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The current role-specific LinkedIn vacancy displays Apply and a newly posted Lithuania salary range."
       }
     ]
   },
@@ -4212,6 +4712,65 @@
         "status": "Still open",
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
+      }
+    ]
+  },
+  {
+    "title": "Digital Transformation Consultant",
+    "normalizedTitle": "Digital Transformation Consultant",
+    "company": "NRD Companies",
+    "normalizedCompany": "NRD Companies",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "onsite",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Digital Transformation",
+      "Business Analysis",
+      "Process Analysis",
+      "AI / Agentic Automation",
+      "Project / Program Management"
+    ],
+    "seniority": "",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/digital-transformation-consultant-at-nrd-companies-4456026430",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-28",
+    "applicationDeadline": null,
+    "postingAgeText": "58 minutes ago",
+    "salaryText": "€3,500–4,500 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific LinkedIn vacancy is newly posted and offers an Apply action.",
+    "relevanceScore": 91,
+    "matchSummary": "Public-sector digital transformation consulting role spanning process analysis, change, delivery coordination and AI-enabled opportunity discovery.",
+    "technologies": [
+      "AI"
+    ],
+    "keywordsMatched": [
+      "digital transformation",
+      "business process analysis",
+      "AI-enabled transformation",
+      "change management"
+    ],
+    "requirements": [
+      "Transformation consulting or analytical project experience",
+      "Business analysis and process improvement knowledge",
+      "Project coordination and stakeholder workshop skills"
+    ],
+    "requisitionId": "4456026430",
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-2",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The role-specific LinkedIn vacancy is newly posted and offers an Apply action."
       }
     ]
   },
@@ -5720,6 +6279,66 @@
         "status": "Still open",
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
+      }
+    ]
+  },
+  {
+    "title": "Business Systems Consultant - Analyst",
+    "normalizedTitle": "Business Systems Consultant Analyst",
+    "company": "SKUBA GROUP",
+    "normalizedCompany": "SKUBA Group",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "onsite",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Technical Platform / Architecture",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/business-systems-consultant-analyst-at-skuba-group-4459199499",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-28",
+    "applicationDeadline": null,
+    "postingAgeText": "1 hour ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific LinkedIn vacancy is current and presents an Apply action.",
+    "relevanceScore": 86,
+    "matchSummary": "Business systems analysis role translating needs into ERP requirements and solutions across Dynamics 365 improvement and digitalisation projects.",
+    "technologies": [
+      "Microsoft Dynamics 365 F&O",
+      "SQL",
+      "C#"
+    ],
+    "keywordsMatched": [
+      "business systems",
+      "requirements analysis",
+      "solution design",
+      "ERP",
+      "digitalisation"
+    ],
+    "requirements": [
+      "Business systems analysis or ERP consulting experience",
+      "Ability to translate business needs into system requirements",
+      "Understanding of ERP and business processes"
+    ],
+    "requisitionId": "4459199499",
+    "sourceLastCheckedAt": "2026-08-28T06:00:50.198Z",
+    "id": "job-1787897161211-0",
+    "firstSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastSeenAt": "2026-08-28T06:06:01.210Z",
+    "lastVerifiedAt": "2026-08-28T06:06:01.210Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-28T06:06:01.210Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-28T06:06:01.210Z",
+        "reason": "The role-specific LinkedIn vacancy is current and presents an Apply action."
       }
     ]
   },
