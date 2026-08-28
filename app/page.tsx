@@ -233,7 +233,7 @@ const accountCriteria: Record<UserId, { markets: string[]; focuses: Focus[]; lab
   kiril: { markets: ["Lithuania", "Switzerland"], focuses: ["developer", "manager", "analyst"], label: "Lithuania + Switzerland" },
   wren: { markets: ["Lithuania"], focuses: ["developer", "manager", "analyst"], label: "Lithuania" },
   rene: { markets: ["Lithuania"], focuses: ["developer", "manager", "analyst"], label: "Lithuania" },
-  gabriele: { markets: ["Lithuania", "Switzerland"], focuses: ["analyst", "product-owner"], label: "Lithuania + Switzerland · BA + PO" },
+  gabriele: { markets: ["Lithuania", "Switzerland"], focuses: ["analyst", "product-owner", "manager"], label: "Lithuania + Switzerland · BA + PO + Manager" },
 };
 
 export default function Home() {

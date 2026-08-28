@@ -6,7 +6,9 @@ Maintain one unified pool for RPA, automation, workflow orchestration, process i
 
 Prioritize: Vilnius; Kaunas; Klaipėda; other Lithuania locations; Lithuania-based hybrid; remote roles explicitly open to Lithuanian residents; Baltic roles explicitly listing Lithuania. Exclude generic remote-Europe roles without evidence of Lithuania eligibility.
 
-Account-specific market criteria: Kiril receives the full Lithuania pool plus verified Switzerland vacancies; Wren and Rene receive Lithuania vacancies only. Store a normalized `market` country on every vacancy and apply the account filter consistently in Discover, Apply, and Trash.
+Account-specific market criteria: Kiril and Gabriele receive the full Lithuania pool plus verified Switzerland vacancies; Wren and Rene receive Lithuania vacancies only. Store a normalized `market` country on every vacancy and apply the account filter consistently in Discover, Apply, and Trash.
+
+Gabriele's recurring search profile is RPA-led but deliberately not RPA-exclusive. Prioritize RPA, intelligent automation, workflow automation, Power Platform, UiPath, process automation and Automation CoE roles, then broaden into Business Analyst, Product Owner and Manager/Lead work with substantive overlap in process improvement, senior process analysis, process ownership, operational excellence, transformation, automation delivery, requirements, governance or platform ownership. Do not target generic developer/engineer roles for Gabriele. Her app lanes are `analyst`, explicit `product-owner`, and `manager`; Product Ownership roles are routed to the explicit Product Owner lane, while other manager-level BA, process, improvement and transformation roles remain in Manager/Lead.
 
 ## Sources and source priority
 
