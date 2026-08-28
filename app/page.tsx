@@ -6,6 +6,7 @@ import vacancyData from "../data/vacancies.json";
 type Decision = "apply" | "trash";
 type UserId = "kiril" | "wren" | "rene" | "gabriele";
 type RoleFocus = "developer" | "manager" | "analyst";
+type Focus = RoleFocus | "product-owner";
 type Job = {
   id: string;
   title: string;
@@ -22,18 +23,21 @@ type Job = {
   accent: string;
   addedAt: string;
   roleFocus: RoleFocus;
+  roleFamilies: string[];
 };
 
 type ArchiveSort = "date-desc" | "date-asc" | "salary-desc" | "salary-asc" | "company-asc" | "company-desc";
 
-const roleFocuses: { id: RoleFocus; label: string }[] = [
+const roleFocuses: { id: Focus; label: string }[] = [
   { id: "developer", label: "Developer / Engineer" },
   { id: "manager", label: "Manager / Lead" },
   { id: "analyst", label: "Analyst" },
+  { id: "product-owner", label: "Product Owner" },
 ];
 
-function roleFocus(job: Job): RoleFocus {
-  return job.roleFocus;
+function focusForJob(job: Job, userId: UserId): Focus {
+  const isProductOwner = job.roleFamilies.includes("Product Ownership") || /\bproduct owner\b/i.test(job.title);
+  return userId === "gabriele" && isProductOwner ? "product-owner" : job.roleFocus;
 }
 
 const companyPalettes = [
@@ -213,6 +217,7 @@ const jobs: Job[] = vacancyData
     accent: "#c8ff19",
     addedAt: job.firstSeenAt,
     roleFocus: job.roleFocus as RoleFocus,
+    roleFamilies: job.roleFamilies,
   }));
 
 type Tab = "Discover" | "Apply" | "Trash";
@@ -224,11 +229,11 @@ const users: { id: UserId; name: string; color: string }[] = [
   { id: "gabriele", name: "Gabriele", color: "#f0a35b" },
 ];
 
-const accountCriteria: Record<UserId, { markets: string[]; focuses: RoleFocus[]; label: string }> = {
+const accountCriteria: Record<UserId, { markets: string[]; focuses: Focus[]; label: string }> = {
   kiril: { markets: ["Lithuania", "Switzerland"], focuses: ["developer", "manager", "analyst"], label: "Lithuania + Switzerland" },
   wren: { markets: ["Lithuania"], focuses: ["developer", "manager", "analyst"], label: "Lithuania" },
   rene: { markets: ["Lithuania"], focuses: ["developer", "manager", "analyst"], label: "Lithuania" },
-  gabriele: { markets: ["Lithuania", "Switzerland"], focuses: ["manager", "analyst"], label: "Lithuania + Switzerland · BA + PO" },
+  gabriele: { markets: ["Lithuania", "Switzerland"], focuses: ["analyst", "product-owner"], label: "Lithuania + Switzerland · BA + PO" },
 };
 
 export default function Home() {
@@ -238,7 +243,7 @@ export default function Home() {
   const [ready, setReady] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [archiveSort, setArchiveSort] = useState<ArchiveSort>("date-desc");
-  const [focus, setFocus] = useState<RoleFocus>("developer");
+  const [focus, setFocus] = useState<Focus>("developer");
   const activeUserRef = useRef<UserId>("kiril");
   const availableFocuses = accountCriteria[userId].focuses;
 
@@ -255,11 +260,11 @@ export default function Home() {
   }, [userId]);
 
   useEffect(() => {
-    const savedFocus = window.localStorage.getItem(`jobflow-role-focus:${userId}`) as RoleFocus | null;
+    const savedFocus = window.localStorage.getItem(`jobflow-role-focus:${userId}`) as Focus | null;
     setFocus(savedFocus && availableFocuses.includes(savedFocus) ? savedFocus : availableFocuses[0]);
   }, [userId, availableFocuses]);
 
-  const switchFocus = (nextFocus: RoleFocus) => {
+  const switchFocus = (nextFocus: Focus) => {
     setFocus(nextFocus);
     window.localStorage.setItem(`jobflow-role-focus:${userId}`, nextFocus);
   };
@@ -270,15 +275,18 @@ export default function Home() {
     setDecisions({});
     setTab("Discover");
     const nextCriteria = accountCriteria[nextUser];
-    const savedFocus = window.localStorage.getItem(`jobflow-role-focus:${nextUser}`) as RoleFocus | null;
+    const savedFocus = window.localStorage.getItem(`jobflow-role-focus:${nextUser}`) as Focus | null;
     setFocus(savedFocus && nextCriteria.focuses.includes(savedFocus) ? savedFocus : nextCriteria.focuses[0]);
     setUserId(nextUser);
   };
 
-  const eligibleJobs = useMemo(() => jobs.filter((job) => accountCriteria[userId].markets.includes(job.market)), [userId]);
+  const eligibleJobs = useMemo(() => jobs.filter((job) => {
+    const criteria = accountCriteria[userId];
+    return criteria.markets.includes(job.market) && criteria.focuses.includes(focusForJob(job, userId));
+  }), [userId]);
 
   const visible = useMemo(() => {
-    if (tab === "Discover") return eligibleJobs.filter((job) => roleFocus(job) === focus && !decisions[job.id]);
+    if (tab === "Discover") return eligibleJobs.filter((job) => focusForJob(job, userId) === focus && !decisions[job.id]);
     const wanted: Decision = tab === "Apply" ? "apply" : "trash";
     return eligibleJobs
       .filter((job) => decisions[job.id] === wanted)
@@ -307,9 +315,9 @@ export default function Home() {
     const currentFocusIndex = availableFocuses.findIndex((item) => item === focus);
     const nextFocus = tab === "Discover"
       ? Array.from({ length: availableFocuses.length - 1 }, (_, offset) => availableFocuses[(currentFocusIndex + offset + 1) % availableFocuses.length])
-          .find((candidateFocus) => eligibleJobs.some((job) => roleFocus(job) === candidateFocus && !nextDecisions[job.id]))
+          .find((candidateFocus) => eligibleJobs.some((job) => focusForJob(job, userId) === candidateFocus && !nextDecisions[job.id]))
       : undefined;
-    const currentFocusExhausted = tab === "Discover" && !eligibleJobs.some((job) => roleFocus(job) === focus && !nextDecisions[job.id]);
+    const currentFocusExhausted = tab === "Discover" && !eligibleJobs.some((job) => focusForJob(job, userId) === focus && !nextDecisions[job.id]);
 
     setDecisions(nextDecisions);
     if (currentFocusExhausted && nextFocus) switchFocus(nextFocus);
@@ -350,7 +358,7 @@ export default function Home() {
 
   const current = visible[0];
 
-  const focusedJobs = eligibleJobs.filter((job) => roleFocus(job) === focus);
+  const focusedJobs = eligibleJobs.filter((job) => focusForJob(job, userId) === focus);
   const discoverCount = focusedJobs.filter((job) => !decisions[job.id]).length;
   const applyCount = eligibleJobs.filter((job) => decisions[job.id] === "apply").length;
   const trashCount = eligibleJobs.filter((job) => decisions[job.id] === "trash").length;
