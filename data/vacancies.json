@@ -1,5 +1,129 @@
 [
   {
+    "title": "Senior AI Automation Business Analyst / Solution Architect",
+    "normalizedTitle": "Senior AI Automation Business Analyst and Solution Architect",
+    "company": "Synergy Effect – AI transformacija, automatizavimas ir web sprendimai",
+    "normalizedCompany": "Synergy Effect",
+    "location": "Vilnius or Kaunas, Lithuania",
+    "market": "Lithuania",
+    "workMode": "remote",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "AI / Agentic Automation",
+      "Automation Architecture",
+      "Workflow / BPM"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-ai-automation-business-analyst-solution-architect-at-synergy-effect-%E2%80%93-ai-transformacija-automatizavimas-ir-web-sprendimai-4411152647",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Current listing crawled four days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific LinkedIn vacancy describes an active application route and Lithuania-based remote work.",
+    "relevanceScore": 100,
+    "matchSummary": "Senior process-discovery and solution-design role translating business needs into n8n, API and AI-agent automation workflows.",
+    "technologies": [
+      "n8n",
+      "APIs",
+      "AI agents",
+      "LLMs"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "business analysis",
+      "solution architecture",
+      "process mapping",
+      "workflow automation"
+    ],
+    "requirements": [
+      "Lead discovery and map current-state processes",
+      "Design AI automation workflows and integrations",
+      "Translate requirements into implementable solution specifications"
+    ],
+    "requisitionId": "4411152647",
+    "sourceLastCheckedAt": "2026-08-29T06:00:32.701Z",
+    "id": "job-1787983485981-0",
+    "firstSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastVerifiedAt": "2026-08-29T06:04:45.972Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-29T06:04:45.972Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-29T06:04:45.972Z",
+        "reason": "The current role-specific LinkedIn vacancy describes an active application route and Lithuania-based remote work."
+      }
+    ]
+  },
+  {
+    "title": "Product & Process Owner Customer Success & AI Automation (m/w) 80-100%",
+    "normalizedTitle": "Product and Process Owner Customer Success and AI Automation",
+    "company": "NZZ",
+    "normalizedCompany": "NZZ",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Process Management",
+      "Digital Transformation"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/28a39c39-d35f-47dc-b669-2fbe23954070/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-21",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 21 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and describes flexible home-office work.",
+    "relevanceScore": 100,
+    "matchSummary": "Product and process ownership role building an AI-first service architecture with agentic automation, E2E process modelling and transformation delivery.",
+    "technologies": [
+      "Agentic AI",
+      "Conversational AI",
+      "Generative AI",
+      "CRM"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "product owner",
+      "process excellence",
+      "requirements engineering",
+      "service architecture"
+    ],
+    "requirements": [
+      "Own the future service-desk product and process vision",
+      "Design AI-supported service processes and handovers",
+      "Manage requirements, backlog, change and stakeholders"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-29T06:00:32.701Z",
+    "id": "job-1787983485981-2",
+    "firstSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastVerifiedAt": "2026-08-29T06:04:45.972Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-29T06:04:45.972Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-29T06:04:45.972Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and describes flexible home-office work."
+      }
+    ]
+  },
+  {
     "title": "Business Analyst Senior AI- und Process Automation",
     "normalizedTitle": "Senior Business Analyst AI and Process Automation",
     "company": "Kanton Basel-Stadt Finanzdepartement",
@@ -1990,6 +2114,67 @@
     ]
   },
   {
+    "title": "Product Owner AI Portfolio & Delivery",
+    "normalizedTitle": "Product Owner AI Portfolio and Delivery",
+    "company": "Emil Frey AG",
+    "normalizedCompany": "Emil Frey",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Project / Program Management",
+      "Digital Transformation"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/cdd64d08-9f9b-4d78-8df3-d397eea5fd0a/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-21",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 21 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and explicitly requests applications through its application link.",
+    "relevanceScore": 98,
+    "matchSummary": "AI portfolio and delivery ownership role covering AI agents, automated workflows, governance, intake, prioritisation and project leadership.",
+    "technologies": [
+      "AI agents",
+      "Automated workflows",
+      "Confluence"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "product owner",
+      "portfolio management",
+      "governance",
+      "workflow automation"
+    ],
+    "requirements": [
+      "Own the Swiss AI backlog and intake process",
+      "Lead prioritised AI initiatives through go-live",
+      "Design AI agents and establish governance processes"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-29T06:00:32.701Z",
+    "id": "job-1787983485981-3",
+    "firstSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastVerifiedAt": "2026-08-29T06:04:45.972Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-29T06:04:45.972Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-29T06:04:45.972Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and explicitly requests applications through its application link."
+      }
+    ]
+  },
+  {
     "title": "Applikationsverantwortliche/r 80-100% Fokus Business Applications & Automation",
     "normalizedTitle": "Business Applications and Automation Owner",
     "company": "Zurzach Care AG",
@@ -2615,6 +2800,70 @@
         "status": "Still open",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
+      }
+    ]
+  },
+  {
+    "title": "Business Analyst Syrius Parametrierung (a) 80-100%",
+    "normalizedTitle": "Business Analyst Syrius Configuration",
+    "company": "Helsana Versicherungen AG",
+    "normalizedCompany": "Helsana",
+    "location": "Dübendorf-Stettbach, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "RPA Development",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/67b08c00-0a96-4b49-acea-71e7cca8a7b1/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-25",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 25 August 2026",
+    "salaryText": "CHF 114,300–139,700 gross/year",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and identifies the employer's Job ID 34480.",
+    "relevanceScore": 96,
+    "matchSummary": "Business-analysis role combining process requirements, system ownership, interfaces, SQL data analysis and hands-on RPA/Python automation.",
+    "technologies": [
+      "RPA",
+      "Python",
+      "SQL",
+      "Syrius",
+      "Jira",
+      "Confluence"
+    ],
+    "keywordsMatched": [
+      "RPA",
+      "business analysis",
+      "process requirements",
+      "interfaces",
+      "digitalisation"
+    ],
+    "requirements": [
+      "Capture future process and interface requirements",
+      "Use SQL, RPA and Python to analyse and implement change",
+      "Own technical applications and coordinate stakeholders"
+    ],
+    "requisitionId": "34480",
+    "sourceLastCheckedAt": "2026-08-29T06:00:32.701Z",
+    "id": "job-1787983485981-4",
+    "firstSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastVerifiedAt": "2026-08-29T06:04:45.972Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-29T06:04:45.972Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-29T06:04:45.972Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and identifies the employer's Job ID 34480."
       }
     ]
   },
@@ -4716,6 +4965,66 @@
     ]
   },
   {
+    "title": "Business Analyst",
+    "normalizedTitle": "Business Analyst",
+    "company": "Alter Domus",
+    "normalizedCompany": "Alter Domus",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "AI / Agentic Automation",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/business-analyst-at-alter-domus-4435147417",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "About one month ago",
+    "salaryText": "€1,750–2,670 gross/month",
+    "status": "Newly found",
+    "statusReason": "The exact LinkedIn vacancy is live and currently exposes an Apply action.",
+    "relevanceScore": 91,
+    "matchSummary": "Business-analysis role mapping current-state processes and shaping requirements, user stories and technology-enabled automated workflows.",
+    "technologies": [
+      "AI tools",
+      "Agentic tools"
+    ],
+    "keywordsMatched": [
+      "business analysis",
+      "process mapping",
+      "requirements",
+      "workflow automation",
+      "agentic AI"
+    ],
+    "requirements": [
+      "Analyse current-state processes and pain points",
+      "Create process maps, requirements and user stories",
+      "Identify technology-enabled workflow and automation opportunities"
+    ],
+    "requisitionId": "4435147417",
+    "sourceLastCheckedAt": "2026-08-29T06:00:32.701Z",
+    "id": "job-1787983485981-1",
+    "firstSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastVerifiedAt": "2026-08-29T06:04:45.972Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-29T06:04:45.972Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-29T06:04:45.972Z",
+        "reason": "The exact LinkedIn vacancy is live and currently exposes an Apply action."
+      }
+    ]
+  },
+  {
     "title": "Digital Transformation Consultant",
     "normalizedTitle": "Digital Transformation Consultant",
     "company": "NRD Companies",
@@ -6153,6 +6462,67 @@
         "status": "Still open",
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
+      }
+    ]
+  },
+  {
+    "title": "Product Owner: Digital Products & Data Solutions",
+    "normalizedTitle": "Product Owner Digital Products and Data Solutions",
+    "company": "Genossenschaft ZFV Unternehmungen",
+    "normalizedCompany": "ZFV",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Process Management",
+      "Business Analysis",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/7b36acd1-2dc6-406c-b5a0-4f065855eecd/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-13",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 13 August 2026",
+    "salaryText": "CHF 90,000–110,000 gross/year",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and links to the employer's application flow.",
+    "relevanceScore": 87,
+    "matchSummary": "Digital product ownership role translating business processes, data flows and integrations into prioritised requirements and measurable process optimisation.",
+    "technologies": [
+      "ERP",
+      "APIs",
+      "Data platforms"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "process optimisation",
+      "requirements engineering",
+      "digital transformation",
+      "integrations"
+    ],
+    "requirements": [
+      "Own digital products and processes across core operations",
+      "Translate process and system needs into backlog items",
+      "Drive testing, roll-outs and continuous improvement"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-29T06:00:32.701Z",
+    "id": "job-1787983485981-5",
+    "firstSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastVerifiedAt": "2026-08-29T06:04:45.972Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-29T06:04:45.972Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-29T06:04:45.972Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and links to the employer's application flow."
       }
     ]
   },
