@@ -124,5 +124,14 @@
     "newlyFoundCount": 6,
     "updatedCount": 0,
     "notes": "Merged through canonical recurring search protocol"
+  },
+  {
+    "id": "run-2026-08-30T06:05:29.162Z",
+    "startedAt": "2026-08-30T06:05:29.162Z",
+    "completedAt": "2026-08-30T06:05:29.162Z",
+    "candidateCount": 9,
+    "newlyFoundCount": 9,
+    "updatedCount": 0,
+    "notes": "Merged through canonical recurring search protocol"
   }
 ]

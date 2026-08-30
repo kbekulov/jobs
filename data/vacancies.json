@@ -1,5 +1,197 @@
 [
   {
+    "title": "RPA Developer",
+    "normalizedTitle": "RPA Developer",
+    "company": "Kesko Senukai Lithuania, UAB",
+    "normalizedCompany": "Kesko Senukai Lithuania",
+    "location": "Kaunas, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "RPA Development",
+      "Automation Engineering",
+      "Power Platform",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "CV-Online direct vacancy",
+    "directUrl": "https://www.cvonline.lt/lt/vacancy/1642903/kesko-senukai-lithuania-uab/rpa-developer",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Current listing crawled yesterday",
+    "salaryText": "€3,500–4,000 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific CV-Online page presents the full vacancy, salary and application flow.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct UiPath delivery role taking automations from opportunity discovery through APIs, SQL, deployment and continuous improvement.",
+    "technologies": [
+      "UiPath",
+      "Power Automate",
+      "SQL Server",
+      "REST",
+      "SOAP",
+      "Python",
+      "C#",
+      "VB.NET"
+    ],
+    "keywordsMatched": [
+      "RPA",
+      "UiPath",
+      "Power Automate",
+      "process automation",
+      "APIs"
+    ],
+    "requirements": [
+      "Two to four years of UiPath development experience",
+      "SQL Server and code-reading capability",
+      "API integration and stakeholder collaboration"
+    ],
+    "requisitionId": "1642903",
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929163-0",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The current role-specific CV-Online page presents the full vacancy, salary and application flow."
+      }
+    ]
+  },
+  {
+    "title": "D365 Product Owner (F&O + Power Platform), 80-100% (m/w/d)",
+    "normalizedTitle": "D365 and Power Platform Product Owner",
+    "company": "Switzerland Global Enterprise",
+    "normalizedCompany": "Switzerland Global Enterprise",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Power Platform",
+      "Process Management",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/097343d3-b2f8-4a02-99aa-8f855812502c/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-29",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 29 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and requests applications through its online tool.",
+    "relevanceScore": 100,
+    "matchSummary": "Product ownership role combining D365, Power Platform, process optimisation, AI use cases, Power Apps and Power Automate delivery.",
+    "technologies": [
+      "Dynamics 365 F&O",
+      "Power Platform",
+      "Power Apps",
+      "Power Automate",
+      "AI"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "Power Platform",
+      "process optimisation",
+      "AI automation",
+      "governance"
+    ],
+    "requirements": [
+      "Own D365 and Power Platform lifecycle and backlog",
+      "Translate business processes into solution designs",
+      "Lead AI automation and Power Automate initiatives"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929163-1",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and requests applications through its online tool."
+      }
+    ]
+  },
+  {
+    "title": "UiPath Automation Consultant (all genders)",
+    "normalizedTitle": "UiPath Automation Consultant",
+    "company": "adesso Schweiz AG",
+    "normalizedCompany": "adesso Schweiz",
+    "location": "Bern, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "RPA Development",
+      "Automation Engineering",
+      "Automation Analysis",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/08204716-7b8b-4346-b2f7-f89c5c94b800/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-21",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 21 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch vacancy displays Bewerben.",
+    "relevanceScore": 100,
+    "matchSummary": "UiPath consulting role covering process discovery, Studio and Orchestrator workflows, customer requirements, standards and AI-enabled automation.",
+    "technologies": [
+      "UiPath Studio",
+      "UiPath Orchestrator",
+      "UiPath AI Center",
+      "BPMN",
+      "LLMs"
+    ],
+    "keywordsMatched": [
+      "UiPath",
+      "RPA",
+      "process analysis",
+      "workflow automation",
+      "agentic automation"
+    ],
+    "requirements": [
+      "Professional-level UiPath delivery experience",
+      "Business-process analysis and client consulting",
+      "Own automation solutions across their lifecycle"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929163-2",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The current role-specific jobs.ch vacancy displays Bewerben."
+      }
+    ]
+  },
+  {
     "title": "Senior AI Automation Business Analyst / Solution Architect",
     "normalizedTitle": "Senior AI Automation Business Analyst and Solution Architect",
     "company": "Synergy Effect – AI transformacija, automatizavimas ir web sprendimai",
@@ -4965,6 +5157,192 @@
     ]
   },
   {
+    "title": "Prozessmanager*in / Business Analyst*in",
+    "normalizedTitle": "Process Manager and Business Analyst",
+    "company": "PH Luzern",
+    "normalizedCompany": "PH Luzern",
+    "location": "Lucerne, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Process Management",
+      "Workflow / BPM"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/200e9085-bdb3-4111-9b3f-ca6b08533c93/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-10",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 10 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and asks for complete application documents.",
+    "relevanceScore": 91,
+    "matchSummary": "Process and business-analysis role eliciting ICT requirements and modelling and optimising end-to-end workflows with BPMN.",
+    "technologies": [
+      "BPMN",
+      "ICT systems"
+    ],
+    "keywordsMatched": [
+      "business analysis",
+      "process management",
+      "BPMN",
+      "requirements engineering",
+      "process optimisation"
+    ],
+    "requirements": [
+      "Elicit and document functional requirements",
+      "Model and optimise end-to-end processes in BPMN",
+      "Bridge business areas, application management and development"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929163-3",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and asks for complete application documents."
+      }
+    ]
+  },
+  {
+    "title": "Product Owner",
+    "normalizedTitle": "AI Product Owner",
+    "company": "SOFTETA",
+    "normalizedCompany": "SOFTETA",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Business Analysis",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-at-softeta-4443336105",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "One day ago",
+    "salaryText": "€3,600–5,200 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific LinkedIn vacancy is current and was posted one day ago.",
+    "relevanceScore": 91,
+    "matchSummary": "AI-focused product ownership role leading discovery, requirements, backlog and delivery across automation, integrations, robotics and computer vision.",
+    "technologies": [
+      "AI",
+      "LLMs",
+      "APIs",
+      "SQL",
+      "Computer Vision",
+      "Robotics"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "AI",
+      "automation",
+      "requirements",
+      "integrations"
+    ],
+    "requirements": [
+      "Lead discovery workshops and requirements gathering",
+      "Own backlog and delivery from concept to release",
+      "Work across AI, robotics and integration-heavy products"
+    ],
+    "requisitionId": "4443336105",
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929163-4",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The role-specific LinkedIn vacancy is current and was posted one day ago."
+      }
+    ]
+  },
+  {
+    "title": "Product Owner - AI Experience",
+    "normalizedTitle": "Product Owner AI Experience",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Digital Transformation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-ai-experience-at-danske-bank-4447551749",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "One week ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific LinkedIn page displays Apply.",
+    "relevanceScore": 91,
+    "matchSummary": "AI platform product ownership role leading reusable conversational, agent-interaction and human-in-the-loop capabilities across the bank.",
+    "technologies": [
+      "Generative AI",
+      "AI agents",
+      "Human-in-the-loop",
+      "Conversational UX"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "AI platform",
+      "agent interactions",
+      "AI adoption",
+      "governance"
+    ],
+    "requirements": [
+      "Own the AI Experience roadmap and vision",
+      "Lead a squad delivering reusable AI capabilities",
+      "Define standards for agent interactions and human-AI collaboration"
+    ],
+    "requisitionId": "4447551749",
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929164-8",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The current role-specific LinkedIn page displays Apply."
+      }
+    ]
+  },
+  {
     "title": "Business Analyst",
     "normalizedTitle": "Business Analyst",
     "company": "Alter Domus",
@@ -5902,6 +6280,68 @@
     ]
   },
   {
+    "title": "Product Owner (Autonomy & Swarming)",
+    "normalizedTitle": "Product Owner Autonomy and Swarming",
+    "company": "RSI Europe",
+    "normalizedCompany": "RSI Europe",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "onsite",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-autonomy-swarming-at-rsi-europe-4402281993",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Two weeks ago",
+    "salaryText": "€5,000–7,000 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific LinkedIn page displays Apply.",
+    "relevanceScore": 88,
+    "matchSummary": "AI product ownership role defining requirements and delivery for autonomous workflows, multi-agent coordination and scalable software capabilities.",
+    "technologies": [
+      "AI",
+      "Multi-agent systems",
+      "Computer Vision",
+      "Edge AI",
+      "Robotics"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "AI agents",
+      "multi-agent",
+      "requirements",
+      "automation"
+    ],
+    "requirements": [
+      "Own AI product strategy and roadmap",
+      "Translate autonomy capabilities into requirements and acceptance criteria",
+      "Coordinate hardware, software and AI engineering teams"
+    ],
+    "requisitionId": "4402281993",
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929163-5",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The current role-specific LinkedIn page displays Apply."
+      }
+    ]
+  },
+  {
     "title": "Digital Business Platforms/ Microsoft Consultant",
     "normalizedTitle": "Digital Business Platforms Microsoft Consultant",
     "company": "EY",
@@ -6466,6 +6906,67 @@
     ]
   },
   {
+    "title": "Technical Product Owner @Bioma",
+    "normalizedTitle": "Technical Product Owner",
+    "company": "Kiloverse",
+    "normalizedCompany": "Kiloverse",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Process Improvement",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/technical-product-owner-at-kiloverse-4439878444",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Current listing with active application flow",
+    "salaryText": "€4,000–6,400 gross/month",
+    "status": "Newly found",
+    "statusReason": "The exact role page displays Apply Now and directs candidates to the application form.",
+    "relevanceScore": 87,
+    "matchSummary": "Technical product ownership role turning recurring business requests into AI-automated workflows, scalable features and self-service solutions.",
+    "technologies": [
+      "AI",
+      "Jira",
+      "Power BI"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "workflow automation",
+      "AI",
+      "requirements",
+      "self-service"
+    ],
+    "requirements": [
+      "Translate business needs into technical requirements and user stories",
+      "Identify repetitive workflows for AI automation",
+      "Own roadmap, backlog and continuous product improvement"
+    ],
+    "requisitionId": "4439878444",
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929163-6",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The exact role page displays Apply Now and directs candidates to the application form."
+      }
+    ]
+  },
+  {
     "title": "Product Owner: Digital Products & Data Solutions",
     "normalizedTitle": "Product Owner Digital Products and Data Solutions",
     "company": "Genossenschaft ZFV Unternehmungen",
@@ -6649,6 +7150,66 @@
         "status": "Still open",
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
+      }
+    ]
+  },
+  {
+    "title": "Prozess- und Projektmanager:in Beschaffung + Logistik",
+    "normalizedTitle": "Process and Project Manager Procurement and Logistics",
+    "company": "Insel Gruppe",
+    "normalizedCompany": "Insel Gruppe",
+    "location": "Bern, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Process Excellence",
+      "Project / Program Management",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/124e90eb-2e53-4b04-8457-2b7995e3f94c/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-28",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 28 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben.",
+    "relevanceScore": 86,
+    "matchSummary": "Process leadership role identifying, evaluating and delivering logistics optimisation and automation opportunities from concept through acceptance.",
+    "technologies": [
+      "SAP S/4HANA",
+      "SharePoint"
+    ],
+    "keywordsMatched": [
+      "process manager",
+      "automation",
+      "process improvement",
+      "digitalisation",
+      "project management"
+    ],
+    "requirements": [
+      "Lead cross-functional process initiatives end to end",
+      "Assess and deliver automation opportunities",
+      "Own process controls and operational implementation"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-30T06:01:01.765Z",
+    "id": "job-1788069929163-7",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastVerifiedAt": "2026-08-30T06:05:29.162Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-30T06:05:29.162Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben."
       }
     ]
   },
