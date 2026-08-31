@@ -1,5 +1,194 @@
 [
   {
+    "title": "Vyriausias RPA sprendimų vystytojas (-a)",
+    "normalizedTitle": "Senior RPA Solutions Developer",
+    "company": "Registrų centras",
+    "normalizedCompany": "Registrų centras",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "RPA Development",
+      "Power Platform",
+      "Automation Analysis",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Senior",
+    "source": "CVbankas direct vacancy",
+    "directUrl": "https://www.cvbankas.lt/vyriausias-rpa-sprendimu-vystytojas-a-vilniuje/1-14103401",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "26 days remaining when verified",
+    "salaryText": "€2,800–4,200 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific CVbankas page shows that 26 days remain for applications.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct UiPath and Power Platform role spanning automation delivery, opportunity assessment, Power Apps, Copilot and AI-enabled process automation.",
+    "technologies": [
+      "UiPath",
+      "Microsoft Power Platform",
+      "Power Apps",
+      "Copilot"
+    ],
+    "keywordsMatched": [
+      "RPA",
+      "UiPath",
+      "Power Platform",
+      "process automation",
+      "AI automation"
+    ],
+    "requirements": [
+      "Build and maintain UiPath or Power Platform automations",
+      "Assess processes and prioritise automation opportunities",
+      "Integrate Power Apps, Copilot and AI capabilities"
+    ],
+    "requisitionId": "14103401",
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-1",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific CVbankas page shows that 26 days remain for applications."
+      }
+    ]
+  },
+  {
+    "title": "Professional Process Automation & AI Engineer (Financial Services)",
+    "normalizedTitle": "Professional Process Automation and AI Engineer",
+    "company": "VZ VermögensZentrum",
+    "normalizedCompany": "VZ VermögensZentrum",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "AI / Agentic Automation",
+      "Process Analysis",
+      "Business Analysis"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/f5a35f84-fd49-425e-885e-31ccbd94661c/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-28",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 28 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben for the vacancy.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct process-automation and AI engineering role combining business-process analysis, APIs, Python, TypeScript, SQL, CRM and RPA delivery.",
+    "technologies": [
+      "Python",
+      "TypeScript",
+      "SQL",
+      "APIs",
+      "CRM",
+      "RPA",
+      "Machine Learning"
+    ],
+    "keywordsMatched": [
+      "process automation",
+      "AI engineering",
+      "RPA",
+      "business process analysis",
+      "API automation"
+    ],
+    "requirements": [
+      "Automate and optimise business processes with code and AI",
+      "Specify processes, applications and interfaces",
+      "Establish implementation standards and coach internal developers"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-6",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
+      }
+    ]
+  },
+  {
+    "title": "AI & Automation Business Partner - all genders (80-100%)",
+    "normalizedTitle": "AI and Automation Business Partner",
+    "company": "Cembra Money Bank AG",
+    "normalizedCompany": "Cembra Money Bank",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Automation Analysis",
+      "Business Analysis",
+      "Process Excellence",
+      "AI / Agentic Automation",
+      "Digital Transformation"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/78c50d9a-6a8a-414d-bdc5-1fa30e76e6f5/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-27",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 27 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben for the vacancy.",
+    "relevanceScore": 100,
+    "matchSummary": "Business-facing AI and automation role spanning opportunity discovery, end-to-end process redesign, requirements, business cases, Power Platform and Copilot adoption.",
+    "technologies": [
+      "Microsoft Power Platform",
+      "Copilot",
+      "AI automation"
+    ],
+    "keywordsMatched": [
+      "automation opportunity assessment",
+      "process optimisation",
+      "business analysis",
+      "Power Platform",
+      "AI adoption"
+    ],
+    "requirements": [
+      "Discover and prioritise AI and automation opportunities",
+      "Analyse and simplify end-to-end business processes",
+      "Translate needs into functional requirements and measurable business cases"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-8",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
+      }
+    ]
+  },
+  {
     "title": "RPA Developer",
     "normalizedTitle": "RPA Developer",
     "company": "Kesko Senukai Lithuania, UAB",
@@ -2240,6 +2429,69 @@
         "status": "Unknown",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific direct URL returned 404, but no explicit closure wording was available; status is therefore Unknown."
+      }
+    ]
+  },
+  {
+    "title": "Product Owner / Project Manager Conversational AI (w/m/d), 80–100 %, Zürich/Hybrid",
+    "normalizedTitle": "Product Owner and Project Manager Conversational AI",
+    "company": "Sanitas Krankenversicherung",
+    "normalizedCompany": "Sanitas",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Project / Program Management",
+      "Process Management"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/bf84a478-49e4-445b-9280-baa1cb7414d8/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-08",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 8 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and explicitly invites online applications.",
+    "relevanceScore": 99,
+    "matchSummary": "Conversational-AI product and delivery role owning chat and voice bots, automation opportunities, requirements, integrations and interdisciplinary project teams.",
+    "technologies": [
+      "Conversational AI",
+      "Generative AI",
+      "NLP",
+      "Chatbots",
+      "Voice bots"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "conversational AI",
+      "process automation",
+      "requirements",
+      "AI integration"
+    ],
+    "requirements": [
+      "Own chat and voice bot products and their roadmap",
+      "Translate business requirements for agile delivery teams",
+      "Lead conversational-AI use cases and system integrations"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-7",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and explicitly invites online applications."
       }
     ]
   },
@@ -4718,6 +4970,68 @@
     ]
   },
   {
+    "title": "Senior Product Owner Data and AI (w/m)",
+    "normalizedTitle": "Senior Product Owner Data and AI",
+    "company": "Basler Kantonalbank",
+    "normalizedCompany": "Basler Kantonalbank",
+    "location": "Basel, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture",
+      "Digital Transformation"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/3e8a51ad-0851-4e88-acda-9b662cbcfb55/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-24",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 24 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and describes its active application process.",
+    "relevanceScore": 92,
+    "matchSummary": "Senior product ownership role for data and AI solutions, including platform evolution, technical backlog, requirements, prioritisation and regulated operations.",
+    "technologies": [
+      "Data platforms",
+      "Machine Learning",
+      "Jira",
+      "Confluence"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "AI platform",
+      "technical backlog",
+      "requirements",
+      "data architecture"
+    ],
+    "requirements": [
+      "Own planning and delivery of data and AI solutions",
+      "Prioritise the technical backlog and resolve dependencies",
+      "Shape a regulated enterprise data and AI platform"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-5",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and describes its active application process."
+      }
+    ]
+  },
+  {
     "title": "Chief Business Consultant – Print & Post Digital Transformation",
     "normalizedTitle": "Chief Business Consultant Digital Transformation",
     "company": "Danske Bank",
@@ -5846,6 +6160,132 @@
     ]
   },
   {
+    "title": "IT procesų analitikas (-ė)",
+    "normalizedTitle": "IT Process Analyst",
+    "company": "Registrų centras",
+    "normalizedCompany": "Registrų centras",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Process Management",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "CVbankas direct vacancy",
+    "directUrl": "https://www.cvbankas.lt/it-procesu-analitikas-e-vilniuje/1-14104137",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "27 days remaining when verified",
+    "salaryText": "€2,515–3,773 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific CVbankas page shows that 27 days remain for applications.",
+    "relevanceScore": 90,
+    "matchSummary": "IT process-analysis role covering maturity assessment, process redesign, governance and delivery coordination across Jira and service-management tooling.",
+    "technologies": [
+      "ITIL",
+      "COBIT",
+      "Agile",
+      "Promapp",
+      "Jira"
+    ],
+    "keywordsMatched": [
+      "process analysis",
+      "process improvement",
+      "process governance",
+      "business analysis",
+      "digital transformation"
+    ],
+    "requirements": [
+      "Analyse IT processes and assess their maturity",
+      "Design, document and improve processes",
+      "Coordinate implementation in Jira and service-management systems"
+    ],
+    "requisitionId": "14104137",
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-0",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific CVbankas page shows that 27 days remain for applications."
+      }
+    ]
+  },
+  {
+    "title": "SAP Application & Business Process Manager (LE/TM)",
+    "normalizedTitle": "SAP Application and Business Process Manager LE TM",
+    "company": "Bühler AG",
+    "normalizedCompany": "Bühler",
+    "location": "Uzwil, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Business Analysis",
+      "Product Ownership",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/4e2479fc-61d4-4ad6-b330-fab42f6a679d/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-30",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 30 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben for the vacancy.",
+    "relevanceScore": 90,
+    "matchSummary": "End-to-end process and SAP ownership role covering logistics workflows, standardisation, requirements, solution concepts, rollouts and stakeholder governance.",
+    "technologies": [
+      "SAP LE",
+      "SAP TM",
+      "SAP GTS",
+      "SAP SD",
+      "SAP PS"
+    ],
+    "keywordsMatched": [
+      "business process manager",
+      "process ownership",
+      "requirements",
+      "solution design",
+      "platform ownership"
+    ],
+    "requirements": [
+      "Own outbound-logistics and transport processes end to end",
+      "Translate requirements into SAP solution concepts",
+      "Drive standardisation, documentation and global rollouts"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-3",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
+      }
+    ]
+  },
+  {
     "title": "Junior AI Automation Engineer",
     "normalizedTitle": "Junior AI Automation Engineer",
     "company": "Head Aero",
@@ -6276,6 +6716,67 @@
         "status": "Still open",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
+      }
+    ]
+  },
+  {
+    "title": "Transformacijos projektų grupės vadovas (-ė)",
+    "normalizedTitle": "Transformation Projects Group Manager",
+    "company": "Registrų centras",
+    "normalizedCompany": "Registrų centras",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Digital Transformation",
+      "Project / Program Management",
+      "Technical Platform / Architecture",
+      "Process Management"
+    ],
+    "seniority": "Manager",
+    "source": "CVbankas direct vacancy",
+    "directUrl": "https://www.cvbankas.lt/transformacijos-projektu-grupes-vadovas-e-vilniuje/1-14099689",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "4 days remaining when verified",
+    "salaryText": "€3,806–5,708 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific CVbankas page shows that 4 days remain for applications.",
+    "relevanceScore": 88,
+    "matchSummary": "Transformation leadership role combining team management, architecture and integration decisions, agile delivery and collaboration with business-process owners.",
+    "technologies": [
+      "Jira",
+      "Confluence",
+      "Agile"
+    ],
+    "keywordsMatched": [
+      "transformation lead",
+      "process owner",
+      "systems modernisation",
+      "architecture",
+      "integration"
+    ],
+    "requirements": [
+      "Lead a transformation project group",
+      "Own architecture, integration and technical delivery decisions",
+      "Coordinate agile delivery with business-process and service owners"
+    ],
+    "requisitionId": "14099689",
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-2",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific CVbankas page shows that 4 days remain for applications."
       }
     ]
   },
@@ -7150,6 +7651,69 @@
         "status": "Still open",
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
+      }
+    ]
+  },
+  {
+    "title": "Solution Architect SAP PS & SD",
+    "normalizedTitle": "Solution Architect SAP PS and SD",
+    "company": "Bühler AG",
+    "normalizedCompany": "Bühler",
+    "location": "Uzwil, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Technical Platform / Architecture",
+      "Process Architecture",
+      "Digital Transformation"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/b39558e5-6cb4-4ed3-96f5-f3f652fd8005/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-30",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 30 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben for the vacancy.",
+    "relevanceScore": 86,
+    "matchSummary": "Process and solution-architecture role translating business requirements into integrated SAP designs using BTP, APIs and hands-on development technologies.",
+    "technologies": [
+      "SAP PS",
+      "SAP SD",
+      "SAP BTP",
+      "ABAP",
+      "OData",
+      "CDS"
+    ],
+    "keywordsMatched": [
+      "solution architecture",
+      "process architecture",
+      "business requirements",
+      "integrations",
+      "APIs"
+    ],
+    "requirements": [
+      "Design end-to-end SAP process architecture",
+      "Translate business requirements into integrated solutions",
+      "Work hands-on with ABAP, BTP, OData and CDS"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "id": "job-1788201423448-4",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
       }
     ]
   },
