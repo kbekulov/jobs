@@ -1,5 +1,483 @@
 [
   {
+    "title": "Senior AI Automation Business Analyst / Solution Architect",
+    "normalizedTitle": "Senior AI Automation Business Analyst and Solution Architect",
+    "company": "Synergy Effect – AI transformacija, automatizavimas ir web sprendimai",
+    "normalizedCompany": "Synergy Effect",
+    "location": "Vilnius or Kaunas, Lithuania",
+    "market": "Lithuania",
+    "workMode": "remote",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "AI / Agentic Automation",
+      "Automation Architecture",
+      "Workflow / BPM"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-ai-automation-business-analyst-solution-architect-at-synergy-effect-%E2%80%93-ai-transformacija-automatizavimas-ir-web-sprendimai-4411152647",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Current listing crawled four days ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The current role-specific LinkedIn page explicitly states No longer accepting applications.",
+    "relevanceScore": 100,
+    "matchSummary": "Senior process-discovery and solution-design role translating business needs into n8n, API and AI-agent automation workflows.",
+    "technologies": [
+      "n8n",
+      "APIs",
+      "AI agents",
+      "LLMs"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "business analysis",
+      "solution architecture",
+      "process mapping",
+      "workflow automation"
+    ],
+    "requirements": [
+      "Lead discovery and map current-state processes",
+      "Design AI automation workflows and integrations",
+      "Translate requirements into implementable solution specifications"
+    ],
+    "requisitionId": "4411152647",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1787983485981-0",
+    "firstSeenAt": "2026-08-29T06:04:45.972Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-29T06:04:45.972Z",
+        "reason": "The current role-specific LinkedIn vacancy describes an active application route and Lithuania-based remote work."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
+      }
+    ]
+  },
+  {
+    "title": "Automation Analyst",
+    "normalizedTitle": "Automation Analyst",
+    "company": "Metso",
+    "normalizedCompany": "Metso",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Automation Analysis",
+      "RPA Development",
+      "Process Analysis"
+    ],
+    "seniority": "",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/automation-analyst-at-metso-4427727629",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-10-07",
+    "postingAgeText": "1 day ago",
+    "salaryText": "€3,000–4,000 gross/month",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The current role-specific LinkedIn page explicitly states No longer accepting applications.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct RPA analyst role bridging finance operations and an RPA Factory, leading opportunity discovery, local bot development, UAT and rollout.",
+    "technologies": [
+      "RPA",
+      "UiPath",
+      "Power Apps",
+      "ServiceNow",
+      "SAP"
+    ],
+    "keywordsMatched": [
+      "automation analyst",
+      "RPA Factory",
+      "process discovery",
+      "UAT"
+    ],
+    "requirements": [
+      "2–5+ years of relevant experience",
+      "RPA development track record",
+      "Business-facing coordination"
+    ],
+    "requisitionId": "4427727629",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1787378740013-6",
+    "firstSeenAt": "2026-08-22T06:05:40.011Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-22T06:05:40.011Z",
+        "reason": "The exact LinkedIn vacancy was refreshed and exposes Apply; the same requisition appears reposted despite an older deadline embedded in the description."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "LinkedIn explicitly states that Metso is no longer accepting applications."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-26T06:07:41.724Z",
+        "reason": "The role-specific LinkedIn page shows Apply and a future 2026-10-07 deadline."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
+      }
+    ]
+  },
+  {
+    "title": "Platform Architect in Workflow Enablement Tribe",
+    "normalizedTitle": "Platform Architect Workflow Enablement",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Architecture",
+      "Workflow / BPM",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/platform-architect-in-workflow-enablement-tribe-at-danske-bank-4423220637",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "3 weeks ago",
+    "salaryText": "€4,800–7,200 gross/month",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The current role-specific LinkedIn page explicitly states No longer accepting applications.",
+    "relevanceScore": 100,
+    "matchSummary": "Hands-on architecture role building a Camunda-based enterprise workflow orchestration platform on AWS and Kubernetes with APIs and event-driven integrations.",
+    "technologies": [
+      "Camunda 8",
+      "BPMN",
+      "AWS",
+      "Kubernetes",
+      "Java",
+      "Terraform"
+    ],
+    "keywordsMatched": [
+      "workflow orchestration",
+      "platform architecture",
+      "process automation",
+      "integration"
+    ],
+    "requirements": [
+      "Workflow platform architecture",
+      "AWS and Kubernetes",
+      "CI/CD and IaC"
+    ],
+    "requisitionId": "4423220637",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1787378740013-8",
+    "firstSeenAt": "2026-08-22T06:05:40.011Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-22T06:05:40.011Z",
+        "reason": "The exact role-specific LinkedIn vacancy is current and explicitly supports Lithuania as a location."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "LinkedIn explicitly states that Danske Bank is no longer accepting applications."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-26T06:07:41.724Z",
+        "reason": "The role-specific LinkedIn page remains live for a Lithuania-eligible position."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "1 month ago",
+    "status": "Closed/Expired/No longer accepting applications",
+    "seniority": "",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "technologies": [
+      "BPMN",
+      "Camunda",
+      "APIs",
+      "AI agents"
+    ],
+    "keywordsMatched": [
+      "workflow enablement",
+      "automation opportunities",
+      "business analysis",
+      "agentic solutions"
+    ],
+    "requirements": [
+      "Complex requirements analysis",
+      "Workflow process design",
+      "API and integration familiarity"
+    ],
+    "requisitionId": "4417492857",
+    "title": "Business & Functional Specialist for Workflow Enablement Tribe",
+    "normalizedTitle": "Business and Functional Specialist Workflow Enablement",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Automation Analysis",
+      "Workflow / BPM",
+      "AI / Agentic Automation"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/business-functional-specialist-for-workflow-enablement-tribe-at-danske-bank-4417492857",
+    "salaryText": "€3,920–5,880 gross/month",
+    "statusReason": "The current role-specific LinkedIn page explicitly states No longer accepting applications.",
+    "relevanceScore": 100,
+    "matchSummary": "Workflow business-analysis role structuring automation opportunities and translating processes into agentic solutions spanning BPMN, APIs and AI agents.",
+    "id": "job-1787724461727-3",
+    "firstSeenAt": "2026-08-26T06:07:41.724Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-26T06:07:41.724Z",
+        "reason": "The role-specific LinkedIn vacancy shows Apply."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
+      }
+    ]
+  },
+  {
+    "title": "Senior Low-Code Engineer (80 - 100%)",
+    "normalizedTitle": "Senior Low-Code Engineer",
+    "company": "Arcade Solutions AG",
+    "normalizedCompany": "Arcade Solutions",
+    "location": "Lucerne, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Power Platform",
+      "Automation Engineering",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/88170faf-6dd7-427d-ad66-1cc027bade6b/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-28",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 28 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben for the vacancy.",
+    "relevanceScore": 100,
+    "matchSummary": "End-to-end Power Platform engineering role covering Power Apps, Power Automate, Dataverse, Copilot Studio, AI agents, governance and integrations.",
+    "technologies": [
+      "Power Apps",
+      "Power Automate",
+      "Power Pages",
+      "Dataverse",
+      "Copilot Studio",
+      "Azure AI"
+    ],
+    "keywordsMatched": [
+      "low-code",
+      "Power Platform",
+      "workflow automation",
+      "AI agents",
+      "platform governance"
+    ],
+    "requirements": [
+      "Design and deliver enterprise Power Platform solutions",
+      "Build automations, applications and AI-assisted workflows",
+      "Lead architecture, governance, integration and customer workshops"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-7",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
+      }
+    ]
+  },
+  {
+    "title": "Senior Power Platform Consultant",
+    "normalizedTitle": "Senior Power Platform Consultant",
+    "company": "isolutions AG",
+    "normalizedCompany": "isolutions",
+    "location": "Bern, Zurich or Basel, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Power Platform",
+      "Automation Architecture",
+      "Automation Engineering",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/71b01917-b790-4005-b161-861757bccff1/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-06-15",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 15 June 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben for the vacancy.",
+    "relevanceScore": 100,
+    "matchSummary": "Senior consulting role architecting Power Apps, Power Automate, Copilot Studio and Dataverse solutions with governance, ALM and technical leadership.",
+    "technologies": [
+      "Power Apps",
+      "Power Automate",
+      "Copilot Studio",
+      "AI Builder",
+      "Dataverse",
+      "ALM"
+    ],
+    "keywordsMatched": [
+      "Power Platform",
+      "workflow automation",
+      "Copilot Studio",
+      "solution architecture",
+      "governance"
+    ],
+    "requirements": [
+      "Architect and implement enterprise Power Platform solutions",
+      "Advise customers on governance, security and ALM",
+      "Lead delivery teams and technical workshops"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-8",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
+      }
+    ]
+  },
+  {
+    "title": "Senior Workflow Automation Software Engineer",
+    "normalizedTitle": "Senior Workflow Automation Engineer",
+    "company": "mesoneer",
+    "normalizedCompany": "mesoneer",
+    "location": "Wallisellen, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Workflow / BPM",
+      "Automation Engineering",
+      "Automation Architecture",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "Official mesoneer careers vacancy",
+    "directUrl": "https://www.mesoneer.io/de/job/senior-workflow-automation-software-engineer",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Current vacancy; start by arrangement",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The official role-specific mesoneer page displays Jetzt bewerben for the 80–100% vacancy.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct workflow-orchestration engineering role using Flowable, Camunda/CIB7 and BPMN with APIs, Java/Spring Boot, workshops and technical coaching.",
+    "technologies": [
+      "Flowable",
+      "Camunda",
+      "CIB7",
+      "BPMN 2.0",
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "React",
+      "APIs"
+    ],
+    "keywordsMatched": [
+      "workflow automation",
+      "Camunda",
+      "BPMN",
+      "process orchestration",
+      "integrations"
+    ],
+    "requirements": [
+      "Build and integrate enterprise workflow-automation solutions",
+      "Model and implement BPMN processes on Flowable or Camunda",
+      "Lead technical concepts, workshops and engineering coaching"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-10",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The official role-specific mesoneer page displays Jetzt bewerben for the 80–100% vacancy."
+      }
+    ]
+  },
+  {
     "title": "Vyriausias RPA sprendimų vystytojas (-a)",
     "normalizedTitle": "Senior RPA Solutions Developer",
     "company": "Registrų centras",
@@ -381,68 +859,6 @@
     ]
   },
   {
-    "title": "Senior AI Automation Business Analyst / Solution Architect",
-    "normalizedTitle": "Senior AI Automation Business Analyst and Solution Architect",
-    "company": "Synergy Effect – AI transformacija, automatizavimas ir web sprendimai",
-    "normalizedCompany": "Synergy Effect",
-    "location": "Vilnius or Kaunas, Lithuania",
-    "market": "Lithuania",
-    "workMode": "remote",
-    "lithuaniaEligible": true,
-    "roleFocus": "analyst",
-    "roleFamilies": [
-      "Business Analysis",
-      "AI / Agentic Automation",
-      "Automation Architecture",
-      "Workflow / BPM"
-    ],
-    "seniority": "Senior",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/senior-ai-automation-business-analyst-solution-architect-at-synergy-effect-%E2%80%93-ai-transformacija-automatizavimas-ir-web-sprendimai-4411152647",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "Current listing crawled four days ago",
-    "salaryText": "Salary not disclosed",
-    "status": "Newly found",
-    "statusReason": "The current role-specific LinkedIn vacancy describes an active application route and Lithuania-based remote work.",
-    "relevanceScore": 100,
-    "matchSummary": "Senior process-discovery and solution-design role translating business needs into n8n, API and AI-agent automation workflows.",
-    "technologies": [
-      "n8n",
-      "APIs",
-      "AI agents",
-      "LLMs"
-    ],
-    "keywordsMatched": [
-      "AI automation",
-      "business analysis",
-      "solution architecture",
-      "process mapping",
-      "workflow automation"
-    ],
-    "requirements": [
-      "Lead discovery and map current-state processes",
-      "Design AI automation workflows and integrations",
-      "Translate requirements into implementable solution specifications"
-    ],
-    "requisitionId": "4411152647",
-    "sourceLastCheckedAt": "2026-08-29T06:00:32.701Z",
-    "id": "job-1787983485981-0",
-    "firstSeenAt": "2026-08-29T06:04:45.972Z",
-    "lastSeenAt": "2026-08-29T06:04:45.972Z",
-    "lastVerifiedAt": "2026-08-29T06:04:45.972Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-29T06:04:45.972Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-29T06:04:45.972Z",
-        "reason": "The current role-specific LinkedIn vacancy describes an active application route and Lithuania-based remote work."
-      }
-    ]
-  },
-  {
     "title": "Product & Process Owner Customer Success & AI Automation (m/w) 80-100%",
     "normalizedTitle": "Product and Process Owner Customer Success and AI Automation",
     "company": "NZZ",
@@ -748,147 +1164,6 @@
     ]
   },
   {
-    "title": "Automation Analyst",
-    "normalizedTitle": "Automation Analyst",
-    "company": "Metso",
-    "normalizedCompany": "Metso",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFocus": "analyst",
-    "roleFamilies": [
-      "Automation Analysis",
-      "RPA Development",
-      "Process Analysis"
-    ],
-    "seniority": "",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/automation-analyst-at-metso-4427727629",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": "2026-10-07",
-    "postingAgeText": "1 day ago",
-    "salaryText": "€3,000–4,000 gross/month",
-    "status": "Still open",
-    "statusReason": "The role-specific LinkedIn page shows Apply and a future 2026-10-07 deadline.",
-    "relevanceScore": 100,
-    "matchSummary": "Direct RPA analyst role bridging finance operations and an RPA Factory, leading opportunity discovery, local bot development, UAT and rollout.",
-    "technologies": [
-      "RPA",
-      "UiPath",
-      "Power Apps",
-      "ServiceNow",
-      "SAP"
-    ],
-    "keywordsMatched": [
-      "automation analyst",
-      "RPA Factory",
-      "process discovery",
-      "UAT"
-    ],
-    "requirements": [
-      "2–5+ years of relevant experience",
-      "RPA development track record",
-      "Business-facing coordination"
-    ],
-    "requisitionId": "4427727629",
-    "lastVerifiedAt": "2026-08-26T06:07:41.724Z",
-    "sourceLastCheckedAt": "2026-08-26T06:07:41.675Z",
-    "id": "job-1787378740013-6",
-    "firstSeenAt": "2026-08-22T06:05:40.011Z",
-    "lastSeenAt": "2026-08-26T06:07:41.724Z",
-    "previousStatus": "Closed/Expired/No longer accepting applications",
-    "statusChangedAt": "2026-08-26T06:07:41.724Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-22T06:05:40.011Z",
-        "reason": "The exact LinkedIn vacancy was refreshed and exposes Apply; the same requisition appears reposted despite an older deadline embedded in the description."
-      },
-      {
-        "status": "Closed/Expired/No longer accepting applications",
-        "at": "2026-08-23T06:05:19.149Z",
-        "reason": "LinkedIn explicitly states that Metso is no longer accepting applications."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-26T06:07:41.724Z",
-        "reason": "The role-specific LinkedIn page shows Apply and a future 2026-10-07 deadline."
-      }
-    ]
-  },
-  {
-    "title": "Platform Architect in Workflow Enablement Tribe",
-    "normalizedTitle": "Platform Architect Workflow Enablement",
-    "company": "Danske Bank",
-    "normalizedCompany": "Danske Bank",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFocus": "developer",
-    "roleFamilies": [
-      "Automation Architecture",
-      "Workflow / BPM",
-      "Technical Platform / Architecture"
-    ],
-    "seniority": "",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/platform-architect-in-workflow-enablement-tribe-at-danske-bank-4423220637",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "3 weeks ago",
-    "salaryText": "€4,800–7,200 gross/month",
-    "status": "Still open",
-    "statusReason": "The role-specific LinkedIn page remains live for a Lithuania-eligible position.",
-    "relevanceScore": 100,
-    "matchSummary": "Hands-on architecture role building a Camunda-based enterprise workflow orchestration platform on AWS and Kubernetes with APIs and event-driven integrations.",
-    "technologies": [
-      "Camunda 8",
-      "BPMN",
-      "AWS",
-      "Kubernetes",
-      "Java",
-      "Terraform"
-    ],
-    "keywordsMatched": [
-      "workflow orchestration",
-      "platform architecture",
-      "process automation",
-      "integration"
-    ],
-    "requirements": [
-      "Workflow platform architecture",
-      "AWS and Kubernetes",
-      "CI/CD and IaC"
-    ],
-    "requisitionId": "4423220637",
-    "lastVerifiedAt": "2026-08-26T06:07:41.724Z",
-    "sourceLastCheckedAt": "2026-08-26T06:07:41.675Z",
-    "id": "job-1787378740013-8",
-    "firstSeenAt": "2026-08-22T06:05:40.011Z",
-    "lastSeenAt": "2026-08-26T06:07:41.724Z",
-    "previousStatus": "Closed/Expired/No longer accepting applications",
-    "statusChangedAt": "2026-08-26T06:07:41.724Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-22T06:05:40.011Z",
-        "reason": "The exact role-specific LinkedIn vacancy is current and explicitly supports Lithuania as a location."
-      },
-      {
-        "status": "Closed/Expired/No longer accepting applications",
-        "at": "2026-08-23T06:05:19.149Z",
-        "reason": "LinkedIn explicitly states that Danske Bank is no longer accepting applications."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-26T06:07:41.724Z",
-        "reason": "The role-specific LinkedIn page remains live for a Lithuania-eligible position."
-      }
-    ]
-  },
-  {
     "title": "Automation Developer",
     "normalizedTitle": "Automation Developer",
     "company": "Citco Group of Companies",
@@ -1018,66 +1293,6 @@
         "status": "Newly found",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Accenture role page is live with an Apply action for Vilnius."
-      }
-    ]
-  },
-  {
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "1 month ago",
-    "status": "Newly found",
-    "seniority": "",
-    "sourceLastCheckedAt": "2026-08-26T06:07:41.675Z",
-    "technologies": [
-      "BPMN",
-      "Camunda",
-      "APIs",
-      "AI agents"
-    ],
-    "keywordsMatched": [
-      "workflow enablement",
-      "automation opportunities",
-      "business analysis",
-      "agentic solutions"
-    ],
-    "requirements": [
-      "Complex requirements analysis",
-      "Workflow process design",
-      "API and integration familiarity"
-    ],
-    "requisitionId": "4417492857",
-    "title": "Business & Functional Specialist for Workflow Enablement Tribe",
-    "normalizedTitle": "Business and Functional Specialist Workflow Enablement",
-    "company": "Danske Bank",
-    "normalizedCompany": "Danske Bank",
-    "location": "Vilnius, Lithuania",
-    "roleFocus": "analyst",
-    "roleFamilies": [
-      "Business Analysis",
-      "Automation Analysis",
-      "Workflow / BPM",
-      "AI / Agentic Automation"
-    ],
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/business-functional-specialist-for-workflow-enablement-tribe-at-danske-bank-4417492857",
-    "salaryText": "€3,920–5,880 gross/month",
-    "statusReason": "The role-specific LinkedIn vacancy shows Apply.",
-    "relevanceScore": 100,
-    "matchSummary": "Workflow business-analysis role structuring automation opportunities and translating processes into agentic solutions spanning BPMN, APIs and AI agents.",
-    "id": "job-1787724461727-3",
-    "firstSeenAt": "2026-08-26T06:07:41.724Z",
-    "lastSeenAt": "2026-08-26T06:07:41.724Z",
-    "lastVerifiedAt": "2026-08-26T06:07:41.724Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-26T06:07:41.724Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-26T06:07:41.724Z",
-        "reason": "The role-specific LinkedIn vacancy shows Apply."
       }
     ]
   },
@@ -2558,6 +2773,70 @@
     ]
   },
   {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "status": "Closed/Expired/No longer accepting applications",
+    "seniority": "",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "technologies": [
+      "Workflow orchestration",
+      "AI automation",
+      "Architecture frameworks"
+    ],
+    "keywordsMatched": [
+      "workflow enablement",
+      "tribe architect",
+      "digital transformation",
+      "governance"
+    ],
+    "requirements": [
+      "Architecture or senior technical leadership",
+      "People leadership",
+      "Enterprise workflow experience"
+    ],
+    "requisitionId": "4386097914",
+    "title": "Tribe Architect - Workflow Enablement",
+    "normalizedTitle": "Tribe Architect Workflow Enablement",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Automation Leadership",
+      "Automation Architecture",
+      "Workflow / BPM",
+      "Digital Transformation"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/tribe-architect-workflow-enablement-at-danske-bank-4386097914",
+    "salaryText": "€6,400–9,600 gross/month",
+    "statusReason": "The current role-specific LinkedIn page explicitly states No longer accepting applications.",
+    "relevanceScore": 98,
+    "matchSummary": "Senior workflow-architecture leadership role shaping enterprise automation, AI-enabled case handling, technology strategy, governance and team development.",
+    "id": "job-1787724461727-2",
+    "firstSeenAt": "2026-08-26T06:07:41.724Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": "Unknown",
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Unknown",
+        "at": "2026-08-26T06:07:41.724Z",
+        "reason": "The role-specific page exists and identifies Lithuania eligibility, but current application acceptance is not explicit."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
+      }
+    ]
+  },
+  {
     "title": "Product Owner AI Portfolio & Delivery",
     "normalizedTitle": "Product Owner AI Portfolio and Delivery",
     "company": "Emil Frey AG",
@@ -2745,65 +3024,6 @@
         "status": "Newly found",
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben."
-      }
-    ]
-  },
-  {
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": null,
-    "status": "Unknown",
-    "seniority": "",
-    "sourceLastCheckedAt": "2026-08-26T06:07:41.675Z",
-    "technologies": [
-      "Workflow orchestration",
-      "AI automation",
-      "Architecture frameworks"
-    ],
-    "keywordsMatched": [
-      "workflow enablement",
-      "tribe architect",
-      "digital transformation",
-      "governance"
-    ],
-    "requirements": [
-      "Architecture or senior technical leadership",
-      "People leadership",
-      "Enterprise workflow experience"
-    ],
-    "requisitionId": "4386097914",
-    "title": "Tribe Architect - Workflow Enablement",
-    "normalizedTitle": "Tribe Architect Workflow Enablement",
-    "company": "Danske Bank",
-    "normalizedCompany": "Danske Bank",
-    "location": "Vilnius, Lithuania",
-    "roleFocus": "manager",
-    "roleFamilies": [
-      "Automation Leadership",
-      "Automation Architecture",
-      "Workflow / BPM",
-      "Digital Transformation"
-    ],
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/tribe-architect-workflow-enablement-at-danske-bank-4386097914",
-    "salaryText": "€6,400–9,600 gross/month",
-    "statusReason": "The role-specific page exists and identifies Lithuania eligibility, but current application acceptance is not explicit.",
-    "relevanceScore": 98,
-    "matchSummary": "Senior workflow-architecture leadership role shaping enterprise automation, AI-enabled case handling, technology strategy, governance and team development.",
-    "id": "job-1787724461727-2",
-    "firstSeenAt": "2026-08-26T06:07:41.724Z",
-    "lastSeenAt": "2026-08-26T06:07:41.724Z",
-    "lastVerifiedAt": "2026-08-26T06:07:41.724Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-26T06:07:41.724Z",
-    "statusHistory": [
-      {
-        "status": "Unknown",
-        "at": "2026-08-26T06:07:41.724Z",
-        "reason": "The role-specific page exists and identifies Lithuania eligibility, but current application acceptance is not explicit."
       }
     ]
   },
@@ -3244,6 +3464,70 @@
         "status": "Still open",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
+      }
+    ]
+  },
+  {
+    "title": "BASEL OFFICE - Business Effectiveness Systems Manager",
+    "normalizedTitle": "Business Effectiveness Systems Manager",
+    "company": "Viking",
+    "normalizedCompany": "Viking",
+    "location": "Basel, Switzerland",
+    "market": "Switzerland",
+    "workMode": "onsite",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Automation Leadership",
+      "Power Platform",
+      "AI / Agentic Automation",
+      "Process Management"
+    ],
+    "seniority": "Manager",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/88077333-e3e4-4bb3-9b5f-9ce938f7c796/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-12",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 12 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben and explicitly identifies the Basel office vacancy.",
+    "relevanceScore": 96,
+    "matchSummary": "Automation-management role owning HR workflows built with Power Automate, Copilot Studio, AI agents, Power BI and API-enabled systems.",
+    "technologies": [
+      "Power Automate",
+      "Power BI",
+      "Copilot Studio",
+      "AI agents",
+      "APIs",
+      "RPA"
+    ],
+    "keywordsMatched": [
+      "business effectiveness",
+      "workflow automation",
+      "Power Automate",
+      "AI agents",
+      "systems management"
+    ],
+    "requirements": [
+      "Design and manage end-to-end HR workflow automations",
+      "Translate business requirements into Power Platform solutions",
+      "Lead adoption of Copilot, AI agents and integrated systems"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-9",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and explicitly identifies the Basel office vacancy."
       }
     ]
   },
@@ -4280,6 +4564,70 @@
     ]
   },
   {
+    "title": "AI Platform Architect",
+    "normalizedTitle": "AI Platform Architect",
+    "company": "ti&m AG",
+    "normalizedCompany": "ti&m",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture",
+      "Automation Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/56a7326e-430e-4234-914c-d1a39bd16b35/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-29",
+    "applicationDeadline": null,
+    "postingAgeText": "Published 29 August 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The current role-specific jobs.ch page displays Bewerben for the vacancy.",
+    "relevanceScore": 94,
+    "matchSummary": "Architecture role for enterprise AI platforms and agentic workflows, including RAG, MCP, integrations, cloud/on-premise deployment and team mentoring.",
+    "technologies": [
+      "Python",
+      "RAG",
+      "MCP",
+      "LLMs",
+      "Vector databases",
+      "SQL",
+      "Cloud platforms"
+    ],
+    "keywordsMatched": [
+      "AI platform",
+      "agentic systems",
+      "AI workflows",
+      "solution architecture",
+      "integrations"
+    ],
+    "requirements": [
+      "Architect scalable enterprise AI and agentic platforms",
+      "Design RAG, MCP and model-integration patterns",
+      "Guide delivery teams across cloud and on-premise implementations"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-11",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
+      }
+    ]
+  },
+  {
     "title": "Software Engineer Platform Automation",
     "normalizedTitle": "Software Engineer Platform Automation",
     "company": "Festo",
@@ -4651,6 +4999,69 @@
     ]
   },
   {
+    "title": "Robotic Process Automation (RPA) Developer",
+    "normalizedTitle": "RPA Developer",
+    "company": "Mediq Business Services Lithuania",
+    "normalizedCompany": "Mediq Business Services Lithuania",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "RPA Development",
+      "Process Analysis",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Mid-level",
+    "source": "Official Mediq careers vacancy",
+    "directUrl": "https://careersatmediq.com/job/All-countries-Robotic-Process-Automation-%28RPA%29-Developer-LT-08247/1466-lt_LT/",
+    "supportingSourceUrl": "https://lt.linkedin.com/jobs/view/robotic-process-automation-rpa-developer-at-mediq-business-services-lithuania-4424395775",
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Current official vacancy",
+    "status": "Still open",
+    "statusReason": "The current official Mediq vacancy page lists the Vilnius role and invites applications.",
+    "relevanceScore": 93,
+    "matchSummary": "UiPath-focused RPA CoE role spanning process discovery, global bot delivery and emerging agentic solutions.",
+    "technologies": [
+      "UiPath",
+      "Blue Prism",
+      "AI",
+      "Chatbots"
+    ],
+    "keywordsMatched": [
+      "Robotic Process Automation",
+      "CoE",
+      "Agentic Solutions"
+    ],
+    "requirements": [
+      "Proven RPA development experience",
+      "UiPath or Blue Prism proficiency",
+      "Process analysis and stakeholder collaboration"
+    ],
+    "requisitionId": "4424395775",
+    "salaryText": "€3,100–4,000 gross/month",
+    "roleFocus": "developer",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1787221513433-18",
+    "firstSeenAt": "2026-08-20T10:25:13.432Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-08-20T15:04:01.300Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-20T10:25:13.432Z",
+        "reason": "The exact role page was independently re-opened during the clean 2026-08-20 search and continued to expose current role-specific application content without closure wording."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-20T15:04:01.300Z",
+        "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ]
+  },
+  {
     "title": "Senior Platform Engineer (DevOps) for Cloud Automation",
     "normalizedTitle": "Senior Platform Engineer Cloud Automation",
     "company": "Danske Bank",
@@ -4839,69 +5250,6 @@
         "status": "Still open",
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
-      }
-    ]
-  },
-  {
-    "title": "Robotic Process Automation (RPA) Developer",
-    "normalizedTitle": "RPA Developer",
-    "company": "Mediq Business Services Lithuania",
-    "normalizedCompany": "Mediq Business Services Lithuania",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "RPA Development",
-      "Process Analysis",
-      "AI / Agentic Automation"
-    ],
-    "seniority": "Mid-level",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/robotic-process-automation-rpa-developer-at-mediq-business-services-lithuania-4424395775",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "2 days ago",
-    "status": "Still open",
-    "statusReason": "Direct role page was rechecked during the 2026-08-22 run and remains live without explicit closure; Apply is available where exposed by LinkedIn.",
-    "relevanceScore": 93,
-    "matchSummary": "UiPath-focused RPA CoE role spanning process discovery, global bot delivery and emerging agentic solutions.",
-    "technologies": [
-      "UiPath",
-      "Blue Prism",
-      "AI",
-      "Chatbots"
-    ],
-    "keywordsMatched": [
-      "Robotic Process Automation",
-      "CoE",
-      "Agentic Solutions"
-    ],
-    "requirements": [
-      "Proven RPA development experience",
-      "UiPath or Blue Prism proficiency",
-      "Process analysis and stakeholder collaboration"
-    ],
-    "requisitionId": "4424395775",
-    "salaryText": "€3,100–4,000 gross/month",
-    "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-08-26T06:07:41.675Z",
-    "id": "job-1787221513433-18",
-    "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-08-26T06:07:41.675Z",
-    "lastVerifiedAt": "2026-08-26T06:07:41.675Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-20T15:04:01.300Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-20T10:25:13.432Z",
-        "reason": "The exact role page was independently re-opened during the clean 2026-08-20 search and continued to expose current role-specific application content without closure wording."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-20T15:04:01.300Z",
-        "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
     ]
   },
@@ -5471,6 +5819,79 @@
     ]
   },
   {
+    "title": "AI Analyst - Agents & Self-service Cluster",
+    "normalizedTitle": "AI Analyst, Agents and Self-Service",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "Automation Analysis",
+      "AI / Agentic Automation",
+      "Business Analysis",
+      "Power Platform"
+    ],
+    "seniority": "Mid-level",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/ai-analyst-agents-self-service-cluster-at-danske-bank-4440962387",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "1 week ago",
+    "salaryText": "€3,920–5,880 gross/month",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The current role-specific LinkedIn page explicitly states No longer accepting applications.",
+    "relevanceScore": 91,
+    "matchSummary": "AI analysis role improving assistants and self-service journeys through Power Automate, Copilot Studio, Python, SQL and stakeholder-led requirements work.",
+    "technologies": [
+      "Power Automate",
+      "Power Apps",
+      "Copilot Studio",
+      "Python",
+      "SQL",
+      "Azure"
+    ],
+    "keywordsMatched": [
+      "AI agents",
+      "Power Platform",
+      "Copilot Studio",
+      "automation analysis",
+      "business requirements"
+    ],
+    "requirements": [
+      "Two or more years in analytics, BI or AI initiatives",
+      "Python and SQL capability",
+      "Power Platform or comparable automation experience"
+    ],
+    "requisitionId": "4440962387",
+    "roleFocus": "analyst",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1787221513433-21",
+    "firstSeenAt": "2026-08-20T10:25:13.432Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-20T10:25:13.432Z",
+        "reason": "The exact role page was independently re-opened during the clean 2026-08-20 search and continued to expose current role-specific application content without closure wording."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-20T15:04:01.300Z",
+        "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
+      }
+    ]
+  },
+  {
     "title": "Prozessmanager*in / Business Analyst*in",
     "normalizedTitle": "Process Manager and Business Analyst",
     "company": "PH Luzern",
@@ -5963,74 +6384,6 @@
     ]
   },
   {
-    "title": "AI Analyst - Agents & Self-service Cluster",
-    "normalizedTitle": "AI Analyst, Agents and Self-Service",
-    "company": "Danske Bank",
-    "normalizedCompany": "Danske Bank",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Automation Analysis",
-      "AI / Agentic Automation",
-      "Business Analysis",
-      "Power Platform"
-    ],
-    "seniority": "Mid-level",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/ai-analyst-agents-self-service-cluster-at-danske-bank-4440962387",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "1 week ago",
-    "salaryText": "€3,920–5,880 gross/month",
-    "status": "Still open",
-    "statusReason": "Direct role page was rechecked during the 2026-08-22 run and remains live without explicit closure; Apply is available where exposed by LinkedIn.",
-    "relevanceScore": 91,
-    "matchSummary": "AI analysis role improving assistants and self-service journeys through Power Automate, Copilot Studio, Python, SQL and stakeholder-led requirements work.",
-    "technologies": [
-      "Power Automate",
-      "Power Apps",
-      "Copilot Studio",
-      "Python",
-      "SQL",
-      "Azure"
-    ],
-    "keywordsMatched": [
-      "AI agents",
-      "Power Platform",
-      "Copilot Studio",
-      "automation analysis",
-      "business requirements"
-    ],
-    "requirements": [
-      "Two or more years in analytics, BI or AI initiatives",
-      "Python and SQL capability",
-      "Power Platform or comparable automation experience"
-    ],
-    "requisitionId": "4440962387",
-    "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-08-26T06:07:41.675Z",
-    "id": "job-1787221513433-21",
-    "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-08-26T06:07:41.675Z",
-    "lastVerifiedAt": "2026-08-26T06:07:41.675Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-20T15:04:01.300Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-20T10:25:13.432Z",
-        "reason": "The exact role page was independently re-opened during the clean 2026-08-20 search and continued to expose current role-specific application content without closure wording."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-20T15:04:01.300Z",
-        "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
-      }
-    ]
-  },
-  {
     "title": "IT sistemų ir automatizavimo specialistas (-ė)",
     "normalizedTitle": "IT Systems and Automation Specialist",
     "company": "BSW Engineering",
@@ -6156,6 +6509,66 @@
         "status": "Still open",
         "at": "2026-08-24T06:02:03.286Z",
         "reason": "The role-specific vacancy still shows an active Apply action during this daily recheck."
+      }
+    ]
+  },
+  {
+    "title": "Procesų Vadovas (-Ė)",
+    "normalizedTitle": "Process Manager",
+    "company": "ILTE",
+    "normalizedCompany": "ILTE",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Process Excellence",
+      "Process Analysis",
+      "Digital Transformation"
+    ],
+    "seniority": "Manager",
+    "source": "CV-Online direct vacancy",
+    "directUrl": "https://www.cvonline.lt/lt/vacancy/1646843/uab-ilte/proces-vadovas",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-25",
+    "postingAgeText": "Applications close 25 September 2026",
+    "salaryText": "€3,700–4,400 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific CV-Online page lists an application deadline of 25 September 2026.",
+    "relevanceScore": 90,
+    "matchSummary": "Hands-on process-management role identifying bottlenecks, modelling future states and leading workshops and change across the organisation.",
+    "technologies": [
+      "Process modelling",
+      "Continuous improvement"
+    ],
+    "keywordsMatched": [
+      "process management",
+      "process optimisation",
+      "process improvement",
+      "change management",
+      "workshops"
+    ],
+    "requirements": [
+      "Analyse and model end-to-end organisational processes",
+      "Identify inefficiencies and define optimisation initiatives",
+      "Facilitate process workshops and implementation change"
+    ],
+    "requisitionId": "1646843",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-5",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific CV-Online page lists an application deadline of 25 September 2026."
       }
     ]
   },
@@ -6592,6 +7005,127 @@
         "status": "Unknown",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific direct URL returned 404, but no explicit closure wording was available; status is therefore Unknown."
+      }
+    ]
+  },
+  {
+    "title": "Senior Business Analyst, Compliance Systems and Analytics",
+    "normalizedTitle": "Senior Business Analyst and Product Owner",
+    "company": "Western Union",
+    "normalizedCompany": "Western Union",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Business Analysis",
+      "Product Ownership",
+      "Digital Transformation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "Official Western Union Workday vacancy",
+    "directUrl": "https://westernunion.wd5.myworkdayjobs.com/WesternUnionJobs/job/LTU---Vilnius/Senior-Business-Analyst--Compliance-Systems-and-Analytics_JR0129985",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-24",
+    "postingAgeText": "Applications close 24 September 2026",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The official role-specific Workday page is current, exposes Apply and lists 24 September 2026 as the end date.",
+    "relevanceScore": 89,
+    "matchSummary": "Senior analysis and product-ownership role driving requirements, prioritisation and modernisation of compliance systems and analytics.",
+    "technologies": [
+      "Compliance platforms",
+      "Analytics",
+      "APIs"
+    ],
+    "keywordsMatched": [
+      "business analysis",
+      "product ownership",
+      "platform modernisation",
+      "requirements",
+      "stakeholder management"
+    ],
+    "requirements": [
+      "Own and prioritise compliance-system requirements",
+      "Translate business needs into technology delivery",
+      "Coordinate stakeholders through platform modernisation"
+    ],
+    "requisitionId": "JR0129985",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-1",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The official role-specific Workday page is current, exposes Apply and lists 24 September 2026 as the end date."
+      }
+    ]
+  },
+  {
+    "title": "Process Designer",
+    "normalizedTitle": "Business Process Designer",
+    "company": "Luminor",
+    "normalizedCompany": "Luminor",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Process Analysis",
+      "Process Architecture",
+      "Process Excellence",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "Official Luminor Teamtailor vacancy",
+    "directUrl": "https://luminorbank.teamtailor.com/jobs/8292661-process-designer",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-31",
+    "applicationDeadline": "2026-09-13",
+    "postingAgeText": "Published 31 August 2026; applications close 13 September 2026",
+    "salaryText": "€3,500–5,200 gross/month",
+    "status": "Newly found",
+    "statusReason": "The official role-specific Luminor page displays Apply and an application deadline of 13 September 2026.",
+    "relevanceScore": 89,
+    "matchSummary": "Pan-Baltic process-design role unifying local workflows through root-cause analysis, future-state design and measurable efficiency improvements.",
+    "technologies": [
+      "Process modelling",
+      "Customer journey design"
+    ],
+    "keywordsMatched": [
+      "process design",
+      "process analysis",
+      "process efficiency",
+      "root-cause analysis",
+      "transformation"
+    ],
+    "requirements": [
+      "Map and redesign business and sales processes",
+      "Unify local processes into pan-Baltic standards",
+      "Facilitate stakeholders and quantify experience and efficiency improvements"
+    ],
+    "requisitionId": "8292661",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-4",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The official role-specific Luminor page displays Apply and an application deadline of 13 September 2026."
       }
     ]
   },
@@ -7655,6 +8189,131 @@
     ]
   },
   {
+    "title": "Veiklos analitikas (-ė) / Business analyst (E. sveikata)",
+    "normalizedTitle": "Business Analyst",
+    "company": "Registrų centras",
+    "normalizedCompany": "Registrų centras",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Workflow / BPM",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-level",
+    "source": "Official Registrų centras Teamtailor vacancy",
+    "directUrl": "https://karjera.registrucentras.lt/jobs/8155581-veiklos-analitikas-e-business-analyst-e-sveikata",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-25",
+    "postingAgeText": "Applications close 25 September 2026",
+    "salaryText": "€2,400–3,600 gross/month",
+    "status": "Newly found",
+    "statusReason": "The official role-specific careers page displays Apply and an application deadline of 25 September 2026.",
+    "relevanceScore": 86,
+    "matchSummary": "Public-service digitalisation role focused on process analysis, BPMN/UML modelling and clear functional requirements for e-health systems.",
+    "technologies": [
+      "BPMN",
+      "UML",
+      "Jira",
+      "Confluence"
+    ],
+    "keywordsMatched": [
+      "business analysis",
+      "process modelling",
+      "BPMN",
+      "requirements",
+      "digital transformation"
+    ],
+    "requirements": [
+      "Analyse and model current and future business processes",
+      "Prepare functional and non-functional requirements",
+      "Collaborate with product, development and public-sector stakeholders"
+    ],
+    "requisitionId": "8155581",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-2",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The official role-specific careers page displays Apply and an application deadline of 25 September 2026."
+      }
+    ]
+  },
+  {
+    "title": "Senior Systems Analyst",
+    "normalizedTitle": "Senior Systems Analyst",
+    "company": "Girteka",
+    "normalizedCompany": "Girteka",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Technical Platform / Architecture",
+      "Digital Transformation"
+    ],
+    "seniority": "Senior",
+    "source": "Official Girteka careers vacancy",
+    "directUrl": "https://careers.girteka.eu/job/Vilnius-Senior-Systems-Analyst/1355609855/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-13",
+    "applicationDeadline": null,
+    "postingAgeText": "Posted 13 August 2026",
+    "salaryText": "€4,210–5,260 gross/month",
+    "status": "Newly found",
+    "statusReason": "The official role-specific Girteka careers page remains current and exposes the application flow.",
+    "relevanceScore": 86,
+    "matchSummary": "Senior analysis role combining AS-IS/TO-BE process design, ERP and microservice integration, APIs, BPMN and analyst mentoring.",
+    "technologies": [
+      "ERP",
+      "Microservices",
+      "APIs",
+      "BPMN",
+      "UML"
+    ],
+    "keywordsMatched": [
+      "systems analysis",
+      "process analysis",
+      "integrations",
+      "APIs",
+      "BPMN"
+    ],
+    "requirements": [
+      "Analyse and improve AS-IS and TO-BE business processes",
+      "Design system and integration requirements across ERP and microservices",
+      "Lead solution workshops and mentor other analysts"
+    ],
+    "requisitionId": "1355609855",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-6",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The official role-specific Girteka careers page remains current and exposes the application flow."
+      }
+    ]
+  },
+  {
     "title": "Solution Architect SAP PS & SD",
     "normalizedTitle": "Solution Architect SAP PS and SD",
     "company": "Bühler AG",
@@ -7895,6 +8554,68 @@
         "status": "Newly found",
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The role-specific LinkedIn page shows Apply and describes a current Vilnius hybrid vacancy."
+      }
+    ]
+  },
+  {
+    "title": "System Analyst (MS Dynamics NAV/ Business Central)",
+    "normalizedTitle": "Business Systems Analyst",
+    "company": "StrongPoint UAB",
+    "normalizedCompany": "StrongPoint",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Technical Platform / Architecture",
+      "Power Platform"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "CV-Online direct vacancy",
+    "directUrl": "https://www.cvonline.lt/lt/vacancy/1646286/strongpoint-uab/system-analyst-ms-dynamics-nav-business-central",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-16",
+    "postingAgeText": "Applications close 16 September 2026",
+    "salaryText": "€2,984–5,349 gross/month",
+    "status": "Newly found",
+    "statusReason": "The current role-specific CV-Online page lists an application deadline of 16 September 2026.",
+    "relevanceScore": 84,
+    "matchSummary": "Business-systems analysis role covering process discovery, solution design, NAV/Business Central and Power Platform-enabled optimisation.",
+    "technologies": [
+      "Microsoft Dynamics NAV",
+      "Business Central",
+      "LS Central",
+      "Power Platform",
+      "Power Apps"
+    ],
+    "keywordsMatched": [
+      "business process analysis",
+      "solution design",
+      "process optimisation",
+      "Power Platform"
+    ],
+    "requirements": [
+      "Analyse business processes and translate needs into system solutions",
+      "Design and document NAV or Business Central improvements",
+      "Coordinate testing, rollout and process optimisation"
+    ],
+    "requisitionId": "1646286",
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-0",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The current role-specific CV-Online page lists an application deadline of 16 September 2026."
       }
     ]
   },
@@ -8397,6 +9118,66 @@
         "status": "Still open",
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
+      }
+    ]
+  },
+  {
+    "title": "Business Analyst in Mobile Business Application team | SEB, Vilnius",
+    "normalizedTitle": "Mobile Product Business Analyst",
+    "company": "SEB",
+    "normalizedCompany": "SEB",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Product Ownership",
+      "Project / Program Management",
+      "Digital Transformation"
+    ],
+    "seniority": "Mid-Senior",
+    "source": "Official SEB careers vacancy",
+    "directUrl": "https://sebgroup.com/sv/karriar/hitta-ditt-nya-jobb/vara-lediga-tjanster/business-analyst-in-mobile-business-application-team--seb-vilnius-7308f20c-619e-4b4d-9d79-9f245e290d48",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-06",
+    "postingAgeText": "Applications close 6 September 2026",
+    "salaryText": "€2,700–3,900 gross/month",
+    "status": "Newly found",
+    "statusReason": "The official SEB vacancy page remains current, exposes Apply and lists 6 September 2026 as the deadline.",
+    "relevanceScore": 80,
+    "matchSummary": "Product-facing business-analysis role spanning backlog refinement, requirements, release planning and end-to-end mobile feature delivery.",
+    "technologies": [
+      "Mobile applications",
+      "Agile delivery"
+    ],
+    "keywordsMatched": [
+      "business analysis",
+      "product ownership",
+      "backlog",
+      "requirements",
+      "release planning"
+    ],
+    "requirements": [
+      "Translate customer and business needs into mobile features",
+      "Refine and prioritise the delivery backlog",
+      "Coordinate requirements, testing and releases across teams"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-01T06:00:27.410Z",
+    "id": "job-1788242887127-3",
+    "firstSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastSeenAt": "2026-09-01T06:08:07.126Z",
+    "lastVerifiedAt": "2026-09-01T06:08:07.126Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-01T06:08:07.126Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-01T06:08:07.126Z",
+        "reason": "The official SEB vacancy page remains current, exposes Apply and lists 6 September 2026 as the deadline."
       }
     ]
   },
