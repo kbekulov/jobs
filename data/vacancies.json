@@ -1,5 +1,129 @@
 [
   {
+    "title": "Automation Engineer",
+    "normalizedTitle": "Automation Engineer",
+    "company": "Paymentology",
+    "normalizedCompany": "Paymentology",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "unknown",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Mid-level",
+    "source": "LinkedIn",
+    "directUrl": "https://lt.linkedin.com/jobs/view/automation-engineer-at-paymentology-4400583458",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 100,
+    "matchSummary": "Direct automation role integrating SaaS systems and building AI-enabled internal workflows.",
+    "technologies": [
+      "n8n",
+      "APIs",
+      "AI agents"
+    ],
+    "keywordsMatched": [
+      "n8n",
+      "APIs",
+      "AI agents",
+      "Automation Engineering",
+      "AI / Agentic Automation"
+    ],
+    "requirements": [
+      "Build automations with n8n and APIs",
+      "Integrate HubSpot and Zendesk",
+      "Apply Python, LLMs and agent tooling"
+    ],
+    "requisitionId": "4400583458",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-1",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "AI Solutions Lead",
+    "normalizedTitle": "AI Solutions Lead",
+    "company": "Apex Alliance Hotel Management",
+    "normalizedCompany": "Apex Alliance Hotel Management",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Automation Leadership"
+    ],
+    "seniority": "Manager",
+    "source": "LinkedIn",
+    "directUrl": "https://lt.linkedin.com/jobs/view/ai-solutions-lead-at-apex-alliance-hotel-management-4458364616",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "€5,000–6,000 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 100,
+    "matchSummary": "Hands-on AI lead role combining process redesign, agent delivery, integrations and governance.",
+    "technologies": [
+      "AI agents",
+      "APIs",
+      "Python"
+    ],
+    "keywordsMatched": [
+      "AI agents",
+      "APIs",
+      "Python",
+      "AI / Agentic Automation",
+      "Automation Leadership"
+    ],
+    "requirements": [
+      "Build AI agents and assistants",
+      "Redesign operational processes",
+      "Deliver API, SQL and Python integrations"
+    ],
+    "requisitionId": "4458364616",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-2",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
     "title": "Senior AI Automation Business Analyst / Solution Architect",
     "normalizedTitle": "Senior AI Automation Business Analyst and Solution Architect",
     "company": "Synergy Effect – AI transformacija, automatizavimas ir web sprendimai",
@@ -64,6 +188,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -139,7 +266,11 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Platform Architect in Workflow Enablement Tribe",
@@ -215,7 +346,11 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -280,7 +415,11 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Low-Code Engineer (80 - 100%)",
@@ -344,6 +483,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -408,6 +550,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -475,6 +620,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The official role-specific mesoneer page displays Jetzt bewerben for the 80–100% vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -537,6 +685,9 @@
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific CVbankas page shows that 26 days remain for applications."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -602,6 +753,9 @@
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -664,6 +818,9 @@
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -730,6 +887,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The current role-specific CV-Online page presents the full vacancy, salary and application flow."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -793,6 +953,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and requests applications through its online tool."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -856,6 +1019,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The current role-specific jobs.ch vacancy displays Bewerben."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -918,6 +1084,9 @@
         "at": "2026-08-29T06:04:45.972Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and describes flexible home-office work."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -979,6 +1148,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and was published six days ago."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -1039,6 +1211,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The role-specific jobs.ch vacancy currently displays Bewerben."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -1099,6 +1274,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and was published six days ago."
       }
+    ],
+    "regionalLanguages": [
+      "French"
     ]
   },
   {
@@ -1161,6 +1339,9 @@
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The official employer vacancy is live with a candidate action and was published two days ago."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -1232,7 +1413,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific CVbankas vacancy is live and reports days remaining."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -1294,7 +1479,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Accenture role page is live with an Apply action for Vilnius."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "unknown",
@@ -1356,7 +1545,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The newly posted role-specific LinkedIn vacancy shows Apply."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -1417,7 +1610,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Hostinger ATS vacancy provides an application form for Vilnius and Kaunas."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -1480,7 +1677,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Luminor page still exposes Apply despite the passed listed deadline, so the official current state takes priority."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -1540,7 +1741,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official role page exists, but the deadline has passed and current application acceptance is unclear; closure is not explicit."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -1609,7 +1814,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Junior AI Automation Specialist",
@@ -1675,7 +1884,11 @@
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Microsoft Copilot Studio developer",
@@ -1740,7 +1953,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Principal Low Code Engineer",
@@ -1813,7 +2030,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific LinkedIn vacancy explicitly states that it is no longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Business Process Architect, Marketing & Automation",
@@ -1890,7 +2111,11 @@
     ],
     "supportingSourceUrl": null,
     "postingDate": null,
-    "applicationDeadline": null
+    "applicationDeadline": null,
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "AI Product & Automation Consultant",
@@ -1957,7 +2182,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Microsoft Power Platform & Copilot Service Owner",
@@ -2026,7 +2255,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Camunda / Java Developer",
@@ -2098,7 +2331,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific LinkedIn vacancy explicitly states that it is no longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Chief Camunda / Java Developer",
@@ -2165,7 +2402,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Business Process Architect, AI Automation",
@@ -2240,7 +2481,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific LinkedIn vacancy explicitly states that it is no longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Business & Functional Specialist for Workflow enablement Tribe",
@@ -2305,7 +2550,11 @@
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Enterprise Platforms Automation & AI Lead",
@@ -2376,7 +2625,11 @@
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "AI Engineer – Workflow Automation",
@@ -2442,7 +2695,11 @@
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "Direct role page was rechecked during the 2026-08-22 run and remains live without explicit closure; Apply is available where exposed by LinkedIn."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Vyriausiasis automatizavimo sprendimų vystytojas (-a)",
@@ -2510,7 +2767,11 @@
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "Role-specific employer or ATS evidence remains current during the 2026-08-22 recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Solution Architect for Workflow Orchestration Platform",
@@ -2576,7 +2837,11 @@
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "LinkedIn explicitly states that Danske Bank is no longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "RPA analitikas (-ė)",
@@ -2645,7 +2910,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific direct URL returned 404, but no explicit closure wording was available; status is therefore Unknown."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Product Owner / Project Manager Conversational AI (w/m/d), 80–100 %, Zürich/Hybrid",
@@ -2708,6 +2977,9 @@
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and explicitly invites online applications."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -2769,6 +3041,74 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "Business Operations Manager",
+    "normalizedTitle": "Business Operations Manager",
+    "company": "Vinted",
+    "normalizedCompany": "Vinted",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Automation Leadership",
+      "Product Ownership"
+    ],
+    "seniority": "Manager",
+    "source": "Official company careers",
+    "directUrl": "https://careers.vinted.com/fr/emplois/j/4955273101",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "€3,483–4,100 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 98,
+    "matchSummary": "Operations ownership role improving workflows and building reliable automations and integrations.",
+    "technologies": [
+      "HubSpot",
+      "Workato",
+      "APIs"
+    ],
+    "keywordsMatched": [
+      "HubSpot",
+      "Workato",
+      "APIs",
+      "Process Management",
+      "Automation Leadership",
+      "Product Ownership"
+    ],
+    "requirements": [
+      "Own and improve HubSpot workflows",
+      "Build Zapier or Workato automations",
+      "Design processes, webhooks and system integrations"
+    ],
+    "requisitionId": "4955273101",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-5",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
     ]
   },
@@ -2834,7 +3174,11 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Product Owner AI Portfolio & Delivery",
@@ -2895,6 +3239,9 @@
         "at": "2026-08-29T06:04:45.972Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and explicitly requests applications through its application link."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -2959,6 +3306,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The current role-specific jobs.ch vacancy displays Bewerben."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -3025,6 +3375,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -3086,7 +3439,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Ashby vacancy lists Lithuania and provides an application form."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -3147,7 +3504,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Kilo vacancy provides a live application form and Lithuania locations."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -3207,7 +3568,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Swedbank vacancy and application form remain live despite the passed listed deadline."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior RPA developer",
@@ -3270,7 +3635,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "RPA Software Engineer",
@@ -3331,7 +3700,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "AI Automation Team Lead (Remote, Contract)",
@@ -3398,7 +3771,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -3465,6 +3842,207 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "Junior AI & Automation Specialist",
+    "normalizedTitle": "Junior AI Automation Specialist",
+    "company": "Eany",
+    "normalizedCompany": "Eany",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Automation Engineering",
+      "Workflow / BPM"
+    ],
+    "seniority": "Junior",
+    "source": "CVbankas",
+    "directUrl": "https://www.cvbankas.lt/junior-ai-automation-specialist-vilniuje/1-13858596",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "€1,800–2,800 gross/month",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The exact CVbankas vacancy explicitly says the listing is inactive and CVs can no longer be submitted.",
+    "relevanceScore": 96,
+    "matchSummary": "Junior agentic-automation role using LLM APIs, webhooks and JSON to build production AI workflows.",
+    "technologies": [
+      "LLM APIs",
+      "APIs",
+      "Webhooks",
+      "JSON",
+      "Agentic platforms"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "agentic automation",
+      "LLM workflow"
+    ],
+    "requirements": [
+      "Passion for AI and automation",
+      "Experience with agentic platforms or ability to learn quickly",
+      "Understanding of APIs, webhooks and JSON"
+    ],
+    "requisitionId": "13858596",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "id": "job-1787378740013-3",
+    "firstSeenAt": "2026-08-22T06:05:40.011Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-22T06:05:40.011Z",
+        "reason": "The role-specific CVbankas vacancy is live and contains the current workplace, requirements and salary."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-23T06:05:19.149Z",
+        "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The exact CVbankas vacancy explicitly says the listing is inactive and CVs can no longer be submitted."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "AI Solution Architect",
+    "normalizedTitle": "AI Solution Architect",
+    "company": "EPAM Systems",
+    "normalizedCompany": "EPAM Systems",
+    "location": "Vilnius or Kaunas, Lithuania",
+    "market": "Lithuania",
+    "workMode": "remote",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Mid-level",
+    "source": "LinkedIn",
+    "directUrl": "https://lt.linkedin.com/jobs/view/ai-solution-architect-at-epam-systems-4456876216",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "€5,600–8,000 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 96,
+    "matchSummary": "AI architecture role designing autonomous-agent and GenAI solutions embedded in enterprise workflows.",
+    "technologies": [
+      "LangChain",
+      "RAG",
+      "AI agents"
+    ],
+    "keywordsMatched": [
+      "LangChain",
+      "RAG",
+      "AI agents",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture"
+    ],
+    "requirements": [
+      "Architect GenAI and autonomous-agent solutions",
+      "Design RAG and orchestration patterns",
+      "Integrate AI into enterprise workflows"
+    ],
+    "requisitionId": "4456876216",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-3",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "AI & Automation Manager (m/f/d) in General Procurement",
+    "normalizedTitle": "AI & Automation Manager (m/f/d) in General Procurement",
+    "company": "PHOENIX group",
+    "normalizedCompany": "PHOENIX group",
+    "location": "Lithuania or Croatia",
+    "market": "Lithuania",
+    "workMode": "unknown",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Automation Leadership",
+      "Digital Transformation"
+    ],
+    "seniority": "Manager",
+    "source": "Official company careers",
+    "directUrl": "https://jobs.phoenixgroup.eu/en/jobs/147122/ai-automation-manager-mfd-in-general-procurement",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 96,
+    "matchSummary": "Automation leadership role owning an AI roadmap, process reengineering and implementation across procurement.",
+    "technologies": [
+      "AI automation",
+      "Process redesign",
+      "Governance"
+    ],
+    "keywordsMatched": [
+      "AI automation",
+      "Process redesign",
+      "Governance",
+      "Automation Leadership",
+      "Digital Transformation"
+    ],
+    "requirements": [
+      "Own the AI and automation roadmap",
+      "Identify and deliver automation use cases",
+      "Lead process reengineering and adoption"
+    ],
+    "requisitionId": "147122",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-4",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
     ]
   },
   {
@@ -3529,6 +4107,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and explicitly identifies the Basel office vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -3593,6 +4174,9 @@
         "at": "2026-08-29T06:04:45.972Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and identifies the employer's Job ID 34480."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -3656,6 +4240,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -3718,6 +4305,9 @@
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The role-specific jobs.ch page shows Bewerben and was published on 2026-08-07."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -3779,6 +4369,9 @@
         "at": "2026-08-26T19:53:17.842Z",
         "reason": "The role-specific LinkedIn page shows Apply and the current description lists Zurich, 80–100%, and requisition 24710."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -3841,7 +4434,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Vinted careers listing remains current and role-specific."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -3905,71 +4502,11 @@
         "at": "2026-08-25T06:02:57.054Z",
         "reason": "The role-specific official employer vacancy remains live and current during this deep recheck."
       }
-    ]
-  },
-  {
-    "title": "Junior AI & Automation Specialist",
-    "normalizedTitle": "Junior AI Automation Specialist",
-    "company": "Eany",
-    "normalizedCompany": "Eany",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFocus": "developer",
-    "roleFamilies": [
-      "AI / Agentic Automation",
-      "Automation Engineering",
-      "Workflow / BPM"
     ],
-    "seniority": "Junior",
-    "source": "CVbankas",
-    "directUrl": "https://www.cvbankas.lt/junior-ai-automation-specialist-vilniuje/1-13858596",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": null,
-    "salaryText": "€1,800–2,800 gross/month",
-    "status": "Still open",
-    "statusReason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run.",
-    "relevanceScore": 96,
-    "matchSummary": "Junior agentic-automation role using LLM APIs, webhooks and JSON to build production AI workflows.",
-    "technologies": [
-      "LLM APIs",
-      "APIs",
-      "Webhooks",
-      "JSON",
-      "Agentic platforms"
+    "regionalLanguages": [
+      "Lithuanian"
     ],
-    "keywordsMatched": [
-      "AI automation",
-      "agentic automation",
-      "LLM workflow"
-    ],
-    "requirements": [
-      "Passion for AI and automation",
-      "Experience with agentic platforms or ability to learn quickly",
-      "Understanding of APIs, webhooks and JSON"
-    ],
-    "requisitionId": "13858596",
-    "lastVerifiedAt": "2026-08-26T06:07:41.675Z",
-    "sourceLastCheckedAt": "2026-08-26T06:07:41.675Z",
-    "id": "job-1787378740013-3",
-    "firstSeenAt": "2026-08-22T06:05:40.011Z",
-    "lastSeenAt": "2026-08-26T06:07:41.675Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-23T06:05:19.149Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-22T06:05:40.011Z",
-        "reason": "The role-specific CVbankas vacancy is live and contains the current workplace, requirements and salary."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-23T06:05:19.149Z",
-        "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
-      }
-    ]
+    "market": "Lithuania"
   },
   {
     "title": "Business Process Automation & Technology Adoption Manager",
@@ -4035,7 +4572,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "AI & Automation Engineer",
@@ -4101,7 +4642,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Full Stack Engineer (Automation & AI Agents) | Delivery Automation Team",
@@ -4170,7 +4715,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Solution Architect for Agentic Developer Journey",
@@ -4236,7 +4785,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "AI Platform Engineer 100%",
@@ -4298,6 +4851,9 @@
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The role-specific jobs.ch page shows Apply and remains live with the full Emmi vacancy description."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -4371,7 +4927,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific LinkedIn vacancy explicitly states that it is no longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "AI Developer (Microsoft Stack)",
@@ -4437,7 +4997,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "RPA Developer (UiPath)",
@@ -4497,7 +5061,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Business Process Analyst",
@@ -4560,6 +5128,134 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "AI Engineer (F/M/D)",
+    "normalizedTitle": "AI Engineer (F/M/D)",
+    "company": "Ignitis Group",
+    "normalizedCompany": "Ignitis Group",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Automation Engineering"
+    ],
+    "seniority": "Mid-level",
+    "source": "Official SmartRecruiters",
+    "directUrl": "https://jobs.smartrecruiters.com/Ignitisgroup/744000136426639-ai-engineer-f-m-d-",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "€4,290–6,440 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 94,
+    "matchSummary": "Hands-on AI engineering role building agents and workflow automations that improve business processes.",
+    "technologies": [
+      "Python",
+      "RAG",
+      "AI agents"
+    ],
+    "keywordsMatched": [
+      "Python",
+      "RAG",
+      "AI agents",
+      "AI / Agentic Automation",
+      "Automation Engineering"
+    ],
+    "requirements": [
+      "Build and productionize generative AI agents",
+      "Automate workflows and business processes",
+      "Use Python and retrieval-augmented generation"
+    ],
+    "requisitionId": "744000136426639",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-0",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "Agent Product Manager",
+    "normalizedTitle": "Agent Product Manager",
+    "company": "Ace Waves",
+    "normalizedCompany": "Ace Waves",
+    "location": "Kaunas, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Manager",
+    "source": "LinkedIn",
+    "directUrl": "https://lt.linkedin.com/jobs/view/agent-product-manager-at-ace-waves-4437254799",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "€3,500–5,000 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 94,
+    "matchSummary": "Product ownership role shaping AI-agent behaviour, workflows and client integrations.",
+    "technologies": [
+      "AI agents",
+      "APIs",
+      "Product discovery"
+    ],
+    "keywordsMatched": [
+      "AI agents",
+      "APIs",
+      "Product discovery",
+      "Product Ownership",
+      "AI / Agentic Automation"
+    ],
+    "requirements": [
+      "Lead product discovery and backlog decisions",
+      "Design AI-agent workflows and behaviour",
+      "Coordinate APIs, data flows and integrations"
+    ],
+    "requisitionId": "4437254799",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-10",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
     ]
   },
@@ -4625,6 +5321,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -4686,6 +5385,9 @@
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The official Festo vacancy offers Apply now, while CV-Online shows a future 2026-09-12 deadline."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -4747,6 +5449,9 @@
         "at": "2026-08-26T19:53:17.842Z",
         "reason": "The role-specific LinkedIn page shows Apply and identifies the Switzerland requisition R-028892; responsibilities include intelligent automation adoption and cross-functional delivery."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -4806,7 +5511,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific page remains indexed, but current application acceptance is not explicit."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -4871,7 +5580,11 @@
         "at": "2026-08-24T06:02:03.286Z",
         "reason": "The role-specific vacancy still shows an active Apply action during this daily recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "unknown",
@@ -4932,7 +5645,11 @@
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Dynamics 365 and Power Platform Solution Developer | SEB, Vilnius",
@@ -4996,7 +5713,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Robotic Process Automation (RPA) Developer",
@@ -5059,7 +5780,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Platform Engineer (DevOps) for Cloud Automation",
@@ -5125,6 +5850,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The current role-specific LinkedIn vacancy displays Apply and a Lithuania salary range."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -5190,7 +5918,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -5251,7 +5983,11 @@
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Full Stack Automation Engineer (Productivity) | Senior | Saily",
@@ -5315,7 +6051,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The previously verified Lever vacancy now returns 404 and no stronger current source was found; disappearance alone is not sufficient evidence of closure."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Product Owner Data and AI (w/m)",
@@ -5377,6 +6117,9 @@
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and describes its active application process."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -5437,6 +6180,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The current role-specific LinkedIn vacancy displays Apply and a newly posted Lithuania salary range."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -5499,6 +6245,9 @@
         "at": "2026-08-26T19:53:17.842Z",
         "reason": "Official role page remains available and describes Power Platform process automation, but current application acceptance is not explicit."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -5556,7 +6305,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The Lithuania-specific LinkedIn vacancy shows an Apply action."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -5615,7 +6368,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Hostinger ATS vacancy is Lithuania-specific and provides an application form."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -5679,7 +6436,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Productivity Solutions Consultant (Microsoft Power Platform and Microsoft 365)",
@@ -5751,7 +6512,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific LinkedIn vacancy explicitly states that it is no longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Team Lead (AI Delivery & Products)",
@@ -5815,6 +6580,74 @@
         "status": "Still open",
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "ProjektleiterIn für Microsoft D365 und Power Platform (m/w/d) 80 - 100%",
+    "normalizedTitle": "ProjektleiterIn für Microsoft D365 und Power Platform (m/w/d) 80 - 100%",
+    "company": "IOZ AG",
+    "normalizedCompany": "IOZ AG",
+    "location": "Sursee, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Power Platform",
+      "Project / Program Management",
+      "Process Analysis"
+    ],
+    "seniority": "Manager",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/fbbf1d54-8356-432c-bfe4-afcc048df491/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 91,
+    "matchSummary": "Power Platform delivery role combining process analysis, consulting and end-to-end project ownership.",
+    "technologies": [
+      "Power Automate",
+      "Power Apps",
+      "D365"
+    ],
+    "keywordsMatched": [
+      "Power Automate",
+      "Power Apps",
+      "D365",
+      "Power Platform",
+      "Project / Program Management",
+      "Process Analysis"
+    ],
+    "requirements": [
+      "Analyse customer processes and design solutions",
+      "Lead Microsoft D365 and Power Platform projects",
+      "Deliver Power Apps and Power Automate improvements"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "German"
+    ],
+    "id": "job-1788621312239-17",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
     ]
   },
@@ -5889,7 +6722,11 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific LinkedIn page explicitly states No longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Prozessmanager*in / Business Analyst*in",
@@ -5949,6 +6786,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and asks for complete application documents."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -6013,6 +6853,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The role-specific LinkedIn vacancy is current and was posted one day ago."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -6075,6 +6918,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The current role-specific LinkedIn page displays Apply."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -6135,6 +6981,9 @@
         "at": "2026-08-29T06:04:45.972Z",
         "reason": "The exact LinkedIn vacancy is live and currently exposes an Apply action."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -6194,6 +7043,9 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The role-specific LinkedIn vacancy is newly posted and offers an Apply action."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -6255,6 +7107,9 @@
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The official Migros vacancy page is current, role-specific and presents the application position published on 2026-08-20."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -6314,7 +7169,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific LinkedIn vacancy remains available and describes a current Vilnius hybrid opening."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -6381,7 +7240,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "IT sistemų ir automatizavimo specialistas (-ė)",
@@ -6447,7 +7310,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact CVbankas page could not be revalidated and no current indexed copy was found; closure is not inferred without explicit wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -6510,6 +7377,74 @@
         "at": "2026-08-24T06:02:03.286Z",
         "reason": "The role-specific vacancy still shows an active Apply action during this daily recheck."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "Business Process Owner Sales",
+    "normalizedTitle": "Business Process Owner Sales",
+    "company": "Yara International",
+    "normalizedCompany": "Yara International",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Process Architecture",
+      "Digital Transformation"
+    ],
+    "seniority": "Manager",
+    "source": "Official company careers",
+    "directUrl": "https://jobs.yara.com/job/Vilnius-Business-Process-Owner-Sales/1433087733/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-16",
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 90,
+    "matchSummary": "Global process-owner role covering BPM governance, standardization and digital transformation of sales workflows.",
+    "technologies": [
+      "BPM",
+      "SAP",
+      "AI"
+    ],
+    "keywordsMatched": [
+      "BPM",
+      "SAP",
+      "AI",
+      "Process Management",
+      "Process Architecture",
+      "Digital Transformation"
+    ],
+    "requirements": [
+      "Own end-to-end sales processes",
+      "Drive BPM governance and standardization",
+      "Lead digital and SAP-enabled improvements"
+    ],
+    "requisitionId": "25722",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-6",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
     ]
   },
   {
@@ -6570,6 +7505,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific CV-Online page lists an application deadline of 25 September 2026."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -6633,6 +7571,9 @@
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific CVbankas page shows that 27 days remain for applications."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -6696,6 +7637,9 @@
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -6756,6 +7700,9 @@
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The role-specific LinkedIn vacancy shows Apply and was posted one day ago for the Vilnius office."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -6816,6 +7763,9 @@
         "at": "2026-08-26T19:53:17.842Z",
         "reason": "Official ZHAW page provides an Apply online now link and describes operation and development of its Business Process Automation service on Microsoft Power Platform."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -6875,7 +7825,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The newly posted Lithuania-specific LinkedIn vacancy is role-specific and current."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Automation Lead",
@@ -6938,7 +7892,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "MID DI inžinierius (-ė)",
@@ -7006,7 +7964,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific direct URL returned 404, but no explicit closure wording was available; status is therefore Unknown."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Business Analyst, Compliance Systems and Analytics",
@@ -7067,6 +8029,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The official role-specific Workday page is current, exposes Apply and lists 24 September 2026 as the end date."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -7127,6 +8092,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The official role-specific Luminor page displays Apply and an application deadline of 13 September 2026."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -7187,7 +8155,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The official Ashby vacancy explicitly lists Lithuania and provides an application form."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -7251,7 +8223,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Transformacijos projektų grupės vadovas (-ė)",
@@ -7277,8 +8253,8 @@
     "applicationDeadline": null,
     "postingAgeText": "4 days remaining when verified",
     "salaryText": "€3,806–5,708 gross/month",
-    "status": "Newly found",
-    "statusReason": "The current role-specific CVbankas page shows that 4 days remain for applications.",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The exact CVbankas vacancy explicitly says the listing is inactive and CVs can no longer be submitted.",
     "relevanceScore": 88,
     "matchSummary": "Transformation leadership role combining team management, architecture and integration decisions, agile delivery and collaboration with business-process owners.",
     "technologies": [
@@ -7299,19 +8275,27 @@
       "Coordinate agile delivery with business-process and service owners"
     ],
     "requisitionId": "14099689",
-    "sourceLastCheckedAt": "2026-08-31T06:01:33.724Z",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
     "id": "job-1788201423448-2",
     "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastVerifiedAt": "2026-08-31T18:37:03.447Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific CVbankas page shows that 4 days remain for applications."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The exact CVbankas vacancy explicitly says the listing is inactive and CVs can no longer be submitted."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -7374,6 +8358,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The current role-specific LinkedIn page displays Apply."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -7436,6 +8423,9 @@
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The role-specific LinkedIn page shows Apply and a current EY Lithuania description."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -7498,6 +8488,9 @@
         "at": "2026-08-26T19:53:17.842Z",
         "reason": "The role-specific LinkedIn page shows Apply and details current workload automation, job scheduling and workflow orchestration responsibilities in Lugano."
       }
+    ],
+    "regionalLanguages": [
+      "Italian"
     ]
   },
   {
@@ -7555,7 +8548,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific LinkedIn vacancy shows Apply for Vilnius."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -7620,7 +8617,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific LinkedIn vacancy explicitly states that it is no longer accepting applications."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "unknown",
@@ -7682,7 +8683,11 @@
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Business Process Manager",
@@ -7745,7 +8750,11 @@
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Full Stack Engineer (AI Agents)",
@@ -7812,7 +8821,11 @@
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "Direct role page was rechecked during the 2026-08-22 run and remains live without explicit closure; Apply is available where exposed by LinkedIn."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Sr. Business Analyst, GBS Service & Digital Enablement",
@@ -7873,7 +8886,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Business Process Analyst",
@@ -7938,7 +8955,11 @@
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Technical Product Owner @Bioma",
@@ -7999,6 +9020,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The exact role page displays Apply Now and directs candidates to the application form."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -8060,6 +9084,9 @@
         "at": "2026-08-29T06:04:45.972Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben and links to the employer's application flow."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -8119,7 +9146,11 @@
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The exact role page is available, but current application acceptance is not explicit."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -8186,6 +9217,143 @@
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "Business Analyst in Service Delivery",
+    "normalizedTitle": "Business Analyst Service Delivery",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Excellence",
+      "Workflow / BPM",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/business-analyst-in-service-delivery-at-danske-bank-4442121600",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "3 days ago",
+    "salaryText": "€3,200–4,800 gross/month",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The exact LinkedIn vacancy explicitly says No longer accepting applications.",
+    "relevanceScore": 86,
+    "matchSummary": "Business-analysis role focused on service workflows, requirements, governance, operational excellence and AI-assisted reporting automation.",
+    "technologies": [
+      "AI",
+      "Workflow design",
+      "Reporting automation",
+      "Governance frameworks"
+    ],
+    "keywordsMatched": [
+      "process improvement",
+      "requirements analysis",
+      "workflows",
+      "automation of tracking"
+    ],
+    "requirements": [
+      "Business-analysis experience",
+      "Requirements and solution-design capability",
+      "Change management and stakeholder guidance"
+    ],
+    "requisitionId": "4442121600",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "id": "job-1787810706512-4",
+    "firstSeenAt": "2026-08-27T06:05:06.511Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-27T06:05:06.511Z",
+        "reason": "The role-specific LinkedIn page shows Apply and describes a current Vilnius hybrid vacancy."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The exact LinkedIn vacancy explicitly says No longer accepting applications."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ]
+  },
+  {
+    "title": "Product Owner / Business Analyst - Banque privée à 100%",
+    "normalizedTitle": "Product Owner / Business Analyst - Banque privée à 100%",
+    "company": "SpeciTec SA",
+    "normalizedCompany": "SpeciTec SA",
+    "location": "Geneva, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Business Analysis",
+      "AI / Agentic Automation"
+    ],
+    "seniority": "Manager",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/16ece3c9-739d-4911-af76-c1e7bf7aecb2/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 86,
+    "matchSummary": "Hybrid PO/BA role covering automation, AI analytics, document digitization and delivery requirements.",
+    "technologies": [
+      "AI",
+      "Analytics",
+      "Document digitization"
+    ],
+    "keywordsMatched": [
+      "AI",
+      "Analytics",
+      "Document digitization",
+      "Product Ownership",
+      "Business Analysis",
+      "AI / Agentic Automation"
+    ],
+    "requirements": [
+      "Own the data and analytics roadmap",
+      "Identify automation and AI opportunities",
+      "Manage requirements, backlog and document digitization"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "French"
+    ],
+    "id": "job-1788621312239-14",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
     ]
   },
   {
@@ -8248,6 +9416,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The official role-specific careers page displays Apply and an application deadline of 25 September 2026."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -8311,6 +9482,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The official role-specific Girteka careers page remains current and exposes the application flow."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -8374,6 +9548,9 @@
         "at": "2026-08-31T18:37:03.447Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben for the vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -8434,6 +9611,9 @@
         "at": "2026-08-30T06:05:29.162Z",
         "reason": "The current role-specific jobs.ch page displays Bewerben."
       }
+    ],
+    "regionalLanguages": [
+      "German"
     ]
   },
   {
@@ -8494,66 +9674,134 @@
         "at": "2026-08-28T06:06:01.210Z",
         "reason": "The role-specific LinkedIn vacancy is current and presents an Apply action."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
-    "title": "Business Analyst in Service Delivery",
-    "normalizedTitle": "Business Analyst Service Delivery",
-    "company": "Danske Bank",
-    "normalizedCompany": "Danske Bank",
-    "location": "Vilnius, Lithuania",
+    "title": "Tobulinimo projektų vadovas (-ė)",
+    "normalizedTitle": "Tobulinimo projektų vadovas (-ė)",
+    "company": "Klaipėdos vanduo",
+    "normalizedCompany": "Klaipėdos vanduo",
+    "location": "Klaipėda, Lithuania",
     "market": "Lithuania",
-    "workMode": "hybrid",
+    "workMode": "unknown",
     "lithuaniaEligible": true,
-    "roleFocus": "analyst",
+    "roleFocus": "manager",
     "roleFamilies": [
-      "Business Analysis",
       "Process Excellence",
-      "Workflow / BPM",
-      "AI / Agentic Automation"
+      "Project / Program Management"
     ],
-    "seniority": "",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/business-analyst-in-service-delivery-at-danske-bank-4442121600",
+    "seniority": "Mid-level",
+    "source": "LinkedIn",
+    "directUrl": "https://lt.linkedin.com/jobs/view/tobulinimo-projekt%C5%B3-vadovas-%C4%97-at-klaip%C4%97dos-vanduo-4458097050",
     "supportingSourceUrl": null,
     "postingDate": null,
     "applicationDeadline": null,
-    "postingAgeText": "3 days ago",
-    "salaryText": "€3,200–4,800 gross/month",
+    "postingAgeText": "Recently verified",
+    "salaryText": "€2,400–3,000 gross/month",
     "status": "Newly found",
-    "statusReason": "The role-specific LinkedIn page shows Apply and describes a current Vilnius hybrid vacancy.",
-    "relevanceScore": 86,
-    "matchSummary": "Business-analysis role focused on service workflows, requirements, governance, operational excellence and AI-assisted reporting automation.",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 85,
+    "matchSummary": "Process-improvement project role mapping workflows and delivering Lean and BPMN-based change.",
     "technologies": [
-      "AI",
-      "Workflow design",
-      "Reporting automation",
-      "Governance frameworks"
+      "BPMN",
+      "Bizagi",
+      "Lean"
     ],
     "keywordsMatched": [
-      "process improvement",
-      "requirements analysis",
-      "workflows",
-      "automation of tracking"
+      "BPMN",
+      "Bizagi",
+      "Lean",
+      "Process Excellence",
+      "Project / Program Management"
     ],
     "requirements": [
-      "Business-analysis experience",
-      "Requirements and solution-design capability",
-      "Change management and stakeholder guidance"
+      "Analyse and map business processes",
+      "Lead improvement projects",
+      "Use BPMN, Bizagi or Visio and Lean methods"
     ],
-    "requisitionId": "4442121600",
-    "sourceLastCheckedAt": "2026-08-27T06:00:22.860Z",
-    "id": "job-1787810706512-4",
-    "firstSeenAt": "2026-08-27T06:05:06.511Z",
-    "lastSeenAt": "2026-08-27T06:05:06.511Z",
-    "lastVerifiedAt": "2026-08-27T06:05:06.511Z",
+    "requisitionId": "4458097050",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-7",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
     "previousStatus": null,
-    "statusChangedAt": "2026-08-27T06:05:06.511Z",
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
     "statusHistory": [
       {
         "status": "Newly found",
-        "at": "2026-08-27T06:05:06.511Z",
-        "reason": "The role-specific LinkedIn page shows Apply and describes a current Vilnius hybrid vacancy."
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "Senior Business Analyst – Stammdaten, Prozesse & Datenflüsse Banking",
+    "normalizedTitle": "Senior Business Analyst – Stammdaten, Prozesse & Datenflüsse Banking",
+    "company": "Swisslinx AG",
+    "normalizedCompany": "Swisslinx AG",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Workflow / BPM"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/355c5bd1-a5ae-4af5-9a52-9d7e29dde4de/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 84,
+    "matchSummary": "Senior banking BA role mapping end-to-end processes, data flows and automation opportunities.",
+    "technologies": [
+      "BPMN",
+      "Data flows",
+      "Banking"
+    ],
+    "keywordsMatched": [
+      "BPMN",
+      "Data flows",
+      "Banking",
+      "Business Analysis",
+      "Process Analysis",
+      "Workflow / BPM"
+    ],
+    "requirements": [
+      "Analyse end-to-end processes and data flows",
+      "Model processes with BPMN",
+      "Define system-integration and automation requirements"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "German"
+    ],
+    "id": "job-1788621312239-11",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
     ]
   },
@@ -8617,6 +9865,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The current role-specific CV-Online page lists an application deadline of 16 September 2026."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -8679,6 +9930,9 @@
         "at": "2026-08-27T06:05:06.511Z",
         "reason": "The role-specific LinkedIn page shows Apply and a current Vinted Vilnius vacancy."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -8744,7 +9998,11 @@
         "at": "2026-08-23T15:01:52.070Z",
         "reason": "The role-specific vacancy remains current with an active Apply action or a future application deadline during this afternoon recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Business Analyst, Engagement & Service Management",
@@ -8805,7 +10063,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Integration & Automation Engineer",
@@ -8866,7 +10128,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Senior Transformation Program Lead",
@@ -8928,7 +10194,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "workMode": "hybrid",
@@ -8989,6 +10259,136 @@
         "status": "Still open",
         "at": "2026-08-24T06:02:03.286Z",
         "reason": "The role-specific vacancy still shows an active Apply action during this daily recheck."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "Produkto vadovas (-ė) | Fulfillment by Pigu (FBP)",
+    "normalizedTitle": "Produkto vadovas (-ė) | Fulfillment by Pigu (FBP)",
+    "company": "Pigu / PHH Group",
+    "normalizedCompany": "Pigu / PHH Group",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "unknown",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Process Management"
+    ],
+    "seniority": "Mid-level",
+    "source": "CVbankas",
+    "directUrl": "https://en.cvbankas.lt/produkto-vadovas-e-fulfillment-by-pigu-fbp-vilniuje/1-14103437",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "€3,500–4,800 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 82,
+    "matchSummary": "Technical product role owning self-service tools, integrations and fulfilment-process improvement.",
+    "technologies": [
+      "Product ownership",
+      "Integrations",
+      "Fulfilment"
+    ],
+    "keywordsMatched": [
+      "Product ownership",
+      "Integrations",
+      "Fulfilment",
+      "Product Ownership",
+      "Process Management"
+    ],
+    "requirements": [
+      "Own the fulfilment product roadmap",
+      "Translate operational needs into requirements",
+      "Improve integrations and warehouse processes"
+    ],
+    "requisitionId": "14103437",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-9",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "Business Analyst Vertragsmanagement (m/w/d)",
+    "normalizedTitle": "Business Analyst Vertragsmanagement (m/w/d)",
+    "company": "ITech Consult AG",
+    "normalizedCompany": "ITech Consult AG",
+    "location": "Zurich, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Workflow / BPM"
+    ],
+    "seniority": "Mid-level",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/483ca2fb-030d-4dc2-b0e9-5b8262241cf0/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 82,
+    "matchSummary": "BA role assessing processes, data and systems to define BPMN target states and automation opportunities.",
+    "technologies": [
+      "BPMN",
+      "Process automation",
+      "Business cases"
+    ],
+    "keywordsMatched": [
+      "BPMN",
+      "Process automation",
+      "Business cases",
+      "Business Analysis",
+      "Process Analysis",
+      "Workflow / BPM"
+    ],
+    "requirements": [
+      "Analyse contract-management processes and systems",
+      "Identify automation opportunities",
+      "Create BPMN target states and business cases"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "German"
+    ],
+    "id": "job-1788621312239-15",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
     ]
   },
@@ -9054,7 +10454,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "Nuvei's exact Workable application form accepts submissions and the official careers list still contains this Vilnius vacancy."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Group Risk Process Manager",
@@ -9119,6 +10523,72 @@
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "Software Product Owner Industrial Rigs (w/m/d)",
+    "normalizedTitle": "Software Product Owner Industrial Rigs (w/m/d)",
+    "company": "Endress+Hauser",
+    "normalizedCompany": "Endress+Hauser",
+    "location": "Reinach BL, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Automation Engineering"
+    ],
+    "seniority": "Manager",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/96b98049-91ac-4861-9725-08fa965a1d99/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 80,
+    "matchSummary": "Product-owner role for software used in industrial calibration and automation systems.",
+    "technologies": [
+      "Industrial automation",
+      "Product roadmap",
+      "Backlog"
+    ],
+    "keywordsMatched": [
+      "Industrial automation",
+      "Product roadmap",
+      "Backlog",
+      "Product Ownership",
+      "Automation Engineering"
+    ],
+    "requirements": [
+      "Own the software product roadmap",
+      "Prioritize requirements and backlog",
+      "Coordinate industrial automation stakeholders"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "German"
+    ],
+    "id": "job-1788621312239-12",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
     ]
   },
   {
@@ -9179,6 +10649,9 @@
         "at": "2026-09-01T06:08:07.126Z",
         "reason": "The official SEB vacancy page remains current, exposes Apply and lists 6 September 2026 as the deadline."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
     ]
   },
   {
@@ -9247,7 +10720,11 @@
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Sr. Business Process Analyst",
@@ -9309,6 +10786,134 @@
         "status": "Still open",
         "at": "2026-08-20T15:04:01.300Z",
         "reason": "The exact role-specific page remained live/current during the 2026-08-20 scheduled recheck and continued to expose application content without closure wording."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "Process and Knowledge Lead",
+    "normalizedTitle": "Process and Knowledge Lead",
+    "company": "Edenred Finance",
+    "normalizedCompany": "Edenred Finance",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Excellence",
+      "Process Management"
+    ],
+    "seniority": "Manager",
+    "source": "LinkedIn",
+    "directUrl": "https://lt.linkedin.com/jobs/view/process-and-knowledge-lead-at-edenred-finance-4459115993",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "From €3,000 gross/month",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 78,
+    "matchSummary": "Process lead role standardizing workflows, documentation and continuous improvement across teams.",
+    "technologies": [
+      "Process mapping",
+      "Knowledge management",
+      "Continuous improvement"
+    ],
+    "keywordsMatched": [
+      "Process mapping",
+      "Knowledge management",
+      "Continuous improvement",
+      "Process Excellence",
+      "Process Management"
+    ],
+    "requirements": [
+      "Create process maps and workflow documentation",
+      "Standardize operating practices",
+      "Lead continuous improvement and knowledge sharing"
+    ],
+    "requisitionId": "4459115993",
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "id": "job-1788621312239-8",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "Senior Product Owner – iC Softwareanwendungen",
+    "normalizedTitle": "Senior Product Owner – iC Softwareanwendungen",
+    "company": "Mettler-Toledo GmbH",
+    "normalizedCompany": "Mettler-Toledo GmbH",
+    "location": "Nänikon-Greifensee, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Workflow / BPM"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/79570e07-c8ed-43a6-927d-ccdf06abc5d9/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 78,
+    "matchSummary": "Senior PO role for connected software that orchestrates experiments, controls equipment and automates reporting.",
+    "technologies": [
+      "Product ownership",
+      "Workflow orchestration",
+      "Connected software"
+    ],
+    "keywordsMatched": [
+      "Product ownership",
+      "Workflow orchestration",
+      "Connected software",
+      "Product Ownership",
+      "Workflow / BPM"
+    ],
+    "requirements": [
+      "Own vision and roadmap for connected software",
+      "Translate workflows into product requirements",
+      "Coordinate control, orchestration and reporting capabilities"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "German"
+    ],
+    "id": "job-1788621312239-13",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
     ]
   },
@@ -9373,6 +10978,72 @@
         "at": "2026-08-23T06:05:19.149Z",
         "reason": "The role-specific vacancy page remains available and current; no explicit closure notice was found during this run."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "Product Owner ERP [Luxe-Retail] (H/F)",
+    "normalizedTitle": "Product Owner ERP [Luxe-Retail] (H/F)",
+    "company": "Adone Conseil",
+    "normalizedCompany": "Adone Conseil",
+    "location": "Geneva, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Digital Transformation"
+    ],
+    "seniority": "Manager",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/2c953246-c6f6-4607-bd3c-96662adf2f48/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 76,
+    "matchSummary": "ERP product-owner role supporting transformation, process optimization and requirements delivery.",
+    "technologies": [
+      "ERP",
+      "Backlog",
+      "Process optimization"
+    ],
+    "keywordsMatched": [
+      "ERP",
+      "Backlog",
+      "Process optimization",
+      "Product Ownership",
+      "Digital Transformation"
+    ],
+    "requirements": [
+      "Own ERP backlog and user stories",
+      "Optimize retail business processes",
+      "Coordinate transformation stakeholders and delivery"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "French"
+    ],
+    "id": "job-1788621312239-18",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
     ]
   },
   {
@@ -9436,7 +11107,11 @@
         "at": "2026-08-25T06:02:57.054Z",
         "reason": "The role-specific official employer vacancy remains live and current during this deep recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Analyst, Operational Intelligence & Continuous Improvement",
@@ -9510,7 +11185,11 @@
         "at": "2026-08-25T06:02:57.054Z",
         "reason": "The role-specific official employer vacancy remains live and current during this deep recheck."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   },
   {
     "title": "Procesų inžinerijos skyriaus vadovas (-ė) | Elektronikos gamyba",
@@ -9575,6 +11254,262 @@
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "Direct role page was rechecked during the 2026-08-22 run and remains live without explicit closure; Apply is available where exposed by LinkedIn."
       }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "title": "IT Business Analyst",
+    "normalizedTitle": "IT Business Analyst",
+    "company": "Sopra Steria AG",
+    "normalizedCompany": "Sopra Steria AG",
+    "location": "Meyrin, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Workflow / BPM"
+    ],
+    "seniority": "Mid-level",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/a4438dfb-9ad1-46c3-9563-889e7555626a/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 74,
+    "matchSummary": "IT BA role facilitating workshops, modelling BPMN processes and supporting product ownership and UAT.",
+    "technologies": [
+      "BPMN",
+      "User stories",
+      "UAT"
+    ],
+    "keywordsMatched": [
+      "BPMN",
+      "User stories",
+      "UAT",
+      "Business Analysis",
+      "Workflow / BPM"
+    ],
+    "requirements": [
+      "Run requirements workshops",
+      "Model business processes with BPMN",
+      "Write user stories and support product owners and UAT"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "French"
+    ],
+    "id": "job-1788621312239-21",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "Automation Engineer – PLC & UX, Process Automation (all genders)",
+    "normalizedTitle": "Automation Engineer – PLC & UX, Process Automation (all genders)",
+    "company": "RHI Magnesita Switzerland AG",
+    "normalizedCompany": "RHI Magnesita Switzerland AG",
+    "location": "Hünenberg, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "developer",
+    "roleFamilies": [
+      "Automation Engineering",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Mid-level",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/c3081580-2897-46da-87c4-10cb88ed732c/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 72,
+    "matchSummary": "Industrial automation role combining PLC engineering, operator UX and process-control architecture.",
+    "technologies": [
+      "PLC",
+      "UX",
+      "Process automation"
+    ],
+    "keywordsMatched": [
+      "PLC",
+      "UX",
+      "Process automation",
+      "Automation Engineering",
+      "Technical Platform / Architecture"
+    ],
+    "requirements": [
+      "Design PLC-based process automation",
+      "Improve operator user experience",
+      "Develop industrial control architecture"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "German"
+    ],
+    "id": "job-1788621312239-16",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "Product Owner Cyber - inkl. Underwriting & Claims (m/w/d)",
+    "normalizedTitle": "Product Owner Cyber - inkl. Underwriting & Claims (m/w/d)",
+    "company": "Generali Personenversicherung AG",
+    "normalizedCompany": "Generali Personenversicherung AG",
+    "location": "Adliswil, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Process Management",
+      "Digital Transformation"
+    ],
+    "seniority": "Manager",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/486580e9-b2d7-4a65-aaf9-a55854e0893a/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 72,
+    "matchSummary": "Product-owner role shaping end-to-end insurance processes and core-system transformation.",
+    "technologies": [
+      "Product ownership",
+      "Core systems",
+      "End-to-end processes"
+    ],
+    "keywordsMatched": [
+      "Product ownership",
+      "Core systems",
+      "End-to-end processes",
+      "Product Ownership",
+      "Process Management",
+      "Digital Transformation"
+    ],
+    "requirements": [
+      "Own product goals and priorities",
+      "Define end-to-end process and system requirements",
+      "Coordinate underwriting and claims transformation"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "German"
+    ],
+    "id": "job-1788621312239-19",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "title": "Senior IT Projektleiter:in / Business Analyst:in",
+    "normalizedTitle": "Senior IT Projektleiter:in / Business Analyst:in",
+    "company": "Pistor AG",
+    "normalizedCompany": "Pistor AG",
+    "location": "Rothenburg, Switzerland",
+    "market": "Switzerland",
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Project / Program Management",
+      "Business Analysis",
+      "Process Analysis"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/49f69778-e8b0-45fb-9ebc-444f26b3ac04/",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Recently verified",
+    "salaryText": "Salary not disclosed",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 72,
+    "matchSummary": "Senior hybrid project-lead and BA role with end-to-end responsibility for process-driven IT change.",
+    "technologies": [
+      "Business analysis",
+      "IT projects",
+      "Process design"
+    ],
+    "keywordsMatched": [
+      "Business analysis",
+      "IT projects",
+      "Process design",
+      "Project / Program Management",
+      "Business Analysis",
+      "Process Analysis"
+    ],
+    "requirements": [
+      "Lead IT projects end to end",
+      "Analyse business needs and processes",
+      "Translate requirements into implementable solutions"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-05T06:01:42.199Z",
+    "regionalLanguages": [
+      "German"
+    ],
+    "id": "job-1788621312239-20",
+    "firstSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastSeenAt": "2026-09-05T15:15:12.238Z",
+    "lastVerifiedAt": "2026-09-05T15:15:12.238Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-05T15:15:12.238Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-05T15:15:12.238Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
     ]
   },
   {
@@ -9631,6 +11566,10 @@
         "at": "2026-08-22T06:05:40.011Z",
         "reason": "A current role-specific mirror verifies the vacancy details, but a live official application page could not be established."
       }
-    ]
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
   }
 ]

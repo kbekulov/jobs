@@ -11,6 +11,7 @@ Store vacancies in `data/vacancies.json` as one JSON array. Required fields:
   "normalizedCompany": "Canonical employer name",
   "location": "Vilnius, Lithuania",
   "market": "Lithuania",
+  "regionalLanguages": ["Lithuanian"],
   "workMode": "onsite | hybrid | remote | unknown",
   "lithuaniaEligible": true,
   "roleFocus": "developer | manager | analyst",
@@ -50,3 +51,5 @@ Deduplicate first by canonical company plus requisition ID. Without an ID, use c
 `salaryText` is required because compensation is a primary review signal. Copy only a source-verified range; otherwise use `Salary not disclosed`.
 
 `market` is the normalized country for the vacancy (for example, `Lithuania` or `Switzerland`). Lithuania roles must set `lithuaniaEligible: true`; non-Lithuania roles may set it to `false` when their `market` is explicitly verified and they are included by an account-specific criterion.
+
+`regionalLanguages` records the principal official language or languages used in the vacancy's region, not the language of the job advertisement. Use `Lithuanian` for Lithuania, the relevant cantonal language for Swiss city-specific roles, and `German`, `French`, and `Italian` for Switzerland-wide roles whose region is not specified.

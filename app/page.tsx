@@ -14,6 +14,7 @@ type Job = {
   salary: string;
   location: string;
   market: string;
+  regionalLanguages: string[];
   mode: string;
   posted: string;
   summary: string;
@@ -98,6 +99,15 @@ function marketForLocation(location: string) {
   if (/lithuania|lietuva|vilnius|kaunas|klaip/i.test(location)) return "Lithuania";
   const country = location.split(",").at(-1)?.trim();
   return country || "Unknown market";
+}
+
+function languagesForLocation(location: string, market: string) {
+  if (market === "Lithuania") return ["Lithuanian"];
+  if (market !== "Switzerland") return ["Unknown"];
+  if (/geneva|meyrin|lausanne|suisse romande|vaud|neuchatel|fribourg/i.test(location)) return ["French"];
+  if (/lugano|ticino|bellinzona|locarno/i.test(location)) return ["Italian"];
+  if (/switzerland|schweiz|suisse|svizzera/i.test(location) && !/,/.test(location)) return ["German", "French", "Italian"];
+  return ["German"];
 }
 
 function displayTitle(title: string) {
@@ -208,6 +218,7 @@ const jobs: Job[] = vacancyData
     salary: job.salaryText ?? legacyById.get(job.id)?.salary ?? "Salary not disclosed",
     location: job.location.replace(", Lithuania", ""),
     market: job.market ?? marketForLocation(job.location),
+    regionalLanguages: job.regionalLanguages ?? languagesForLocation(job.location, job.market ?? marketForLocation(job.location)),
     mode: job.workMode === "unknown" ? "Mode unknown" : job.workMode.charAt(0).toUpperCase() + job.workMode.slice(1),
     posted: job.postingAgeText ?? "Recently verified",
     summary: job.matchSummary,
@@ -259,11 +270,6 @@ export default function Home() {
     return () => controller.abort();
   }, [userId]);
 
-  useEffect(() => {
-    const savedFocus = window.localStorage.getItem(`jobflow-role-focus:${userId}`) as Focus | null;
-    setFocus(savedFocus && availableFocuses.includes(savedFocus) ? savedFocus : availableFocuses[0]);
-  }, [userId, availableFocuses]);
-
   const switchFocus = (nextFocus: Focus) => {
     setFocus(nextFocus);
     window.localStorage.setItem(`jobflow-role-focus:${userId}`, nextFocus);
@@ -306,7 +312,7 @@ export default function Home() {
         if (bSalary === null) return -1;
         return archiveSort === "salary-desc" ? bSalary - aSalary : aSalary - bSalary;
       });
-  }, [tab, decisions, archiveSort, focus, eligibleJobs]);
+  }, [tab, decisions, archiveSort, focus, eligibleJobs, userId]);
 
   const decide = async (jobId: string, decision: Decision) => {
     const actingUser = userId;
@@ -419,6 +425,7 @@ export default function Home() {
                   <div className="company-banner" style={companyStyle(current.company)}>
                     <strong>{current.company}</strong>
                     <small>{current.market} · {current.location} · {current.mode}</small>
+                    <span className="regional-language">Regional language · {current.regionalLanguages.join(" / ")}</span>
                   </div>
                   <h1 className={titleClass(cardTitle)} title={current.title}>{cardTitle}</h1>
                   <div className="salary"><div className="salary-meta"><small>SALARY</small><time dateTime={current.addedAt}>ADDED {addedCompactLabel(current.addedAt)}</time></div><div><strong>{salary?.amount}</strong>{salary?.cadence && <span>{salary.cadence}</span>}</div></div>
@@ -450,7 +457,7 @@ export default function Home() {
                   <option value="company-desc">Company Z–A</option>
                 </select>
               </div>
-              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span className="saved-market">{job.market} · {job.location} · {job.mode}</span><time dateTime={job.addedAt}>Added {addedLabel(job.addedAt)}</time></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
+              <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span className="saved-market">{job.market} · {job.location} · {job.mode}</span><span className="saved-language">Regional language · {job.regionalLanguages.join(" / ")}</span><time dateTime={job.addedAt}>Added {addedLabel(job.addedAt)}</time></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
             </div>
           )}
         </section>
