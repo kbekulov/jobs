@@ -210,7 +210,7 @@ const legacyJobs: Omit<Job, "addedAt" | "market">[] = [
 
 const legacyById = new Map(legacyJobs.map((job) => [job.id, job]));
 const jobs: Job[] = vacancyData
-  .filter((job) => job.status !== "Closed/Expired/No longer accepting applications")
+  .filter((job) => job.status === "Newly found" || job.status === "Still open")
   .map((job) => ({
     id: job.id,
     title: job.title,

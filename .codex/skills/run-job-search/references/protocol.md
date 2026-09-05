@@ -79,10 +79,10 @@ Use a verified role-specific URL. Prefer official company, official ATS, local r
 
 - `Newly found`: first dataset appearance with evidence of current availability.
 - `Still open`: official page/application form remains live, Apply works, a future deadline exists, days remain, or an official current list includes it.
-- `Unknown`: state is ambiguous, deadline passed without explicit closure, sources conflict, only old/indexed evidence exists, or no exact direct page is verified.
+- `Unknown`: state is ambiguous, deadline passed without explicit closure, sources conflict, only old/indexed evidence exists, no exact direct page is verified, or a broad recheck can no longer find evidence that the vacancy is open.
 - `Closed/Expired/No longer accepting applications`: only explicit source wording such as expired, inactive, removed, applications closed, no longer valid, or no longer accepting.
 
-Never infer closure from age, a passed date, disappearance, or one aggregator dropping the listing.
+Never label a role explicitly closed from age, a passed date, disappearance, or one aggregator dropping it. On every scheduled run, search the strongest available source plus reasonable secondary sources; if current-open evidence still cannot be found, change the role to `Unknown`. The app intentionally hides both `Unknown` and explicitly closed records from Discover, Apply, and Trash while retaining their history in the dataset.
 
 ## Deduplication and normalization
 

@@ -18,7 +18,7 @@ Maintain one ranked vacancy pool across all role families and three primary revi
 
    `node .codex/skills/run-job-search/scripts/merge-results.mjs --input <candidate-file>`
 
-   The merger updates first/last-seen timestamps, status history, deduplication, and the search-run ledger. It never closes a missing role automatically.
+   The merger updates first/last-seen timestamps, status history, deduplication, and the search-run ledger. Rechecked roles that cannot be found or positively verified as open must be changed to `Unknown`; the UI keeps the historical record but hides it from every user-facing folder.
 7. Run the merger with `--validate`, inspect the diff, and spot-check every new or changed direct URL.
 8. Build and publish the site. Commit and push the vacancy data and search-run record.
 
@@ -30,10 +30,10 @@ Maintain one ranked vacancy pool across all role families and three primary revi
 - Treat all roles as one result pool, but assign exactly one primary `roleFocus` from `developer`, `manager`, or `analyst`. Classify by dominant responsibilities, not title alone.
 - Search all three focuses on every full run. Do not force equal counts or retain weak roles merely to balance the sections.
 - Prefer a verified role-specific official/ATS URL. Strip tracking parameters. Store `directUrl: null` when no role-specific URL can be verified.
-- Use only the four canonical statuses. Do not infer closure from age, a passed date, disappearance, or one missing index result.
+- Use only the four canonical statuses. Reserve the closed status for explicit closure evidence. After a broad recheck of official and secondary sources, mark a role `Unknown` when it no longer appears open or cannot be found; `Unknown` roles disappear from Discover, Apply, and Trash while remaining in historical data.
 - Merge duplicates across sources, languages, legal company suffixes, and minor title variants. Prefer the strongest source and merge useful evidence.
 - Treat a changed requisition ID or clearly new application window as a reposted vacancy.
-- Revalidate known records on every run. Update `lastSeenAt` only when the vacancy is actually seen; update `lastVerifiedAt` whenever its status is checked.
+- Revalidate every non-closed record on every scheduled run. Update `lastSeenAt` only when the vacancy is actually seen; update `lastVerifiedAt` whenever its status is checked. A scheduled run is incomplete until every previously visible role is either positively reverified, explicitly closed, or changed to `Unknown` after the broad recheck fails.
 
 ## Completion standard
 
