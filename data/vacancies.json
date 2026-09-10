@@ -8,7 +8,7 @@
     "postingAgeText": "Posted today",
     "status": "Still open",
     "seniority": "",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
     "technologies": [
       "Camunda",
       "BPMN",
@@ -44,13 +44,13 @@
     "source": "LinkedIn direct vacancy",
     "directUrl": "https://lt.linkedin.com/jobs/view/system-analyst-with-product-owner-experience-at-mb-altum-vision-4456964347",
     "salaryText": "Salary not disclosed",
-    "statusReason": "The current role-specific LinkedIn vacancy shows Apply.",
+    "statusReason": "The exact role page was indexed three days ago and still presents the current vacancy details.",
     "relevanceScore": 100,
     "matchSummary": "Excellent systems-analysis match covering BPMN, Camunda, enterprise integrations, APIs, requirements, process automation and product ownership.",
     "id": "job-1787724461727-6",
     "firstSeenAt": "2026-08-26T06:07:41.724Z",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -118,20 +118,25 @@
     "regionalLanguages": [
       "German"
     ],
-    "status": "Newly found",
-    "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "status": "Still open",
+    "statusReason": "The role-specific page is live and presents a current application action.",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788847941341-7",
     "firstSeenAt": "2026-09-08T06:12:21.337Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page is live and presents a current application action."
       }
     ]
   },
@@ -179,14 +184,14 @@
       "Deliver API, SQL and Python integrations"
     ],
     "requisitionId": "4458364616",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "Lithuanian"
     ],
     "id": "job-1788621312239-2",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -251,11 +256,11 @@
       "Lead architecture, governance, integration and customer workshops"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788242887127-7",
     "firstSeenAt": "2026-09-01T06:08:07.126Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -323,11 +328,11 @@
       "Lead delivery teams and technical workshops"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788242887127-8",
     "firstSeenAt": "2026-09-01T06:08:07.126Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -398,11 +403,11 @@
       "Lead technical concepts, workshops and engineering coaching"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788242887127-10",
     "firstSeenAt": "2026-09-01T06:08:07.126Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -468,11 +473,11 @@
       "Integrate Power Apps, Copilot and AI capabilities"
     ],
     "requisitionId": "14103401",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788201423448-1",
     "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -541,11 +546,11 @@
       "Establish implementation standards and coach internal developers"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788201423448-6",
     "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -611,11 +616,11 @@
       "Translate needs into functional requirements and measurable business cases"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788201423448-8",
     "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -685,11 +690,11 @@
       "API integration and stakeholder collaboration"
     ],
     "requisitionId": "1642903",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788069929163-0",
     "firstSeenAt": "2026-08-30T06:05:29.162Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -756,11 +761,11 @@
       "Lead AI automation and Power Automate initiatives"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788069929163-1",
     "firstSeenAt": "2026-08-30T06:05:29.162Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -827,11 +832,11 @@
       "Own automation solutions across their lifecycle"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788069929163-2",
     "firstSeenAt": "2026-08-30T06:05:29.162Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -897,11 +902,11 @@
       "Manage requirements, backlog, change and stakeholders"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787983485981-2",
     "firstSeenAt": "2026-08-29T06:04:45.972Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -966,11 +971,11 @@
       "AI platform, data quality and governance knowledge"
     ],
     "requisitionId": "1528",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787897161211-4",
     "firstSeenAt": "2026-08-28T06:06:01.210Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -1034,11 +1039,11 @@
       "Object-oriented programming knowledge"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787897161211-5",
     "firstSeenAt": "2026-08-28T06:06:01.210Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -1102,11 +1107,11 @@
       "Camunda, Flowable or equivalent certification knowledge"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787897161211-8",
     "firstSeenAt": "2026-08-28T06:06:01.210Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -1172,11 +1177,11 @@
       "Ability to integrate RPA, Power Platform and AI solutions"
     ],
     "requisitionId": "8267881",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787810706512-0",
     "firstSeenAt": "2026-08-27T06:05:06.511Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -1204,7 +1209,7 @@
     "postingAgeText": null,
     "status": "Still open",
     "seniority": "",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "technologies": [
       "Power Automate",
       "Power Platform",
@@ -1245,8 +1250,8 @@
     "matchSummary": "Hands-on intelligent automation consulting across Power Automate, UiPath, Blue Prism, Camunda, Celonis, BPM, process mapping and client requirements.",
     "id": "job-1787724461726-0",
     "firstSeenAt": "2026-08-26T06:07:41.724Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -1311,11 +1316,11 @@
     ],
     "requisitionId": "4444603419",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-0",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1384,11 +1389,11 @@
     ],
     "requisitionId": "4446072822",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-4",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1455,11 +1460,11 @@
     ],
     "requisitionId": "4422445701",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-6",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -1530,11 +1535,11 @@
     ],
     "requisitionId": "4454500280",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787292309042-3",
     "firstSeenAt": "2026-08-21T06:05:09.039Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-21T15:04:43.792Z",
     "statusHistory": [
@@ -1600,11 +1605,11 @@
     ],
     "requisitionId": "4455337036",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787324683794-0",
     "firstSeenAt": "2026-08-21T15:04:43.792Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-22T06:05:40.011Z",
     "statusHistory": [
@@ -3164,11 +3169,11 @@
       "Lead conversational-AI use cases and system integrations"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788201423448-7",
     "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -3282,7 +3287,7 @@
     "postingAgeText": "Recently verified",
     "salaryText": "€3,483–4,100 gross/month",
     "status": "Still open",
-    "statusReason": "The role-specific page is live and presents a current application action.",
+    "statusReason": "Vinted's official careers page currently contains the role and its application form.",
     "relevanceScore": 98,
     "matchSummary": "Operations ownership role improving workflows and building reliable automations and integrations.",
     "technologies": [
@@ -3304,14 +3309,14 @@
       "Design processes, webhooks and system integrations"
     ],
     "requisitionId": "4955273101",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
     "regionalLanguages": [
       "Lithuanian"
     ],
     "id": "job-1788621312239-5",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -3324,6 +3329,70 @@
         "status": "Still open",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The role-specific page is live and presents a current application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-09",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "CHF 95,000–125,000 gross/year",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "Power Apps",
+      "Power Automate",
+      "Dynamics 365 F&O",
+      "AI"
+    ],
+    "keywordsMatched": [
+      "Power Platform",
+      "product owner",
+      "automation",
+      "AI"
+    ],
+    "requirements": [
+      "ERP and D365 F&O experience",
+      "Product ownership or functional consulting",
+      "Power Platform automation delivery"
+    ],
+    "requisitionId": null,
+    "title": "ERP & Power Platform Product Owner:in (m/w/d)",
+    "normalizedTitle": "ERP and Power Platform Product Owner",
+    "company": "Rocken",
+    "normalizedCompany": "Rocken",
+    "location": "Baden, Switzerland",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Power Platform",
+      "AI / Agentic Automation",
+      "Process Management"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/d99dc76f-2a03-4e39-acdf-2689e3ce5d1b/",
+    "relevanceScore": 98,
+    "matchSummary": "Direct Power Platform product role owning D365 processes, backlog, AI use cases and hands-on Power Apps and Power Automate delivery.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-8",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
     ]
   },
@@ -3373,11 +3442,11 @@
       "Design AI agents and establish governance processes"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787983485981-3",
     "firstSeenAt": "2026-08-29T06:04:45.972Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -3447,11 +3516,11 @@
       "API and Azure integration capability"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787897161211-9",
     "firstSeenAt": "2026-08-28T06:06:01.210Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -3517,11 +3586,11 @@
     ],
     "requisitionId": "4443921341",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-10",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -4039,12 +4108,12 @@
     "postingDate": null,
     "applicationDeadline": "2026-09-19",
     "postingAgeText": null,
-    "status": "Still open",
+    "status": "Unknown",
     "seniority": "",
     "firstSeenAt": "2026-08-25T06:02:57.007Z",
     "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "title": "Business Systems & Automation Specialist",
     "normalizedTitle": "Business Systems and Automation Specialist",
     "company": "Leinonen, UAB",
@@ -4060,7 +4129,7 @@
     "source": "CV-Online direct vacancy",
     "directUrl": "https://www.cvonline.lt/lt/vacancy/1643198/leinonen-uab/business-systems-i-automation-specialist",
     "salaryText": "€3,000–3,700 gross/month",
-    "statusReason": "The role-specific page is live and presents a current application action.",
+    "statusReason": "The role-specific page did not provide positive current-open evidence (HTTP 200).",
     "relevanceScore": 97,
     "matchSummary": "Hands-on Power Automate, Power BI, systems-integration and Copilot-agent role translating business requirements into automation solutions.",
     "technologies": [
@@ -4084,8 +4153,8 @@
     ],
     "requisitionId": "1643198",
     "id": "job-1787637777056-1",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-08-26T06:07:41.724Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
@@ -4096,6 +4165,11 @@
         "status": "Still open",
         "at": "2026-08-26T06:07:41.724Z",
         "reason": "The role-specific vacancy page still resolves and supports the current listing on this recheck."
+      },
+      {
+        "status": "Unknown",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page did not provide positive current-open evidence (HTTP 200)."
       }
     ],
     "regionalLanguages": [
@@ -4150,20 +4224,25 @@
     "regionalLanguages": [
       "Lithuanian"
     ],
-    "status": "Newly found",
-    "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "status": "Still open",
+    "statusReason": "The role-specific page is live and presents a current application action.",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788847941341-0",
     "firstSeenAt": "2026-09-08T06:12:21.337Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page is live and presents a current application action."
       }
     ]
   },
@@ -4211,14 +4290,14 @@
       "Lead process reengineering and adoption"
     ],
     "requisitionId": "147122",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "Lithuanian"
     ],
     "id": "job-1788621312239-4",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -4283,11 +4362,11 @@
       "Lead adoption of Copilot, AI agents and integrated systems"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788242887127-9",
     "firstSeenAt": "2026-09-01T06:08:07.126Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -4353,11 +4432,11 @@
       "Build workflows, automations and integrations"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787810706512-6",
     "firstSeenAt": "2026-08-27T06:05:06.511Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -4422,11 +4501,11 @@
       "Build and coach multidisciplinary teams"
     ],
     "requisitionId": "24710",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787773997843-3",
     "firstSeenAt": "2026-08-26T19:53:17.842Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": null,
     "statusChangedAt": "2026-08-26T19:53:17.842Z",
     "statusHistory": [
@@ -4489,11 +4568,11 @@
     ],
     "requisitionId": "4408794801",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-13",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -4559,11 +4638,11 @@
     ],
     "requisitionId": "4435542995",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-14",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -5208,20 +5287,25 @@
     "regionalLanguages": [
       "German"
     ],
-    "status": "Newly found",
-    "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "status": "Still open",
+    "statusReason": "The role-specific page is live and presents a current application action.",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788847941341-5",
     "firstSeenAt": "2026-09-08T06:12:21.337Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page is live and presents a current application action."
       }
     ]
   },
@@ -5272,11 +5356,11 @@
       "Build secure integrations with M365 and enterprise applications"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787810706512-8",
     "firstSeenAt": "2026-08-27T06:05:06.511Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -5341,11 +5425,11 @@
     ],
     "requisitionId": "4430898338",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-15",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -5585,6 +5669,71 @@
     "market": "Lithuania"
   },
   {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Current official vacancy",
+    "salaryText": "€3,430–5,150 gross/month",
+    "seniority": "Manager",
+    "technologies": [
+      "Lean",
+      "RPA",
+      "AI",
+      "Agile",
+      "Design Thinking"
+    ],
+    "keywordsMatched": [
+      "process manager",
+      "automation",
+      "transformation",
+      "process governance"
+    ],
+    "requirements": [
+      "2+ years delivering end-to-end improvement initiatives",
+      "Process-management and automation-method knowledge",
+      "Strategic stakeholder leadership"
+    ],
+    "requisitionId": "744000144739599",
+    "title": "PROCESŲ GRUPĖS VADOVĖ (-AS)",
+    "normalizedTitle": "Process Group Manager",
+    "company": "Ignitis Group",
+    "normalizedCompany": "Ignitis Group",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Process Management",
+      "Process Excellence",
+      "Automation Leadership",
+      "Digital Transformation"
+    ],
+    "source": "Official SmartRecruiters vacancy",
+    "directUrl": "https://jobs.smartrecruiters.com/Ignitisgroup/744000144739599-procesu-grupes-vadove-as-",
+    "relevanceScore": 94,
+    "matchSummary": "Process-leadership role owning end-to-end improvement, transformation, automation opportunities, metrics and process governance.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-7",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
     "title": "AI Engineer (F/M/D)",
     "normalizedTitle": "AI Engineer (F/M/D)",
     "company": "Ignitis Group",
@@ -5628,14 +5777,14 @@
       "Use Python and retrieval-augmented generation"
     ],
     "requisitionId": "744000136426639",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "Lithuanian"
     ],
     "id": "job-1788621312239-0",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -5700,11 +5849,11 @@
       "Guide delivery teams across cloud and on-premise implementations"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788242887127-11",
     "firstSeenAt": "2026-09-01T06:08:07.126Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -6251,11 +6400,11 @@
     "requisitionId": "4424395775",
     "salaryText": "€3,100–4,000 gross/month",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-18",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -6285,9 +6434,9 @@
     "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-25T06:02:57.007Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "title": "Procesų automatizavimo specialistas (-ė)",
     "normalizedTitle": "Process Automation Specialist",
     "company": "UAB Site.pro",
@@ -6557,6 +6706,85 @@
     "market": "Lithuania"
   },
   {
+    "title": "Team Lead (AI Delivery and Products)",
+    "normalizedTitle": "AI Delivery and Products Team Lead",
+    "company": "Exacaster",
+    "normalizedCompany": "Exacaster",
+    "location": "Vilnius, Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFamilies": [
+      "AI / Agentic Automation",
+      "Automation Leadership",
+      "Product Ownership",
+      "Project / Program Management"
+    ],
+    "seniority": "Lead",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/team-lead-ai-delivery-and-products-at-exacaster-4449494429",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted 2 weeks ago",
+    "salaryText": "€5,300–7,500 gross/month",
+    "status": "Still open",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 92,
+    "matchSummary": "AI-delivery leadership role combining discovery, product ownership, backlog management and hands-on direction of an engineering team.",
+    "technologies": [
+      "AI",
+      "Machine Learning",
+      "Jira",
+      "Confluence"
+    ],
+    "keywordsMatched": [
+      "AI delivery",
+      "team lead",
+      "business analysis",
+      "product ownership"
+    ],
+    "requirements": [
+      "6+ years across BA, PO and delivery",
+      "AI or ML solution ownership",
+      "Technical-team leadership"
+    ],
+    "requisitionId": "4449494429",
+    "roleFocus": "manager",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1787292309042-1",
+    "firstSeenAt": "2026-08-21T06:05:09.039Z",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "previousStatus": "Unknown",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-21T06:05:09.039Z",
+        "reason": "The exact vacancy page was live on 2026-08-21 with an Apply action and current role-specific content."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-08-21T15:04:43.792Z",
+        "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
+      },
+      {
+        "status": "Unknown",
+        "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The role-specific page did not provide positive current-open evidence (HTTP 429)."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
     "supportingSourceUrl": null,
@@ -6566,9 +6794,9 @@
     "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-25T06:02:57.007Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "title": "ServiceNow Platform Architect",
     "normalizedTitle": "ServiceNow Platform Architect",
     "company": "Accenture",
@@ -6623,76 +6851,6 @@
       "Lithuanian"
     ],
     "market": "Lithuania"
-  },
-  {
-    "title": "Senior Product Owner Data and AI (w/m)",
-    "normalizedTitle": "Senior Product Owner Data and AI",
-    "company": "Basler Kantonalbank",
-    "normalizedCompany": "Basler Kantonalbank",
-    "location": "Basel, Switzerland",
-    "market": "Switzerland",
-    "workMode": "hybrid",
-    "lithuaniaEligible": false,
-    "roleFocus": "manager",
-    "roleFamilies": [
-      "Product Ownership",
-      "AI / Agentic Automation",
-      "Technical Platform / Architecture",
-      "Digital Transformation"
-    ],
-    "seniority": "Senior",
-    "source": "jobs.ch direct vacancy",
-    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/3e8a51ad-0851-4e88-acda-9b662cbcfb55/",
-    "supportingSourceUrl": null,
-    "postingDate": "2026-08-24",
-    "applicationDeadline": null,
-    "postingAgeText": "Published 24 August 2026",
-    "salaryText": "Salary not disclosed",
-    "status": "Unknown",
-    "statusReason": "The role-specific page did not provide positive current-open evidence (HTTP 200).",
-    "relevanceScore": 92,
-    "matchSummary": "Senior product ownership role for data and AI solutions, including platform evolution, technical backlog, requirements, prioritisation and regulated operations.",
-    "technologies": [
-      "Data platforms",
-      "Machine Learning",
-      "Jira",
-      "Confluence"
-    ],
-    "keywordsMatched": [
-      "product owner",
-      "AI platform",
-      "technical backlog",
-      "requirements",
-      "data architecture"
-    ],
-    "requirements": [
-      "Own planning and delivery of data and AI solutions",
-      "Prioritise the technical backlog and resolve dependencies",
-      "Shape a regulated enterprise data and AI platform"
-    ],
-    "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
-    "id": "job-1788201423448-5",
-    "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-31T18:37:03.447Z",
-        "reason": "The current role-specific jobs.ch page displays Bewerben and describes its active application process."
-      },
-      {
-        "status": "Unknown",
-        "at": "2026-09-08T06:12:21.337Z",
-        "reason": "The role-specific page did not provide positive current-open evidence (HTTP 200)."
-      }
-    ],
-    "regionalLanguages": [
-      "German"
-    ]
   },
   {
     "title": "Chief Business Consultant – Print & Post Digital Transformation",
@@ -7038,147 +7196,67 @@
     "market": "Lithuania"
   },
   {
-    "title": "Team Lead (AI Delivery & Products)",
-    "normalizedTitle": "Team Lead, AI Delivery and Products",
-    "company": "Exacaster",
-    "normalizedCompany": "Exacaster",
-    "location": "Vilnius, Lithuania",
-    "workMode": "hybrid",
+    "workMode": "remote",
     "lithuaniaEligible": true,
-    "roleFamilies": [
-      "Automation Leadership",
-      "AI / Agentic Automation",
-      "Product Ownership",
-      "Project / Program Management"
-    ],
-    "seniority": "Lead",
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/team-lead-ai-delivery-products-at-exacaster-4449494429",
     "supportingSourceUrl": null,
     "postingDate": null,
     "applicationDeadline": null,
-    "postingAgeText": "2 weeks ago",
-    "salaryText": "€5,300–7,500 gross/month",
-    "status": "Unknown",
-    "statusReason": "The role-specific page did not provide positive current-open evidence (HTTP 429).",
-    "relevanceScore": 92,
-    "matchSummary": "AI-delivery leadership role combining client discovery, product ownership, backlog control and end-to-end delivery by a small AI engineering team.",
+    "postingAgeText": "Posted 3 weeks ago",
+    "salaryText": "€3,200–5,000 gross/month",
+    "seniority": "Senior",
     "technologies": [
-      "AI/ML",
-      "Jira",
-      "Confluence",
-      "Miro"
+      "ServiceNow",
+      "ITSM",
+      "Agile",
+      "ITIL"
     ],
     "keywordsMatched": [
-      "AI delivery",
-      "AI products",
-      "team lead",
-      "product ownership"
+      "business analyst",
+      "ServiceNow",
+      "workflow",
+      "continuous improvement"
     ],
     "requirements": [
-      "6+ years across business analysis, product ownership and delivery",
-      "Experience owning AI products end-to-end",
-      "Experience leading a small technical team"
+      "3+ years in ServiceNow",
+      "Business-analysis and Agile delivery skills",
+      "Process and stakeholder management"
     ],
-    "requisitionId": "4449494429",
-    "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
-    "id": "job-1787292309042-1",
-    "firstSeenAt": "2026-08-21T06:05:09.039Z",
-    "lastSeenAt": "2026-08-26T06:07:41.675Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "previousStatus": "Still open",
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-21T06:05:09.039Z",
-        "reason": "The exact vacancy page was live on 2026-08-21 with an Apply action and current role-specific content."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-08-21T15:04:43.792Z",
-        "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
-      },
-      {
-        "status": "Unknown",
-        "at": "2026-09-08T06:12:21.337Z",
-        "reason": "The role-specific page did not provide positive current-open evidence (HTTP 429)."
-      }
-    ],
-    "regionalLanguages": [
-      "Lithuanian"
-    ],
-    "market": "Lithuania"
-  },
-  {
-    "title": "Product Owner - AI Experience",
-    "normalizedTitle": "Product Owner AI Experience",
-    "company": "Danske Bank",
-    "normalizedCompany": "Danske Bank",
-    "location": "Vilnius, Lithuania",
-    "market": "Lithuania",
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "roleFocus": "manager",
+    "requisitionId": "4457229551",
+    "title": "Senior ServiceNow Business Analyst",
+    "normalizedTitle": "Senior ServiceNow Business Analyst",
+    "company": "EPAM Systems",
+    "normalizedCompany": "EPAM",
+    "location": "Lithuania",
+    "roleFocus": "analyst",
     "roleFamilies": [
-      "Product Ownership",
-      "AI / Agentic Automation",
-      "Digital Transformation",
+      "Business Analysis",
+      "Workflow / BPM",
+      "Process Excellence",
       "Technical Platform / Architecture"
     ],
-    "seniority": "Senior",
     "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-ai-experience-at-danske-bank-4447551749",
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "One week ago",
-    "salaryText": "Salary not disclosed",
-    "status": "Still open",
-    "statusReason": "The current role-specific LinkedIn vacancy shows Apply.",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-servicenow-business-analyst-at-epam-systems-4457229551",
     "relevanceScore": 91,
-    "matchSummary": "AI platform product ownership role leading reusable conversational, agent-interaction and human-in-the-loop capabilities across the bank.",
-    "technologies": [
-      "Generative AI",
-      "AI agents",
-      "Human-in-the-loop",
-      "Conversational UX"
+    "matchSummary": "ServiceNow BA role gathering requirements, optimising ITSM workflows, delivering new modules and driving continuous improvement.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
     ],
-    "keywordsMatched": [
-      "product owner",
-      "AI platform",
-      "agent interactions",
-      "AI adoption",
-      "governance"
-    ],
-    "requirements": [
-      "Own the AI Experience roadmap and vision",
-      "Lead a squad delivering reusable AI capabilities",
-      "Define standards for agent interactions and human-AI collaboration"
-    ],
-    "requisitionId": "4447551749",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
-    "id": "job-1788069929164-8",
-    "firstSeenAt": "2026-08-30T06:05:29.162Z",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-6",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
-        "at": "2026-08-30T06:05:29.162Z",
-        "reason": "The current role-specific LinkedIn page displays Apply."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-09-08T06:12:21.337Z",
-        "reason": "The current role-specific LinkedIn vacancy shows Apply."
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
-    ],
-    "regionalLanguages": [
-      "Lithuanian"
     ]
   },
   {
@@ -7227,14 +7305,14 @@
       "Deliver Power Apps and Power Automate improvements"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "German"
     ],
     "id": "job-1788621312239-17",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -7295,11 +7373,11 @@
       "Bridge business areas, application management and development"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788069929163-3",
     "firstSeenAt": "2026-08-30T06:05:29.162Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -7364,11 +7442,11 @@
       "Drive AI and automation in procurement processes"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787810706512-7",
     "firstSeenAt": "2026-08-27T06:05:06.511Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -7397,9 +7475,9 @@
     "status": "Still open",
     "seniority": "",
     "firstSeenAt": "2026-08-25T06:02:57.007Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "title": "Sistemų ir verslo procesų analitikas-konsultantas (-ė)",
     "normalizedTitle": "Systems and Business Process Analyst-Consultant",
     "company": "Mantinga Group",
@@ -7457,6 +7535,81 @@
       "Lithuanian"
     ],
     "market": "Lithuania"
+  },
+  {
+    "title": "Product Owner - AI Experience",
+    "normalizedTitle": "Product Owner AI Experience",
+    "company": "Danske Bank",
+    "normalizedCompany": "Danske Bank",
+    "location": "Vilnius, Lithuania",
+    "market": "Lithuania",
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Digital Transformation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-ai-experience-at-danske-bank-4447551749",
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "One week ago",
+    "salaryText": "Salary not disclosed",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive.",
+    "relevanceScore": 91,
+    "matchSummary": "AI platform product ownership role leading reusable conversational, agent-interaction and human-in-the-loop capabilities across the bank.",
+    "technologies": [
+      "Generative AI",
+      "AI agents",
+      "Human-in-the-loop",
+      "Conversational UX"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "AI platform",
+      "agent interactions",
+      "AI adoption",
+      "governance"
+    ],
+    "requirements": [
+      "Own the AI Experience roadmap and vision",
+      "Lead a squad delivering reusable AI capabilities",
+      "Define standards for agent interactions and human-AI collaboration"
+    ],
+    "requisitionId": "4447551749",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
+    "id": "job-1788069929164-8",
+    "firstSeenAt": "2026-08-30T06:05:29.162Z",
+    "lastSeenAt": "2026-09-08T06:12:14.789Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-30T06:05:29.162Z",
+        "reason": "The current role-specific LinkedIn page displays Apply."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The current role-specific LinkedIn vacancy shows Apply."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ]
   },
   {
     "title": "AI Analyst - Agents & Self-service Cluster",
@@ -7998,14 +8151,14 @@
       "Lead digital and SAP-enabled improvements"
     ],
     "requisitionId": "25722",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "Lithuanian"
     ],
     "id": "job-1788621312239-6",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -8066,11 +8219,11 @@
       "Facilitate process workshops and implementation change"
     ],
     "requisitionId": "1646843",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788242887127-5",
     "firstSeenAt": "2026-09-01T06:08:07.126Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -8137,11 +8290,11 @@
       "Coordinate implementation in Jira and service-management systems"
     ],
     "requisitionId": "14104137",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788201423448-0",
     "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -8208,11 +8361,11 @@
       "Drive standardisation, documentation and global rollouts"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788201423448-3",
     "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -8276,11 +8429,11 @@
       "Develop modern M365 workplace services"
     ],
     "requisitionId": "3827336",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787773997843-1",
     "firstSeenAt": "2026-08-26T19:53:17.842Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": null,
     "statusChangedAt": "2026-08-26T19:53:17.842Z",
     "statusHistory": [
@@ -8337,11 +8490,11 @@
     "requisitionId": "4439072999",
     "salaryText": "€6,160–8,500 gross/month",
     "roleFocus": "manager",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-23",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -8568,6 +8721,70 @@
       "Lithuanian"
     ],
     "market": "Lithuania"
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted today",
+    "salaryText": "Salary not disclosed",
+    "seniority": "Mid-level",
+    "technologies": [
+      "Jira",
+      "Confluence",
+      "Workflow automation",
+      "APIs"
+    ],
+    "keywordsMatched": [
+      "business analyst",
+      "process maps",
+      "target operating model",
+      "workflow automation"
+    ],
+    "requirements": [
+      "3–5 years in business analysis or consulting",
+      "Process optimisation and operating-model knowledge",
+      "Requirements and stakeholder engagement"
+    ],
+    "requisitionId": "4454320048",
+    "title": "Business Analyst",
+    "normalizedTitle": "Business Analyst Transformation",
+    "company": "Alter Domus",
+    "normalizedCompany": "Alter Domus",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Process Excellence",
+      "Digital Transformation"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/business-analyst-at-alter-domus-4454320048",
+    "relevanceScore": 89,
+    "matchSummary": "Transformation BA role covering current-state analysis, target operating models, process maps, value streams, workflow automation and APIs.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-2",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
   },
   {
     "title": "Senior Business Analyst, Compliance Systems and Analytics",
@@ -8849,6 +9066,133 @@
     "market": "Lithuania"
   },
   {
+    "workMode": "onsite",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted today",
+    "salaryText": "€4,500–7,000 gross/month",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "AI tools",
+      "KYC/KYB",
+      "Transaction monitoring",
+      "APIs"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "automate internal tooling",
+      "integrations",
+      "process ownership"
+    ],
+    "requirements": [
+      "4+ years in product ownership or management",
+      "Fintech or regulated-product delivery",
+      "Technical requirements and engineering leadership"
+    ],
+    "requisitionId": "4464476379",
+    "title": "Fincrime Product Owner",
+    "normalizedTitle": "Fincrime Product Owner",
+    "company": "CoinGate",
+    "normalizedCompany": "CoinGate",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Automation Leadership",
+      "Process Management"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/fincrime-product-owner-at-coingate-4464476379",
+    "relevanceScore": 88,
+    "matchSummary": "Technical product-ownership role automating fincrime workflows, integrations and internal tooling while leading a small engineering team.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-1",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-09",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "Salary not disclosed",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "REST APIs",
+      "SOAP",
+      "Event-driven architecture",
+      "Message queues",
+      "Guidewire"
+    ],
+    "keywordsMatched": [
+      "business analyst",
+      "integration",
+      "APIs",
+      "end-to-end process"
+    ],
+    "requirements": [
+      "Several years in business analysis or requirements engineering",
+      "System-integration specifications",
+      "German or English at C1/C2"
+    ],
+    "requisitionId": "136702",
+    "title": "Business Analyst mit Fokus Integration (m/w/d)",
+    "normalizedTitle": "Integration Business Analyst",
+    "company": "Zurich Insurance",
+    "normalizedCompany": "Zurich Insurance",
+    "location": "Zurich, Switzerland",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Technical Platform / Architecture"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/a29d42c4-0555-4519-afd2-dacbf4b82d09/",
+    "relevanceScore": 88,
+    "matchSummary": "Integration BA role analysing end-to-end processes and defining APIs, data flows, mappings and executable user stories.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-10",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
     "title": "Product Owner (Autonomy & Swarming)",
     "normalizedTitle": "Product Owner Autonomy and Swarming",
     "company": "RSI Europe",
@@ -8872,7 +9216,7 @@
     "postingAgeText": "Two weeks ago",
     "salaryText": "€5,000–7,000 gross/month",
     "status": "Still open",
-    "statusReason": "The current role-specific LinkedIn vacancy shows Apply.",
+    "statusReason": "The role-specific page is live and presents a current application action.",
     "relevanceScore": 88,
     "matchSummary": "AI product ownership role defining requirements and delivery for autonomous workflows, multi-agent coordination and scalable software capabilities.",
     "technologies": [
@@ -8895,11 +9239,11 @@
       "Coordinate hardware, software and AI engineering teams"
     ],
     "requisitionId": "4402281993",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788069929163-5",
     "firstSeenAt": "2026-08-30T06:05:29.162Z",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -8917,72 +9261,6 @@
     "regionalLanguages": [
       "Lithuanian"
     ]
-  },
-  {
-    "workMode": "hybrid",
-    "lithuaniaEligible": true,
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "1 day ago",
-    "status": "Still open",
-    "seniority": "",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
-    "technologies": [
-      "AI orchestration",
-      "LLMs"
-    ],
-    "keywordsMatched": [
-      "AI platform",
-      "orchestration",
-      "product ownership",
-      "automation"
-    ],
-    "requirements": [
-      "5+ years in product ownership",
-      "AI product experience",
-      "Enterprise B2B SaaS"
-    ],
-    "requisitionId": "4246204263",
-    "title": "Product Owner | Mid-Senior | nexos.ai Workspace",
-    "normalizedTitle": "Product Owner nexos.ai Workspace",
-    "company": "nexos.ai",
-    "normalizedCompany": "nexos.ai",
-    "location": "Vilnius, Lithuania",
-    "roleFocus": "manager",
-    "roleFamilies": [
-      "Product Ownership",
-      "AI / Agentic Automation",
-      "Technical Platform / Architecture"
-    ],
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-mid-senior-nexos-ai-workspace-at-nexos-ai-4246204263",
-    "salaryText": "Salary not disclosed",
-    "statusReason": "The current role-specific LinkedIn vacancy shows Apply.",
-    "relevanceScore": 88,
-    "matchSummary": "Product owner role for an AI orchestration workspace enabling organizations to deploy AI through scalable automation and intelligent decision-making.",
-    "id": "job-1787724461727-5",
-    "firstSeenAt": "2026-08-26T06:07:41.724Z",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-08-26T06:07:41.724Z",
-        "reason": "The role-specific LinkedIn vacancy shows Apply for Vilnius."
-      },
-      {
-        "status": "Still open",
-        "at": "2026-09-08T06:12:21.337Z",
-        "reason": "The current role-specific LinkedIn vacancy shows Apply."
-      }
-    ],
-    "regionalLanguages": [
-      "Lithuanian"
-    ],
-    "market": "Lithuania"
   },
   {
     "title": "Business Process Manager",
@@ -9027,11 +9305,11 @@
       "End-to-end process knowledge"
     ],
     "requisitionId": "4421786849",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787378740013-7",
     "firstSeenAt": "2026-08-22T06:05:40.011Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-23T06:05:19.149Z",
     "statusHistory": [
@@ -9098,11 +9376,11 @@
     ],
     "requisitionId": "4443744640",
     "roleFocus": "developer",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787324683794-2",
     "firstSeenAt": "2026-08-21T15:04:43.792Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-22T06:05:40.011Z",
     "statusHistory": [
@@ -9167,11 +9445,11 @@
     ],
     "requisitionId": "4455757183",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787292309042-2",
     "firstSeenAt": "2026-08-21T06:05:09.039Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-21T15:04:43.792Z",
     "statusHistory": [
@@ -9184,6 +9462,77 @@
         "status": "Still open",
         "at": "2026-08-21T15:04:43.792Z",
         "reason": "The exact role page remained live during the 2026-08-21 afternoon recheck and did not display explicit closure wording."
+      }
+    ],
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "market": "Lithuania"
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "1 day ago",
+    "status": "Closed/Expired/No longer accepting applications",
+    "seniority": "",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
+    "technologies": [
+      "AI orchestration",
+      "LLMs"
+    ],
+    "keywordsMatched": [
+      "AI platform",
+      "orchestration",
+      "product ownership",
+      "automation"
+    ],
+    "requirements": [
+      "5+ years in product ownership",
+      "AI product experience",
+      "Enterprise B2B SaaS"
+    ],
+    "requisitionId": "4246204263",
+    "title": "Product Owner | Mid-Senior | nexos.ai Workspace",
+    "normalizedTitle": "Product Owner nexos.ai Workspace",
+    "company": "nexos.ai",
+    "normalizedCompany": "nexos.ai",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-mid-senior-nexos-ai-workspace-at-nexos-ai-4246204263",
+    "salaryText": "Salary not disclosed",
+    "statusReason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive.",
+    "relevanceScore": 88,
+    "matchSummary": "Product owner role for an AI orchestration workspace enabling organizations to deploy AI through scalable automation and intelligent decision-making.",
+    "id": "job-1787724461727-5",
+    "firstSeenAt": "2026-08-26T06:07:41.724Z",
+    "lastSeenAt": "2026-09-08T06:12:14.789Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-26T06:07:41.724Z",
+        "reason": "The role-specific LinkedIn vacancy shows Apply for Vilnius."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The current role-specific LinkedIn vacancy shows Apply."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive."
       }
     ],
     "regionalLanguages": [
@@ -9634,8 +9983,8 @@
     "applicationDeadline": null,
     "postingAgeText": "Current listing with active application flow",
     "salaryText": "€4,000–6,400 gross/month",
-    "status": "Still open",
-    "statusReason": "The current role-specific LinkedIn vacancy shows Apply.",
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive.",
     "relevanceScore": 87,
     "matchSummary": "Technical product ownership role turning recurring business requests into AI-automated workflows, scalable features and self-service solutions.",
     "technologies": [
@@ -9656,13 +10005,13 @@
       "Own roadmap, backlog and continuous product improvement"
     ],
     "requisitionId": "4439878444",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788069929163-6",
     "firstSeenAt": "2026-08-30T06:05:29.162Z",
     "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
@@ -9673,6 +10022,11 @@
         "status": "Still open",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The current role-specific LinkedIn vacancy shows Apply."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive."
       }
     ],
     "regionalLanguages": [
@@ -9888,6 +10242,78 @@
     "market": "Lithuania"
   },
   {
+    "title": "Senior Product Owner Daten und KI (w/m)",
+    "normalizedTitle": "Senior Product Owner Data and AI",
+    "company": "Basler Kantonalbank",
+    "normalizedCompany": "Basler Kantonalbank",
+    "location": "Basel, Switzerland",
+    "market": "Switzerland",
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture"
+    ],
+    "seniority": "Senior",
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/79811c61-2c25-46e0-a970-548dbf0d9e5e/",
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-04",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "Salary not disclosed",
+    "status": "Still open",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "relevanceScore": 86,
+    "matchSummary": "Senior product role building the bank's Data and AI platform, prioritising the technical backlog and delivering AI-based solutions.",
+    "technologies": [
+      "AI",
+      "Data platform",
+      "Machine Learning"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "AI",
+      "data platform",
+      "continuous improvement"
+    ],
+    "requirements": [
+      "Senior product-ownership experience",
+      "Data architecture and ML understanding",
+      "Technical backlog leadership"
+    ],
+    "requisitionId": null,
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1788201423448-5",
+    "firstSeenAt": "2026-08-31T18:37:03.447Z",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "previousStatus": "Unknown",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-08-31T18:37:03.447Z",
+        "reason": "The current role-specific jobs.ch page displays Bewerben and describes its active application process."
+      },
+      {
+        "status": "Unknown",
+        "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The role-specific page did not provide positive current-open evidence (HTTP 200)."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ],
+    "regionalLanguages": [
+      "German"
+    ]
+  },
+  {
     "title": "Product Owner / Business Analyst - Banque privée à 100%",
     "normalizedTitle": "Product Owner / Business Analyst - Banque privée à 100%",
     "company": "SpeciTec SA",
@@ -9911,7 +10337,7 @@
     "postingAgeText": "Recently verified",
     "salaryText": "Salary not disclosed",
     "status": "Still open",
-    "statusReason": "The role-specific page is live and presents a current application action.",
+    "statusReason": "The role is freshly listed on the employer's jobs.ch profile and a current secondary direct page shows an application action.",
     "relevanceScore": 86,
     "matchSummary": "Hybrid PO/BA role covering automation, AI analytics, document digitization and delivery requirements.",
     "technologies": [
@@ -9933,14 +10359,14 @@
       "Manage requirements, backlog and document digitization"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
     "regionalLanguages": [
       "French"
     ],
     "id": "job-1788621312239-14",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -10003,11 +10429,11 @@
       "Collaborate with product, development and public-sector stakeholders"
     ],
     "requisitionId": "8155581",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788242887127-2",
     "firstSeenAt": "2026-09-01T06:08:07.126Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -10074,11 +10500,11 @@
       "Work hands-on with ABAP, BTP, OData and CDS"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788201423448-4",
     "firstSeenAt": "2026-08-31T18:37:03.447Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -10142,11 +10568,11 @@
       "Own process controls and operational implementation"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788069929163-7",
     "firstSeenAt": "2026-08-30T06:05:29.162Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -10417,14 +10843,14 @@
       "Use BPMN, Bizagi or Visio and Lean methods"
     ],
     "requisitionId": "4458097050",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "Lithuanian"
     ],
     "id": "job-1788621312239-7",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -10485,19 +10911,87 @@
     "regionalLanguages": [
       "Lithuanian"
     ],
-    "status": "Newly found",
-    "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "status": "Still open",
+    "statusReason": "The current role-specific LinkedIn vacancy shows Apply.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
     "id": "job-1788847941341-3",
     "firstSeenAt": "2026-09-08T06:12:21.337Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The current role-specific LinkedIn vacancy shows Apply."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": "2026-09-13",
+    "postingAgeText": "Posted today",
+    "salaryText": "€4,700–7,600 gross/month",
+    "seniority": "Senior",
+    "technologies": [
+      "Salesforce",
+      "APIs",
+      "CRM",
+      "Data products"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "transformation",
+      "integrations",
+      "data flows"
+    ],
+    "requirements": [
+      "Product ownership in a regulated environment",
+      "CRM transformation and integration experience",
+      "Data migration and API understanding"
+    ],
+    "requisitionId": "4462158776",
+    "title": "Senior Product Owner (Customer Data Product)",
+    "normalizedTitle": "Senior Product Owner Customer Data Product",
+    "company": "Luminor Group",
+    "normalizedCompany": "Luminor",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Digital Transformation",
+      "Technical Platform / Architecture"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-product-owner-customer-data-product-at-luminor-group-4462158776",
+    "relevanceScore": 84,
+    "matchSummary": "Customer-data transformation role owning CRM integrations, APIs, migrations, synchronisation and cross-team delivery.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-5",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
         "reason": "The role-specific source is current and presents an active application action."
       }
     ]
@@ -10548,14 +11042,14 @@
       "Define system-integration and automation requirements"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "German"
     ],
     "id": "job-1788621312239-11",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -10618,11 +11112,11 @@
       "Coordinate testing, rollout and process optimisation"
     ],
     "requisitionId": "1646286",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788242887127-0",
     "firstSeenAt": "2026-09-01T06:08:07.126Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -10997,6 +11491,68 @@
     "market": "Lithuania"
   },
   {
+    "workMode": "unknown",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-09",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "Salary not disclosed",
+    "seniority": "Senior",
+    "technologies": [
+      "Process management",
+      "Change management"
+    ],
+    "keywordsMatched": [
+      "business analysis",
+      "process optimisation",
+      "digitalisation",
+      "requirements"
+    ],
+    "requirements": [
+      "Several years in business and process management",
+      "Business analysis and needs assessment",
+      "Implementation and change-management experience"
+    ],
+    "requisitionId": null,
+    "title": "Business Analyst Businessprozesse",
+    "normalizedTitle": "Business Process Analyst",
+    "company": "Urs Ledermann & Partner AG",
+    "normalizedCompany": "Urs Ledermann & Partner",
+    "location": "Bern, Switzerland",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Process Excellence",
+      "Digital Transformation"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/a6dc8d48-5a48-4127-9f51-eef4cfdf037f/",
+    "relevanceScore": 83,
+    "matchSummary": "Business-process role covering analysis, optimisation, digitalisation, requirements, implementation and change management.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-9",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
     "workMode": "hybrid",
     "lithuaniaEligible": true,
     "source": "LinkedIn direct vacancy",
@@ -11091,7 +11647,7 @@
     "postingAgeText": "Posted 22 days ago",
     "salaryText": "€47,000–65,000 gross/year",
     "status": "Still open",
-    "statusReason": "The exact Nuvei Workable application and current role-specific listing remain available for applications.",
+    "statusReason": "The exact Nuvei Workable form currently accepts applications.",
     "relevanceScore": 82,
     "matchSummary": "Business-process consulting role running discovery, mapping workflows in BPMN and turning Salesforce pain points into improvement initiatives.",
     "technologies": [
@@ -11111,11 +11667,11 @@
       "Fluent English and Lithuanian"
     ],
     "requisitionId": "uSurTd93iv27xrwFVfGvP3",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
     "id": "job-1787221513434-32",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-08-20T15:04:01.300Z",
     "statusHistory": [
@@ -11134,6 +11690,194 @@
       "Lithuanian"
     ],
     "market": "Lithuania"
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted 2 weeks ago",
+    "salaryText": "€3,500–4,700 gross/month",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "Microsoft 365",
+      "Azure",
+      "Atlassian"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "internal IT",
+      "process improvement",
+      "enterprise platform"
+    ],
+    "requirements": [
+      "Product Owner or IT Business Analyst experience",
+      "Enterprise systems and cloud-services understanding",
+      "Backlog and stakeholder management"
+    ],
+    "requisitionId": "4401118388",
+    "title": "Product Owner - Internal IT",
+    "normalizedTitle": "Product Owner Internal IT",
+    "company": "Signicat",
+    "normalizedCompany": "Signicat",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Process Management",
+      "Technical Platform / Architecture"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-internal-it-at-signicat-4401118388",
+    "relevanceScore": 82,
+    "matchSummary": "Internal-platform ownership role streamlining enterprise tools and processes, translating requirements and driving continuous improvement.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-0",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-01",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "Salary not disclosed",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "HERMES",
+      "SAFe",
+      "Process modelling",
+      "Service Design"
+    ],
+    "keywordsMatched": [
+      "business analyst",
+      "digital procedures",
+      "process optimisation",
+      "requirements"
+    ],
+    "requirements": [
+      "Business analysis and requirements experience",
+      "Process digitalisation background",
+      "German proficiency"
+    ],
+    "requisitionId": null,
+    "title": "Business Analyst/in und Fachverantwortliche/r Digitale Verfahren 80%",
+    "normalizedTitle": "Business Analyst Digital Procedures",
+    "company": "Kanton Zürich",
+    "normalizedCompany": "Kanton Zurich",
+    "location": "Zurich, Switzerland",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Digital Transformation",
+      "Process Management"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/ca400603-a7e7-4c25-ba11-1efc5ae67c1e/",
+    "relevanceScore": 82,
+    "matchSummary": "Public-sector digitalisation role gathering requirements, optimising processes and leading digital-service initiatives into operation.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-12",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-03",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "Salary not disclosed",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "Industrial automation",
+      "HMI",
+      "Scrum"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "process automation",
+      "requirements",
+      "backlog"
+    ],
+    "requirements": [
+      "Product Owner or Requirements Engineer experience",
+      "Industrial automation or software background",
+      "Scrum and stakeholder management"
+    ],
+    "requisitionId": null,
+    "title": "Software Product Owner Industrial Rigs (w/m/d)",
+    "normalizedTitle": "Software Product Owner Industrial Automation",
+    "company": "Endress+Hauser",
+    "normalizedCompany": "Endress and Hauser",
+    "location": "Reinach BL, Switzerland",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Automation Leadership",
+      "Technical Platform / Architecture"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/96b98049-91ac-4861-9725-08fa965a1d99/",
+    "relevanceScore": 82,
+    "matchSummary": "Product-owner role defining software for industrial calibration and automation systems, translating requirements into backlog priorities.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-17",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
   },
   {
     "title": "Produkto vadovas (-ė) | Fulfillment by Pigu (FBP)",
@@ -11347,6 +12091,68 @@
   },
   {
     "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-04",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "Salary not disclosed",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "ERP",
+      "Digital platforms"
+    ],
+    "keywordsMatched": [
+      "IT project manager",
+      "business analyst",
+      "process improvement",
+      "requirements"
+    ],
+    "requirements": [
+      "IT project-delivery experience",
+      "Business-process analysis",
+      "Requirements and stakeholder management"
+    ],
+    "requisitionId": null,
+    "title": "IT-Projektmanager:in / Business Analyst:in (80-100%)",
+    "normalizedTitle": "IT Project Manager and Business Analyst",
+    "company": "BUSINESSCOM AG",
+    "normalizedCompany": "Businesscom",
+    "location": "Burgdorf, Switzerland",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Project / Program Management",
+      "Business Analysis",
+      "Process Excellence",
+      "Digital Transformation"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/8d1a25ae-52e2-4422-b223-2b144c0709e4/",
+    "relevanceScore": 80,
+    "matchSummary": "Hybrid delivery and analysis role leading digitalisation projects, identifying process improvements and shaping solution concepts.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-14",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
     "lithuaniaEligible": true,
     "supportingSourceUrl": null,
     "postingDate": null,
@@ -11390,20 +12196,25 @@
     "regionalLanguages": [
       "Lithuanian"
     ],
-    "status": "Newly found",
-    "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "status": "Still open",
+    "statusReason": "The role-specific page is live and presents a current application action.",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788847941341-4",
     "firstSeenAt": "2026-09-08T06:12:21.337Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page is live and presents a current application action."
       }
     ]
   },
@@ -11451,14 +12262,14 @@
       "Coordinate industrial automation stakeholders"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "German"
     ],
     "id": "job-1788621312239-12",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -11693,121 +12504,62 @@
   },
   {
     "workMode": "hybrid",
-    "lithuaniaEligible": true,
+    "lithuaniaEligible": false,
     "supportingSourceUrl": null,
-    "postingDate": null,
+    "postingDate": "2026-09-03",
     "applicationDeadline": null,
-    "postingAgeText": "Posted 21 hours ago",
-    "seniority": "Mid-Senior",
-    "technologies": [
-      "Windows Server",
-      "Infrastructure as Code",
-      "Cloud automation"
-    ],
-    "keywordsMatched": [
-      "product owner",
-      "platform ownership",
-      "automation"
-    ],
-    "requirements": [
-      "Product or platform ownership experience",
-      "Windows Server and cloud operations",
-      "Automation and infrastructure-as-code knowledge"
-    ],
-    "requisitionId": "4431091828",
-    "title": "Product Owner (Windows Server Operation)",
-    "normalizedTitle": "Product Owner Windows Server Operations",
-    "company": "Festo Lietuva",
-    "normalizedCompany": "Festo",
-    "location": "Kaunas, Lithuania",
-    "roleFocus": "manager",
-    "roleFamilies": [
-      "Product Ownership",
-      "Technical Platform / Architecture",
-      "Automation Leadership"
-    ],
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-windows-server-operation-at-festo-lietuva-4431091828",
-    "salaryText": "€4,500–5,500 gross/month",
-    "relevanceScore": 78,
-    "matchSummary": "Infrastructure-platform ownership role with automation, infrastructure-as-code, cloud operations and technical stakeholder leadership.",
-    "market": "Lithuania",
-    "regionalLanguages": [
-      "Lithuanian"
-    ],
-    "status": "Newly found",
-    "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
-    "id": "job-1788847941341-1",
-    "firstSeenAt": "2026-09-08T06:12:21.337Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
-    "statusHistory": [
-      {
-        "status": "Newly found",
-        "at": "2026-09-08T06:12:21.337Z",
-        "reason": "The role-specific source is current and presents an active application action."
-      }
-    ]
-  },
-  {
-    "workMode": "unknown",
-    "lithuaniaEligible": true,
-    "supportingSourceUrl": null,
-    "postingDate": null,
-    "applicationDeadline": null,
-    "postingAgeText": "Posted 4 hours ago",
-    "seniority": "Mid-Senior",
-    "technologies": [
-      "ERP",
-      "MRO systems"
-    ],
-    "keywordsMatched": [
-      "product owner",
-      "workflows",
-      "process improvement"
-    ],
-    "requirements": [
-      "Product ownership experience",
-      "Ability to translate operational needs into product requirements",
-      "Stakeholder and lifecycle management"
-    ],
-    "requisitionId": "4448708049",
-    "title": "Product owner",
-    "normalizedTitle": "Product Owner",
-    "company": "Digital Aero Technologies",
-    "normalizedCompany": "Digital Aero Technologies",
-    "location": "Vilnius, Lithuania",
-    "roleFocus": "manager",
-    "roleFamilies": [
-      "Product Ownership",
-      "Business Analysis",
-      "Process Management"
-    ],
-    "source": "LinkedIn direct vacancy",
-    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-at-digital-aero-technologies-4448708049",
+    "postingAgeText": null,
     "salaryText": "Salary not disclosed",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "Insurance core systems",
+      "Agile"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "end-to-end process",
+      "transformation",
+      "requirements"
+    ],
+    "requirements": [
+      "Product ownership and insurance-process experience",
+      "Requirements and process design",
+      "Implementation and stakeholder coordination"
+    ],
+    "requisitionId": null,
+    "title": "Product Owner Cyber - inkl. Underwriting & Claims (m/w/d)",
+    "normalizedTitle": "Cyber Insurance Product Owner",
+    "company": "Generali Personenversicherung AG",
+    "normalizedCompany": "Generali",
+    "location": "Adliswil, Switzerland",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Process Management",
+      "Digital Transformation",
+      "Business Analysis"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/486580e9-b2d7-4a65-aaf9-a55854e0893a/",
     "relevanceScore": 78,
-    "matchSummary": "Product-ownership role shaping complex MRO ERP workflows, removing operational inefficiencies and leading the product lifecycle.",
-    "market": "Lithuania",
+    "matchSummary": "End-to-end product role defining scalable underwriting and claims processes and translating business needs into core-system delivery.",
+    "market": "Switzerland",
     "regionalLanguages": [
-      "Lithuanian"
+      "German"
     ],
     "status": "Newly found",
     "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
-    "id": "job-1788847941341-2",
-    "firstSeenAt": "2026-09-08T06:12:21.337Z",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-18",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
     "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
-        "at": "2026-09-08T06:12:21.337Z",
+        "at": "2026-09-10T06:11:03.402Z",
         "reason": "The role-specific source is current and presents an active application action."
       }
     ]
@@ -11856,14 +12608,14 @@
       "Lead continuous improvement and knowledge sharing"
     ],
     "requisitionId": "4459115993",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "Lithuanian"
     ],
     "id": "job-1788621312239-8",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -11923,14 +12675,14 @@
       "Coordinate control, orchestration and reporting capabilities"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "German"
     ],
     "id": "job-1788621312239-13",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -11943,6 +12695,137 @@
         "status": "Still open",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The role-specific page is live and presents a current application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted 21 hours ago",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "Windows Server",
+      "Infrastructure as Code",
+      "Cloud automation"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "platform ownership",
+      "automation"
+    ],
+    "requirements": [
+      "Product or platform ownership experience",
+      "Windows Server and cloud operations",
+      "Automation and infrastructure-as-code knowledge"
+    ],
+    "requisitionId": "4431091828",
+    "title": "Product Owner (Windows Server Operation)",
+    "normalizedTitle": "Product Owner Windows Server Operations",
+    "company": "Festo Lietuva",
+    "normalizedCompany": "Festo",
+    "location": "Kaunas, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Technical Platform / Architecture",
+      "Automation Leadership"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-windows-server-operation-at-festo-lietuva-4431091828",
+    "salaryText": "€4,500–5,500 gross/month",
+    "relevanceScore": 78,
+    "matchSummary": "Infrastructure-platform ownership role with automation, infrastructure-as-code, cloud operations and technical stakeholder leadership.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive.",
+    "lastSeenAt": "2026-09-08T06:12:14.789Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
+    "id": "job-1788847941341-1",
+    "firstSeenAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive."
+      }
+    ]
+  },
+  {
+    "workMode": "unknown",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted 4 hours ago",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "ERP",
+      "MRO systems"
+    ],
+    "keywordsMatched": [
+      "product owner",
+      "workflows",
+      "process improvement"
+    ],
+    "requirements": [
+      "Product ownership experience",
+      "Ability to translate operational needs into product requirements",
+      "Stakeholder and lifecycle management"
+    ],
+    "requisitionId": "4448708049",
+    "title": "Product owner",
+    "normalizedTitle": "Product Owner",
+    "company": "Digital Aero Technologies",
+    "normalizedCompany": "Digital Aero Technologies",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Business Analysis",
+      "Process Management"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/product-owner-at-digital-aero-technologies-4448708049",
+    "salaryText": "Salary not disclosed",
+    "relevanceScore": 78,
+    "matchSummary": "Product-ownership role shaping complex MRO ERP workflows, removing operational inefficiencies and leading the product lifecycle.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Closed/Expired/No longer accepting applications",
+    "statusReason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive.",
+    "lastSeenAt": "2026-09-08T06:12:14.789Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
+    "id": "job-1788847941341-2",
+    "firstSeenAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Closed/Expired/No longer accepting applications",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page explicitly indicates that applications are closed or the vacancy is inactive."
       }
     ]
   },
@@ -12022,30 +12905,31 @@
     "workMode": "hybrid",
     "lithuaniaEligible": false,
     "supportingSourceUrl": null,
-    "postingDate": "2026-08-11",
+    "postingDate": "2026-09-04",
     "applicationDeadline": null,
     "postingAgeText": null,
-    "seniority": "Mid-Senior",
+    "salaryText": "Salary not disclosed",
+    "seniority": "Senior",
     "technologies": [
-      "Process digitalisation",
-      "DevOps"
+      "ERP",
+      "Finance systems"
     ],
     "keywordsMatched": [
       "business analyst",
-      "process",
-      "digitalisation",
-      "requirements"
+      "ERP",
+      "process optimisation",
+      "requirements engineering"
     ],
     "requirements": [
-      "Business-analysis experience",
-      "Process and requirements expertise",
-      "Cross-functional delivery skills"
+      "ERP business-analysis experience",
+      "Finance-process expertise",
+      "German and English"
     ],
     "requisitionId": null,
-    "title": "Business Analyst Prozess Schaden (w/m/d)",
-    "normalizedTitle": "Claims Process Business Analyst",
-    "company": "die Mobiliar",
-    "normalizedCompany": "Mobiliar",
+    "title": "Erfahrener ERP Business Analyst mit Fokus Finanzen 80-100% (w/m/d)",
+    "normalizedTitle": "Senior ERP Finance Business Analyst",
+    "company": "p4b ag",
+    "normalizedCompany": "p4b",
     "location": "Bern, Switzerland",
     "roleFocus": "analyst",
     "roleFamilies": [
@@ -12054,27 +12938,149 @@
       "Digital Transformation"
     ],
     "source": "jobs.ch direct vacancy",
-    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/c2a1293d-ec2d-45dc-b3ad-8c76f8506ee7/",
-    "salaryText": "Salary not disclosed",
-    "relevanceScore": 76,
-    "matchSummary": "Claims-process digitalisation role translating business needs into requirements and improving applications with delivery teams.",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/52d12d3e-daf8-4d53-9082-7a1466e69af2/",
+    "relevanceScore": 77,
+    "matchSummary": "ERP consulting role analysing and digitising finance processes from requirements and solution design through implementation.",
     "market": "Switzerland",
     "regionalLanguages": [
       "German"
     ],
     "status": "Newly found",
     "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
-    "id": "job-1788847941341-8",
-    "firstSeenAt": "2026-09-08T06:12:21.337Z",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-13",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
     "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
-        "at": "2026-09-08T06:12:21.337Z",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted 4 days ago",
+    "salaryText": "€4,600–6,700 gross/month",
+    "seniority": "Senior",
+    "technologies": [
+      "AI products",
+      "Software architecture",
+      "Agile"
+    ],
+    "keywordsMatched": [
+      "senior product owner",
+      "AI-first",
+      "technical requirements"
+    ],
+    "requirements": [
+      "5+ years of relevant experience",
+      "Software-engineering background",
+      "Product roadmap and backlog ownership"
+    ],
+    "requisitionId": "4434482360",
+    "title": "Senior Product Owner",
+    "normalizedTitle": "Senior Product Owner",
+    "company": "Unisys",
+    "normalizedCompany": "Unisys",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "AI / Agentic Automation",
+      "Technical Platform / Architecture"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-product-owner-at-unisys-4434482360",
+    "relevanceScore": 76,
+    "matchSummary": "Technical product role translating research into AI-first capabilities, product roadmaps, requirements and engineering execution.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-3",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-01",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "CHF 114,300–139,700 gross/year",
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "SYRIUS",
+      "Business rules",
+      "Process modelling"
+    ],
+    "keywordsMatched": [
+      "business analyst",
+      "requirements",
+      "business process modelling",
+      "configuration"
+    ],
+    "requirements": [
+      "Business-analysis experience",
+      "Requirements and process modelling",
+      "Technical configuration capability"
+    ],
+    "requisitionId": null,
+    "title": "Business Analyst Parametrierung (a) 80-100%",
+    "normalizedTitle": "Business Analyst Configuration",
+    "company": "Helsana Versicherungen AG",
+    "normalizedCompany": "Helsana",
+    "location": "Dübendorf, Switzerland",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Process Management"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/5a48f40b-214b-473d-8e2e-a0de3b0ea2c4/",
+    "relevanceScore": 76,
+    "matchSummary": "Business-analysis role modelling processes and converting requirements into configurable business rules for core insurance workflows.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-15",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
         "reason": "The role-specific source is current and presents an active application action."
       }
     ]
@@ -12123,14 +13129,14 @@
       "Coordinate transformation stakeholders and delivery"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "French"
     ],
     "id": "job-1788621312239-18",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -12143,6 +13149,72 @@
         "status": "Still open",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The role-specific page is live and presents a current application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-08-11",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "seniority": "Mid-Senior",
+    "technologies": [
+      "Process digitalisation",
+      "DevOps"
+    ],
+    "keywordsMatched": [
+      "business analyst",
+      "process",
+      "digitalisation",
+      "requirements"
+    ],
+    "requirements": [
+      "Business-analysis experience",
+      "Process and requirements expertise",
+      "Cross-functional delivery skills"
+    ],
+    "requisitionId": null,
+    "title": "Business Analyst Prozess Schaden (w/m/d)",
+    "normalizedTitle": "Claims Process Business Analyst",
+    "company": "die Mobiliar",
+    "normalizedCompany": "Mobiliar",
+    "location": "Bern, Switzerland",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Process Analysis",
+      "Digital Transformation"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/c2a1293d-ec2d-45dc-b3ad-8c76f8506ee7/",
+    "salaryText": "Salary not disclosed",
+    "relevanceScore": 76,
+    "matchSummary": "Claims-process digitalisation role translating business needs into requirements and improving applications with delivery teams.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Unknown",
+    "statusReason": "The role-specific page did not provide positive current-open evidence (HTTP 404).",
+    "lastSeenAt": "2026-09-08T06:12:14.789Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
+    "id": "job-1788847941341-8",
+    "firstSeenAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Unknown",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page did not provide positive current-open evidence (HTTP 404)."
       }
     ]
   },
@@ -12167,8 +13239,8 @@
     "postingDate": "2026-08-19",
     "applicationDeadline": "2026-08-21",
     "postingAgeText": "Posted August 19, 2026",
-    "status": "Still open",
-    "statusReason": "The role-specific page is live and presents a current application action.",
+    "status": "Unknown",
+    "statusReason": "The role-specific page did not provide positive current-open evidence (HTTP 404).",
     "relevanceScore": 76,
     "matchSummary": "Continuous-improvement role covering process mapping, Lean Six Sigma, requirements, reporting automation and transformation delivery.",
     "technologies": [
@@ -12190,13 +13262,13 @@
     "requisitionId": "JR0129675",
     "salaryText": "€2,083–2,916 gross/month",
     "roleFocus": "analyst",
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1787221513433-30",
     "firstSeenAt": "2026-08-20T10:25:13.432Z",
     "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "previousStatus": "Unknown",
-    "statusChangedAt": "2026-08-25T06:02:57.054Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
@@ -12217,6 +13289,11 @@
         "status": "Still open",
         "at": "2026-08-25T06:02:57.054Z",
         "reason": "The role-specific official employer vacancy remains live and current during this deep recheck."
+      },
+      {
+        "status": "Unknown",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page did not provide positive current-open evidence (HTTP 404)."
       }
     ],
     "regionalLanguages": [
@@ -12415,19 +13492,85 @@
     "regionalLanguages": [
       "German"
     ],
-    "status": "Newly found",
-    "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "status": "Still open",
+    "statusReason": "The role-specific page is live and presents a current application action.",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "id": "job-1788847941341-6",
     "firstSeenAt": "2026-09-08T06:12:21.337Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page is live and presents a current application action."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-04",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "Salary not disclosed",
+    "seniority": "Entry-Mid",
+    "technologies": [
+      "Core insurance systems",
+      "Operating models"
+    ],
+    "keywordsMatched": [
+      "business analyst",
+      "transformation",
+      "process optimisation",
+      "systems integration"
+    ],
+    "requirements": [
+      "Analytical consulting capability",
+      "Business-process and technology interest",
+      "German and English"
+    ],
+    "requisitionId": null,
+    "title": "Business Analyst/Berater - Innovation und Transformation in der Versicherungsbranche",
+    "normalizedTitle": "Business Analyst Insurance Innovation and Transformation",
+    "company": "Deloitte AG",
+    "normalizedCompany": "Deloitte",
+    "location": "Zurich, Switzerland",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Business Analysis",
+      "Digital Transformation",
+      "Process Excellence"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/d66a8de2-53d0-49cd-97f2-9586eab5b4ee/",
+    "relevanceScore": 74,
+    "matchSummary": "Transformation-consulting role supporting operating-model design, core-system integration and business-process optimisation.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-11",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
         "reason": "The role-specific source is current and presents an active application action."
       }
     ]
@@ -12454,8 +13597,8 @@
     "applicationDeadline": null,
     "postingAgeText": "Recently verified",
     "salaryText": "Salary not disclosed",
-    "status": "Still open",
-    "statusReason": "The role-specific page is live and presents a current application action.",
+    "status": "Unknown",
+    "statusReason": "The role-specific page did not provide positive current-open evidence (HTTP 404).",
     "relevanceScore": 74,
     "matchSummary": "IT BA role facilitating workshops, modelling BPMN processes and supporting product ownership and UAT.",
     "technologies": [
@@ -12476,16 +13619,16 @@
       "Write user stories and support product owners and UAT"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "French"
     ],
     "id": "job-1788621312239-21",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
     "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
-    "previousStatus": "Newly found",
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
+    "previousStatus": "Still open",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
@@ -12496,6 +13639,72 @@
         "status": "Still open",
         "at": "2026-09-08T06:12:21.337Z",
         "reason": "The role-specific page is live and presents a current application action."
+      },
+      {
+        "status": "Unknown",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific page did not provide positive current-open evidence (HTTP 404)."
+      }
+    ]
+  },
+  {
+    "workMode": "hybrid",
+    "lithuaniaEligible": true,
+    "supportingSourceUrl": null,
+    "postingDate": null,
+    "applicationDeadline": null,
+    "postingAgeText": "Posted today",
+    "salaryText": "Salary not disclosed",
+    "seniority": "Senior",
+    "technologies": [
+      "Trade surveillance",
+      "Agile"
+    ],
+    "keywordsMatched": [
+      "senior product owner",
+      "roadmap",
+      "requirements",
+      "platform"
+    ],
+    "requirements": [
+      "Senior product-ownership experience",
+      "Client discovery and requirements",
+      "Roadmap and backlog leadership"
+    ],
+    "requisitionId": "4464395316",
+    "title": "Senior Product Owner",
+    "normalizedTitle": "Senior Product Owner Trade Surveillance",
+    "company": "Nasdaq",
+    "normalizedCompany": "Nasdaq",
+    "location": "Vilnius, Lithuania",
+    "roleFocus": "manager",
+    "roleFamilies": [
+      "Product Ownership",
+      "Business Analysis",
+      "Technical Platform / Architecture"
+    ],
+    "source": "LinkedIn direct vacancy",
+    "directUrl": "https://lt.linkedin.com/jobs/view/senior-product-owner-at-nasdaq-4464395316",
+    "relevanceScore": 72,
+    "matchSummary": "Fintech product role owning roadmap and backlog while converting complex client problems into actionable platform requirements.",
+    "market": "Lithuania",
+    "regionalLanguages": [
+      "Lithuanian"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-4",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The role-specific source is current and presents an active application action."
       }
     ]
   },
@@ -12543,14 +13752,14 @@
       "Develop industrial control architecture"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "German"
     ],
     "id": "job-1788621312239-16",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -12612,14 +13821,14 @@
       "Coordinate underwriting and claims transformation"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "German"
     ],
     "id": "job-1788621312239-19",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -12681,14 +13890,14 @@
       "Translate requirements into implementable solutions"
     ],
     "requisitionId": null,
-    "sourceLastCheckedAt": "2026-09-08T06:05:59.375Z",
+    "sourceLastCheckedAt": "2026-09-10T06:05:42.523Z",
     "regionalLanguages": [
       "German"
     ],
     "id": "job-1788621312239-20",
     "firstSeenAt": "2026-09-05T15:15:12.238Z",
-    "lastSeenAt": "2026-09-08T06:05:59.375Z",
-    "lastVerifiedAt": "2026-09-08T06:05:59.375Z",
+    "lastSeenAt": "2026-09-10T06:05:42.523Z",
+    "lastVerifiedAt": "2026-09-10T06:05:42.523Z",
     "previousStatus": "Newly found",
     "statusChangedAt": "2026-09-08T06:12:21.337Z",
     "statusHistory": [
@@ -12807,19 +14016,86 @@
     "regionalLanguages": [
       "German"
     ],
-    "status": "Newly found",
-    "statusReason": "The role-specific source is current and presents an active application action.",
-    "lastSeenAt": "2026-09-08T06:12:14.789Z",
-    "lastVerifiedAt": "2026-09-08T06:12:14.789Z",
-    "sourceLastCheckedAt": "2026-09-08T06:12:14.789Z",
+    "status": "Still open",
+    "statusReason": "The current jobs.ch role page shows Bewerben.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
     "id": "job-1788847941341-9",
     "firstSeenAt": "2026-09-08T06:12:21.337Z",
-    "previousStatus": null,
-    "statusChangedAt": "2026-09-08T06:12:21.337Z",
+    "previousStatus": "Newly found",
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
     "statusHistory": [
       {
         "status": "Newly found",
         "at": "2026-09-08T06:12:21.337Z",
+        "reason": "The role-specific source is current and presents an active application action."
+      },
+      {
+        "status": "Still open",
+        "at": "2026-09-10T06:11:03.402Z",
+        "reason": "The current jobs.ch role page shows Bewerben."
+      }
+    ]
+  },
+  {
+    "workMode": "onsite",
+    "lithuaniaEligible": false,
+    "supportingSourceUrl": null,
+    "postingDate": "2026-09-09",
+    "applicationDeadline": null,
+    "postingAgeText": null,
+    "salaryText": "Salary not disclosed",
+    "seniority": "Mid-level",
+    "technologies": [
+      "SAP",
+      "Workflow management",
+      "Reporting"
+    ],
+    "keywordsMatched": [
+      "process management",
+      "process optimisation",
+      "workflow",
+      "continuous improvement"
+    ],
+    "requirements": [
+      "Process-management or optimisation experience",
+      "SAP knowledge",
+      "Reporting and data-analysis skills"
+    ],
+    "requisitionId": null,
+    "title": "Fachspezialist:in Prozessmanagement Technischer Dienst",
+    "normalizedTitle": "Process Management Specialist Technical Services",
+    "company": "Coop",
+    "normalizedCompany": "Coop",
+    "location": "Pratteln, Switzerland",
+    "roleFocus": "analyst",
+    "roleFamilies": [
+      "Process Analysis",
+      "Process Excellence",
+      "Process Management"
+    ],
+    "source": "jobs.ch direct vacancy",
+    "directUrl": "https://www.jobs.ch/de/stellenangebote/detail/b59f0472-d355-4531-968f-4d253f825a86/",
+    "relevanceScore": 70,
+    "matchSummary": "Process-specialist role analysing, standardising and improving technical-service workflows with SAP and operational reporting.",
+    "market": "Switzerland",
+    "regionalLanguages": [
+      "German"
+    ],
+    "status": "Newly found",
+    "statusReason": "The role-specific source is current and presents an active application action.",
+    "lastSeenAt": "2026-09-10T06:11:03.336Z",
+    "lastVerifiedAt": "2026-09-10T06:11:03.336Z",
+    "sourceLastCheckedAt": "2026-09-10T06:11:03.336Z",
+    "id": "job-1789020663405-16",
+    "firstSeenAt": "2026-09-10T06:11:03.402Z",
+    "previousStatus": null,
+    "statusChangedAt": "2026-09-10T06:11:03.402Z",
+    "statusHistory": [
+      {
+        "status": "Newly found",
+        "at": "2026-09-10T06:11:03.402Z",
         "reason": "The role-specific source is current and presents an active application action."
       }
     ]
