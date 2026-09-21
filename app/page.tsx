@@ -255,6 +255,8 @@ export default function Home() {
   const [refreshing, setRefreshing] = useState(false);
   const [archiveSort, setArchiveSort] = useState<ArchiveSort>("date-desc");
   const [focus, setFocus] = useState<Focus>("developer");
+  const [discoverCompany, setDiscoverCompany] = useState("all");
+  const [archiveCompany, setArchiveCompany] = useState("all");
   const activeUserRef = useRef<UserId>("kiril");
   const availableFocuses = accountCriteria[userId].focuses;
 
@@ -272,6 +274,7 @@ export default function Home() {
 
   const switchFocus = (nextFocus: Focus) => {
     setFocus(nextFocus);
+    setDiscoverCompany("all");
     window.localStorage.setItem(`jobflow-role-focus:${userId}`, nextFocus);
   };
 
@@ -280,6 +283,8 @@ export default function Home() {
     setReady(false);
     setDecisions({});
     setTab("Discover");
+    setDiscoverCompany("all");
+    setArchiveCompany("all");
     const nextCriteria = accountCriteria[nextUser];
     const savedFocus = window.localStorage.getItem(`jobflow-role-focus:${nextUser}`) as Focus | null;
     setFocus(savedFocus && nextCriteria.focuses.includes(savedFocus) ? savedFocus : nextCriteria.focuses[0]);
@@ -291,11 +296,25 @@ export default function Home() {
     return criteria.markets.includes(job.market) && criteria.focuses.includes(focusForJob(job, userId));
   }), [userId]);
 
+  const discoverCompanies = useMemo(() => [...new Set(eligibleJobs
+    .filter((job) => focusForJob(job, userId) === focus)
+    .map((job) => job.company))]
+    .sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" })), [eligibleJobs, focus, userId]);
+
+  const archiveCompanies = useMemo(() => {
+    if (tab === "Discover") return [];
+    const wanted: Decision = tab === "Apply" ? "apply" : "trash";
+    return [...new Set(eligibleJobs
+      .filter((job) => decisions[job.id] === wanted)
+      .map((job) => job.company))]
+      .sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
+  }, [tab, eligibleJobs, decisions]);
+
   const visible = useMemo(() => {
-    if (tab === "Discover") return eligibleJobs.filter((job) => focusForJob(job, userId) === focus && !decisions[job.id]);
+    if (tab === "Discover") return eligibleJobs.filter((job) => focusForJob(job, userId) === focus && !decisions[job.id] && (discoverCompany === "all" || job.company === discoverCompany));
     const wanted: Decision = tab === "Apply" ? "apply" : "trash";
     return eligibleJobs
-      .filter((job) => decisions[job.id] === wanted)
+      .filter((job) => decisions[job.id] === wanted && (archiveCompany === "all" || job.company === archiveCompany))
       .sort((a, b) => {
         if (archiveSort.startsWith("date")) {
           const difference = new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime();
@@ -312,7 +331,7 @@ export default function Home() {
         if (bSalary === null) return -1;
         return archiveSort === "salary-desc" ? bSalary - aSalary : aSalary - bSalary;
       });
-  }, [tab, decisions, archiveSort, focus, eligibleJobs, userId]);
+  }, [tab, decisions, archiveSort, focus, eligibleJobs, userId, discoverCompany, archiveCompany]);
 
   const decide = async (jobId: string, decision: Decision) => {
     const actingUser = userId;
@@ -364,10 +383,13 @@ export default function Home() {
 
   const current = visible[0];
 
-  const focusedJobs = eligibleJobs.filter((job) => focusForJob(job, userId) === focus);
+  const focusedJobs = eligibleJobs.filter((job) => focusForJob(job, userId) === focus && (discoverCompany === "all" || job.company === discoverCompany));
   const discoverCount = focusedJobs.filter((job) => !decisions[job.id]).length;
   const applyCount = eligibleJobs.filter((job) => decisions[job.id] === "apply").length;
   const trashCount = eligibleJobs.filter((job) => decisions[job.id] === "trash").length;
+  const unfilteredArchiveCount = tab === "Discover" ? 0 : eligibleJobs.filter((job) => decisions[job.id] === (tab === "Apply" ? "apply" : "trash")).length;
+  const filteredDiscoverEmpty = tab === "Discover" && discoverCompany !== "all" && eligibleJobs.some((job) => focusForJob(job, userId) === focus && !decisions[job.id]);
+  const filteredArchiveEmpty = tab !== "Discover" && archiveCompany !== "all" && unfilteredArchiveCount > 0;
   const reviewedCount = focusedJobs.length - discoverCount;
   const currentNumber = Math.min(reviewedCount + 1, focusedJobs.length);
   const salary = current ? salaryParts(current.salary) : null;
@@ -398,15 +420,19 @@ export default function Home() {
               {tab === "Discover" && <div className="focus-switch focus-switch-empty" role="tablist" aria-label="Role focus">
                 {roleFocuses.filter((item) => availableFocuses.includes(item.id)).map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
               </div>}
-              {tab === "Discover" ? (
+              {tab === "Discover" && filteredDiscoverEmpty ? (
+                <button className="refresh-jobs company-reset" onClick={() => setDiscoverCompany("all")} aria-label="Show jobs from all companies">
+                  <span className="refresh-glyph">⌄</span><b>All companies</b>
+                </button>
+              ) : tab === "Discover" ? (
                 <button className="refresh-jobs" onClick={refreshJobs} disabled={refreshing} aria-label="Refresh and check for new jobs">
                   <span className={refreshing ? "refresh-glyph spinning" : "refresh-glyph"}>↻</span>
                   <b>{refreshing ? "Checking…" : "Refresh"}</b>
                 </button>
               ) : <span className="empty-icon">✓</span>}
-              <h2>{tab === "Discover" ? "You’re all caught up" : `No jobs in ${tab.toLowerCase()}`}</h2>
-              <p>{tab === "Discover" ? "Tap refresh to check for newly added automation roles." : "Your choices will appear here as you review jobs."}</p>
-              {tab !== "Discover" && <button className="secondary" onClick={() => setTab("Discover")}>Return to deck</button>}
+              <h2>{filteredDiscoverEmpty ? `No more from ${discoverCompany}` : filteredArchiveEmpty ? `No ${tab.toLowerCase()} jobs from ${archiveCompany}` : tab === "Discover" ? "You’re all caught up" : `No jobs in ${tab.toLowerCase()}`}</h2>
+              <p>{filteredDiscoverEmpty ? "Show every company to keep reviewing this category." : filteredArchiveEmpty ? "Clear the company filter to see the rest of this archive." : tab === "Discover" ? "Tap refresh to check for newly added automation roles." : "Your choices will appear here as you review jobs."}</p>
+              {filteredArchiveEmpty ? <button className="secondary" onClick={() => setArchiveCompany("all")}>Show all companies</button> : tab !== "Discover" && <button className="secondary" onClick={() => setTab("Discover")}>Return to deck</button>}
             </div>
           ) : tab === "Discover" ? (
             <div className="deck-screen">
@@ -414,7 +440,16 @@ export default function Home() {
                 <div className="focus-switch" role="tablist" aria-label="Role focus">
                   {roleFocuses.filter((item) => availableFocuses.includes(item.id)).map((item) => <button key={item.id} role="tab" aria-selected={focus === item.id} className={focus === item.id ? "active" : ""} onClick={() => switchFocus(item.id)}>{item.label}</button>)}
                 </div>
-                <div className="deck-meta"><span><i /> {discoverCount} matches</span><b>{accountCriteria[userId].label}</b></div>
+                <div className="deck-meta">
+                  <span className="match-count"><i /> {discoverCount} matches</span>
+                  <label className="deck-company-filter">
+                    <span className="sr-only">Filter deck by company</span>
+                    <select value={discoverCompany} onChange={(event) => setDiscoverCompany(event.target.value)} aria-label="Filter deck by company">
+                      <option value="all">All companies</option>
+                      {discoverCompanies.map((company) => <option value={company} key={company}>{company}</option>)}
+                    </select>
+                  </label>
+                </div>
               </div>
               <div className="deck">
                 <div className="card-ghost card-ghost-two" aria-hidden="true" />
@@ -447,15 +482,22 @@ export default function Home() {
             <div className="folder-screen">
               <div className="folder-heading"><button onClick={() => setTab("Discover")} aria-label="Back to deck">‹</button><div><span>{tab === "Apply" ? "YOUR PICKS" : "PASSED JOBS"}</span><h1>{tab}</h1></div><b>{visible.length}</b></div>
               <div className="archive-toolbar">
-                <label htmlFor="archive-sort">Sort archive</label>
-                <select id="archive-sort" value={archiveSort} onChange={(event) => setArchiveSort(event.target.value as ArchiveSort)}>
-                  <option value="date-desc">Newest added</option>
-                  <option value="date-asc">Oldest added</option>
-                  <option value="salary-desc">Highest salary</option>
-                  <option value="salary-asc">Lowest salary</option>
-                  <option value="company-asc">Company A–Z</option>
-                  <option value="company-desc">Company Z–A</option>
-                </select>
+                <label className="archive-control" htmlFor="archive-company"><span>Company</span>
+                  <select id="archive-company" value={archiveCompany} onChange={(event) => setArchiveCompany(event.target.value)} aria-label="Filter archive by company">
+                    <option value="all">All companies</option>
+                    {archiveCompanies.map((company) => <option value={company} key={company}>{company}</option>)}
+                  </select>
+                </label>
+                <label className="archive-control" htmlFor="archive-sort"><span>Sort</span>
+                  <select id="archive-sort" value={archiveSort} onChange={(event) => setArchiveSort(event.target.value as ArchiveSort)}>
+                    <option value="date-desc">Newest added</option>
+                    <option value="date-asc">Oldest added</option>
+                    <option value="salary-desc">Highest salary</option>
+                    <option value="salary-asc">Lowest salary</option>
+                    <option value="company-asc">Company A–Z</option>
+                    <option value="company-desc">Company Z–A</option>
+                  </select>
+                </label>
               </div>
               <div className="saved-list">{visible.map((job) => <article className="saved-card" key={job.id}><div className="saved-copy"><p className="company-chip" style={companyStyle(job.company)}>{job.company}</p><h2>{job.title}</h2><strong>{job.salary}</strong><span className="saved-market">{job.market} · {job.location} · {job.mode}</span><span className="saved-language">Regional language · {job.regionalLanguages.join(" / ")}</span><time dateTime={job.addedAt}>Added {addedLabel(job.addedAt)}</time></div><div className="saved-actions"><a href={job.url} target="_blank" rel="noreferrer">↗</a><button onClick={() => reset(job.id)}>Undo</button></div></article>)}</div>
             </div>

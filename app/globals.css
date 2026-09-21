@@ -63,9 +63,14 @@ button { cursor: pointer; }
 }
 .deck-meta { display: flex; align-items: center; justify-content: space-between; padding: 0 20px; color: var(--muted); font-size: 11px; font-weight: 650; }
 .deck-controls .deck-meta { height: 28px; padding: 0 6px; font-size: 9px; }
-.deck-meta span { display: flex; align-items: center; gap: 7px; }
+.deck-meta .match-count { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
 .deck-meta i { width: 7px; height: 7px; background: var(--yes); border-radius: 50%; box-shadow: 0 0 0 4px rgba(24,201,133,.1); }
 .deck-meta b { color: var(--ink); font-size: 11px; }
+.deck-company-filter { position: relative; max-width: 150px; }
+.deck-company-filter::after { content: "⌄"; position: absolute; right: 8px; top: 4px; color: #7f8490; font-size: 9px; pointer-events: none; }
+.deck-company-filter select { width: 100%; height: 23px; padding: 0 22px 0 9px; appearance: none; overflow: hidden; border: 1px solid #dfe2e7; border-radius: 999px; outline: none; color: #555b65; background: rgba(255,255,255,.76); font-size: 8px; font-weight: 750; text-overflow: ellipsis; cursor: pointer; }
+.deck-company-filter:focus-within select { border-color: #aeb8ff; box-shadow: 0 0 0 2px rgba(83,109,254,.12); }
+.sr-only { position: absolute!important; width: 1px!important; height: 1px!important; padding: 0!important; margin: -1px!important; overflow: hidden!important; clip: rect(0,0,0,0)!important; white-space: nowrap!important; border: 0!important; }
 
 .deck { position: relative; min-height: 0; padding: 0 14px 14px; }
 .card-ghost { position: absolute; left: 27px; right: 27px; top: 9px; bottom: 2px; border: 1px solid #dfe2e6; border-radius: 25px; background: #fff; }
@@ -131,9 +136,10 @@ button { cursor: pointer; }
 .folder-heading span { color: var(--muted); font-size: 8px; font-weight: 750; letter-spacing: .1em; }
 .folder-heading h1 { margin: 2px 0 0; font-size: 29px; line-height: 1; letter-spacing: -.055em; }
 .folder-heading>b { min-width: 30px; height: 30px; display: grid; place-items: center; background: white; border-radius: 50%; font-size: 11px; }
-.archive-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 14px 11px; padding: 8px 8px 8px 12px; background: rgba(255,255,255,.72); border: 1px solid var(--line); border-radius: 14px; }
-.archive-toolbar label { color: var(--muted); font-size: 9px; font-weight: 750; letter-spacing: .04em; text-transform: uppercase; }
-.archive-toolbar select { max-width: 165px; padding: 8px 28px 8px 11px; border: 0; border-radius: 10px; outline: none; color: var(--ink); background: #eef0f3; font-size: 10px; font-weight: 750; }
+.archive-toolbar { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 7px; margin: 0 14px 11px; padding: 7px; background: rgba(255,255,255,.72); border: 1px solid var(--line); border-radius: 14px; }
+.archive-control { min-width: 0; }
+.archive-control>span { display: block; margin: 0 0 4px 4px; color: var(--muted); font-size: 7px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
+.archive-toolbar select { width: 100%; min-width: 0; padding: 8px 24px 8px 9px; border: 0; border-radius: 9px; outline: none; color: var(--ink); background: #eef0f3; font-size: 9px; font-weight: 750; text-overflow: ellipsis; }
 .archive-toolbar select:focus-visible { box-shadow: 0 0 0 2px var(--blue); }
 .saved-list { min-height: 0; overflow-y: auto; padding: 0 14px 18px; }
 .saved-card { display: grid; grid-template-columns: 1fr auto; gap: 11px; align-items: start; margin-bottom: 9px; padding: 14px; background: white; border: 1px solid var(--line); border-radius: 18px; }
@@ -152,6 +158,8 @@ button { cursor: pointer; }
 .refresh-jobs:disabled { cursor: wait; opacity: .78; }
 .refresh-glyph { font-size: 30px; line-height: .9; font-weight: 400; }
 .refresh-jobs b { font-size: 9px; letter-spacing: .03em; }
+.refresh-jobs.company-reset { background: linear-gradient(145deg, #536dfe, #7557e8); box-shadow: 0 16px 34px rgba(83,109,254,.24), inset 0 1px rgba(255,255,255,.18); }
+.refresh-jobs.company-reset .refresh-glyph { transform: rotate(-90deg); }
 .refresh-glyph.spinning { animation: spin .7s linear infinite; }
 .empty h2 { margin: 18px 0 7px; font-size: 28px; letter-spacing: -.05em; }
 .empty p { max-width: 280px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
